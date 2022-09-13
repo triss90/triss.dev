@@ -1,0 +1,15 @@
+.central {
+  max-width: 32rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  &.space {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  &.center {
+    text-align: center;
+  }
+}
+
