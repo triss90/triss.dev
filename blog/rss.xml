@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Tristan White&#039;s Blog</title>
+<link>https://triss.dev/</link>
+<description><![CDATA[Tristan works for small companies and startups, creating responsive web applications, and online experiences.]]></description>
+<image><title>Tristan White</title>
+<link>https://triss.dev/</link>
+<url>https://triss.dev/assets/img/me/tw_720.jpg</url>
+</image>
+<language>en-US</language>
+<lastBuildDate>Wed, 30 Mar 2022 11:07:43 +0000</lastBuildDate>
+<pubDate>Wed, 30 Mar 2022 11:07:43 +0000</pubDate>
+<atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>CSS Conical Gradients</title>
+<link>https://triss.dev/blog/2019/08/07/css-conical-gradients/</link>
+<pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>CSS Conical Gradients</h1>
+<p class='timestamp'><time datetime='07-08-2019'>07-08-2019</time></p>
+<hr>
+<p>A conic gradient is very similar to a radial gradient. 
+They are both circular in nature, and both use the center as source point.
+The color of a ra...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>Writing SVG Paths</title>
+<link>https://triss.dev/blog/2019/08/08/writing-svg-path/</link>
+<pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Writing SVG Paths</h1>
+<p class='timestamp'><time datetime='08-08-2019'>08-08-2019</time></p>
+<hr class="stop">
+<p>The <code>&lt;path&gt;</code> in SVG is by far the most versatile drawing element. You can draw everything from lines and squares to triangles and circles.&lt;...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>The Perfect Alt-text</title>
+<link>https://triss.dev/blog/2019/08/14/the-perfect-alt-text/</link>
+<pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>The Perfect Alt-text</h1>
+<p class='timestamp'><time datetime='14-08-2019'>14-08-2019</time></p>
+<hr>
+<p>Writing proper and thorough alternative text (alt-text) for images on the web, 
+is not just important. It is vital for those who depend on screen rea...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>CSS Checkbox Hack</title>
+<link>https://triss.dev/blog/2019/08/21/css-checkbox-hack/</link>
+<pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>CSS Checkbox Hack</h1>
+<p class='timestamp'><time datetime='21-08-2019'>21-08-2019</time></p>
+<hr>
+<p>The "Checkbox Hack" is the method of using a connected checkbox and label
+to control one or more elements.</p>
+<p>The markup might look something along these ...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>CSS Darkmode</title>
+<link>https://triss.dev/blog/2019/08/24/css-darkmode/</link>
+<pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>CSS Darkmode</h1>
+<p class='timestamp'><time datetime='24-08-2019'>24-08-2019</time></p>
+<hr>
+<p>I was messing around with native darkmode on the web the other day, and ended up implementing
+<code>prefers-color-scheme</code> on <a href="https://mrkdwn.net">mrkdwn.n...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>HTTP2 on Apache - Linux</title>
+<link>https://triss.dev/blog/2019/08/27/http2-on-apache-linux/</link>
+<pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>HTTP2 on Apache - Linux</h1>
+<p class='timestamp'><time datetime='27-08-2019'>27-08-2019</time></p>
+<hr>
+<p>To enable http2 support on Apache you need to load the following two modules:</p>
+<ul>
+<li>SSL</li>
+<li>HTTP/2</li>
+</ul>
+<p>To do so, run the following commands in your termina...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>HTML Wbr Tag</title>
+<link>https://triss.dev/blog/2019/09/05/html-wbr-tag/</link>
+<pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>HTML &lt;wbr&gt; Tag</h1>
+<p class='timestamp'><time datetime='05-09-2019'>05-09-2019</time></p>
+<hr>
+<p>This is a first article in the month long installment "what's that weird html tag?".</p>
+<p>Today we're taking a log at the <code>&lt;wbr&gt;</code> tag.</p>
+<p>The <code>&lt;wbr&gt;</code> html ...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>HTML Meter Tag</title>
+<link>https://triss.dev/blog/2019/09/12/html-meter-tag/</link>
+<pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>HTML &lt;meter&gt; Tag</h1>
+<p class='timestamp'><time datetime='12-09-2019'>12-09-2019</time></p>
+<hr>
+<p>This week's article in the installment "what's that weird html tag?", 
+takes a look at the <code>&lt;meter&gt;</code> tag.</p>
+<p>The <code>&lt;meter&gt;</code> element represents a scala...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>HTML Progress Tag</title>
+<link>https://triss.dev/blog/2019/09/19/html-progress-tag/</link>
+<pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>HTML &lt;progress&gt; Tag</h1>
+<p class='timestamp'><time datetime='19-09-2019'>19-09-2019</time></p>
+<hr>
+<style>
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+progress.one::-webkit-progress-bar {
+    ...]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>HTML Output Tag</title>
+<link>https://triss.dev/blog/2019/09/26/html-output-tag/</link>
+<pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>HTML &lt;output&gt; Tag</h1>
+<p class='timestamp'><time datetime='26-09-2019'>26-09-2019</time></p>
+<hr>
+<p>In this final installment of "what's that weird html tag?", we're taking a look at the <code>&lt;output&gt;</code> tag.</p>
+<p>The <code>&lt;output&gt;</code> tag provides a method of ou...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>CSS Target Trick</title>
+<link>https://triss.dev/blog/2019/10/02/css-target-trick/</link>
+<pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+<description><![CDATA[<script>
+document.getElementsByTagName("body")[0].id = "targetTrick";
+</script>
+<style>
+#targetTrick:target {
+    background: PapayaWhip;
+}
+.darkmode#targetTrick:target {
+    background: DarkSlateGrey;
+}
+</style>
+<h1>CSS :target Trick</h1>
+<p>&lt;p class='tim...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>Fixing Whitespace Between Inline Elements</title>
+<link>https://triss.dev/blog/2020/03/11/fixing-whitespace-between-inline-elements/</link>
+<pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+section.demo div.test {
+  display: inline-block;
+  padding: 10px;
+  background: #ca3e47;
+}
+</style>
+<h1>Fixing Whitespace Between Inline Elements</h1>
+<p class='timestamp'><time datetime='11-03-2020'>11-03-2020</time></p>
+<hr>
+<p>I was messing aro...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>CSS Scroll Snap</title>
+<link>https://triss.dev/blog/2020/04/14/css-scroll-snap/</link>
+<pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>CSS Scroll Snap</h1>
+<p class='timestamp'><time datetime='14-04-2020'>14-04-2020</time></p>
+<hr>
+<p>Ever wondered if you could make a CSS-only carousel or image gallery, without the use of awkward hacks? 
+Well it's 2020 and you can!</p>
+<p>The new(ish) CSS `sc...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>Fluid Typography</title>
+<link>https://triss.dev/blog/2020/05/20/fluid-typography/</link>
+<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+.fluid-text, .fluid-text pre code, .fluid-text code {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+</style>
+<div class="fluid-text">
+<h1>Fluid Typography</h1>
+<p class='timestamp'><time datetime='20-05-2020'>20-05-2020</time></p>
+<hr>
+<p>Fluid ty...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>AVIF Image</title>
+<link>https://triss.dev/blog/2020/09/15/avif-image/</link>
+<pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+</style>
+<h1>AVIF Image Format</h1>
+<p class='timestamp'><time datetime='20-05-2020'>20-05-2020</time></p>
+<hr>
+<p>Google Chrome just added support for the new AVIF image format.</p>
+<p>The AVIF Image format is a modern image format based on the AV1 vi...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>HSL Simplified</title>
+<link>https://triss.dev/blog/2021/03/22/hsl-simplified/</link>
+<pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+.hsl-container {
+  width: 100%;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  color: white;
+  margin: 0 auto;
+}
+.hsl-container .hsl-slider {
+  width: 100%;
+  height: 25px;
+  background: black;
+  outline: non...]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>Specificity on the Web</title>
+<link>https://triss.dev/blog/2021/05/06/specificity-on-the-web/</link>
+<pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+table {
+  //font-size: 1rem;
+  width: 100%;
+  max-width: 100% !important;
+  overflow: hidden;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.special-highlight-1 {
+  color: #ec5f67
+}
+.special-highlight-2...]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
+<title>CSS selectmenu</title>
+<link>https://triss.dev/blog/2022/01/28/selectmenu/</link>
+<pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+selectmenu.logos::part(button) {
+  width: 200px;
+  max-width: 100%;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.3;
+  padding: .6em 1.4em .5em .8em;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0...]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+</channel>
+</rss>

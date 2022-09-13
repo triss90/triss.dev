@@ -1,0 +1,46 @@
+header {
+  background-color: $color-3;
+  background-image: url(/assets/img/bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: $color-2;
+  @media(max-width: $breakpoint-1) {
+    text-align: center;
+    min-height: 100vh;
+  }
+  .site-name {
+    font-size: 1.75rem;
+    margin: 7.5rem 0 0 0;
+    font-weight: bold;
+    line-height: 1;
+  }
+  p {
+    display: inline-block;
+    margin: 0.35rem 0 8rem 0;
+  }
+  &.blog {
+    background-image: none;
+    padding-bottom: 2rem;
+    background-image: url(/assets/img/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    @media(max-width: $breakpoint-1) {
+      text-align: auto;
+      min-height: auto;
+    }
+    h1 {
+      display: inline-block;
+    }
+  }
+}
+
+.subheader {
+  background-color: $color-3;
+  color: $color-2;
+  padding: 5rem 0;
+  @media(max-width: $breakpoint-1) {
+    text-align: center;
+  }
+}

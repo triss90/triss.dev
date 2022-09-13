@@ -1,0 +1,181 @@
+nav[aria-label='site'] {
+  display: flex;
+  justify-content: space-between;
+  @media(max-width: $breakpoint-1) {
+    flex-wrap: wrap;
+  }
+  ul {
+    margin: 0;
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 0.75rem;
+    padding-left: 0;
+    @media(max-width: $breakpoint-1) {
+      text-align: center;
+      width: 100%;
+    }
+    li {
+      display: inline-block;
+      margin: 0 0.5rem;
+      &:first-child {
+        @media(max-width: $breakpoint-1) {
+          display: block;
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+        a {
+          font-weight: bold;
+          border-bottom: 0;
+          .vh {
+            position: absolute !important;
+            clip: rect(1px, 1px, 1px, 1px);
+            padding: 0 !important;
+            border: 0 !important;
+            height: 1px !important;
+            width: 1px !important;
+            overflow: hidden;
+          }
+        }
+      }
+      a {
+        color: $color-2;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+  button {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    transform: translate(0);
+    &:hover {
+      transform: translate(0);
+      box-shadow: none;
+      &:active {
+        transform: translate(0);
+        box-shadow: none;
+      }
+    }
+    &:hover,
+    &:focus {
+      transform: none;
+      box-shadow: none;
+      span {
+        svg {
+          #bar-top {
+            circle {
+              transform: translateX(40px);
+            }
+            path {
+              d: path("M.5 8.5L61 8.5M88 8.5L97 8.5");
+            }
+          }
+          #bar-middle {
+            circle {
+              transform: translateX(-27px);
+            }
+            path {
+              d: path("M.5 8.5L19 8.5M46 8.5L97 8.5");
+            }
+          }
+          #bar-bottom {
+            circle {
+              transform: translateX(12px);
+            }
+            path {
+              d: path("M.5 8.5L45 8.5M71 8.5L96 8.5");
+            }
+          }
+        }
+      }
+    }
+    @media(max-width: $breakpoint-1) {
+      margin: 0 auto;
+      &:after {
+        position: relative;
+        content: "Preferences";
+        display: block;
+        width: 100%;
+        color: $color-2;
+        font-size: 0.8rem;
+        border-bottom: 1px solid;
+        text-align: center;
+      }
+      span {
+        display: none;
+      }
+    }
+    span {
+      svg {
+        path {
+          stroke: $color-2;
+        }
+        circle {
+          stroke: $color-2;
+        }
+        height: 1.25rem;
+        width: auto;
+        path, circle {
+          transition: all 0.35s;
+        }
+      }
+    }
+  }
+}
+.inverted {
+  nav[aria-label='site'] {
+    ul li a {
+      color: $color-3;
+    }
+    button {
+      @media(max-width: $breakpoint-1) {
+        &:after {
+          color: $color-3;
+        }
+      }
+      span {
+        svg {
+          path {
+            stroke: $color-3;
+          }
+          circle {
+            stroke: $color-3;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

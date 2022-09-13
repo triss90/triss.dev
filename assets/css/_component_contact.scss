@@ -1,0 +1,68 @@
+.contact {
+  min-height: 100vh;
+  text-align: left;
+  div[role="status"] {
+    background: none;
+    border: 2px dashed $color-3;
+    color: $color-3;
+    padding: 0.5rem 2rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  fieldset {
+    border: 0;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  label {
+    span.required {
+      opacity: 0.5;
+      font-size: 0.9rem;
+    }
+  }
+  input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 2px solid $color-3;
+    background: $color-2;
+    font-size: inherit;
+    padding: 0.5rem ;
+    color: $color-3;
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+    font-family: $font-type-1;
+  }
+  input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    background: $color-3;
+    border: 2px solid $color-3;
+    color: $color-2;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    &:hover {
+      background: rgba($color-3, 0.85);
+      border-color: rgba($color-3, 0);
+    }
+    &.disabled {
+      background: rgba($color-3, 0.55);
+      border-color: rgba($color-3, 0);
+      cursor: not-allowed;
+      &:hover {
+        background: rgba($color-3, 0.55);
+        border-color: rgba($color-3, 0);
+        cursor: not-allowed;
+      }
+    }
+  }
+  input[type="reset"] {
+    background: $color-2;
+    color: $color-3;
+    &:hover {
+      background: rgba($color-3, 0.05);
+      border-color: rgba($color-3, 1);
+    }
+  }
+}

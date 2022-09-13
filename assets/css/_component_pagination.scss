@@ -1,0 +1,23 @@
+#pagination {
+  text-align: center;
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        border: 0;
+        background: $color-2;
+        padding: 0.45rem 0.8rem;
+        @media(max-width: 650px) {
+          padding: 0.25rem 0.6rem;
+        }
+        &.current {
+          background: $color-3;
+          color: $color-2;
+        }
+      }
+    }
+  }
+}
