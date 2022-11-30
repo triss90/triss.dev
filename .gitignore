@@ -1,1 +1,4 @@
-.vscode/sftp.json
+.vscode/*
+.idea/*
+.devcontainer/*
+run.sh
