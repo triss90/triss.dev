@@ -1,0 +1,12 @@
+{
+  "actions" : {
+    "clean" : {
+      "enabled" : true,
+      "script" : "killall php"
+    },
+    "run" : {
+      "enabled" : true,
+      "path" : "run.sh"
+    }
+  }
+}

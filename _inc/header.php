@@ -1,4 +1,7 @@
 <?php
+    $language = "";
+    $timestamp = time();
+    
     header('Cache-Control: max-age=31557600');
     $tsstring = gmdate('D, d M Y H:i:s ', $timestamp) . 'GMT';
     $etag = $language . $timestamp;
