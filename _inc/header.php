@@ -53,7 +53,7 @@
     <meta name="theme-color" content="#222222">
     
     <style id="styles" media="screen"><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/css/app.css"); ?></style>
-    <style id="inverter" media="none"><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/css/darkmode-min.css"); ?></style>
+    <style id="inverter" media="none"><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/css/darkmode.css"); ?></style>
 </head>
 <body>
 <a id="top" href="#main">skip to content</a>
