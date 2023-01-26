@@ -1,57 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://triss.dev/</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://triss.dev/</loc>
+<lastmod>2023-01-26T19:35:20+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://triss.dev/blog/page/1/</loc>
+<lastmod>2023-01-26T19:35:21+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://triss.dev/contact/</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://triss.dev/about/</loc>
+<lastmod>2023-01-26T19:35:21+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/2019/04/24/animating-my-first-svg.php</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://triss.dev/contact/</loc>
+<lastmod>2023-01-26T19:35:22+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/2018/04/23/html-5-2-native-modal.php</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://triss.dev/feed/</loc>
+<lastmod>2022-11-29T13:23:55+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/2018/04/20/svg-header-waves.php</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://triss.dev/blog/page/2/</loc>
+<lastmod>2023-01-26T19:35:23+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/2016/07/15/pure-css-line-numbers.php</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://triss.dev/blog/page/3/</loc>
+<lastmod>2023-01-26T19:35:23+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/2015/12/01/responsive-videos-in-html.php</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://triss.dev/blog/page/8/</loc>
+<lastmod>2023-01-26T19:35:23+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://triss.dev/blog/2015/11/15/sass-mixin-grid-system.php</loc>
-  <lastmod>2019-04-26T12:36:51+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://triss.dev/blog/page/4/</loc>
+<lastmod>2023-01-26T19:35:24+00:00</lastmod>
+<priority>0.51</priority>
 </url>
-
-
+<url>
+<loc>https://triss.dev/blog/page/7/</loc>
+<lastmod>2023-01-26T19:35:24+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://triss.dev/blog/page/6/</loc>
+<lastmod>2023-01-26T19:35:24+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://triss.dev/blog/page/5/</loc>
+<lastmod>2023-01-26T19:35:24+00:00</lastmod>
+<priority>0.41</priority>
+</url>
 </urlset>
