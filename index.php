@@ -133,7 +133,7 @@
                         </g>
                     </g>
                 </svg>
-                <p class="work-item-description">A collection of useful tools covering topics like web, network, design, security and much more.</p>
+                <p class="work-item-description">A collection of useful tools covering topics like web, network, design, security and many more.</p>
                 <a href="https://webbox.dev" target="_blank" rel="noopener" class="button block">webbox.dev</a>
             </div>
             
