@@ -86,7 +86,7 @@
             
             <div class="work-item">
                 <h3 class="work-item-title">Yirra</h3>
-                <svg class="work-item-image yirra" viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="work-item-image yirra" width="75px" height="auto" viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Yirra</title>
                     <defs>
                         <linearGradient x1="59.0291886%" y1="2.32758555%" x2="30.6798261%" y2="91.9932635%" id="linearGradient-1">
