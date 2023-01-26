@@ -10,16 +10,70 @@
         </ul>
         <a href="#top" class="totop" title="Go to top" aria-label="Go to top">&#8593; Top &#8593;</a>
     </div>
-
 </footer>
 
 <div class="dialog" role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description" aria-hidden="true">
     <h1 id="dialog-title">Preferences</h1>
-    <p id="dialog-description">Customize the interface to your preference.</p>
+    <p id="dialog-description">Customize the interface to your preference:</p>
     <label class="check">
         <input type="checkbox" id="themer">
         Darkmode: <span aria-hidden="true"></span>
     </label>
+    <label class="check">
+        <input type="checkbox" id="cssToggle" checked>
+        CSS: <span aria-hidden="true"></span>
+    </label>
+    <p id="dialog-description">Lighthouse performance check:</p>
+    <div class="lighthouse">
+        <div class="item">
+            <div class="circular-progress" id="performance">
+                <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
+                    <title id='title'>svg circular progress bar</title>
+                    <circle cx="50" cy="50" r="40"></circle>
+                    <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
+                </svg>
+                <p class="pct">98</p>
+            </div>
+            <p>Performance</p>
+        </div>
+        
+        <div class="item">
+            <div class="circular-progress" id="accessibility">
+                <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
+                    <title id='title'>svg circular progress bar</title>
+                    <circle cx="50" cy="50" r="40"></circle>
+                    <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
+                </svg>
+                <p class="pct">95</p>
+            </div>
+            <p>Accessibility</p>
+        </div>
+        
+        <div class="item">
+            <div class="circular-progress" id="best-practice">
+                <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
+                    <title id='title'>svg circular progress bar</title>
+                    <circle cx="50" cy="50" r="40"></circle>
+                    <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
+                </svg>
+                <p class="pct">100</p>
+            </div>
+            <p>Best Practice</p>
+        </div>
+        
+        <div class="item">
+            <div class="circular-progress" id="seo">
+                <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
+                    <title id='title'>svg circular progress bar</title>
+                    <circle cx="50" cy="50" r="40" ></circle>
+                    <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
+                </svg>
+                <p class="pct">98</p>
+            </div>
+            <p>SEO</p>
+        </div>
+    </div>
+    
     <button type="button" aria-label="Close Navigation" class="close-dialog">
         <span aria-hidden="true">
             <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">

@@ -20,6 +20,24 @@ function darkmode() {
 }
 darkmode();
 
+// Toggle CSS
+function CSSToggle() {
+    const cssToggle = document.getElementById('cssToggle');
+    const styles = document.getElementById('styles');    
+    if (window.localStorage.getItem('styles') === 'false') {
+        styles.setAttribute('media', 'none');
+        cssToggle.checked = false;
+    }
+    cssToggle.addEventListener('change', function () {
+        // Triggers repaint in most browsers:
+        styles.setAttribute('media', this.checked ? 'screen' : 'none');
+        window.localStorage.setItem('styles', this.checked ? 'true' : 'false');
+        // Forces repaint in Chrome:
+        styles.textContent = styles.textContent.trim();
+    });
+}
+CSSToggle();
+
 // Dialog
 function Dialog(dialogEl, overlayEl) {
     this.dialogEl = dialogEl;

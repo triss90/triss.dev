@@ -7,7 +7,7 @@
     </span>
     <div class="central center">
         <h1 class="site-name">
-            <svg width="300px" height="auto" viewBox="0 0 477 230" style="margin: 0 0 2rem 1.5rem" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg width="300px" viewBox="0 0 477 230" style="margin: 0 0 2rem 1.5rem" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>tw</title>
                 <defs>
                     <linearGradient x1="9.4094049%" y1="4.87930752%" x2="59.5204021%" y2="91.2847506%" id="linearGradient-1">
@@ -86,7 +86,7 @@
             
             <div class="work-item">
                 <h3 class="work-item-title">Yirra</h3>
-                <svg class="work-item-image yirra" width="75px" height="auto" viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="work-item-image yirra" width="75px"  viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Yirra</title>
                     <defs>
                         <linearGradient x1="59.0291886%" y1="2.32758555%" x2="30.6798261%" y2="91.9932635%" id="linearGradient-1">
