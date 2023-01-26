@@ -32,7 +32,7 @@
                     <circle cx="50" cy="50" r="40"></circle>
                     <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
                 </svg>
-                <p class="pct">98</p>
+                <p class="pct">100</p>
             </div>
             <p>Performance</p>
         </div>
@@ -44,7 +44,7 @@
                     <circle cx="50" cy="50" r="40"></circle>
                     <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
                 </svg>
-                <p class="pct">95</p>
+                <p class="pct">98</p>
             </div>
             <p>Accessibility</p>
         </div>
