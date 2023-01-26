@@ -1,4 +1,5 @@
 .vscode/*
 .idea/*
 .devcontainer/*
+.nova/*
 run.sh
