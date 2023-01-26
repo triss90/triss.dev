@@ -1,7 +1,0 @@
-{
-    "editor.fontSize": 13,
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "file-icons",
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false
-}
