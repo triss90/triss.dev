@@ -14,7 +14,7 @@
 
 <div class="dialog" role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description" aria-hidden="true">
     <h1 id="dialog-title">Preferences</h1>
-    <p id="dialog-description">Customize the interface to your preference:</p>
+    <p>Customize the interface to your preference:</p>
     <label class="check">
         <input type="checkbox" id="themer">
         Darkmode: <span aria-hidden="true"></span>
@@ -23,12 +23,12 @@
         <input type="checkbox" id="cssToggle" checked>
         CSS: <span aria-hidden="true"></span>
     </label>
-    <p id="dialog-description">Lighthouse performance check:</p>
+    <p>Lighthouse performance check:</p>
     <div class="lighthouse">
         <div class="item">
             <div class="circular-progress" id="performance">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
-                    <title id='title'>svg circular progress bar</title>
+                    <title class='title'>svg circular progress bar</title>
                     <circle cx="50" cy="50" r="40"></circle>
                     <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
                 </svg>
@@ -40,7 +40,7 @@
         <div class="item">
             <div class="circular-progress" id="accessibility">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
-                    <title id='title'>svg circular progress bar</title>
+                    <title class='title'>svg circular progress bar</title>
                     <circle cx="50" cy="50" r="40"></circle>
                     <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
                 </svg>
@@ -52,7 +52,7 @@
         <div class="item">
             <div class="circular-progress" id="best-practice">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
-                    <title id='title'>svg circular progress bar</title>
+                    <title class='title'>svg circular progress bar</title>
                     <circle cx="50" cy="50" r="40"></circle>
                     <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
                 </svg>
@@ -64,7 +64,7 @@
         <div class="item">
             <div class="circular-progress" id="seo">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
-                    <title id='title'>svg circular progress bar</title>
+                    <title class='title'>svg circular progress bar</title>
                     <circle cx="50" cy="50" r="40" ></circle>
                     <circle cx="50" cy="50" r="40" id='pct-ind'></circle>
                 </svg>
