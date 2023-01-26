@@ -147,7 +147,7 @@
                     <path id="Path-3" data-name="Path" d="M7.171,65.985C14.946,52.935,29.309,44.7,44.189,43.154a47.525,47.525,0,0,1,17.447,1.727A47,47,0,0,1,88.027,64.832c4.217,7.26,8.771,14.31,12.917,21.612,6.263,10.128,11.736,20.728,18.106,30.79,4.472,7.176,8.534,14.609,13.2,21.672-28.508.173-57.009,0-85.517.084-6.263.173-12.424-1.6-18.135-4.063a47.554,47.554,0,0,1-24.06-24.211A54.344,54.344,0,0,1,.25,91.492C.517,82.619,2.486,73.609,7.171,65.985Z" fill="#222"/>
                   </g>
                 </svg>
-                <p class="work-item-description">Danish cloudserver hosting platform</p>
+                <p class="work-item-description">Danish cloudserver hosting platform. The high performance cloudservers are perfect for everything from web-apps and development to large enterprise RDS environments.</p>
                 <a href="https://cloudservers.dk" target="_blank" rel="noopener" class="button block">cloudservers.dk</a>
             </div>
 
