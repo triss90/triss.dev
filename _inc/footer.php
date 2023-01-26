@@ -2,7 +2,7 @@
     <div class="site-meta">
         <p>Designed, built, and maintained by <i>Tristan White &copy; <?php echo date("Y"); ?></i></p>
         <ul class="inline">
-            <li><a href="https://twitter.com/triss90" target="_blank" rel="noopener"><svg alt="" class="icon icon-twitter" width="12px" height="12px"><use xlink:href="#icon-twitter"></use></svg> Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/tristanoliverwhite/" target="_blank" rel="noopener"><svg alt="" class="icon icon-linkedin" width="12px" height="12px"><use xlink:href="#icon-linkedin"></use></svg> Linkedin</a></li>
             <li><a href="https://github.com/triss90" target="_blank" rel="noopener"><svg alt="" class="icon icon-github" width="12px" height="12px"><use xlink:href="#icon-github"></use></svg> GitHub</a></li>
             <li><a href="https://codepen.io/triss90/" target="_blank" rel="noopener"><svg alt="" class="icon icon-codepen" width="12px" height="12px"><use xlink:href="#icon-codepen"></use></svg> Codepen</a></li>
             <li><a href="https://www.youtube.com/channel/UCxnhnHu17q4Zk4m9-7BL5dw" target="_blank" rel="noopener"><svg alt="" class="icon icon-youtube" width="12px" height="12px"><use xlink:href="#icon-youtube"></use></svg> YouTube</a></li>
