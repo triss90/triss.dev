@@ -17,7 +17,7 @@
         header("ETag: \"{$etag}\"");
     }
     if (!isset($description)) {
-        $description = "Freelance Front-End Web UI/UX Developer - Denmark";
+        $description = "Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark";
     }
 ?>
 
@@ -30,7 +30,7 @@
     <meta name="google-site-verification" content="yIFeaDSsvI7qzx8DTtQ7CBx3ZaZwD7vX_7F0yhrs_IY">
     <meta name="language" content="en">
     <meta name="description" content="<?php echo $description; ?> ">
-    <meta name="keywords" content="freelancer, front-end web developer, HTML, CSS, SVG, UI, UX, a11y, Denmark">
+    <meta name="keywords" content="systems engineer, freelancer, front-end web developer, HTML, CSS, SVG, UI, UX, a11y, Denmark">
     <meta name="twitter:url" content="https://triss.dev">
     <meta name="twitter:title" property="og:title" content="Tristan White | <?php echo $description; ?> ">
     <meta name="twitter:image" content="https://triss.dev/assets/img/me/tw_720.jpg">
