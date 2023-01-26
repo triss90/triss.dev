@@ -69,7 +69,10 @@
             </svg><br>
             Tristan White
         </h1>
-        <p>A Front-End UI/UX Developer based in Aarhus Denmark. See small bits of his experimental work on <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>, projects on <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>, thoughts on <a href="https://twitter.com/triss90" target="_blank" rel="noopener">Twitter</a>, and video tutorials on <a href="https://www.youtube.com/channel/UCxnhnHu17q4Zk4m9-7BL5dw" target="_blank" rel="noopener">YouTube</a>.</p>
+        <p>A Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark. See small bits of his experimental work on 
+            <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>, projects on 
+            <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>, thoughts on his
+            <a href="/blog">Blog</a> and some of his work <a href="#work">below</a>.
     </div>
 </header>
 
@@ -83,39 +86,6 @@
         </div>
 
         <div class="work-items" id="scroll-highlighted" role="region" aria-label="gallery" tabindex="0">
-            
-            <div class="work-item">
-                <h3 class="work-item-title">Yirra</h3>
-                <svg class="work-item-image yirra" width="75px"  viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <title>Yirra</title>
-                    <defs>
-                        <linearGradient x1="59.0291886%" y1="2.32758555%" x2="30.6798261%" y2="91.9932635%" id="linearGradient-1">
-                            <stop stop-color="#5073B8" offset="0%"></stop>
-                            <stop stop-color="#1098AD" offset="24.9945367%"></stop>
-                            <stop stop-color="#07B39B" offset="57.5693837%"></stop>
-                            <stop stop-color="#6FBA82" offset="100%"></stop>
-                        </linearGradient>
-                        <linearGradient x1="40.4256268%" y1="97.2729554%" x2="73.1311888%" y2="12.5959728%" id="linearGradient-2">
-                            <stop stop-color="#F79533" offset="0%"></stop>
-                            <stop stop-color="#F37055" offset="36.5008696%"></stop>
-                            <stop stop-color="#EF4E7B" offset="69.2736054%"></stop>
-                            <stop stop-color="#A166AB" offset="100%"></stop>
-                        </linearGradient>
-                    </defs>
-                    <g id="yirra" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Artboard" transform="translate(-101.000000, -127.000000)">
-                            <g id="logo" transform="translate(126.000000, 127.000000)">
-                                <path d="M176,45 C214.659932,45 246,76.3400675 246,115 C246,153.659932 214.659932,185 176,185 L102.623008,185" id="Path1" stroke="#444" stroke-width="50"></path>
-                                <path d="M70,185 C31.3400675,185 0,153.659932 0,115 C0,76.3400675 31.3400675,45 70,45 L143.981489,45" id="Path2" stroke="#444" stroke-width="50"></path>
-                                <circle id="Oval1" stroke="#444" stroke-width="30" cx="87" cy="185" r="30"></circle>
-                                <circle id="Oval2" stroke="#444" stroke-width="30" cx="160" cy="45" r="30"></circle>
-                            </g>
-                        </g>
-                    </g>
-                </svg>
-                <p class="work-item-description">Free custom URL Shortener with analytics! Shortened URLs will never expire.</p>
-                <a href="https://yirra.net" target="_blank" rel="noopener" class="button block">yirra.net</a>
-            </div>
             
             <div class="work-item">
                 <h3 class="work-item-title">Leaked Password</h3>
@@ -140,21 +110,20 @@
                 <p class="work-item-description">Thousands of curated colors & palettes as well as numerous color tools.</p>
                 <a href="https://colordrop.io" target="_blank" rel="noopener" class="button block">colordrop.io</a>
             </div>
-
+            
             <div class="work-item">
-                <h3 class="work-item-title">Open List</h3>
-                <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="logo" fill="#444">
-                            <rect id="Rectangle" x="0" y="0" width="70" height="370" rx="35"></rect>
-                            <circle id="Oval" cx="170" cy="329" r="40"></circle>
-                        </g>
-                    </g>
+                <h3 class="work-item-title">Cloudnet</h3>
+                <svg class="work-item-image cloudnet" xmlns="http://www.w3.org/2000/svg" width="210" height="139" viewBox="0 0 210 139">
+                  <g id="CloudNet" transform="translate(-0.25)">
+                    <path id="Path" d="M133.563,24.923c7.984-2.937,17.3-3.081,25.661-2.7a63.089,63.089,0,0,1,15.14,4.063c6.794,2.6,12.725,7.012,18.133,11.813,9.858,10.075,16.711,23.493,17.657,37.721.03,4.609.387,9.3-.506,13.844a58.759,58.759,0,0,1-8.109,22.223c-2.665,3.967-5.259,8.139-9.066,11.111-4.652-7.779-9.334-15.54-14.129-23.23-3.825-6.706-7.889-13.269-11.934-19.843-5.646-9.116-10.893-18.471-16.711-27.479-4.753-7.983-9.423-16.026-14.4-23.877C134.464,27.391,133.617,26.325,133.563,24.923Z" fill="#666"/>
+                    <path id="Path-2" data-name="Path" d="M57.843,13.6A48.756,48.756,0,0,1,85.614.182C91.942-.056,98.453-.4,104.561,1.625a48.783,48.783,0,0,1,23.983,15.333c2.307,2.38,6.72,10.294,7.558,11.468,4.971,7.813,9.64,15.816,14.391,23.76,5.816,8.964,11.061,18.273,16.7,27.344,4.044,6.542,8.105,13.073,11.929,19.746,4.793,7.652,9.473,15.375,14.123,23.116-5.572,6.363-13.22,10.586-21.069,13.46-6.1,1.735-12.357,3.322-18.744,3.131-7.3-.089-14.593.107-21.884-.083-4.68-7.049-8.754-14.468-13.237-21.631-6.387-10.043-11.876-20.623-18.155-30.732C96,79.251,91.436,72.213,87.208,64.967A47.109,47.109,0,0,0,60.745,45.054a47.866,47.866,0,0,0-17.5-1.724A48.307,48.307,0,0,1,57.843,13.6Z" fill="#444"/>
+                    <path id="Path-3" data-name="Path" d="M7.171,65.985C14.946,52.935,29.309,44.7,44.189,43.154a47.525,47.525,0,0,1,17.447,1.727A47,47,0,0,1,88.027,64.832c4.217,7.26,8.771,14.31,12.917,21.612,6.263,10.128,11.736,20.728,18.106,30.79,4.472,7.176,8.534,14.609,13.2,21.672-28.508.173-57.009,0-85.517.084-6.263.173-12.424-1.6-18.135-4.063a47.554,47.554,0,0,1-24.06-24.211A54.344,54.344,0,0,1,.25,91.492C.517,82.619,2.486,73.609,7.171,65.985Z" fill="#222"/>
+                  </g>
                 </svg>
-                <p class="work-item-description">The easy way to share lists width friends, family and co-workers</p>
-                <a href="https://openl.ist" target="_blank" rel="noopener" class="button block">openl.ist</a>
+                <p class="work-item-description">Probably Denmark's best and cheapest LiteSpeed cPanel webhotel with daily backup</p>
+                <a href="https://cloudnet.dk" target="_blank" rel="noopener" class="button block">cloudnet.dk</a>
             </div>
-
+            
             <div class="work-item">
                 <h3 class="work-item-title">Webbox</h3>
                 <svg alt="" class="work-item-image webbox" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 594 500">
@@ -167,6 +136,19 @@
                 </svg>
                 <p class="work-item-description">A curated list of webbtols, networktools and more.</p>
                 <a href="https://webbox.dev" target="_blank" rel="noopener" class="button block">webbox.dev</a>
+            </div>
+            
+            <div class="work-item">
+                <h3 class="work-item-title">Cloudservers</h3>
+                <svg class="work-item-image cloudservers" xmlns="http://www.w3.org/2000/svg" width="210" height="139" viewBox="0 0 210 139">
+                  <g id="CloudNet" transform="translate(-0.25)">
+                    <path id="Path" d="M133.563,24.923c7.984-2.937,17.3-3.081,25.661-2.7a63.089,63.089,0,0,1,15.14,4.063c6.794,2.6,12.725,7.012,18.133,11.813,9.858,10.075,16.711,23.493,17.657,37.721.03,4.609.387,9.3-.506,13.844a58.759,58.759,0,0,1-8.109,22.223c-2.665,3.967-5.259,8.139-9.066,11.111-4.652-7.779-9.334-15.54-14.129-23.23-3.825-6.706-7.889-13.269-11.934-19.843-5.646-9.116-10.893-18.471-16.711-27.479-4.753-7.983-9.423-16.026-14.4-23.877C134.464,27.391,133.617,26.325,133.563,24.923Z" fill="#666"/>
+                    <path id="Path-2" data-name="Path" d="M57.843,13.6A48.756,48.756,0,0,1,85.614.182C91.942-.056,98.453-.4,104.561,1.625a48.783,48.783,0,0,1,23.983,15.333c2.307,2.38,6.72,10.294,7.558,11.468,4.971,7.813,9.64,15.816,14.391,23.76,5.816,8.964,11.061,18.273,16.7,27.344,4.044,6.542,8.105,13.073,11.929,19.746,4.793,7.652,9.473,15.375,14.123,23.116-5.572,6.363-13.22,10.586-21.069,13.46-6.1,1.735-12.357,3.322-18.744,3.131-7.3-.089-14.593.107-21.884-.083-4.68-7.049-8.754-14.468-13.237-21.631-6.387-10.043-11.876-20.623-18.155-30.732C96,79.251,91.436,72.213,87.208,64.967A47.109,47.109,0,0,0,60.745,45.054a47.866,47.866,0,0,0-17.5-1.724A48.307,48.307,0,0,1,57.843,13.6Z" fill="#444"/>
+                    <path id="Path-3" data-name="Path" d="M7.171,65.985C14.946,52.935,29.309,44.7,44.189,43.154a47.525,47.525,0,0,1,17.447,1.727A47,47,0,0,1,88.027,64.832c4.217,7.26,8.771,14.31,12.917,21.612,6.263,10.128,11.736,20.728,18.106,30.79,4.472,7.176,8.534,14.609,13.2,21.672-28.508.173-57.009,0-85.517.084-6.263.173-12.424-1.6-18.135-4.063a47.554,47.554,0,0,1-24.06-24.211A54.344,54.344,0,0,1,.25,91.492C.517,82.619,2.486,73.609,7.171,65.985Z" fill="#222"/>
+                  </g>
+                </svg>
+                <p class="work-item-description">Danish cloudserver hosting platform</p>
+                <a href="https://cloudservers.dk" target="_blank" rel="noopener" class="button block">cloudservers.dk</a>
             </div>
 
             <div class="work-item">
@@ -229,7 +211,19 @@
                 <p class="work-item-description">Notifications, share dialogs, subscription forms and popups.</p>
                 <a href="https://plaask.com" target="_blank" rel="noopener" class="button block">plaask.com</a>
             </div>
-
+            
+            <div class="work-item">
+                <h3 class="work-item-title">CloudPortal</h3>
+                <svg class="work-item-image cloudportal" xmlns="http://www.w3.org/2000/svg" width="210" height="139" viewBox="0 0 210 139">
+                  <g id="CloudNet" transform="translate(-0.25)">
+                    <path id="Path" d="M133.563,24.923c7.984-2.937,17.3-3.081,25.661-2.7a63.089,63.089,0,0,1,15.14,4.063c6.794,2.6,12.725,7.012,18.133,11.813,9.858,10.075,16.711,23.493,17.657,37.721.03,4.609.387,9.3-.506,13.844a58.759,58.759,0,0,1-8.109,22.223c-2.665,3.967-5.259,8.139-9.066,11.111-4.652-7.779-9.334-15.54-14.129-23.23-3.825-6.706-7.889-13.269-11.934-19.843-5.646-9.116-10.893-18.471-16.711-27.479-4.753-7.983-9.423-16.026-14.4-23.877C134.464,27.391,133.617,26.325,133.563,24.923Z" fill="#666"/>
+                    <path id="Path-2" data-name="Path" d="M57.843,13.6A48.756,48.756,0,0,1,85.614.182C91.942-.056,98.453-.4,104.561,1.625a48.783,48.783,0,0,1,23.983,15.333c2.307,2.38,6.72,10.294,7.558,11.468,4.971,7.813,9.64,15.816,14.391,23.76,5.816,8.964,11.061,18.273,16.7,27.344,4.044,6.542,8.105,13.073,11.929,19.746,4.793,7.652,9.473,15.375,14.123,23.116-5.572,6.363-13.22,10.586-21.069,13.46-6.1,1.735-12.357,3.322-18.744,3.131-7.3-.089-14.593.107-21.884-.083-4.68-7.049-8.754-14.468-13.237-21.631-6.387-10.043-11.876-20.623-18.155-30.732C96,79.251,91.436,72.213,87.208,64.967A47.109,47.109,0,0,0,60.745,45.054a47.866,47.866,0,0,0-17.5-1.724A48.307,48.307,0,0,1,57.843,13.6Z" fill="#444"/>
+                    <path id="Path-3" data-name="Path" d="M7.171,65.985C14.946,52.935,29.309,44.7,44.189,43.154a47.525,47.525,0,0,1,17.447,1.727A47,47,0,0,1,88.027,64.832c4.217,7.26,8.771,14.31,12.917,21.612,6.263,10.128,11.736,20.728,18.106,30.79,4.472,7.176,8.534,14.609,13.2,21.672-28.508.173-57.009,0-85.517.084-6.263.173-12.424-1.6-18.135-4.063a47.554,47.554,0,0,1-24.06-24.211A54.344,54.344,0,0,1,.25,91.492C.517,82.619,2.486,73.609,7.171,65.985Z" fill="#222"/>
+                  </g>
+                </svg>
+                <p class="work-item-description">The future of cloud services in cooporation with Microsoft, Google, Amazon and Dropbox, with more than 50 datacenters worldwide.</p>
+                <a href="https://cloudportal.dk" target="_blank" rel="noopener" class="button block">cloudportal.dk</a>
+            </div>
         </div>
 
         <div class="instructions">
@@ -243,6 +237,53 @@
         </div>
 
         <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
+            
+            <div class="work-item">
+                <h3 class="work-item-title">Open List</h3>
+                <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="logo" fill="#444">
+                            <rect id="Rectangle" x="0" y="0" width="70" height="370" rx="35"></rect>
+                            <circle id="Oval" cx="170" cy="329" r="40"></circle>
+                        </g>
+                    </g>
+                </svg>
+                <p class="work-item-description">The easy way to share lists width friends, family and co-workers</p>
+                <a href="https://openl.ist" target="_blank" rel="noopener" class="button block">openl.ist</a>
+            </div>
+            
+            <div class="work-item">
+                <h3 class="work-item-title">Yirra</h3>
+                <svg class="work-item-image yirra" width="75px"  viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>Yirra</title>
+                    <defs>
+                        <linearGradient x1="59.0291886%" y1="2.32758555%" x2="30.6798261%" y2="91.9932635%" id="linearGradient-1">
+                            <stop stop-color="#5073B8" offset="0%"></stop>
+                            <stop stop-color="#1098AD" offset="24.9945367%"></stop>
+                            <stop stop-color="#07B39B" offset="57.5693837%"></stop>
+                            <stop stop-color="#6FBA82" offset="100%"></stop>
+                        </linearGradient>
+                        <linearGradient x1="40.4256268%" y1="97.2729554%" x2="73.1311888%" y2="12.5959728%" id="linearGradient-2">
+                            <stop stop-color="#F79533" offset="0%"></stop>
+                            <stop stop-color="#F37055" offset="36.5008696%"></stop>
+                            <stop stop-color="#EF4E7B" offset="69.2736054%"></stop>
+                            <stop stop-color="#A166AB" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <g id="yirra" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Artboard" transform="translate(-101.000000, -127.000000)">
+                            <g id="logo" transform="translate(126.000000, 127.000000)">
+                                <path d="M176,45 C214.659932,45 246,76.3400675 246,115 C246,153.659932 214.659932,185 176,185 L102.623008,185" id="Path1" stroke="#444" stroke-width="50"></path>
+                                <path d="M70,185 C31.3400675,185 0,153.659932 0,115 C0,76.3400675 31.3400675,45 70,45 L143.981489,45" id="Path2" stroke="#444" stroke-width="50"></path>
+                                <circle id="Oval1" stroke="#444" stroke-width="30" cx="87" cy="185" r="30"></circle>
+                                <circle id="Oval2" stroke="#444" stroke-width="30" cx="160" cy="45" r="30"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <p class="work-item-description">Free custom URL Shortener with analytics! Shortened URLs will never expire.</p>
+                <a href="https://yirra.net" target="_blank" rel="noopener" class="button block">yirra.net</a>
+            </div>
             
             <div class="work-item">
                 <h3 class="work-item-title">Scutum</h3>

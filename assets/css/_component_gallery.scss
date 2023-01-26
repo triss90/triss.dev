@@ -61,6 +61,39 @@ section#work {
       &:hover,
       &:focus-within {
         .work-item-image {
+          &.cloudnet {
+            #Path {
+              fill: #be8ceb;
+            }
+            #Path-2 {
+              fill: #a65df0;
+            }
+            #Path-3 {
+              fill: #8a29ef;
+            }
+          }
+          &.cloudservers {
+            #Path {
+              fill: #C9D3F1;
+            }
+            #Path-2 {
+              fill: #89A4F3;
+            }
+            #Path-3 {
+              fill: #4D74E6;
+            }
+          }
+          &.cloudportal {
+            #Path {
+              fill: #60D8C1;
+            }
+            #Path-2 {
+              fill: #39A786;
+            }
+            #Path-3 {
+              fill: #34855B;
+            }
+          }
           &.leakedpassword {
             text {
               fill: #FFCB36;
