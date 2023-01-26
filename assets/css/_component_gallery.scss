@@ -116,17 +116,8 @@ section#work {
             }
           }
           &.webbox {
-            path:first-child {
-              fill: #FFF30A;
-            }
-            path:nth-child(2) {
-              fill: #FEBC0F;
-            }
-            path:nth-child(3) {
-              fill: #149B9D
-            }
-            path:last-child {
-              fill: #139DEB;
+            g#logo {
+              fill: #5C7CFA;
             }
           }
           &.openlist {
