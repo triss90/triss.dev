@@ -85,7 +85,7 @@
 </div>
 <div class="dialog-overlay" tabindex="-1" aria-hidden="true"></div>
 
-<script><?php include($_SERVER["DOCUMENT_ROOT"]."/app-min.js"); ?></script>
+<script><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/js/app.min.js"); ?></script>
 
 </body>
 </html>
