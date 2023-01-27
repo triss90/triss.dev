@@ -3,3 +3,4 @@
 .devcontainer/*
 .nova/*
 run.sh
+.DS_Store
