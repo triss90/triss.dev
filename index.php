@@ -426,9 +426,9 @@
     <section id="about" class="subheader" tabindex="-1">
         <div class="central">
             <h2>About Tristan</h2>
-            <p>Tristan works for small companies and startups, creating responsive web applications.</p>
+            <p>Tristan is a Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark</p>
+            <p>Today Tristan co-owns and works at ServicePoint A/S, primarily focusing on developing and mainting cloud infrastructure.</p>
             <p>Building the right foundation to ongoing optimization and support. In short, he tries to make the web a better place.</p>
-            <p>Tristan has worked with corporations, institutions and startups in a wide range of industries.</p>
             <a href="/about" class="center">Learn more about Tristan &#187;</a>
             <br><br><br>
             <nav aria-label="posts">
