@@ -379,12 +379,6 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Lavitas</h3>
-                <p class="work-item-description">Dashboard framework, complete with CRUD access.</p>
-                <a href="https://lavitas.dk" target="_blank" rel="noopener" class="button block">lavitas.dk</a>
-            </div>
-
-            <div class="work-item">
                 <h3 class="work-item-title">sceletus.css</h3>
                 <p class="work-item-description">A simple, lightweight, responsive css-framework inspired by bootstrap, pure, skeleton and foundation.</p>
                 <a href="https://github.com/triss90/sceletus.css" target="_blank" rel="noopener" class="button block">GitHub</a>
