@@ -17,7 +17,7 @@
         header("ETag: \"{$etag}\"");
     }
     if (!isset($description)) {
-        $description = "Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark";
+        $description = "A Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark";
     }
 ?>
 
