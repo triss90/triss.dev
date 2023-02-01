@@ -1,7 +1,7 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
 
 // https://github.com/mibe/FeedWriter/blob/master/examples/example_rss1.php
 include '_feedwriter/Item.php';
@@ -184,4 +184,4 @@ echo "\e[0;34m rss.xml \e[0m ====> \e[0;32m Generated!\n";
 // Create JSON data file
 $posts = json_encode($posts);
 file_put_contents('post_feed.json', $posts);
-echo "\e[0;34m post_feed.json \e[0m ====> \e[0;32m Generated!\n\n";
+echo "\e[0;34m post_feed.json \e[0m ====> \e[0;32m Generated!\n";
