@@ -47,6 +47,21 @@ ul {
   }
 }
 
+blockquote {
+  font-style: italic;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '"';
+    top: -1.5rem;
+    left: -3rem;
+    z-index: -1;
+    opacity: 0.1;
+    font-size: 10rem;
+    line-height: 1;
+  } 
+}
+
 hr {
   border: 0;
   border-top: 2px dashed $color-3;
