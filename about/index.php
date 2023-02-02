@@ -3,12 +3,12 @@
 
 <div class="about">
 
-    <header role="banner" class="blog">
-
+    <header role="banner" class="about">
         <?php include('../_inc/navigation.php'); ?>
         <div class="central center">
             <h1>About Tristan</h1>
         </div>
+        <img src="../assets/img/me/57324d3e7f350b919d736f4083ec4066-sticker.webp" width="210px" height="auto" alt="Memoji sticker of Tristan White">
     </header>
 
     <main id="main">
@@ -21,6 +21,9 @@
             <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>, projects on 
             <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>, thoughts on his
             <a href="/blog">Blog</a> and some of his work <a href="/#work">here</a>.</p>
+            
+            <br>
+            
         </div>
     </main>
 

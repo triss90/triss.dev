@@ -19,7 +19,8 @@ header {
     display: inline-block;
     margin: 0.35rem 0 12rem 0;
   }
-  &.blog {
+  &.blog,
+  &.about {
     background-image: none;
     padding-bottom: 2rem;
     background-image: url(/assets/img/bg.svg);
@@ -32,6 +33,15 @@ header {
     }
     h1 {
       display: inline-block;
+    }
+  }
+  &.about {
+    padding-bottom: 0 !important;
+    text-align: center;
+    position: relative;
+    img {
+      position: relative;
+      top: 0.415rem;
     }
   }
 }
