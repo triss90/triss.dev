@@ -47,7 +47,7 @@
         <br><br><br>
         <hr class="stop">
         <br>
-        <p>You can also reach me directly at <a href="mailto:tristan@white.chat">tristan@white.chat</a>, or on Twitter <a href="https://twitter.com/triss90" target="_blank" rel="noopener">@triss90</a>.</p>
+        <p>You can also reach Tristan directly at <a href="mailto:tristan@white.chat">tristan@white.chat</a>, or on Twitter <a href="https://twitter.com/triss90" target="_blank" rel="noopener">@triss90</a>.</p>
         <br>
         <hr class="stop">
     </div>
