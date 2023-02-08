@@ -337,12 +337,6 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Emily White</h3>
-                <p class="work-item-description">Emily is a total "fitness Geek" based in Aarhus, Denmark. When she is not busting balls participating in the odd military camp on Cyprus, she spends her time working out in Aarhus.</p>
-                <a href="https://emilywhite.dk" target="_blank" rel="noopener" class="button block">emilywhite.dk</a>
-            </div>
-
-            <div class="work-item">
                 <h3 class="work-item-title">Compressionbear</h3>
                 <p class="work-item-description">Make your images ready for the internet by compressing them by up to 90%, all without loosing quality.</p>
                 <a href="https://compressionbear.com" target="_blank" rel="noopener" class="button block">compressionbear.com</a>
