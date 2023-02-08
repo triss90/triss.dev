@@ -1,6 +1,9 @@
 <footer class="central">
     <div class="site-meta">
-        <p>Designed, built, and maintained by <i>Tristan White &copy; <?php echo date("Y"); ?></i></p>
+        <p>
+            Designed, built, and maintained by <i>Tristan White &copy; <?php echo date("Y"); ?></i><br>
+            Powered by <a href="https://cloudservers.dk" target="_blank">cloudservers.dk</a>
+        </p>
         <ul class="inline">
             <li><a href="https://www.linkedin.com/in/tristanoliverwhite/" target="_blank" rel="noopener"><svg alt="" class="icon icon-linkedin" width="12px" height="12px"><use xlink:href="#icon-linkedin"></use></svg> Linkedin</a></li>
             <li><a href="https://github.com/triss90" target="_blank" rel="noopener"><svg alt="" class="icon icon-github" width="12px" height="12px"><use xlink:href="#icon-github"></use></svg> GitHub</a></li>
