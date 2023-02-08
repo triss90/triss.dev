@@ -14,7 +14,7 @@
     <main id="main">
         <div class="central space center">
             <p>Tristan is a Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark</p>
-            <p>Today Tristan co-owns and works at ServicePoint A/S, primarily focusing on developing and mainting cloud infrastructure.</p>
+            <p>Today Tristan co-owns and works at ServicePoint A/S, primarily focusing on developing and mainting cloud infrastructure at <a href="https://cloudservers.dk" target="_blank" rel="noopener">cloudservers.dk</a>.</p>
             <p>Building the right foundation to ongoing optimization and support. In short, he tries to make the web a better place.</p>
             <p>Tristan has worked with corporations, institutions and startups in a wide range of industries, spanning a number of European countries.</p>
             <p>See small bits of his experimental work on 
