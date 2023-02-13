@@ -49,7 +49,6 @@
 
             var post = JSON.parse(response);
             post = post.reverse();
-            console.log(post);
 
             for (var i = <?php echo $postStart; ?>; i <= <?php echo $postEnd; ?>; i++) {
                 var postTitle = post[i][0];
