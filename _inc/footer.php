@@ -11,7 +11,7 @@
             <li><a href="https://www.youtube.com/channel/UCxnhnHu17q4Zk4m9-7BL5dw" target="_blank" rel="noopener"><svg alt="" class="icon icon-youtube" width="12px" height="12px"><use xlink:href="#icon-youtube"></use></svg> YouTube</a></li>
             <li><a class="rss-link" href="https://triss.dev/feed/" title="RSS Feed" target="_blank" rel="noopener"><svg alt="" class="icon icon-rss" width="12px" height="12px"><use xlink:href="#icon-rss"></use></svg> RSS Feed</a></li>
         </ul>
-        <a href="#top" class="totop" title="Go to top" aria-label="Go to top">&#8593; Top &#8593;</a>
+        <a href="#0" onclick="scrollToTop();return false;" class="totop" title="Go to top" aria-label="Go to top">&#8593; Top &#8593;</a>
     </div>
 </footer>
 

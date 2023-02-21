@@ -129,6 +129,14 @@ Dialog.prototype.addEventListeners = function(openDialogSel, closeDialogSel) {
     }
 };
 
+// Smooth scroll to top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
 // Initialize app
 var navDialogEl = document.querySelector('.dialog');
 var dialogOverlay = document.querySelector('.dialog-overlay');
