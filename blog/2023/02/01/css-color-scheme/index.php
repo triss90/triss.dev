@@ -20,7 +20,7 @@
 }
 </style>
 <h1>CSS color-scheme</h1>
-<p class='timestamp'><time datetime='02-02-2023'>01-02-2023</time></p>
+<p class='timestamp'><time datetime='01-02-2023'>01-02-2023</time></p>
 <hr>
 <p>Elements on a page has a default color defined by the <code>color-scheme</code> value in the User Agent stylesheet.</p>
 <p>This is what defines the <code>background-color</code> of body as white, the <code>text-color</code> as black and the varying grey colors of buttons and other interactive elements.</p>

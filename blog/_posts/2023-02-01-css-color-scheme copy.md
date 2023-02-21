@@ -22,7 +22,7 @@ categories: html, css
 
 # CSS color-scheme
 
-<p class='timestamp'><time datetime='02-02-2023'>01-02-2023</time></p>
+<p class='timestamp'><time datetime='01-02-2023'>01-02-2023</time></p>
 <hr>
 
 Elements on a page has a default color defined by the `color-scheme` value in the User Agent stylesheet.
