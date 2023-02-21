@@ -54,7 +54,7 @@ It simply targets all ` # ` links and applies smooth scrolling to their respecti
 Today there's luckily a much simpler and better way to achieve this effect, and it's even available in native Javascript:
 
 ```html
-<a href="#0" onclick="scrollToTop();">scroll-to-top</a>
+<button onclick="scrollToTop();">scroll-to-top</button>
 
 <script>
 function scrollToTop() {

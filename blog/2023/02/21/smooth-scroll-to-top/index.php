@@ -44,7 +44,7 @@ $('a[href*="#"]')
 though I can't be sure.</p>
 <p>It simply targets all <code>#</code> links and applies smooth scrolling to their respective elements.</p>
 <p>Today there's luckily a much simpler and better way to achieve this effect, and it's even available in native Javascript:</p>
-<pre><code class="language-html">&lt;a href="#0" onclick="scrollToTop();"&gt;scroll-to-top&lt;/a&gt;
+<pre><code class="language-html">&lt;button onclick="scrollToTop();"&gt;scroll-to-top&lt;/button&gt;
 
 &lt;script&gt;
 function scrollToTop() {
