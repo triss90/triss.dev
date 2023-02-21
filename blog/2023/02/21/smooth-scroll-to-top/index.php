@@ -8,7 +8,7 @@
         <h1>Smooth scroll-to-top</h1>
 <p class='timestamp'><time datetime='21-02-2023'>21-02-2023</time></p>
 <hr>
-<p>Back in the day, circa 2010, when we needed to scroll to top, we would use the jQuery library to accomplish this. </p>
+<p>Back in the day, circa 2010, when we needed to scroll to top we would use the jQuery library to accomplish this. </p>
 <p>I dug out the following snippet from a project I launched way back in 2010. 
 While the project is long since obsolete, it does serve to show just how far we've come:</p>
 <pre><code class="language-javascript">// Select all links with hashes
@@ -43,7 +43,7 @@ $('a[href*="#"]')
 <p>I believe this, or at least a version of it, was originally posted by Chris Coyier over at <a href="https://css-tricks.com">css-tricks.com</a>,
 though I can't be sure.</p>
 <p>It simply targets all <code>#</code> links and applies smooth scrolling to their respective elements.</p>
-<p>Today there's luckily a much simpler and better way to achieve this effect, and it's available in native Javascript:</p>
+<p>Today there's luckily a much simpler and better way to achieve this effect, and it's even available in native Javascript:</p>
 <pre><code class="language-html">&lt;a href="#0" onclick="scrollToTop();"&gt;scroll-to-top&lt;/a&gt;
 
 &lt;script&gt;

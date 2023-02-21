@@ -10,7 +10,7 @@ categories: js
 <p class='timestamp'><time datetime='21-02-2023'>21-02-2023</time></p>
 <hr>
 
-Back in the day, circa 2010, when we needed to scroll to top, we would use the jQuery library to accomplish this. 
+Back in the day, circa 2010, when we needed to scroll to top we would use the jQuery library to accomplish this. 
 
 I dug out the following snippet from a project I launched way back in 2010. 
 While the project is long since obsolete, it does serve to show just how far we've come:
@@ -51,7 +51,7 @@ though I can't be sure.
 
 It simply targets all ` # ` links and applies smooth scrolling to their respective elements.
 
-Today there's luckily a much simpler and better way to achieve this effect, and it's available in native Javascript:
+Today there's luckily a much simpler and better way to achieve this effect, and it's even available in native Javascript:
 
 ```html
 <a href="#0" onclick="scrollToTop();">scroll-to-top</a>
