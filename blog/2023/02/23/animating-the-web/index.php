@@ -37,14 +37,14 @@
   }
   /* Orientation */
   .box.orientation .wrapper {
-    height: 300px;
+    height: 400px;
     width: 100%;
     overflow-y: scroll;
     position: relative;
   }
   .box.orientation .wrapper .wrapper-1,
   .box.orientation .wrapper .wrapper-2 {
-    height: 300px;
+    height: 400px;
     width: 100%;
     position: absolute;
     top: 0;
