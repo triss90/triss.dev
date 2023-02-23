@@ -364,7 +364,7 @@ categories: css, js, animation
 Animations have become an increasingly popular way of enhancing the user experience on the web. 
 They add a level of interactivity and engagement that static designs cannot provide. 
 Animations can range from subtle transitions to complex, eye-catching visual effects. 
-They are used in a variety of contexts, such as in website navigation, form validation, and product demos.
+They are used in a variety of contexts, such as in website navigation, form validation, notifications, product demos and much more.
 
 One of the primary benefits of using animations on the web is that they can help to guide users through a website. 
 By providing visual cues and feedback, animations can help users understand where they are on a page and how they can interact with it. 
@@ -514,7 +514,7 @@ To minimise support requests and build trust with out customers we try to provid
 This lets the users know that the system is in fact working as intended, and thus avoids a lot of panic and frustration.
 
 Among the many different indicators we use, 
-the status bar is probably the clearest example of how an animated progress bar can put a user at ease when a process is running in the background:
+the status bar is probably the clearest example of how an animated progress bar can put a user at ease, when a process is running in the background:
 
 <div class="box status" id="status">
   <h3>Status Example</h3>

@@ -361,7 +361,7 @@
 <p>Animations have become an increasingly popular way of enhancing the user experience on the web. 
 They add a level of interactivity and engagement that static designs cannot provide. 
 Animations can range from subtle transitions to complex, eye-catching visual effects. 
-They are used in a variety of contexts, such as in website navigation, form validation, and product demos.</p>
+They are used in a variety of contexts, such as in website navigation, form validation, notifications, product demos and much more.</p>
 <p>One of the primary benefits of using animations on the web is that they can help to guide users through a website. 
 By providing visual cues and feedback, animations can help users understand where they are on a page and how they can interact with it. 
 For example, a subtle hover effect on a button can indicate that it is clickable, 
@@ -490,7 +490,7 @@ which requires some processes to run in the background, during which time nothin
 <p>To minimise support requests and build trust with out customers we try to provide live status updates wherever and whenever possible.
 This lets the users know that the system is in fact working as intended, and thus avoids a lot of panic and frustration.</p>
 <p>Among the many different indicators we use, 
-the status bar is probably the clearest example of how an animated progress bar can put a user at ease when a process is running in the background:</p>
+the status bar is probably the clearest example of how an animated progress bar can put a user at ease, when a process is running in the background:</p>
 <div class="box status" id="status">
   <h3>Status Example</h3>
   <hr>
