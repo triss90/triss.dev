@@ -9,8 +9,8 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Tue, 21 Feb 2023 13:44:07 +0000</lastBuildDate>
-<pubDate>Tue, 21 Feb 2023 13:44:07 +0000</pubDate>
+<lastBuildDate>Thu, 23 Feb 2023 07:15:29 +0000</lastBuildDate>
+<pubDate>Thu, 23 Feb 2023 07:15:29 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
 <item>
 <title>CSS Checkbox Hack</title>
@@ -260,9 +260,20 @@ selectmenu.logos::part(button) {
 <author>oliver.tristan@gmail.com (Tristan White)</author>
 </item>
 <item>
+<title>Smooth scroll-to-top</title>
+<link>https://triss.dev/blog/2023/02/21/smooth-scroll-to-top/</link>
+<pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Smooth scroll-to-top</h1>
+<p class='timestamp'><time datetime='21-02-2023'>21-02-2023</time></p>
+<hr>
+<p>Back in the day, circa 2010, when we needed to scroll to top we would use the jQuery library to accomplish this. </p>
+<p>I dug out the following snippet f...</p>]]></description>
+<author>oliver.tristan@gmail.com (Tristan White)</author>
+</item>
+<item>
 <title>Animating the Web</title>
-<link>https://triss.dev/blog/2023/02/17/animating-the-web/</link>
-<pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+<link>https://triss.dev/blog/2023/02/23/animating-the-web/</link>
+<pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
 <description><![CDATA[<style>
   input[type="text"] {
     display: inline-block;
@@ -275,17 +286,6 @@ selectmenu.logos::part(button) {
     color: black;
     border-radius: 0;
     width: 100...]]></description>
-<author>oliver.tristan@gmail.com (Tristan White)</author>
-</item>
-<item>
-<title>Smooth scroll-to-top</title>
-<link>https://triss.dev/blog/2023/02/21/smooth-scroll-to-top/</link>
-<pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Smooth scroll-to-top</h1>
-<p class='timestamp'><time datetime='21-02-2023'>21-02-2023</time></p>
-<hr>
-<p>Back in the day, circa 2010, when we needed to scroll to top we would use the jQuery library to accomplish this. </p>
-<p>I dug out the following snippet f...</p>]]></description>
 <author>oliver.tristan@gmail.com (Tristan White)</author>
 </item>
 </channel>
