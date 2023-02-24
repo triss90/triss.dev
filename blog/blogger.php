@@ -25,8 +25,8 @@ $posts = array();
 $post = array();
 $files = scandir($dir);
 $postCount = count($files);
-$rssPostCount = 20;
-$rssPostSkip = $postCount - $rssPostCount;
+$rssPostCount = 5;
+//$rssPostSkip = $postCount - $rssPostCount;
 $rssIncrement = 0;
 $postsPerPage = 5;
 $postPageCount = ceil($postCount / $postsPerPage);
@@ -46,9 +46,11 @@ $BlogFeed->setSelfLink('https://triss.dev/feed');
 // Clear console
 echo chr(27).chr(91).'H'.chr(27).chr(91).'J';   //^[H^[J  
 
+$files = array_reverse($files);
+
 // Generate blogposts
 foreach ($files as $file) {
-
+    
     $file = $dir . '/' . $file;
     
     if (!is_dir($file)) {
@@ -59,6 +61,7 @@ foreach ($files as $file) {
     if ($file != $dir . '/.' && $file != $dir . '/..' && $file != $dir . '/.DS_Store') {
 
         $post = array();
+        
 
         // Get post data from header (First 6 lines)
         for ($i = 0; $i < 5; $i++) {
@@ -119,14 +122,14 @@ foreach ($files as $file) {
         $postDay = substr_replace($postDate[2], "", -1);
         $postPath = $postYear.'/'.$postMonth.'/'.$postDay.'/'.$postSlug.'/';
         $postDateFormatted = $postDay.'/'.$postMonth.'/'.$postYear;
-
-        if ($rssIncrement >= $rssPostSkip) {
+        
+        if ($rssIncrement < $rssPostCount) {
             $newItem = $BlogFeed->createNewItem();
             $newItem->setTitle($postTitle);
             $newItem->setLink('https://triss.dev/blog/'.$postPath);
             $newItem->setDate($postYear.'-'.$postMonth.'-'.$postDay);
             $newItem->setDescription($Parsedown->text(substr($skipped_content, 0, 250)."..."));
-            $newItem->setAuthor('Tristan White', 'oliver.tristan@gmail.com');
+            $newItem->setAuthor('Tristan White', 'tristan@white.chat');
             $BlogFeed->addItem($newItem);
         }
         $rssIncrement++;
@@ -175,6 +178,8 @@ foreach ($files as $file) {
 
     }
 }
+
+
 // Posts Generated
 echo "\e[0;34m Posts(".$postCount.") \e[0m  ====>  \e[0;32m Generated ".date('l jS \of F Y h:i:s A')."\n";
 
@@ -186,6 +191,7 @@ fclose($fp);
 echo "\e[0;34m RSS \e[0m        ====>  \e[0;32m Generated ".date('l jS \of F Y h:i:s A')."\n";
 
 // Create JSON data file
+$posts = array_reverse($posts);
 $posts = json_encode($posts);
 file_put_contents('post_feed.json', $posts);
 echo "\e[0;34m Post Feed \e[0m  ====>  \e[0;32m Generated ".date('l jS \of F Y h:i:s A')."";
