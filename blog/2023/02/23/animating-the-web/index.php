@@ -6,6 +6,12 @@
             <span class='inverted'><?php include('../../../../../_inc/navigation.php'); ?></span>
             <main id='main' class='central space post'>
         <style>
+  .darkmode hr {
+    background: white;
+  }
+  .darkmode hr:after {
+    backgroudn: white;
+  }
   input[type="text"] {
     display: inline-block;
     width: 100%;

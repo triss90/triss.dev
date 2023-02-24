@@ -6,6 +6,12 @@ categories: css, js, animation
 ---
 
 <style>
+  .darkmode hr {
+    background: white;
+  }
+  .darkmode hr:after {
+    backgroudn: white;
+  }
   input[type="text"] {
     display: inline-block;
     width: 100%;
