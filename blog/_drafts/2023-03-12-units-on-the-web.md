@@ -17,8 +17,6 @@ categories: css
 .darkmode .box,
 .darkmode .grid .item {
 	border: 2px solid white;
-	/* background: black; */
-	/* color: white; */
 }
 .grid {
 	display: grid;
@@ -55,8 +53,6 @@ categories: css
 
 <p class='timestamp'><time datetime='12-03-2023'>12-03-2023</time></p>
 <hr>
-
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
 
 In CSS, units are used to define the size, distance, and other dimensions of elements on a web page. There are several types of units in CSS:
 
