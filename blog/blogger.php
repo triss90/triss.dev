@@ -176,16 +176,16 @@ foreach ($files as $file) {
     }
 }
 // Posts Generated
-echo "\e[0;34m Posts(".$postCount.") \e[0m  ====>  \e[0;32m Generated!\n";
+echo "\e[0;34m Posts(".$postCount.") \e[0m  ====>  \e[0;32m Generated ".date('l jS \of F Y h:i:s A')."\n";
 
 //OK. Everything is done. Now generate the feed.
 $fp = fopen('rss.xml', 'w');
 fwrite($fp, $BlogFeed->generateFeed());
 fclose($fp);
 //echo "\n";
-echo "\e[0;34m RSS \e[0m        ====>  \e[0;32m Generated!\n";
+echo "\e[0;34m RSS \e[0m        ====>  \e[0;32m Generated ".date('l jS \of F Y h:i:s A')."\n";
 
 // Create JSON data file
 $posts = json_encode($posts);
 file_put_contents('post_feed.json', $posts);
-echo "\e[0;34m Post Feed \e[0m  ====>  \e[0;32m Generated!";
+echo "\e[0;34m Post Feed \e[0m  ====>  \e[0;32m Generated ".date('l jS \of F Y h:i:s A')."";
