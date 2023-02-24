@@ -9,8 +9,8 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Thu, 23 Feb 2023 07:49:14 +0000</lastBuildDate>
-<pubDate>Thu, 23 Feb 2023 07:49:14 +0000</pubDate>
+<lastBuildDate>Fri, 24 Feb 2023 09:10:30 +0000</lastBuildDate>
+<pubDate>Fri, 24 Feb 2023 09:10:30 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
 <item>
 <title>CSS Checkbox Hack</title>
@@ -275,17 +275,19 @@ selectmenu.logos::part(button) {
 <link>https://triss.dev/blog/2023/02/23/animating-the-web/</link>
 <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
 <description><![CDATA[<style>
+  .darkmode hr {
+    background: white;
+  }
+  .darkmode hr:after {
+    backgroudn: white;
+  }
   input[type="text"] {
     display: inline-block;
     width: 100%;
     background: none;
     border: 2px solid black;
     background: white;
-    font-size: inherit;
-    padding: 0.5rem ;
-    color: black;
-    border-radius: 0;
-    width: 100...]]></description>
+    fo...]]></description>
 <author>oliver.tristan@gmail.com (Tristan White)</author>
 </item>
 </channel>
