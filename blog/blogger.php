@@ -50,9 +50,11 @@ echo chr(27).chr(91).'H'.chr(27).chr(91).'J';   //^[H^[J
 foreach ($files as $file) {
 
     $file = $dir . '/' . $file;
-
-    $fileInfo = file($file);
-    // var_dump($fileInfo);
+    
+    if (!is_dir($file)) {
+       $fileInfo = file($file); 
+       
+    }
         
     if ($file != $dir . '/.' && $file != $dir . '/..' && $file != $dir . '/.DS_Store') {
 
@@ -141,29 +143,29 @@ foreach ($files as $file) {
         // Create folder structure
         if (!file_exists($postYear)) {
             mkdir($postYear, 0777);
-            echo "\e[0;34m" . $postYear . "\e[0m ====> Created\n";
+            //echo "\e[0;34m" . $postYear . "\e[0m ====> Created\n";
         } else {
             //echo "❌  \e[0;34;41m" . $postYear . "\e[0m ====> Already Exists \n";
         }
         if (!file_exists($postYear.'/'.$postMonth)) {
             mkdir($postYear.'/'.$postMonth, 0777);
-            echo "\e[0;34m" . $postYear.'/'.$postMonth . "\e[0m ====> Created\n";
+            //echo "\e[0;34m" . $postYear.'/'.$postMonth . "\e[0m ====> Created\n";
         } else {
             //echo "❌  \e[0;34;41m" . $postYear.'/'.$postMonth  . "\e[0m ====> Already Exists \n";
         }
         if (!file_exists($postYear.'/'.$postMonth.'/'.$postDay)) {
             mkdir($postYear.'/'.$postMonth.'/'.$postDay, 0777);
-            echo "\e[0;34m" . $postYear.'/'.$postMonth.'/'.$postDay . "\e[0m ====> Created\n";
+            //echo "\e[0;34m" . $postYear.'/'.$postMonth.'/'.$postDay . "\e[0m ====> Created\n";
         } else {
             //echo "❌  \e[0;34;41m" . $postYear.'/'.$postMonth.'/'.$postDay . "\e[0m ====> Already Exists \n";
         }
         if (!file_exists($postYear.'/'.$postMonth.'/'.$postDay.'/'.$postSlug)) {
             mkdir($postYear.'/'.$postMonth.'/'.$postDay.'/'.$postSlug, 0777);
-            echo "\e[0;34m" . $postYear.'/'.$postMonth.'/'.$postDay.'/'.$postSlug . "\e[0m ====> Created\n";
+            //echo "\e[0;34m" . $postYear.'/'.$postMonth.'/'.$postDay.'/'.$postSlug . "\e[0m ====> Created\n";
         } else {
             //echo "❌  \e[0;34;41m" . $postYear.'/'.$postMonth.'/'.$postDay.'/'.$postSlug . "\e[0m ====> Already Exists \n";
         }
-        echo "\e[0;34m" .$postPath.'index.php'. "\e[0m ====> \e[0;32mSuccess!\n";
+        //echo "\e[0;34m" .$postPath.'index.php'. "\e[0m ====> \e[0;32mSuccess!\n";
 
         array_push($posts, $post);
         $posts = array_values($posts);
@@ -173,15 +175,17 @@ foreach ($files as $file) {
 
     }
 }
+// Posts Generated
+echo "\e[0;34m Posts(".$postCount.") \e[0m  ====>  \e[0;32m Generated!\n";
 
 //OK. Everything is done. Now generate the feed.
 $fp = fopen('rss.xml', 'w');
 fwrite($fp, $BlogFeed->generateFeed());
 fclose($fp);
-echo "\n";
-echo "\e[0;34m rss.xml \e[0m ====> \e[0;32m Generated!\n";
+//echo "\n";
+echo "\e[0;34m RSS \e[0m        ====>  \e[0;32m Generated!\n";
 
 // Create JSON data file
 $posts = json_encode($posts);
 file_put_contents('post_feed.json', $posts);
-echo "\e[0;34m post_feed.json \e[0m ====> \e[0;32m Generated!\n";
+echo "\e[0;34m Post Feed \e[0m  ====>  \e[0;32m Generated!";
