@@ -16,7 +16,7 @@
     <?php include('../../_inc/navigation.php'); ?>
     <div class="central center">
         <h1>Tristan's blog</h1><br>
-        <a class="rss-link" href="https://triss.dev/feed/" title="RSS Feed" target="_blank" rel="noopener"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
+        <a class="rss-link" href="https://triss.dev/blog/rss.xml" title="RSS Feed" target="_blank" rel="noopener"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
         <?php include('../../_inc/search.php'); ?>
     </div>
 </header>
