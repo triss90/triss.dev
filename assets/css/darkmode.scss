@@ -121,3 +121,19 @@ hr.stop {
   background: #f4f4f4;
   stroke: #19191a;
 }
+table {
+  thead {
+    tr {
+      th {
+        border: 2px solid #f4f4f4;
+      }
+    }
+  }
+  tbody{
+    tr {
+      td {
+        border: 2px solid #f4f4f4;
+      }
+    }
+  }
+}
