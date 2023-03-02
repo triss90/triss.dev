@@ -239,7 +239,7 @@
         <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
             
             <div class="work-item">
-                <h3 class="work-item-title">Open List<br><small>2021</small></h3>
+                <h3 class="work-item-title">Open List<br><small>2020</small></h3>
                 <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="logo" fill="#444">
@@ -286,7 +286,7 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Scutum<br><small>2021-<?php echo date("Y"); ?></small></h3>
+                <h3 class="work-item-title">Scutum<br><small>2021-2023</small></h3>
                 <p class="work-item-description"></p>scutum.pw allows you to encrypt and transfer passwords and other sensitive data via a one-time link
                 <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button">scutum.pw</a>
             </div>
