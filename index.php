@@ -88,7 +88,8 @@
         <div class="work-items" id="scroll-highlighted" role="region" aria-label="gallery" tabindex="0">
             
             <div class="work-item">
-                <h3 class="work-item-title">Leaked Password</h3>
+                <h3 class="work-item-title">Leaked Password<br><small>2019-<?php echo date("Y"); ?></small></h3>
+                
                 <svg alt="" class="work-item-image leakedpassword" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 512 512">
                     <text fill="#444" fill-rule="evenodd" font-family="Montserrat-Medium, Montserrat Medium" font-size="1000">
                         <tspan x="55" y="750">*</tspan>
@@ -99,7 +100,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">ColorDrop</h3>
+                <h3 class="work-item-title">ColorDrop<br><small>2016-<?php echo date("Y"); ?></small></h3>
                 <svg alt="" class="work-item-image colordrop" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 83 99">
                     <g fill="none">
                         <path fill="#666" d="M49.0164969,38.4232565 C49.6568131,40.6075989 50,42.9166158 50,45.304811 C50,58.9435873 38.8071187,70 25,70 C11.1928813,70 0,58.9435873 0,45.304811 C0,40.7895384 1.22675835,36.5572972 3.36899999,32.9155672 C3.67075751,32.3227716 3.99854523,31.728926 4.35413218,31.1431765 C9.74431131,22.264069 23.6122265,0 25.7038975,0 C27.7955685,0 40.9787699,22.1012804 46.167141,31.1431765 C47.5732834,33.5936939 48.4676354,36.2903528 49.0164969,38.4232565 Z"/>
@@ -112,7 +113,7 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Cloudnet</h3>
+                <h3 class="work-item-title">Cloudnet<br><small>2019-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image cloudnet" xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 210 139">
                   <g id="CloudNet" transform="translate(-0.25)">
                     <path id="Path" d="M133.563,24.923c7.984-2.937,17.3-3.081,25.661-2.7a63.089,63.089,0,0,1,15.14,4.063c6.794,2.6,12.725,7.012,18.133,11.813,9.858,10.075,16.711,23.493,17.657,37.721.03,4.609.387,9.3-.506,13.844a58.759,58.759,0,0,1-8.109,22.223c-2.665,3.967-5.259,8.139-9.066,11.111-4.652-7.779-9.334-15.54-14.129-23.23-3.825-6.706-7.889-13.269-11.934-19.843-5.646-9.116-10.893-18.471-16.711-27.479-4.753-7.983-9.423-16.026-14.4-23.877C134.464,27.391,133.617,26.325,133.563,24.923Z" fill="#666"/>
@@ -125,7 +126,7 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Webbox</h3>
+                <h3 class="work-item-title">Webbox<br><small>2020-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image webbox" width="100" viewBox="0 0 239 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="logo" transform="translate(0.500000, 0.000000)" fill="#444" fill-rule="nonzero">
@@ -138,7 +139,7 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Cloudservers</h3>
+                <h3 class="work-item-title">Cloudservers<br><small>2021-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image cloudservers" xmlns="http://www.w3.org/2000/svg" width="100px"viewBox="0 0 210 139">
                   <g id="CloudNet" transform="translate(-0.25)">
                     <path id="Path" d="M133.563,24.923c7.984-2.937,17.3-3.081,25.661-2.7a63.089,63.089,0,0,1,15.14,4.063c6.794,2.6,12.725,7.012,18.133,11.813,9.858,10.075,16.711,23.493,17.657,37.721.03,4.609.387,9.3-.506,13.844a58.759,58.759,0,0,1-8.109,22.223c-2.665,3.967-5.259,8.139-9.066,11.111-4.652-7.779-9.334-15.54-14.129-23.23-3.825-6.706-7.889-13.269-11.934-19.843-5.646-9.116-10.893-18.471-16.711-27.479-4.753-7.983-9.423-16.026-14.4-23.877C134.464,27.391,133.617,26.325,133.563,24.923Z" fill="#666"/>
@@ -151,7 +152,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Gridder</h3>
+                <h3 class="work-item-title">Gridder<br><small>2017-2018</small></h3>
                 <svg alt="" class="work-item-image gridder" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 200 201">
                     <g fill="none">
                         <polyline stroke="#666" stroke-width="15" points="175 25 25 25 25 176 175 176 175 100 100 100"/>
@@ -171,7 +172,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">MUDS Editor</h3>
+                <h3 class="work-item-title">MUDS Editor<br><small>2019</small></h3>
                 <svg alt="" class="work-item-image muds" xmlns="http://www.w3.org/2000/svg" width="150" height="75" viewBox="0 0 438 136">
                     <g fill="#222" fill-rule="evenodd">
                         <path d="M392.585936,45 L359.610651,45 C357.97021,41.5699565 357.15,37.3033165 357.15,32.2 C357.15,26.6999725 358.274989,21.95002 360.525,17.95 C362.775011,13.94998 365.724982,10.6250132 369.375,7.975 C373.025018,5.32498675 377.199976,3.3500065 381.9,2.05 C386.600023,0.7499935 391.399975,0.1 396.3,0.1 C401.900028,0.1 407.324974,0.9499915 412.575,2.65 C417.825026,4.3500085 422.549979,7.1499805 426.75,11.05 L412.95,25.6 C410.94999,22.6999855 408.275017,20.5750067 404.925,19.225 C401.574983,17.8749932 398.050018,17.2 394.35,17.2 C392.149989,17.2 390.02501,17.4499975 387.975,17.95 C385.92499,18.4500025 384.075008,19.2499945 382.425,20.35 C380.774992,21.4500055 379.450005,22.8749912 378.45,24.625 C377.449995,26.3750087 376.95,28.449988 376.95,30.85 C376.95,34.450018 378.199987,37.1999905 380.7,39.1 C383.200012,41.0000095 386.299981,42.649993 390,44.05 C390.843779,44.3692679 391.705758,44.6859344 392.585936,45 Z M426.339642,69 C427.013216,71.5965377 427.35,74.5298639 427.35,77.8 C427.35,83.5000285 426.30001,88.4749787 424.2,92.725 C422.099989,96.9750212 419.275018,100.499986 415.725,103.3 C412.174982,106.100014 408.050023,108.199993 403.35,109.6 C398.649976,111.000007 393.700026,111.7 388.5,111.7 C381.899967,111.7 375.550031,110.600011 369.45,108.4 C363.349969,106.199989 358.100022,102.500026 353.7,97.3 L367.95,83.5 C370.250012,87.0000175 373.274981,89.7249903 377.025,91.675 C380.775019,93.6250097 384.749979,94.6 388.95,94.6 C391.150011,94.6 393.349989,94.300003 395.55,93.7 C397.750011,93.099997 399.749991,92.200006 401.55,91 C403.350009,89.799994 404.799994,88.2750092 405.9,86.425 C407.000006,84.5749907 407.55,82.450012 407.55,80.05 C407.55,76.1499805 406.300012,73.1500105 403.8,71.05 C402.940806,70.3282773 402.01075,69.6449447 401.009827,69 L426.339642,69 Z M0.3,2.8 L29.1,2.8 L57.45,77.2 L86.1,2.8 L114.6,2.8 L114.6,109 L96.6,109 L96.6,20.8 L96.3,20.8 L64.05,109 L50.85,109 L18.6,20.8 L18.3,20.8 L18.3,109 L0.3,109 L0.3,2.8 Z M223.8,70 C223.8,76.400032 222.700011,82.1749742 220.5,87.325 C218.299989,92.4750257 215.300019,96.849982 211.5,100.45 C207.699981,104.050018 203.200026,106.82499 198,108.775 C192.799974,110.72501 187.15003,111.7 181.05,111.7 C174.949969,111.7 169.300026,110.72501 164.1,108.775 C158.899974,106.82499 154.375019,104.050018 150.525,100.45 C146.674981,96.849982 143.675011,92.4750257 141.525,87.325 C139.374989,82.1749742 138.3,76.400032 138.3,70 L138.3,2.8 L157.2,2.8 L157.2,69.4 C157.2,72.000013 157.599996,74.7249857 158.4,77.575 C159.200004,80.4250142 160.524991,83.049988 162.375,85.45 C164.225009,87.850012 166.674985,89.8249922 169.725,91.375 C172.775015,92.9250077 176.549977,93.7 181.05,93.7 C185.550022,93.7 189.324985,92.9250077 192.375,91.375 C195.425015,89.8249922 197.874991,87.850012 199.725,85.45 C201.575009,83.049988 202.899996,80.4250142 203.7,77.575 C204.500004,74.7249857 204.9,72.000013 204.9,69.4 L204.9,2.8 L223.8,2.8 L223.8,70 Z M247.05,2.8 L288.9,2.8 C295.900035,2.8 302.649967,3.87498925 309.15,6.025 C315.650032,8.17501075 321.399975,11.449978 326.4,15.85 C331.400025,20.250022 335.399985,25.7749667 338.4,32.425 C341.400015,39.0750332 342.9,46.899955 342.9,55.9 C342.9,65.0000455 341.175017,72.8749667 337.725,79.525 C334.274983,86.1750332 329.825027,91.6749782 324.375,96.025 C318.924973,100.375022 312.875033,103.624989 306.225,105.775 C299.574967,107.925011 293.050032,109 286.65,109 L247.05,109 L247.05,2.8 Z M280.05,91.9 C285.95003,91.9 291.524974,91.2250067 296.775,89.875 C302.025026,88.5249932 306.59998,86.4250142 310.5,83.575 C314.400019,80.7249857 317.474989,77.0250227 319.725,72.475 C321.975011,67.9249772 323.1,62.4000325 323.1,55.9 C323.1,49.499968 322.10001,44.000023 320.1,39.4 C318.09999,34.799977 315.325018,31.0750142 311.775,28.225 C308.224982,25.3749857 304.025024,23.2750067 299.175,21.925 C294.324976,20.5749932 289.000029,19.9 283.2,19.9 L265.95,19.9 L265.95,91.9 L280.05,91.9 Z"/>
@@ -184,7 +185,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Plaask</h3>
+                <h3 class="work-item-title">Plaask<br><small>2018</small></h3>
                 <svg alt="" class="work-item-image plaask" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 85 98.1">
                     <g transform="translate(-21.9 -13.5)">
                         <path fill="#222" class="a" d="M78.8,103.4,64.5,95.2V78.9L78.8,87Z"></path>
@@ -212,7 +213,7 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">CloudPortal</h3>
+                <h3 class="work-item-title">CloudPortal<br><small>2020-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image cloudportal" xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 210 139">
                   <g id="CloudNet" transform="translate(-0.25)">
                     <path id="Path" d="M133.563,24.923c7.984-2.937,17.3-3.081,25.661-2.7a63.089,63.089,0,0,1,15.14,4.063c6.794,2.6,12.725,7.012,18.133,11.813,9.858,10.075,16.711,23.493,17.657,37.721.03,4.609.387,9.3-.506,13.844a58.759,58.759,0,0,1-8.109,22.223c-2.665,3.967-5.259,8.139-9.066,11.111-4.652-7.779-9.334-15.54-14.129-23.23-3.825-6.706-7.889-13.269-11.934-19.843-5.646-9.116-10.893-18.471-16.711-27.479-4.753-7.983-9.423-16.026-14.4-23.877C134.464,27.391,133.617,26.325,133.563,24.923Z" fill="#666"/>
@@ -238,7 +239,7 @@
         <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
             
             <div class="work-item">
-                <h3 class="work-item-title">Open List</h3>
+                <h3 class="work-item-title">Open List<br><small>2021</small></h3>
                 <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="logo" fill="#444">
@@ -252,7 +253,7 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Yirra</h3>
+                <h3 class="work-item-title">Yirra<br><small>2022</small></h3>
                 <svg class="work-item-image yirra" width="75px"  viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Yirra</title>
                     <defs>
@@ -285,13 +286,13 @@
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Scutum</h3>
+                <h3 class="work-item-title">Scutum<br><small>2021-<?php echo date("Y"); ?></small></h3>
                 <p class="work-item-description"></p>scutum.pw allows you to encrypt and transfer passwords and other sensitive data via a one-time link
                 <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button">scutum.pw</a>
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">html.digital</h3>
+                <h3 class="work-item-title">html.digital<br><small>2021</small></h3>
                 <svg class="work-item-image html_digital" width="75" height="75"  viewBox="0 0 156 193" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="#444" d="M7.8515 95.0263V185.314H56.0192V116.93H148.068V185.314H102.346V133.752" stroke-width="15"/>
                     <path stroke="#222" d="M148.216 98.2875V8.00001H100.048V76.3842H8.00003V8.00001H53.7214V59.9398" stroke-width="15"/>
@@ -301,109 +302,109 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">dotbot</h3>
+                <h3 class="work-item-title">dotbot<br><small>2019</small></h3>
                 <p class="work-item-description">A simple library that let's you create a randomised, dotted background-pattern on any given element on your website.</p>
                 <a href="https://github.com/triss90/dotbot" target="_blank" rel="noopener" class="button">GitHub</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">CSS Radio Buttons</h3>
+                <h3 class="work-item-title">CSS Radio Buttons<br><small>2019</small></h3>
                 <p class="work-item-description">Elegant, pure CSS radio buttons.</p>
                 <a href="https://codepen.io/triss90/pen/XNEdRe" target="_blank" rel="noopener" class="button block">CodePen</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Ditte's Dilemma</h3>
+                <h3 class="work-item-title">Ditte's Dilemma<br><small>2019</small></h3>
                 <p class="work-item-description">A blog about overcoming obstacles and living an alternative life, marked by chronic pain.</p>
                 <a href="https://dittesdilemma.dk" target="_blank" rel="noopener" class="button block">dittesdilemma.dk</a>
             </div>
             
             <div class="work-item">
-                <h3 class="work-item-title">Cut And Move</h3>
+                <h3 class="work-item-title">Cut And Move<br><small>2021</small></h3>
                 <p class="work-item-description">Jeg kører ud til virksomheder med min mobile frisørsalon. Medarbejderen booker via mit system og afregner direkte hos mig.</p>
                 <a href="https://cutandmove.dk/" target="_blank" rel="noopener" class="button block">cutandmove.dk</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">WordBoss</h3>
+                <h3 class="work-item-title">WordBoss<br><small>2021</small></h3>
                 <p class="work-item-description">WordBoss is an owner-run company for professional translations and language services. In their role as translation specialists, they have been a reliable business partner for more than 20 years.</p>
                 <a href="https://wordboss.de" target="_blank" rel="noopener" class="button block">wordboss.de</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Terminal Portfolio</h3>
+                <h3 class="work-item-title">Terminal Portfolio<br><small>2019</small></h3>
                 <p class="work-item-description">A Javascript powered terminal portfolio. Navigate the portfolio using commands.</p>
                 <a href="https://codepen.io/triss90/pen/ZZmbVx" target="_blank" rel="noopener" class="button block">CodePen</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Compressionbear</h3>
+                <h3 class="work-item-title">Compressionbear<br><small>2019</small></h3>
                 <p class="work-item-description">Make your images ready for the internet by compressing them by up to 90%, all without loosing quality.</p>
                 <a href="https://compressionbear.com" target="_blank" rel="noopener" class="button block">compressionbear.com</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Flat Icons</h3>
+                <h3 class="work-item-title">Flat Icons<br><small>2015</small></h3>
                 <p class="work-item-description">Make your design process a breeze with these 68 carefully crafted icons.</p>
                 <a href="https://www.iconfinder.com/iconsets/flaticons-1" target="_blank" rel="noopener" class="button block">IconFinder</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">CSS Hover Effects</h3>
+                <h3 class="work-item-title">CSS Hover Effects<br><small>2015-2019</small></h3>
                 <p class="work-item-description">A compilation of css hover effects ranging from rotate effects to bounce effects and many more.</p>
                 <a href="https://github.com/triss90/hover-effects" target="_blank" rel="noopener" class="button block">GitHub</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Mrkdwn</h3>
+                <h3 class="work-item-title">Mrkdwn<br><small>2019</small></h3>
                 <p class="work-item-description">Mrkdwn is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p>
                 <a href="https://mrkdwn.net" target="_blank" rel="noopener" class="button block">mrkdwn.net</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Sticky Navigation</h3>
+                <h3 class="work-item-title">Sticky Navigation<br><small>2018</small></h3>
                 <p class="work-item-description">A navigation example that sticks when the user has scrolled to a certain point.</p>
                 <a href="https://codepen.io/triss90/pen/adb63fdc530050cd75f6b26b0f4cb573" target="_blank" rel="noopener" class="button block">CodePen</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Masonry</h3>
+                <h3 class="work-item-title">Masonry<br><small>2015-2019</small></h3>
                 <p class="work-item-description">A lightweight, responsive Masonry grid framework.</p>
                 <a href="https://github.com/triss90/masonry" target="_blank" rel="noopener" class="button block">GitHub</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">sceletus.css</h3>
+                <h3 class="work-item-title">sceletus.css<br><small>2015-2019</small></h3>
                 <p class="work-item-description">A simple, lightweight, responsive css-framework inspired by bootstrap, pure, skeleton and foundation.</p>
                 <a href="https://github.com/triss90/sceletus.css" target="_blank" rel="noopener" class="button block">GitHub</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Food Icons</h3>
+                <h3 class="work-item-title">Food Icons<br><small>2018</small></h3>
                 <p class="work-item-description">Designing a food app? Make your design process a breeze with these carefully crafted icons. The collection includes 12 uniquely designed food icons.</p>
                 <a href="https://gum.co/iewNgu" target="_blank" rel="noopener" class="button block">Gumroad</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">PC123</h3>
+                <h3 class="work-item-title">PC123<br><small>2019-<?php echo date("Y"); ?></small></h3>
                 <p class="work-item-description">A Teamviewer remote control website, that lets users download and start a Teamviewer session quickly and smoothly.</p>
                 <a href="http://pc123.dk/" target="_blank" rel="noopener" class="button block">pc123.dk</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">CSS line numbers</h3>
+                <h3 class="work-item-title">CSS line numbers<br><small>2019</small></h3>
                 <p class="work-item-description">Pure CSS line numbers, made with "counter-reset" and "counter-increment".</p>
                 <a href="https://codepen.io/triss90/pen/bZaQYJ" target="_blank" rel="noopener" class="button block">CodePen</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Simplistic Dialog</h3>
+                <h3 class="work-item-title">Simplistic Dialog<br><small>2019</small></h3>
                 <p class="work-item-description">A simple, yet powerful jQuery modal.</p>
                 <a href="https://codepen.io/triss90/pen/gMwRXQ" target="_blank" rel="noopener" class="button block">CodePen</a>
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Wireframe UI Kit</h3>
+                <h3 class="work-item-title">Wireframe UI Kit<br><small>2018</small></h3>
                 <p class="work-item-description">Impress your clients with uniquely designed user-flows and wireframing UX elements. You'll receive 30 unique elements!</p>
                 <a href="https://gumroad.com/l/gfVN" target="_blank" rel="noopener" class="button block">Gumroad</a>
             </div>

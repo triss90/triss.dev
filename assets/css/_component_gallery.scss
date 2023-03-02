@@ -195,6 +195,10 @@ section#work {
           background: $color-3;
           border-radius: 50%;
         }
+        small {
+          opacity: 0.5;
+          font-size: 0.75rem;
+        }
       }
       .work-item-image {
         height: 75px;
