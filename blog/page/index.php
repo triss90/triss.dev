@@ -1,7 +1,8 @@
 <?php
+    error_reporting(0);
     $pageNumber = (int)$_GET['p'];
     $postsPerPage = 5; // Edit this to adjust posts per page
-    if (!isset($pageNumber) || $pageNumber == "") {
+    if (!isset($pageNumber) || $pageNumber == 0) {
         $pageNumber = 1;
     }
     $postEnd = ($postsPerPage * $pageNumber) - 1;
