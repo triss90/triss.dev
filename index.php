@@ -380,7 +380,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Food Icons<br><small>2018</small></h3>
+                <h3 class="work-item-title">Food Icons<br><small>2017</small></h3>
                 <p class="work-item-description">Designing a food app? Make your design process a breeze with these carefully crafted icons. The collection includes 12 uniquely designed food icons.</p>
                 <a href="https://gum.co/iewNgu" target="_blank" rel="noopener" class="button block">Gumroad</a>
             </div>
@@ -404,7 +404,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Wireframe UI Kit<br><small>2018</small></h3>
+                <h3 class="work-item-title">Wireframe UI Kit<br><small>2017</small></h3>
                 <p class="work-item-description">Impress your clients with uniquely designed user-flows and wireframing UX elements. You'll receive 30 unique elements!</p>
                 <a href="https://gumroad.com/l/gfVN" target="_blank" rel="noopener" class="button block">Gumroad</a>
             </div>
