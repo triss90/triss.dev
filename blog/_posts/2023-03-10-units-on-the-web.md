@@ -1,7 +1,7 @@
 ---
 title: Units on the Web
 slug: units-on-the-web
-date: 2023-03-12
+date: 2023-03-10
 categories: css
 ---
 
@@ -13,6 +13,7 @@ categories: css
 	display: inline-block;
 	margin-bottom: 5px;
 	padding: 5px;
+	text-align: center;
 }
 .darkmode .box,
 .darkmode .grid .item {
@@ -24,8 +25,8 @@ categories: css
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 100px 200px 100px;
 	grid-template-areas:
-		"head head . side"
-		"main main . side"
+		"head head blank side"
+		"main main blank side"
 		"footer footer footer footer";
 	
 }
@@ -34,12 +35,19 @@ categories: css
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 .grid .item.item-1 {
 	grid-area: head;	
 }
 .grid .item.item-2 {
-	grid-area: main;	
+	grid-area: main;
+}
+.grid .item.item-2-5 {
+	grid-area: blank;
+	border: 0;
+	background-color: #F9F7FF30;
+	background: repeating-linear-gradient( -45deg, #00000010, #00000010 calc( 5px/2), #F9F7FF30 calc( 5px/2), #F9F7FF30 calc( 5px*2) );
 }
 .grid .item.item-3 {
 	grid-area: side;	
@@ -51,7 +59,7 @@ categories: css
 
 # Units on the Web
 
-<p class='timestamp'><time datetime='12-03-2023'>12-03-2023</time></p>
+<p class='timestamp'><time datetime='10-03-2023'>10-03-2023</time></p>
 <hr>
 
 In CSS, units are used to define the size, distance, and other dimensions of elements on a web page. There are several types of units in CSS:
@@ -188,7 +196,7 @@ the `ch` unit (relative to the width of the "0" character in the font), and the 
 
 ### `fr`-unit
 With CSS Grid Layout, we get a new flexible unit: the `fr` unit. 
-This is a fractional unit which means that `1fr` takes up 1 part of the available space. 
+This is a fractional unit which means that `1fr` takes up 1 part of the available space.
 
 In the following example we're working with 4 columns which in turn means that `1fr` = `25%`
 
@@ -208,25 +216,20 @@ In the following example we're working with 4 columns which in turn means that `
 ```
 
 <div class="grid">
-	<div class="item item-1">Head</div>
-	<div class="item item-2">Main</div>
-	<div class="item item-3">Side</div>
-	<div class="item item-4">Footer</div>
+	<div class="item item-1">head<br>&larr;2fr&rarr;</div>
+	<div class="item item-2">main<br>&larr;2fr&rarr;</div>
+	<div class="item item-2-5">&larr;1fr&rarr;</div>
+	<div class="item item-3">side<br>&larr;1fr&rarr;</div>
+	<div class="item item-4">footer<br>&larr;4fr&rarr;</div>
 </div>
 
 ## Conclusion
 While you can accomplish a lot with knowledge of just a few of the units available to you, it is very beneficial to have a grasp of them all.
 
-It lets you do some cool shenanigans like [fluid typography](https://triss.dev/blog/2020/05/20/fluid-typography/):
+Without insight into the different unit types, you couldn't do fun stuff like [fluid typography](https://triss.dev/blog/2020/05/20/fluid-typography/):
 
 ```CSS
 html {
 	font-size: calc(16px + 6 * ((100vw - 320px) / 680));
 }
 ```
-and much more!
-
-
-<script>
-
-</script>
