@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Fri, 03 Mar 2023 08:37:01 +0000</lastBuildDate>
-<pubDate>Fri, 03 Mar 2023 08:37:01 +0000</pubDate>
+<lastBuildDate>Mon, 27 Mar 2023 13:49:02 +0000</lastBuildDate>
+<pubDate>Mon, 27 Mar 2023 13:49:02 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget - CSS Coupon</title>
+<link>https://triss.dev/blog/2023/03/27/weekly-widget-css-coupon/</link>
+<pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Weekly Widget - CSS Coupon</h1>
+<p class='timestamp'><time datetime='27-03-2023'>27-03-2023</time></p>
+<hr>
+<p>I was looking some old work and stumbled upon a few widgets I found interesting. 
+So I'm officially introducing a new segment: **Weekly Widget...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Units on the Web</title>
 <link>https://triss.dev/blog/2023/03/10/units-on-the-web/</link>
@@ -310,17 +321,6 @@ takes a look at the <code>&lt;meter&gt;</code> tag.</p>
 <p>The "Checkbox Hack" is the method of using a connected checkbox and label
 to control one or more elements.</p>
 <p>The markup might look something along these ...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>The Perfect Alt-text</title>
-<link>https://triss.dev/blog/2019/08/14/the-perfect-alt-text/</link>
-<pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>The Perfect Alt-text</h1>
-<p class='timestamp'><time datetime='14-08-2019'>14-08-2019</time></p>
-<hr>
-<p>Writing proper and thorough alternative text (alt-text) for images on the web, 
-is not just important. It is vital for those who depend on screen rea...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
