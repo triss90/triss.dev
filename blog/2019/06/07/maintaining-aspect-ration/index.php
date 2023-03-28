@@ -11,7 +11,7 @@
 <p>So, maintaining aspect ratio on a responsive element is surprisingly easy!
 You know how adding <code>padding-top: 50%</code> does not actually add 50% of the original height of the element as padding?
 Rather it adds 50% of the width of the parent element! </p>
-<p>With this in mind we can quickly force e`lements to maintain their aspect ratio when being resized:</p>
+<p>With this in mind we can quickly force elements to maintain their aspect ratio when being resized:</p>
 <pre><code class="language-css">.element {
   width: 100%;
   padding-bottom: 100%;
