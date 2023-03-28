@@ -2,7 +2,7 @@
 title: Aspect Ratio Revisited
 slug: aspect-ratio-revisited
 date: 2023-03-28
-categories: js
+categories: CSS
 ---
 
 <style>
