@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Tue, 28 Mar 2023 09:00:18 +0000</lastBuildDate>
-<pubDate>Tue, 28 Mar 2023 09:00:18 +0000</pubDate>
+<lastBuildDate>Mon, 03 Apr 2023 06:12:52 +0000</lastBuildDate>
+<pubDate>Mon, 03 Apr 2023 06:12:52 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget - CSS Skewed Graphic</title>
+<link>https://triss.dev/blog/2023/04/03/weekly-widget-css-skewed-graphic/</link>
+<pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Weekly Widget - CSS Skewed Graphic</h1>
+<p class='timestamp'><time datetime='03-04-2023'>03-04-2023</time></p>
+<hr>
+<p>This week's widget is a simple skewed graphic, made with pure CSS, enjoy:</p>
+<p>&lt;p class="codepen" data-height="807.54296875" data-default-...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Aspect Ratio Revisited</title>
 <link>https://triss.dev/blog/2023/03/28/aspect-ratio-revisited/</link>
@@ -312,17 +323,6 @@ takes a look at the <code>&lt;meter&gt;</code> tag.</p>
 <li>HTTP/2</li>
 </ul>
 <p>To do so, run the following commands in your termina...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>CSS Darkmode</title>
-<link>https://triss.dev/blog/2019/08/24/css-darkmode/</link>
-<pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>CSS Darkmode</h1>
-<p class='timestamp'><time datetime='24-08-2019'>24-08-2019</time></p>
-<hr>
-<p>I was messing around with native darkmode on the web the other day, and ended up implementing
-<code>prefers-color-scheme</code> on <a href="https://mrkdwn.net">mrkdwn.n...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
