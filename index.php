@@ -152,7 +152,7 @@
             </div>
 
             <div class="work-item">
-                <h3 class="work-item-title">Gridder<br><small>2017-2018</small></h3>
+                <h3 class="work-item-title">Gridder<br><small>2017-2023</small></h3>
                 <svg alt="" class="work-item-image gridder" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 200 201">
                     <g fill="none">
                         <polyline stroke="#666" stroke-width="15" points="175 25 25 25 25 176 175 176 175 100 100 100"/>
