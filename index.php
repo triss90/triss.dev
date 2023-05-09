@@ -88,8 +88,29 @@
         <div class="work-items" id="scroll-highlighted" role="region" aria-label="gallery" tabindex="0">
             
             <div class="work-item">
+                <h3 class="work-item-title">Sarcastic White<br><small>2023-<?php echo date("Y"); ?></small></h3>
+                <svg class="work-item-image sarcasticwhite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+                    <defs>
+                        <clipPath id="clip-Artboard_6">
+                        <rect width="512" height="512"/>
+                        </clipPath>
+                    </defs>
+                    <g id="Artboard_6" data-name="Artboard – 6" clip-path="url(#clip-Artboard_6)">
+                        <g id="Group_1" data-name="Group 1" transform="translate(-43.91 -70.292)">
+                        <path id="Path_1" data-name="Path 1" d="M869.954,231.7H754.485L595.9,495.108H712.19Z" transform="translate(-483.795 -37.368)" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_2" data-name="Path 2" d="M710.756,231.7H595.806L754.428,495.622H870.19Z" transform="translate(-483.821 -37.368)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_3" data-name="Path 3" d="M610.517,231.7H551.21L658.272,411.012,687.3,361.047l79.728,134.4h0Z" transform="translate(-496.469 -37.368)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_6" data-name="Path 6" d="M827.221,477.974h60.548L778.621,296.562,748.938,344.23Z" transform="translate(-442.67 -19.72)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_4" data-name="Path 4" d="M870.378,231.7H754.73L595.9,495.108H712.37Z" transform="translate(-325.299 -36.854)" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+                        </g>
+                    </g>
+                </svg>
+                <p class="work-item-description">A cool and crisp color theme created around uncluttered design patterns to achieve optimal focus & readability.</p>
+                <a href="https://sarcasticwhite.style" target="_blank" rel="noopener" class="button block">sarcasticwhite.style</a>
+            </div>
+
+            <div class="work-item">
                 <h3 class="work-item-title">Leaked Password<br><small>2019-<?php echo date("Y"); ?></small></h3>
-                
                 <svg alt="" class="work-item-image leakedpassword" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 512 512">
                     <text fill="#444" fill-rule="evenodd" font-family="Montserrat-Medium, Montserrat Medium" font-size="1000">
                         <tspan x="55" y="750">*</tspan>
@@ -171,6 +192,34 @@
                 <a href="https://gridder.io" target="_blank" rel="noopener" class="button block">gridder.io</a>
             </div>
 
+        </div>
+
+        <div class="instructions">
+            <p id="hover"><span aria-hidden="true">&#x2190;</span> Scroll for more <span aria-hidden="true">&#x2192;</span></p>
+            <p id="focus"><span aria-hidden="true">&#x2190;</span> Use your arrow keys for more <span aria-hidden="true">&#x2192;</span></p>
+        </div>
+
+        <div class="work-header">
+            <h2 class="work-title">Other Projects</h2>
+            <p class="work-description">Other projects including, but not limited to, open source libraries on <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>,<br> and experimental work on <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>.</p>
+        </div>
+
+        <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
+            
+            <div class="work-item">
+                <h3 class="work-item-title">Open List<br><small>2020</small></h3>
+                <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="logo" fill="#444">
+                            <rect id="Rectangle" x="0" y="0" width="70" height="370" rx="35"></rect>
+                            <circle id="Oval" cx="170" cy="329" r="40"></circle>
+                        </g>
+                    </g>
+                </svg>
+                <p class="work-item-description">The easy way to share lists width friends, family and co-workers</p>
+                <a href="https://openl.ist" target="_blank" rel="noopener" class="button block">openl.ist</a>
+            </div>
+
             <div class="work-item">
                 <h3 class="work-item-title">MUDS Editor<br><small>2019</small></h3>
                 <svg alt="" class="work-item-image muds" xmlns="http://www.w3.org/2000/svg" width="150" height="75" viewBox="0 0 438 136">
@@ -223,33 +272,6 @@
                 </svg>
                 <p class="work-item-description">The future of cloud services in cooporation with Microsoft, Google, Amazon and Dropbox, with more than 50 datacenters worldwide.</p>
                 <a href="https://cloudportal.dk" target="_blank" rel="noopener" class="button block">cloudportal.dk</a>
-            </div>
-        </div>
-
-        <div class="instructions">
-            <p id="hover"><span aria-hidden="true">&#x2190;</span> Scroll for more <span aria-hidden="true">&#x2192;</span></p>
-            <p id="focus"><span aria-hidden="true">&#x2190;</span> Use your arrow keys for more <span aria-hidden="true">&#x2192;</span></p>
-        </div>
-
-        <div class="work-header">
-            <h2 class="work-title">Other Projects</h2>
-            <p class="work-description">Other projects including, but not limited to, open source libraries on <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>,<br> and experimental work on <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>.</p>
-        </div>
-
-        <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
-            
-            <div class="work-item">
-                <h3 class="work-item-title">Open List<br><small>2020</small></h3>
-                <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="logo" fill="#444">
-                            <rect id="Rectangle" x="0" y="0" width="70" height="370" rx="35"></rect>
-                            <circle id="Oval" cx="170" cy="329" r="40"></circle>
-                        </g>
-                    </g>
-                </svg>
-                <p class="work-item-description">The easy way to share lists width friends, family and co-workers</p>
-                <a href="https://openl.ist" target="_blank" rel="noopener" class="button block">openl.ist</a>
             </div>
             
             <div class="work-item">
