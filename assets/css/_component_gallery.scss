@@ -26,27 +26,28 @@ section#work {
     scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
     touch-action: auto;
-    padding: 0 0 calc(.75 * 1.5rem) 0;
-    margin: 75px 0 calc(-.25 * 1.5rem) 0;
+    padding: 0 0 calc(0.75 * 1.5rem) 0;
+    margin: 75px 0 calc(-0.25 * 1.5rem) 0;
     overflow-x: scroll;
     position: relative;
     border-bottom: 2px dashed transparent;
     border-top: 2px dashed transparent;
-    @media(max-width: 1807px) {
+    @media (max-width: 1907px) {
       grid-auto-columns: calc(33% - 1.5rem * 2);
     }
-    @media(max-width: 1354px) {
+    @media (max-width: 1354px) {
       grid-auto-columns: calc(40% - 1.5rem * 2);
     }
-    @media(max-width: 968px) {
+    @media (max-width: 968px) {
       grid-auto-columns: calc(50% - 1.5rem * 2);
     }
-    @media(max-width: 672px) {
+    @media (max-width: 672px) {
       grid-auto-columns: calc(85% - 1.5rem);
       margin: 1.5rem 0;
     }
-    &:before, &:after {
-      content: '';
+    &:before,
+    &:after {
+      content: "";
       width: 10px;
     }
     .work-item {
@@ -74,29 +75,29 @@ section#work {
           }
           &.cloudservers {
             #Path {
-              fill: #C9D3F1;
+              fill: #c9d3f1;
             }
             #Path-2 {
-              fill: #89A4F3;
+              fill: #89a4f3;
             }
             #Path-3 {
-              fill: #4D74E6;
+              fill: #4d74e6;
             }
           }
           &.cloudportal {
             #Path {
-              fill: #60D8C1;
+              fill: #60d8c1;
             }
             #Path-2 {
-              fill: #39A786;
+              fill: #39a786;
             }
             #Path-3 {
-              fill: #34855B;
+              fill: #34855b;
             }
           }
           &.leakedpassword {
             text {
-              fill: #FFCB36;
+              fill: #ffcb36;
             }
           }
           &.yirra {
@@ -108,45 +109,46 @@ section#work {
                 stroke: url(#linearGradient-2);
               }
               #Oval1 {
-                stroke: #6FBA82;
+                stroke: #6fba82;
               }
               #Oval2 {
-                stroke: #A166AB;
+                stroke: #a166ab;
               }
             }
           }
           &.webbox {
             g#logo {
-              fill: #5C7CFA;
+              fill: #5c7cfa;
             }
           }
           &.openlist {
             g#logo {
-              fill: #F1404B;
+              fill: #f1404b;
             }
           }
           &.colordrop {
             path:first-child {
-              fill: #116ECF;
+              fill: #116ecf;
             }
             path:nth-child(2) {
-              fill: #F6B809;
+              fill: #f6b809;
             }
             path:last-child {
-              fill: #F72024;
+              fill: #f72024;
             }
           }
           &.gridder {
             circle {
-              fill: #8500F7;
+              fill: #8500f7;
             }
             polyline {
-              stroke: #3F10FF;
+              stroke: #3f10ff;
             }
           }
           &.muds {
-            path, rect {
-              fill: #4FC383;
+            path,
+            rect {
+              fill: #4fc383;
             }
           }
           &.plaask {
@@ -168,10 +170,10 @@ section#work {
           }
           &.html_digital {
             path:first-child {
-              stroke: #1687A7;
+              stroke: #1687a7;
             }
             path:nth-child(2) {
-              stroke: #DD0A35;
+              stroke: #dd0a35;
             }
           }
         }
@@ -205,9 +207,12 @@ section#work {
         width: 75px;
         margin: 0 auto;
         &.muds {
-          width: 150px
+          width: 150px;
         }
-        path, rect, circle, polyline {
+        path,
+        rect,
+        circle,
+        polyline {
           transition: all ease-in-out 100ms;
         }
       }
@@ -216,7 +221,9 @@ section#work {
       }
     }
   }
-  #focus, #hover, #hover-and-focus {
+  #focus,
+  #hover,
+  #hover-and-focus {
     display: none;
   }
   [aria-label="gallery"]:focus + .instructions #focus,
@@ -243,7 +250,7 @@ section#work {
     text-align: center;
     margin-top: 1rem;
     height: 3rem;
-    @media(max-width: $breakpoint-1) {
+    @media (max-width: $breakpoint-1) {
       display: none;
     }
     p {

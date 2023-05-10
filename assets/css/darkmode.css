@@ -1,1 +1,146 @@
-body{background:#222;color:#f2f2f2 !important}section#work{background:#222;color:#f2f2f2}section#work .work-items .work-item{background:#19191a;box-shadow:5px 5px #000;border:2px solid #19191a}section#work .work-items .work-item .button{background:#272727;box-shadow:5px 5px #000;border:2px solid #19191a;color:#f2f2f2}section#about{background:#19191a}footer{background:#222;color:#f2f2f2}footer .site-meta ul li a svg{fill:#f2f2f2}.about{background:#222;color:#f2f2f2}.about footer{background:#222}.contact{color:#f2f2f2}.contact input[type=text],.contact input[type=email],.contact textarea{background:#19191a !important;color:#f2f2f2;border-color:#19191a}.contact input[type=submit],.contact input[type=reset]{background:#19191a;border:2px solid #19191a;color:#f2f2f2}.contact input[type=reset]{background:transparent}.contact input[type=submit]:hover,.contact input[type=reset]:hover{background:#111;border-color:#111}.contact input[type=reset]:hover{background:transparent}nav[aria-label=posts]{color:#f2f2f2}nav[aria-label=posts] ul li hr{border-top:2px dashed #666}nav[aria-label=posts] ul li hr:after{background:#666}#pagination ul li a{background:transparent;color:#f2f2f2}#pagination ul li a.current{background:#f2f2f2;color:#222}#main.post{color:#f2f2f2}code,pre{background:#19191a}.dialog{background:#222}.dialog .close-dialog svg{fill:#f2f2f2}hr.stop{border-top:2px dashed #777}.darkmode span.inverted nav[aria-label=site] ul li a{color:#f2f2f2}@media(max-width: 600px){.darkmode span.inverted nav[aria-label=site] button:after{color:#f2f2f2}}.darkmode span.inverted nav[aria-label=site] button span svg path{stroke:#f2f2f2}.darkmode span.inverted nav[aria-label=site] button span svg circle{stroke:#f2f2f2}.post svg{background:#f4f4f4;stroke:#19191a}table thead tr th{border:2px solid #f4f4f4}table tbody tr td{border:2px solid #f4f4f4}
+body {
+  background: #222;
+  color: #f2f2f2 !important;
+}
+
+section#work {
+  background: #222;
+  color: #f2f2f2;
+}
+
+section#work .work-items .work-item {
+  background: #19191a;
+  box-shadow: 5px 5px #000;
+  border: 2px solid #19191a;
+}
+
+section#work .work-items .work-item .button {
+  background: #272727;
+  box-shadow: 5px 5px #000;
+  border: 2px solid #19191a;
+  color: #f2f2f2;
+}
+
+section#about {
+  background: #19191a;
+}
+
+footer {
+  background: #222;
+  color: #f2f2f2;
+}
+
+footer .site-meta ul li a svg {
+  fill: #f2f2f2;
+}
+
+.about {
+  background: #222;
+  color: #f2f2f2;
+}
+
+.about footer {
+  background: #222;
+}
+
+.contact {
+  color: #f2f2f2;
+}
+
+.contact input[type=text],
+.contact input[type=email],
+.contact textarea {
+  background: #19191a !important;
+  color: #f2f2f2;
+  border-color: #19191a;
+}
+
+.contact input[type=submit],
+.contact input[type=reset] {
+  background: #19191a;
+  border: 2px solid #19191a;
+  color: #f2f2f2;
+}
+
+.contact input[type=reset] {
+  background: transparent;
+}
+
+.contact input[type=submit]:hover,
+.contact input[type=reset]:hover {
+  background: #111;
+  border-color: #111;
+}
+
+.contact input[type=reset]:hover {
+  background: transparent;
+}
+
+nav[aria-label=posts] {
+  color: #f2f2f2;
+}
+
+nav[aria-label=posts] ul li hr {
+  border-top: 2px dashed #666;
+}
+
+nav[aria-label=posts] ul li hr:after {
+  background: #666;
+}
+
+#pagination ul li a {
+  background: transparent;
+  color: #f2f2f2;
+}
+
+#pagination ul li a.current {
+  background: #f2f2f2;
+  color: #222;
+}
+
+#main.post {
+  color: #f2f2f2;
+}
+
+code, pre {
+  background: #19191a;
+}
+
+.dialog {
+  background: #222;
+}
+
+.dialog .close-dialog svg {
+  fill: #f2f2f2;
+}
+
+hr.stop {
+  border-top: 2px dashed #777;
+}
+
+.darkmode span.inverted nav[aria-label=site] ul li a {
+  color: #f2f2f2;
+}
+@media (max-width: 600px) {
+  .darkmode span.inverted nav[aria-label=site] button:after {
+    color: #f2f2f2;
+  }
+}
+.darkmode span.inverted nav[aria-label=site] button span svg path {
+  stroke: #f2f2f2;
+}
+.darkmode span.inverted nav[aria-label=site] button span svg circle {
+  stroke: #f2f2f2;
+}
+
+.post svg {
+  background: #f4f4f4;
+  stroke: #19191a;
+}
+
+table thead tr th {
+  border: 2px solid #f4f4f4;
+}
+table tbody tr td {
+  border: 2px solid #f4f4f4;
+}/*# sourceMappingURL=darkmode.css.map */
