@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Mon, 03 Apr 2023 06:12:52 +0000</lastBuildDate>
-<pubDate>Mon, 03 Apr 2023 06:12:52 +0000</pubDate>
+<lastBuildDate>Wed, 10 May 2023 06:48:29 +0000</lastBuildDate>
+<pubDate>Wed, 10 May 2023 06:48:29 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget - &quot;Toss&quot; Add to Cart Animation</title>
+<link>https://triss.dev/blog/2023/05/10/weekly-widget-toss-cart-animation/</link>
+<pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>"Toss" Add to Cart Animation</h1>
+<p class='timestamp'><time datetime='10-05-2023'>10-05-2023</time></p>
+<hr>
+<p>This week's widget is a fancy add to cart animation, made with CSS and a bit of JS to make it interactable, enjoy:</p>
+<p>&lt;p class="codepen" data-...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Weekly Widget - CSS Skewed Graphic</title>
 <link>https://triss.dev/blog/2023/04/03/weekly-widget-css-skewed-graphic/</link>
@@ -308,21 +319,6 @@ takes a look at the <code>&lt;meter&gt;</code> tag.</p>
 <p>This is a first article in the month long installment "what's that weird html tag?".</p>
 <p>Today we're taking a log at the <code>&lt;wbr&gt;</code> tag.</p>
 <p>The <code>&lt;wbr&gt;</code> html ...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>HTTP2 on Apache - Linux</title>
-<link>https://triss.dev/blog/2019/08/27/http2-on-apache-linux/</link>
-<pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>HTTP2 on Apache - Linux</h1>
-<p class='timestamp'><time datetime='27-08-2019'>27-08-2019</time></p>
-<hr>
-<p>To enable http2 support on Apache you need to load the following two modules:</p>
-<ul>
-<li>SSL</li>
-<li>HTTP/2</li>
-</ul>
-<p>To do so, run the following commands in your termina...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
