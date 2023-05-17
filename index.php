@@ -207,6 +207,12 @@
         <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
             
             <div class="work-item">
+                <h3 class="work-item-title">sortable.js<br><small>2023</small></h3>
+                <p class="work-item-description">sortable.js is a powerful, lightweight JS framework used for adding simple sorting controls to HTML tables.</p>
+                <a href="https://github.com/triss90/sortable.js" target="_blank" rel="noopener" class="button block">GitHub</a>
+            </div>
+
+            <div class="work-item">
                 <h3 class="work-item-title">Open List<br><small>2020</small></h3>
                 <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -216,7 +222,7 @@
                         </g>
                     </g>
                 </svg>
-                <p class="work-item-description">The easy way to share lists width friends, family and co-workers</p>
+                <p class="work-item-description">The easy way to share lists width friends, family and co-workers.</p>
                 <a href="https://openl.ist" target="_blank" rel="noopener" class="button block">openl.ist</a>
             </div>
 
