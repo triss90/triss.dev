@@ -10,9 +10,9 @@
 <hr>
 <p>I was messing around with native darkmode on the web the other day, and ended up implementing
 <code>prefers-color-scheme</code> on <a href="https://mrkdwn.net">mrkdwn.net</a> as proof of concept.</p>
-<p><code>prefers-color-scheme</code> has three available keyword values: </p>
+<p><code>prefers-color-scheme</code> has three available keyword values:</p>
 <ul>
-<li><code>no-preference</code> which indicates that the user has no preference, as to where the site should appear dark og light. </li>
+<li><code>no-preference</code> which indicates that the user has no preference, as to where the site should appear dark og light.</li>
 <li><code>light</code> which indicates that the user prefers <strong>light</strong> mode</li>
 <li><code>dark</code>, which indicates that the user prefers <strong>dark</strong> mode.</li>
 </ul>
@@ -26,8 +26,7 @@
 }
 
 /* whitemode or fallback if user has no preference */
-@media (prefers-color-scheme: light), 
-       (prefers-color-scheme: no-preference) {
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
     :root {
         --background-color: #fff;
         --primary-color: #157efb;
@@ -44,8 +43,66 @@
         --font-color: #dedede;
         --border-color: #000;
     }
+}</code></pre>
+<h3>Update 17/5/2023</h3>
+<p>Using <code>color-mix</code> adds a whole new dimention to the usability</p>
+<pre><code class="language-CSS">/* Base color scheme (fallback) */
+:root {
+  --color-1: #e62739; /* The primary color (var(--primary), var(--primary-a90), var(--primary-80), var(--primary-a50)) */
+  --color-2: #21A8A3; /* The secondary color (var(--secondary), var(--secondary-a90), var(--secondary-80), var(--secondary-a50)) */
+  --color-3: #19191a; /* Initial foreground color (var(--foreground), var(--foreground-a90), var(--foreground-80), var(--foreground-a50)) */
+  --color-4: #f1f1f1; /* Initial background color (var(--background), var(--background-a90), var(--background-80), var(--background-a50)) */
+
+  --primary: var(--color-1);
+  --primary-a90: color-mix(in srgb, var(--primary), transparent 10%);
+  --primary-a80: color-mix(in srgb, var(--primary), transparent 20%);
+  --primary-a50: color-mix(in srgb, var(--primary), transparent 50%);
+
+  --secondary: var(--color-2);
+  --secondary-a90: color-mix(in srgb, var(--secondary), transparent 10%);
+  --secondary-a80: color-mix(in srgb, var(--secondary), transparent 20%);
+  --secondary-a50: color-mix(in srgb, var(--secondary), transparent 50%);
+
+  --foreground: var(--color-3);
+  --foreground-a90: color-mix(in srgb, var(--foreground), transparent 10%);
+  --foreground-a80: color-mix(in srgb, var(--foreground), transparent 20%);
+  --foreground-a50: color-mix(in srgb, var(--foreground), transparent 50%);
+
+  --background: var(--color-4);
+  --background-a90: color-mix(in srgb, var(--background), transparent 10%);
+  --background-a80: color-mix(in srgb, var(--background), transparent 20%);
+  --background-a50: color-mix(in srgb, var(--background), transparent 50%);
 }
-</code></pre>
+
+/* lightmode or fallback if user has no preference */
+@media (prefers-color-scheme: background),(prefers-color-scheme: no-preference) {
+  :root {
+    --foreground: var(--color-3);
+    --foreground-a90: color-mix(in srgb, var(--foreground), transparent 10%);
+    --foreground-a80: color-mix(in srgb, var(--foreground), transparent 20%);
+    --foreground-a50: color-mix(in srgb, var(--foreground), transparent 50%);
+
+    --background: var(--color-4);
+    --background-a90: color-mix(in srgb, var(--background), transparent 10%);
+    --background-a80: color-mix(in srgb, var(--background), transparent 20%);
+    --background-a50: color-mix(in srgb, var(--background), transparent 50%);
+  }
+}
+
+/* darkmode */
+@media (prefers-color-scheme: foreground) {
+  :root {
+    --foreground: var(--color-4);
+    --foreground-a90: color-mix(in srgb, var(--foreground), transparent 10%);
+    --foreground-a80: color-mix(in srgb, var(--foreground), transparent 20%);
+    --foreground-a50: color-mix(in srgb, var(--foreground), transparent 50%);
+
+    --background: var(--color-3);
+    --background-a90: color-mix(in srgb, var(--background), transparent 10%);
+    --background-a80: color-mix(in srgb, var(--background), transparent 20%);
+    --background-a50: color-mix(in srgb, var(--background), transparent 50%);
+  }
+}</code></pre>
 <h2>Browser Support</h2>
 <p>The <code>prefers-color-scheme</code> media query is only supported by Chrome, Firefox and Safari and Opera.
 This, however, should not stop you from implementing a similar solution on your website, as the site simply defaults to
