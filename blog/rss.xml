@@ -9,9 +9,22 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Wed, 10 May 2023 06:48:29 +0000</lastBuildDate>
-<pubDate>Wed, 10 May 2023 06:48:29 +0000</pubDate>
+<lastBuildDate>Wed, 17 May 2023 12:46:33 +0000</lastBuildDate>
+<pubDate>Wed, 17 May 2023 12:46:33 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Color systems with CSS color-mix</title>
+<link>https://triss.dev/blog/2023/05/17/color-systems-with-css-color-mix/</link>
+<pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<style>
+:root {
+  --primary: #e62739;
+  --primary-a90: color-mix(in srgb, var(--primary), transparent 10%);
+  --primary-a80: color-mix(in srgb, var(--primary), transparent 20%);
+  --primary-a50: color-mix(in srgb, var(--primary), transparent 50%);
+ ...]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Weekly Widget - &quot;Toss&quot; Add to Cart Animation</title>
 <link>https://triss.dev/blog/2023/05/10/weekly-widget-toss-cart-animation/</link>
@@ -307,18 +320,6 @@ progress.one::-webkit-progress-bar {
 <p>This week's article in the installment "what's that weird html tag?", 
 takes a look at the <code>&lt;meter&gt;</code> tag.</p>
 <p>The <code>&lt;meter&gt;</code> element represents a scala...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>HTML Wbr Tag</title>
-<link>https://triss.dev/blog/2019/09/05/html-wbr-tag/</link>
-<pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>HTML &lt;wbr&gt; Tag</h1>
-<p class='timestamp'><time datetime='05-09-2019'>05-09-2019</time></p>
-<hr>
-<p>This is a first article in the month long installment "what's that weird html tag?".</p>
-<p>Today we're taking a log at the <code>&lt;wbr&gt;</code> tag.</p>
-<p>The <code>&lt;wbr&gt;</code> html ...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
