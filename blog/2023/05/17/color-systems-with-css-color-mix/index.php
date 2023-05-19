@@ -144,7 +144,7 @@
 }
 
 /* lightmode or fallback if user has no preference */
-@media (prefers-color-scheme: background),(prefers-color-scheme: no-preference) {
+@media (prefers-color-scheme: light),(prefers-color-scheme: no-preference) {
   :root {
     --foreground: var(--color-3);
     --foreground-a90: color-mix(in srgb, var(--foreground), transparent 10%);
@@ -159,7 +159,7 @@
 }
 
 /* darkmode */
-@media (prefers-color-scheme: foreground) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground: var(--color-4);
     --foreground-a90: color-mix(in srgb, var(--foreground), transparent 10%);
