@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Fri, 19 May 2023 05:20:42 +0000</lastBuildDate>
-<pubDate>Fri, 19 May 2023 05:20:42 +0000</pubDate>
+<lastBuildDate>Mon, 22 May 2023 12:38:51 +0000</lastBuildDate>
+<pubDate>Mon, 22 May 2023 12:38:51 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget - Animated Background</title>
+<link>https://triss.dev/blog/2023/05/22/weekly-widget-animated-background/</link>
+<pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Animated Background</h1>
+<p class='timestamp'><time datetime='22-05-2023'>22-05-2023</time></p>
+<hr>
+<p>This week's widget is a animated background with CSS. Note how the background color gradually shifts from a pure blue to a purple gradiant:</p>
+<p>&lt;p class...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Color systems with CSS color-mix</title>
 <link>https://triss.dev/blog/2023/05/17/color-systems-with-css-color-mix/</link>
@@ -308,18 +319,6 @@ progress {
 }
 progress.one::-webkit-progress-bar {
     ...]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>HTML Meter Tag</title>
-<link>https://triss.dev/blog/2019/09/12/html-meter-tag/</link>
-<pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>HTML &lt;meter&gt; Tag</h1>
-<p class='timestamp'><time datetime='12-09-2019'>12-09-2019</time></p>
-<hr>
-<p>This week's article in the installment "what's that weird html tag?", 
-takes a look at the <code>&lt;meter&gt;</code> tag.</p>
-<p>The <code>&lt;meter&gt;</code> element represents a scala...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
