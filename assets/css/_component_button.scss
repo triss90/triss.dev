@@ -1,64 +1,67 @@
-.button, .settings-button {
-  background: $color-2;
-  color: $color-3;
-  text-decoration: none;
-  border: 2px solid $color-3;
-  padding: 0.7rem 1rem;
-  margin: 0.5rem 0;
-  display: inline-block;
-  text-align: center;
-  box-shadow: 5px 5px $color-3;
-  transform: translate(0);
-  &:hover {
-    transform: translate(-1px, -1px);
-    box-shadow: 6px 6px $color-3;
-    &:active {
-      transform: translate(2px, 2px);
-      box-shadow: 3px 3px $color-3;
-    }
-  }
-  &.block {
-    display: block;
-    padding: 0.7rem 0;
-  }
+.button,
+.settings-button {
+	background: $color-2;
+	color: $color-3;
+	text-decoration: none;
+	border: 2px solid $color-3;
+	padding: 0.7rem 1rem;
+	margin: 0.5rem 0;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 5px 5px $color-3;
+	transform: translate(0);
+	&:hover {
+		transform: translate(-1px, -1px);
+		box-shadow: 6px 6px $color-3;
+		&:active {
+			transform: translate(2px, 2px);
+			box-shadow: 3px 3px $color-3;
+		}
+	}
+	&.block {
+		display: block;
+		padding: 0.7rem 0;
+	}
 }
 
 .check {
-  background: #000;
-  display: block;
-  padding: 0.5rem 1.5rem;
-  color: #fff;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  margin-bottom: 0.5rem;
-  span {
-    float: right;
-  }
-  &:focus-within {
-    outline: 4px solid $color-1;
-    outline-offset: 2px;
-  }
-  [type="checkbox"] {
-    position: absolute;
-    left: -9999px;
-  }
-  [type="checkbox"] + span::before {
-    content: 'off';
-    color: $color-4;
-    font-weight: bold;
-  }
-  [type="checkbox"]:checked + span::before {
-    content: 'on';
-    color: $color-1;
-    font-weight: bold;
-  }
+	background: #000;
+	display: block;
+	padding: 0.5rem 1.5rem;
+	color: #fff;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	margin-bottom: 0.5rem;
+	span {
+		float: right;
+	}
+	&:focus-within {
+		outline: 4px solid $color-1;
+		outline-offset: 2px;
+	}
+	[type="checkbox"] {
+		position: absolute;
+		left: -9999px;
+	}
+	[type="checkbox"] + span::before {
+		content: "off";
+		color: $color-4;
+		font-weight: bold;
+	}
+	[type="checkbox"]:checked + span::before {
+		content: "on";
+		color: $color-1;
+		font-weight: bold;
+	}
 }
 
 .totop {
-  text-transform: uppercase;
-  opacity: 1;
-  font-size: 1rem;
-  background: $color-3;
-  color: $color-2;
-  padding: 0.3rem 0.5rem;
+	text-transform: uppercase;
+	opacity: 1;
+	font-size: 1rem;
+	background: $color-3;
+	color: $color-2;
+	padding: 0.3rem 0.5rem;
+	margin-top: 0.5rem;
+	display: inline-block;
 }

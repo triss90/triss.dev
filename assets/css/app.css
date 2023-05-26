@@ -686,7 +686,8 @@ section#work .instructions p {
   margin: 0;
 }
 
-.button, .settings-button {
+.button,
+.settings-button {
   background: #fefefe;
   color: #222222;
   text-decoration: none;
@@ -698,15 +699,18 @@ section#work .instructions p {
   box-shadow: 5px 5px #222222;
   transform: translate(0);
 }
-.button:hover, .settings-button:hover {
+.button:hover,
+.settings-button:hover {
   transform: translate(-1px, -1px);
   box-shadow: 6px 6px #222222;
 }
-.button:hover:active, .settings-button:hover:active {
+.button:hover:active,
+.settings-button:hover:active {
   transform: translate(2px, 2px);
   box-shadow: 3px 3px #222222;
 }
-.button.block, .settings-button.block {
+.button.block,
+.settings-button.block {
   display: block;
   padding: 0.7rem 0;
 }
@@ -749,6 +753,8 @@ section#work .instructions p {
   background: #222222;
   color: #fefefe;
   padding: 0.3rem 0.5rem;
+  margin-top: 0.5rem;
+  display: inline-block;
 }
 
 .search {
