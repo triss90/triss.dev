@@ -488,7 +488,7 @@
             var post = JSON.parse(response);
             post = post.reverse();
 
-            for (var i = 0; i <= 2; i++) {
+            for (var i = 0; i <= 3; i++) {
                 var postTitle = post[i][0];
                 var postSlug = post[i][1];
                 var postDate = post[i][2];
