@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Mon, 22 May 2023 12:38:51 +0000</lastBuildDate>
-<pubDate>Mon, 22 May 2023 12:38:51 +0000</pubDate>
+<lastBuildDate>Mon, 29 May 2023 06:10:54 +0000</lastBuildDate>
+<pubDate>Mon, 29 May 2023 06:10:54 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget - Datacenter Map</title>
+<link>https://triss.dev/blog/2023/05/29/weekly-widget-datacenter-map/</link>
+<pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Datacenter Map</h1>
+<p class='timestamp'><time datetime='29-05-2023'>29-05-2023</time></p>
+<hr>
+<p>The widget of the week is an animated datacenter map, designed using SVG, with a dotted pattern:</p>
+<p>&lt;p class="codepen" data-height="684.7109375" data-defaul...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Weekly Widget - Animated Background</title>
 <link>https://triss.dev/blog/2023/05/22/weekly-widget-animated-background/</link>
@@ -302,23 +313,6 @@ document.getElementsByTagName("body")[0].id = "targetTrick";
 <hr>
 <p>In this final installment of "what's that weird html tag?", we're taking a look at the <code>&lt;output&gt;</code> tag.</p>
 <p>The <code>&lt;output&gt;</code> tag provides a method of ou...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>HTML Progress Tag</title>
-<link>https://triss.dev/blog/2019/09/19/html-progress-tag/</link>
-<pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>HTML &lt;progress&gt; Tag</h1>
-<p class='timestamp'><time datetime='19-09-2019'>19-09-2019</time></p>
-<hr>
-<style>
-progress {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-progress.one::-webkit-progress-bar {
-    ...]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
