@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Mon, 29 May 2023 06:10:54 +0000</lastBuildDate>
-<pubDate>Mon, 29 May 2023 06:10:54 +0000</pubDate>
+<lastBuildDate>Tue, 30 May 2023 17:02:04 +0000</lastBuildDate>
+<pubDate>Tue, 30 May 2023 17:02:04 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>ColorDrop Release 2023</title>
+<link>https://triss.dev/blog/2023/05/30/colordrop-release-2023/</link>
+<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>ColorDrop Release 2023</h1>
+<p class='timestamp'><time datetime='30-05-2023'>30-05-2023</time></p>
+<hr>
+<p>I am are thrilled to announce the launch of the all-new, redesigned <a href="https://colordop.io">ColorDrop.io</a>!</p>
+<p>Over the past few months, I've been work...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Weekly Widget - Datacenter Map</title>
 <link>https://triss.dev/blog/2023/05/29/weekly-widget-datacenter-map/</link>
@@ -302,17 +313,6 @@ document.getElementsByTagName("body")[0].id = "targetTrick";
 </style>
 <h1>CSS :target Trick</h1>
 <p>&lt;p class='tim...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>HTML Output Tag</title>
-<link>https://triss.dev/blog/2019/09/26/html-output-tag/</link>
-<pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>HTML &lt;output&gt; Tag</h1>
-<p class='timestamp'><time datetime='26-09-2019'>26-09-2019</time></p>
-<hr>
-<p>In this final installment of "what's that weird html tag?", we're taking a look at the <code>&lt;output&gt;</code> tag.</p>
-<p>The <code>&lt;output&gt;</code> tag provides a method of ou...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
