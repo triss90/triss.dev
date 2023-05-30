@@ -3,18 +3,19 @@ $gutter: 20px;
 $breakpoint-1: 600px;
 
 // Colors
-$color-1: #80b3ff;
-$color-2: #fefefe;
-$color-3: #222222;
-$color-4: #FF2E63;
+$color-1: #1099c3;
+$color-2: #f7f7f7;
+$color-3: #19191a;
+$color-4: #e4491c;
 
 // Typography
 //@import url('https://fonts.googleapis.com/css?family=Asap:400,700');
 @font-face {
-  font-family: 'Asap', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Asap Regular'), local('Asap-Regular'), url(/assets/fonts/asap.ttf) format('truetype');
+	font-family: "Asap", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	src: local("Asap Regular"), local("Asap-Regular"),
+		url(/assets/fonts/asap.ttf) format("truetype");
 }
 //@font-face {
 //  font-family: 'Asap';
@@ -22,5 +23,5 @@ $color-4: #FF2E63;
 //  font-weight: 700;
 //  src: local('Asap Bold'), local('Asap-Bold'), url(/assets/fonts/asap_bold.ttf) format('truetype');
 //}
-$font-type-1: 'Asap', sans-serif;
+$font-type-1: "Asap", sans-serif;
 $font-size: 18px;
