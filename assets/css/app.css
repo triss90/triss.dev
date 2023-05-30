@@ -175,7 +175,7 @@ blockquote:before {
 
 hr {
   border: 0;
-  border-top: 2px dashed #19191a;
+  border-top: 2px dashed #31315d;
   position: relative;
   display: block;
   overflow: visible;
@@ -194,13 +194,13 @@ hr:after {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #19191a;
+  background: #31315d;
   display: block;
   transition: 0.3s;
 }
 
 pre {
-  background: #19191a;
+  background: #31315d;
   color: #f7f7f7;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   overflow-x: scroll;
@@ -226,7 +226,7 @@ pre:hover {
 }
 
 code {
-  background: #19191a;
+  background: #31315d;
   color: #f7f7f7;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-size: 0.85rem;
@@ -380,22 +380,22 @@ nav[aria-label=site] button span svg path, nav[aria-label=site] button span svg 
 }
 
 .inverted nav[aria-label=site] ul li a {
-  color: #19191a;
+  color: #31315d;
 }
 @media (max-width: 600px) {
   .inverted nav[aria-label=site] button:after {
-    color: #19191a;
+    color: #31315d;
   }
 }
 .inverted nav[aria-label=site] button span svg path {
-  stroke: #19191a;
+  stroke: #31315d;
 }
 .inverted nav[aria-label=site] button span svg circle {
-  stroke: #19191a;
+  stroke: #31315d;
 }
 
 header {
-  background-color: #19191a;
+  background-color: #31315d;
   background-image: url(/assets/img/bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -446,7 +446,7 @@ header.about img {
 }
 
 .subheader {
-  background-color: #19191a;
+  background-color: #31315d;
   color: #f7f7f7;
   padding: 5rem 0;
 }
@@ -518,8 +518,8 @@ section#work .work-items:before, section#work .work-items:after {
 }
 section#work .work-items .work-item {
   background: #f7f7f7;
-  border: 2px solid #19191a;
-  box-shadow: 5px 5px #19191a;
+  border: 2px solid #31315d;
+  box-shadow: 5px 5px #31315d;
   padding: 24px;
   margin: 0.75rem;
   display: flex;
@@ -618,7 +618,7 @@ section#work .work-items .work-item:hover .work-item-image.html_digital path:nth
 section#work .work-items .work-item .work-item-title {
   display: block;
   font-size: 1rem;
-  border-bottom: 2px solid #19191a;
+  border-bottom: 2px solid #31315d;
   text-align: right;
   text-transform: uppercase;
   padding: 0 0 0.75rem 0;
@@ -632,7 +632,7 @@ section#work .work-items .work-item .work-item-title:before {
   bottom: -6px;
   width: 10px;
   height: 10px;
-  background: #19191a;
+  background: #31315d;
   border-radius: 50%;
 }
 section#work .work-items .work-item .work-item-title small {
@@ -698,25 +698,25 @@ section#work .instructions p {
 .button,
 .settings-button {
   background: #f7f7f7;
-  color: #19191a;
+  color: #31315d;
   text-decoration: none;
-  border: 2px solid #19191a;
+  border: 2px solid #31315d;
   padding: 0.7rem 1rem;
   margin: 0.5rem 0;
   display: inline-block;
   text-align: center;
-  box-shadow: 5px 5px #19191a;
+  box-shadow: 5px 5px #31315d;
   transform: translate(0);
 }
 .button:hover,
 .settings-button:hover {
   transform: translate(-1px, -1px);
-  box-shadow: 6px 6px #19191a;
+  box-shadow: 6px 6px #31315d;
 }
 .button:hover:active,
 .settings-button:hover:active {
   transform: translate(2px, 2px);
-  box-shadow: 3px 3px #19191a;
+  box-shadow: 3px 3px #31315d;
 }
 .button.block,
 .settings-button.block {
@@ -759,7 +759,7 @@ section#work .instructions p {
   text-transform: uppercase;
   opacity: 1;
   font-size: 1rem;
-  background: #19191a;
+  background: #31315d;
   color: #f7f7f7;
   padding: 0.3rem 0.5rem;
   margin-top: 0.5rem;
@@ -779,7 +779,7 @@ section#work .instructions p {
   background: #f7f7f7;
   font-size: inherit;
   padding: 0.5rem;
-  color: #19191a;
+  color: #31315d;
   border-radius: 0;
 }
 .search .search-button {
@@ -803,7 +803,7 @@ section#work .instructions p {
   height: calc(2em + 0.7vw);
 }
 .search .search-button svg g {
-  fill: #19191a;
+  fill: #31315d;
 }
 
 .blog a.rss-link {
@@ -1009,8 +1009,8 @@ nav[aria-label=posts] ul li .categories {
 }
 .contact div[role=status] {
   background: none;
-  border: 2px dashed #19191a;
-  color: #19191a;
+  border: 2px dashed #31315d;
+  color: #31315d;
   padding: 0.5rem 2rem;
   text-align: left;
   margin-bottom: 1.5rem;
@@ -1029,45 +1029,45 @@ nav[aria-label=posts] ul li .categories {
   display: block;
   width: 100%;
   background: none;
-  border: 2px solid #19191a;
+  border: 2px solid #31315d;
   background: #f7f7f7;
   font-size: inherit;
   padding: 0.5rem;
-  color: #19191a;
+  color: #31315d;
   border-radius: 0;
   margin-bottom: 1.5rem;
   font-family: "Asap", sans-serif;
 }
 .contact input[type=submit], .contact input[type=reset] {
   display: inline-block;
-  background: #19191a;
-  border: 2px solid #19191a;
+  background: #31315d;
+  border: 2px solid #31315d;
   color: #f7f7f7;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
 .contact input[type=submit]:hover, .contact input[type=reset]:hover {
-  background: rgba(25, 25, 26, 0.85);
-  border-color: rgba(25, 25, 26, 0);
+  background: rgba(49, 49, 93, 0.85);
+  border-color: rgba(49, 49, 93, 0);
 }
 .contact input[type=submit].disabled, .contact input[type=reset].disabled {
-  background: rgba(25, 25, 26, 0.55);
-  border-color: rgba(25, 25, 26, 0);
+  background: rgba(49, 49, 93, 0.55);
+  border-color: rgba(49, 49, 93, 0);
   cursor: not-allowed;
 }
 .contact input[type=submit].disabled:hover, .contact input[type=reset].disabled:hover {
-  background: rgba(25, 25, 26, 0.55);
-  border-color: rgba(25, 25, 26, 0);
+  background: rgba(49, 49, 93, 0.55);
+  border-color: rgba(49, 49, 93, 0);
   cursor: not-allowed;
 }
 .contact input[type=reset] {
   background: #f7f7f7;
-  color: #19191a;
+  color: #31315d;
 }
 .contact input[type=reset]:hover {
-  background: rgba(25, 25, 26, 0.05);
-  border-color: #19191a;
+  background: rgba(49, 49, 93, 0.05);
+  border-color: #31315d;
 }
 
 #pagination {
@@ -1092,7 +1092,7 @@ nav[aria-label=posts] ul li .categories {
   }
 }
 #pagination ul li a.current {
-  background: #19191a;
+  background: #31315d;
   color: #f7f7f7;
 }
 
@@ -1110,16 +1110,16 @@ footer .site-meta ul li a svg {
 
 table {
   border-collapse: collapse;
-  border: 2px solid #19191a;
+  border: 2px solid #31315d;
 }
 table thead {
   text-align: left;
 }
 table thead tr th {
-  border: 2px solid #19191a;
+  border: 2px solid #31315d;
   padding: 0.2rem 0.5rem;
 }
 table tbody tr td {
-  border: 2px solid #19191a;
+  border: 2px solid #31315d;
   padding: 0.2rem 0.5rem;
 }/*# sourceMappingURL=app.css.map */
