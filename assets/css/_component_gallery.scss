@@ -59,125 +59,125 @@ section#work {
 			display: flex;
 			justify-content: space-between;
 			flex-direction: column;
-			&:hover,
-			&:focus-within {
-				.work-item-image {
-					&.cloudnet {
-						#Path {
-							fill: #be8ceb;
-						}
-						#Path-2 {
-							fill: #a65df0;
-						}
-						#Path-3 {
-							fill: #8a29ef;
-						}
+			// &:hover,
+			// &:focus-within {
+			.work-item-image {
+				&.cloudnet {
+					#Path {
+						fill: #be8ceb;
 					}
-					&.cloudservers {
-						#Path {
-							fill: #c9d3f1;
-						}
-						#Path-2 {
-							fill: #89a4f3;
-						}
-						#Path-3 {
-							fill: #4d74e6;
-						}
+					#Path-2 {
+						fill: #a65df0;
 					}
-					&.cloudportal {
-						#Path {
-							fill: #60d8c1;
-						}
-						#Path-2 {
-							fill: #39a786;
-						}
-						#Path-3 {
-							fill: #34855b;
-						}
+					#Path-3 {
+						fill: #8a29ef;
 					}
-					&.leakedpassword {
-						text {
-							fill: #ffcb36;
-						}
+				}
+				&.cloudservers {
+					#Path {
+						fill: #c9d3f1;
 					}
-					&.yirra {
-						#yirra {
-							#Path1 {
-								stroke: url(#linearGradient-1);
-							}
-							#Path2 {
-								stroke: url(#linearGradient-2);
-							}
-							#Oval1 {
-								stroke: #6fba82;
-							}
-							#Oval2 {
-								stroke: #a166ab;
-							}
-						}
+					#Path-2 {
+						fill: #89a4f3;
 					}
-					&.webbox {
-						g#logo {
-							fill: #5c7cfa;
-						}
+					#Path-3 {
+						fill: #4d74e6;
 					}
-					&.openlist {
-						g#logo {
-							fill: #f1404b;
-						}
+				}
+				&.cloudportal {
+					#Path {
+						fill: #60d8c1;
 					}
-					&.colordrop {
-						path:first-child {
-							fill: #116ecf;
-						}
-						path:nth-child(2) {
-							fill: #f6b809;
-						}
-						path:last-child {
-							fill: #f72024;
-						}
+					#Path-2 {
+						fill: #39a786;
 					}
-					&.gridder {
-						circle {
-							fill: #8500f7;
-						}
-						polyline {
-							stroke: #3f10ff;
-						}
+					#Path-3 {
+						fill: #34855b;
 					}
-					&.muds {
-						path,
-						rect {
-							fill: #4fc383;
-						}
+				}
+				&.leakedpassword {
+					text {
+						fill: #ffcb36;
 					}
-					&.plaask {
-						.a {
-							fill: #95bd12;
+				}
+				&.yirra {
+					#yirra {
+						#Path1 {
+							stroke: url(#linearGradient-1);
 						}
-						.b {
-							fill: #1a3595;
+						#Path2 {
+							stroke: url(#linearGradient-2);
 						}
-						.c {
-							fill: #6c63ff;
+						#Oval1 {
+							stroke: #6fba82;
 						}
-						.d {
-							fill: #222766;
-						}
-						.e {
-							fill: #deda03;
-						}
-					}
-					&.html_digital {
-						path:first-child {
-							stroke: #1687a7;
-						}
-						path:nth-child(2) {
-							stroke: #dd0a35;
+						#Oval2 {
+							stroke: #a166ab;
 						}
 					}
 				}
+				&.webbox {
+					g#logo {
+						fill: #5c7cfa;
+					}
+				}
+				&.openlist {
+					g#logo {
+						fill: #f1404b;
+					}
+				}
+				&.colordrop {
+					path:first-child {
+						fill: #116ecf;
+					}
+					path:nth-child(2) {
+						fill: #f6b809;
+					}
+					path:last-child {
+						fill: #f72024;
+					}
+				}
+				&.gridder {
+					circle {
+						fill: #8500f7;
+					}
+					polyline {
+						stroke: #3f10ff;
+					}
+				}
+				&.muds {
+					path,
+					rect {
+						fill: #4fc383;
+					}
+				}
+				&.plaask {
+					.a {
+						fill: #95bd12;
+					}
+					.b {
+						fill: #1a3595;
+					}
+					.c {
+						fill: #6c63ff;
+					}
+					.d {
+						fill: #222766;
+					}
+					.e {
+						fill: #deda03;
+					}
+				}
+				&.html_digital {
+					path:first-child {
+						stroke: #1687a7;
+					}
+					path:nth-child(2) {
+						stroke: #dd0a35;
+					}
+				}
 			}
+			// }
 			.work-item-title {
 				display: block;
 				font-size: 1rem;

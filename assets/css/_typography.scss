@@ -1,127 +1,129 @@
 html {
-  font-family: $font-type-1;
-  font-size: calc(1em + 0.5vw);
-  line-height: 1.5;
+	font-family: $font-type-1;
+	font-size: calc(1em + 0.5vw);
+	line-height: 1.5;
+	color: $color-3;
 }
 
 // Focus highlight borderx
-:focus:not([tabindex='-1']) {
-  outline: 4px solid $color-1;
-  outline-offset: 2px;
+:focus:not([tabindex="-1"]) {
+	outline: 4px solid $color-1;
+	outline-offset: 2px;
 }
 
 // Custom highlight color
 ::selection {
-  background: $color-1; /* WebKit/Blink Browsers */
+	background: $color-1; /* WebKit/Blink Browsers */
 }
 
 // Skip to content link
-[href='#main'] {
-  position: absolute;
-  top: -2em;
-  right: 0.7rem;
+[href="#main"] {
+	position: absolute;
+	top: -2em;
+	right: 0.7rem;
 }
 
 a {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  border-bottom: 1px solid;
-  &.source-link {
-    opacity: 0.8;
-    font-size: 80%;
-  }
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	&.source-link {
+		opacity: 0.8;
+		font-size: 80%;
+	}
 }
 
 ul {
-  &.inline {
-    margin: 1rem 0;
-    padding: 0;
-    li {
-      display: inline-block;
-      margin: 0 0.25rem;
-    }
-  }
-  li {
-
-  }
+	&.inline {
+		margin: 1rem 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			margin: 0 0.25rem;
+		}
+	}
+	li {
+	}
 }
 
 blockquote {
-  font-style: italic;
-  position: relative;
-  &:before {
-    position: absolute;
-    content: '"';
-    top: -1.5rem;
-    left: -3rem;
-    z-index: -1;
-    opacity: 0.1;
-    font-size: 10rem;
-    line-height: 1;
-  } 
+	font-style: italic;
+	position: relative;
+	&:before {
+		position: absolute;
+		content: '"';
+		top: -1.5rem;
+		left: -3rem;
+		z-index: -1;
+		opacity: 0.1;
+		font-size: 10rem;
+		line-height: 1;
+	}
 }
 
 hr {
-  border: 0;
-  border-top: 2px dashed $color-3;
-  position: relative;
-  display: block;
-  overflow: visible;
-  &.reversed {
-    border-top: 2px dashed $color-2;
-  }
-  &.stop {
-    &:after {
-      display: none;
-    }
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    top: -6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: $color-3;
-    display: block;
-    transition: 0.3s;
-  }
+	border: 0;
+	border-top: 2px dashed $color-3;
+	position: relative;
+	display: block;
+	overflow: visible;
+	&.reversed {
+		border-top: 2px dashed $color-2;
+	}
+	&.stop {
+		&:after {
+			display: none;
+		}
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		right: 0px;
+		top: -6px;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: $color-3;
+		display: block;
+		transition: 0.3s;
+	}
 }
 
 pre {
-  background: $color-3;
-  color: $color-2;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
-  "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-  "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  overflow-x: scroll;
-  padding: 1rem;
-  font-size: 0.75rem;
-  width: 100%;
-  position: relative;
-  left: 0;
-  transition: width .2s ease-out, left .2s ease-out;
-  code {
-    font-size: 0.75rem;
-  }
-  &:hover {
-    left: -15%;
-    width: 130%;
-    @media(max-width: 768px){
-      width: 100%;
-      left: 0%;
-    }
-  }
+	background: $color-3;
+	color: $color-2;
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+		"Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+		"Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+		monospace;
+	overflow-x: scroll;
+	padding: 1rem;
+	font-size: 0.75rem;
+	width: 100%;
+	position: relative;
+	left: 0;
+	transition: width 0.2s ease-out, left 0.2s ease-out;
+	code {
+		font-size: 0.75rem;
+	}
+	&:hover {
+		left: -15%;
+		width: 130%;
+		@media (max-width: 768px) {
+			width: 100%;
+			left: 0%;
+		}
+	}
 }
 
 code {
-  background: $color-3;
-  color: $color-2;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
-  "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-  "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  font-size: 0.85rem;
-  padding: 0 0.25rem;
+	background: $color-3;
+	color: $color-2;
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+		"Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+		"Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+		monospace;
+	font-size: 0.85rem;
+	padding: 0 0.25rem;
 }

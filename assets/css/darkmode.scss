@@ -1,139 +1,165 @@
+@import "variables";
+
 body {
-  background: #222;
-  color: #f2f2f2 !important;
+	background: $color-3;
+	color: $color-2 !important;
+}
+#main {
+	background: $color-3;
+}
+header {
+	background-color: $color-5;
 }
 section#work {
-  background: #222;
-  color: #f2f2f2;
+	background: $color-3;
+	color: $color-2;
 }
 section#work .work-items .work-item {
-  background: #19191a;
-  box-shadow: 5px 5px #000;
-  border: 2px solid #19191a;
+	background: $color-5;
+	box-shadow: 5px 5px #000;
+	border: 2px solid #19191a;
 }
 section#work .work-items .work-item .button {
-  background: #272727;
-  box-shadow: 5px 5px #000;
-  border: 2px solid #19191a;
-  color: #f2f2f2;
+	background: $color-3;
+	box-shadow: 5px 5px #000;
+	border: 2px solid #19191a;
+	color: $color-2;
+}
+.sarcasticwhite path {
+	stroke: $color-2;
 }
 section#about {
-  background: #19191a;
+	background: $color-5;
 }
 footer {
-  background: #222;
-  color: #f2f2f2;
+	background: $color-3;
+	color: $color-2;
 }
 footer .site-meta ul li a svg {
-  fill: #f2f2f2;
+	fill: $color-2;
+}
+.totop {
+	background: $color-5;
 }
 .about {
-  background: #222;
-  color: #f2f2f2;
+	background: $color-5;
+	color: $color-2;
 }
 .about footer {
-  background: #222;
+	background: $color-5;
 }
 .contact {
-  color: #f2f2f2;
+	color: $color-2;
 }
 .contact input[type="text"],
 .contact input[type="email"],
 .contact textarea {
-  background: #19191a !important;
-  color: #f2f2f2;
-  border-color: #19191a;
+	background: $color-5 !important;
+	color: $color-2;
+	border-color: $color-5;
+	&::placeholder {
+		color: $color-3;
+		opacity: 1;
+	}
 }
 .contact input[type="submit"],
 .contact input[type="reset"] {
-  background: #19191a;
-  border: 2px solid #19191a;
-  color: #f2f2f2;
+	background: $color-5;
+	border: 2px solid $color-5;
+	color: $color-2;
 }
 .contact input[type="reset"] {
-  background: transparent;
+	background: transparent;
+	border: 2px solid $color-5;
 }
 .contact input[type="submit"]:hover,
 .contact input[type="reset"]:hover {
-  background: #111;
-  border-color: #111;
+	background: #111;
+	border-color: #111;
 }
 .contact input[type="reset"]:hover {
-  background: transparent;
+	background: transparent;
 }
-nav[aria-label='posts'] {
-  color: #f2f2f2;
+nav[aria-label="posts"] {
+	color: $color-2;
 }
-nav[aria-label='posts'] ul li hr {
-  border-top: 2px dashed #666;
+nav[aria-label="posts"] ul li hr,
+hr {
+	border-top: 2px dashed $color-5;
 }
-nav[aria-label='posts'] ul li hr:after {
-  background: #666;
+nav[aria-label="posts"] ul li hr:after,
+hr:after {
+	background: $color-5;
 }
 #pagination ul li a {
-  background: transparent;
-  color: #f2f2f2;
+	background: transparent;
+	color: $color-2;
 }
 #pagination ul li a.current {
-  background: #f2f2f2;
-  color: #222;
+	background: $color-2;
+	color: $color-3;
 }
 #main.post {
-  color: #f2f2f2;
+	color: $color-2;
 }
-code, pre {
-  background: #19191a;
+code,
+pre {
+	background: $color-5;
 }
 .dialog {
-  background: #222;
+	background: $color-5;
 }
 .dialog .close-dialog svg {
-  fill: #f2f2f2;
+	fill: $color-2;
 }
+.dialog .lighthouse .item > p {
+	color: $color-2;
+}
+
 hr.stop {
-  border-top: 2px dashed #777;
+	border-top: 2px dashed $color-5;
 }
 .darkmode span.inverted {
-  nav[aria-label='site'] {
-    ul li a {
-      color: #f2f2f2;
-    }
-    button {
-      @media(max-width: 600px) {
-        &:after {
-          color: #f2f2f2;
-        }
-      }
-      span {
-        svg {
-          path {
-            stroke: #f2f2f2;
-          }
-          circle {
-            stroke: #f2f2f2;
-          }
-        }
-      }
-    }
-  }
+	nav[aria-label="site"] {
+		ul li a {
+			color: $color-2;
+		}
+		button {
+			@media (max-width: 600px) {
+				&:after {
+					color: $color-2;
+				}
+			}
+			span {
+				svg {
+					path {
+						stroke: $color-2;
+					}
+					circle {
+						stroke: $color-2;
+					}
+				}
+			}
+		}
+	}
 }
 .post svg {
-  background: #f4f4f4;
-  stroke: #19191a;
+	background: #f4f4f4;
+	stroke: #19191a;
 }
 table {
-  thead {
-    tr {
-      th {
-        border: 2px solid #f4f4f4;
-      }
-    }
-  }
-  tbody{
-    tr {
-      td {
-        border: 2px solid #f4f4f4;
-      }
-    }
-  }
+	thead {
+		tr {
+			th {
+				border: 2px solid #f4f4f4;
+			}
+		}
+	}
+	tbody {
+		tr {
+			td {
+				border: 2px solid #f4f4f4;
+			}
+		}
+	}
 }

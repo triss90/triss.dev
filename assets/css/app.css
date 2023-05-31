@@ -118,6 +118,7 @@ html {
   font-family: "Asap", sans-serif;
   font-size: calc(1em + 0.5vw);
   line-height: 1.5;
+  color: #31315d;
 }
 
 :focus:not([tabindex="-1"]) {
@@ -526,93 +527,92 @@ section#work .work-items .work-item {
   justify-content: space-between;
   flex-direction: column;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudnet #Path, section#work .work-items .work-item:focus-within .work-item-image.cloudnet #Path {
+section#work .work-items .work-item .work-item-image.cloudnet #Path {
   fill: #be8ceb;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudnet #Path-2, section#work .work-items .work-item:focus-within .work-item-image.cloudnet #Path-2 {
+section#work .work-items .work-item .work-item-image.cloudnet #Path-2 {
   fill: #a65df0;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudnet #Path-3, section#work .work-items .work-item:focus-within .work-item-image.cloudnet #Path-3 {
+section#work .work-items .work-item .work-item-image.cloudnet #Path-3 {
   fill: #8a29ef;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudservers #Path, section#work .work-items .work-item:focus-within .work-item-image.cloudservers #Path {
+section#work .work-items .work-item .work-item-image.cloudservers #Path {
   fill: #c9d3f1;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudservers #Path-2, section#work .work-items .work-item:focus-within .work-item-image.cloudservers #Path-2 {
+section#work .work-items .work-item .work-item-image.cloudservers #Path-2 {
   fill: #89a4f3;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudservers #Path-3, section#work .work-items .work-item:focus-within .work-item-image.cloudservers #Path-3 {
+section#work .work-items .work-item .work-item-image.cloudservers #Path-3 {
   fill: #4d74e6;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudportal #Path, section#work .work-items .work-item:focus-within .work-item-image.cloudportal #Path {
+section#work .work-items .work-item .work-item-image.cloudportal #Path {
   fill: #60d8c1;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudportal #Path-2, section#work .work-items .work-item:focus-within .work-item-image.cloudportal #Path-2 {
+section#work .work-items .work-item .work-item-image.cloudportal #Path-2 {
   fill: #39a786;
 }
-section#work .work-items .work-item:hover .work-item-image.cloudportal #Path-3, section#work .work-items .work-item:focus-within .work-item-image.cloudportal #Path-3 {
+section#work .work-items .work-item .work-item-image.cloudportal #Path-3 {
   fill: #34855b;
 }
-section#work .work-items .work-item:hover .work-item-image.leakedpassword text, section#work .work-items .work-item:focus-within .work-item-image.leakedpassword text {
+section#work .work-items .work-item .work-item-image.leakedpassword text {
   fill: #ffcb36;
 }
-section#work .work-items .work-item:hover .work-item-image.yirra #yirra #Path1, section#work .work-items .work-item:focus-within .work-item-image.yirra #yirra #Path1 {
+section#work .work-items .work-item .work-item-image.yirra #yirra #Path1 {
   stroke: url(#linearGradient-1);
 }
-section#work .work-items .work-item:hover .work-item-image.yirra #yirra #Path2, section#work .work-items .work-item:focus-within .work-item-image.yirra #yirra #Path2 {
+section#work .work-items .work-item .work-item-image.yirra #yirra #Path2 {
   stroke: url(#linearGradient-2);
 }
-section#work .work-items .work-item:hover .work-item-image.yirra #yirra #Oval1, section#work .work-items .work-item:focus-within .work-item-image.yirra #yirra #Oval1 {
+section#work .work-items .work-item .work-item-image.yirra #yirra #Oval1 {
   stroke: #6fba82;
 }
-section#work .work-items .work-item:hover .work-item-image.yirra #yirra #Oval2, section#work .work-items .work-item:focus-within .work-item-image.yirra #yirra #Oval2 {
+section#work .work-items .work-item .work-item-image.yirra #yirra #Oval2 {
   stroke: #a166ab;
 }
-section#work .work-items .work-item:hover .work-item-image.webbox g#logo, section#work .work-items .work-item:focus-within .work-item-image.webbox g#logo {
+section#work .work-items .work-item .work-item-image.webbox g#logo {
   fill: #5c7cfa;
 }
-section#work .work-items .work-item:hover .work-item-image.openlist g#logo, section#work .work-items .work-item:focus-within .work-item-image.openlist g#logo {
+section#work .work-items .work-item .work-item-image.openlist g#logo {
   fill: #f1404b;
 }
-section#work .work-items .work-item:hover .work-item-image.colordrop path:first-child, section#work .work-items .work-item:focus-within .work-item-image.colordrop path:first-child {
+section#work .work-items .work-item .work-item-image.colordrop path:first-child {
   fill: #116ecf;
 }
-section#work .work-items .work-item:hover .work-item-image.colordrop path:nth-child(2), section#work .work-items .work-item:focus-within .work-item-image.colordrop path:nth-child(2) {
+section#work .work-items .work-item .work-item-image.colordrop path:nth-child(2) {
   fill: #f6b809;
 }
-section#work .work-items .work-item:hover .work-item-image.colordrop path:last-child, section#work .work-items .work-item:focus-within .work-item-image.colordrop path:last-child {
+section#work .work-items .work-item .work-item-image.colordrop path:last-child {
   fill: #f72024;
 }
-section#work .work-items .work-item:hover .work-item-image.gridder circle, section#work .work-items .work-item:focus-within .work-item-image.gridder circle {
+section#work .work-items .work-item .work-item-image.gridder circle {
   fill: #8500f7;
 }
-section#work .work-items .work-item:hover .work-item-image.gridder polyline, section#work .work-items .work-item:focus-within .work-item-image.gridder polyline {
+section#work .work-items .work-item .work-item-image.gridder polyline {
   stroke: #3f10ff;
 }
-section#work .work-items .work-item:hover .work-item-image.muds path,
-section#work .work-items .work-item:hover .work-item-image.muds rect, section#work .work-items .work-item:focus-within .work-item-image.muds path,
-section#work .work-items .work-item:focus-within .work-item-image.muds rect {
+section#work .work-items .work-item .work-item-image.muds path,
+section#work .work-items .work-item .work-item-image.muds rect {
   fill: #4fc383;
 }
-section#work .work-items .work-item:hover .work-item-image.plaask .a, section#work .work-items .work-item:focus-within .work-item-image.plaask .a {
+section#work .work-items .work-item .work-item-image.plaask .a {
   fill: #95bd12;
 }
-section#work .work-items .work-item:hover .work-item-image.plaask .b, section#work .work-items .work-item:focus-within .work-item-image.plaask .b {
+section#work .work-items .work-item .work-item-image.plaask .b {
   fill: #1a3595;
 }
-section#work .work-items .work-item:hover .work-item-image.plaask .c, section#work .work-items .work-item:focus-within .work-item-image.plaask .c {
+section#work .work-items .work-item .work-item-image.plaask .c {
   fill: #6c63ff;
 }
-section#work .work-items .work-item:hover .work-item-image.plaask .d, section#work .work-items .work-item:focus-within .work-item-image.plaask .d {
+section#work .work-items .work-item .work-item-image.plaask .d {
   fill: #222766;
 }
-section#work .work-items .work-item:hover .work-item-image.plaask .e, section#work .work-items .work-item:focus-within .work-item-image.plaask .e {
+section#work .work-items .work-item .work-item-image.plaask .e {
   fill: #deda03;
 }
-section#work .work-items .work-item:hover .work-item-image.html_digital path:first-child, section#work .work-items .work-item:focus-within .work-item-image.html_digital path:first-child {
+section#work .work-items .work-item .work-item-image.html_digital path:first-child {
   stroke: #1687a7;
 }
-section#work .work-items .work-item:hover .work-item-image.html_digital path:nth-child(2), section#work .work-items .work-item:focus-within .work-item-image.html_digital path:nth-child(2) {
+section#work .work-items .work-item .work-item-image.html_digital path:nth-child(2) {
   stroke: #dd0a35;
 }
 section#work .work-items .work-item .work-item-title {
@@ -725,10 +725,10 @@ section#work .instructions p {
 }
 
 .check {
-  background: #000;
+  background: #31315d;
   display: block;
   padding: 0.5rem 1.5rem;
-  color: #fff;
+  color: #f7f7f7;
   border-radius: 0.25rem;
   cursor: pointer;
   margin-bottom: 0.5rem;
@@ -800,7 +800,7 @@ section#work .instructions p {
   clip: rect(1px, 1px, 1px, 1px);
 }
 .search .search-button svg {
-  height: calc(2em + 0.7vw);
+  height: 1.25rem;
 }
 .search .search-button svg g {
   fill: #31315d;
@@ -924,7 +924,7 @@ nav[aria-label=posts] ul li .categories {
   text-align: center;
 }
 .dialog .lighthouse .item > p {
-  color: #1099c3;
+  color: #31315d;
   font-size: 13px;
   font-weight: bold;
   margin: 0;
@@ -962,14 +962,14 @@ nav[aria-label=posts] ul li .categories {
 }
 .dialog .lighthouse .item .circular-progress circle {
   stroke-width: 10;
-  fill: #31c2ee;
+  fill: #4b4b8f;
   stroke-linecap: round;
 }
 .dialog .lighthouse .item .circular-progress circle:nth-of-type(1) {
-  stroke: #78d7f4;
+  stroke: #7272b5;
 }
 .dialog .lighthouse .item .circular-progress circle:nth-of-type(2) {
-  stroke: #1099c3;
+  stroke: #31315d;
   stroke-dasharray: 251.4285714286;
 }
 .dialog .lighthouse .item .circular-progress#performance circle:nth-of-type(2) {
@@ -990,7 +990,7 @@ nav[aria-label=posts] ul li .categories {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #084f65;
+  color: #f7f7f7;
 }
 
 .dialog-overlay[aria-hidden=true],

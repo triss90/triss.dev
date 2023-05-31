@@ -1,69 +1,102 @@
+@font-face {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Asap Regular"), local("Asap-Regular"), url(/assets/fonts/asap.ttf) format("truetype");
+}
 body {
-  background: #222;
-  color: #f2f2f2 !important;
+  background: #31315d;
+  color: #f7f7f7 !important;
+}
+
+#main {
+  background: #31315d;
+}
+
+header {
+  background-color: #1a1a41;
 }
 
 section#work {
-  background: #222;
-  color: #f2f2f2;
+  background: #31315d;
+  color: #f7f7f7;
 }
 
 section#work .work-items .work-item {
-  background: #19191a;
+  background: #1a1a41;
   box-shadow: 5px 5px #000;
   border: 2px solid #19191a;
 }
 
 section#work .work-items .work-item .button {
-  background: #272727;
+  background: #31315d;
   box-shadow: 5px 5px #000;
   border: 2px solid #19191a;
-  color: #f2f2f2;
+  color: #f7f7f7;
+}
+
+.sarcasticwhite path {
+  stroke: #f7f7f7;
 }
 
 section#about {
-  background: #19191a;
+  background: #1a1a41;
 }
 
 footer {
-  background: #222;
-  color: #f2f2f2;
+  background: #31315d;
+  color: #f7f7f7;
 }
 
 footer .site-meta ul li a svg {
-  fill: #f2f2f2;
+  fill: #f7f7f7;
+}
+
+.totop {
+  background: #1a1a41;
 }
 
 .about {
-  background: #222;
-  color: #f2f2f2;
+  background: #1a1a41;
+  color: #f7f7f7;
 }
 
 .about footer {
-  background: #222;
+  background: #1a1a41;
 }
 
 .contact {
-  color: #f2f2f2;
+  color: #f7f7f7;
 }
 
 .contact input[type=text],
 .contact input[type=email],
 .contact textarea {
-  background: #19191a !important;
-  color: #f2f2f2;
-  border-color: #19191a;
+  background: #1a1a41 !important;
+  color: #f7f7f7;
+  border-color: #1a1a41;
+}
+.contact input[type=text]::-moz-placeholder, .contact input[type=email]::-moz-placeholder, .contact textarea::-moz-placeholder {
+  color: #31315d;
+  opacity: 1;
+}
+.contact input[type=text]::placeholder,
+.contact input[type=email]::placeholder,
+.contact textarea::placeholder {
+  color: #31315d;
+  opacity: 1;
 }
 
 .contact input[type=submit],
 .contact input[type=reset] {
-  background: #19191a;
-  border: 2px solid #19191a;
-  color: #f2f2f2;
+  background: #1a1a41;
+  border: 2px solid #1a1a41;
+  color: #f7f7f7;
 }
 
 .contact input[type=reset] {
   background: transparent;
+  border: 2px solid #1a1a41;
 }
 
 .contact input[type=submit]:hover,
@@ -77,60 +110,67 @@ footer .site-meta ul li a svg {
 }
 
 nav[aria-label=posts] {
-  color: #f2f2f2;
+  color: #f7f7f7;
 }
 
-nav[aria-label=posts] ul li hr {
-  border-top: 2px dashed #666;
+nav[aria-label=posts] ul li hr,
+hr {
+  border-top: 2px dashed #1a1a41;
 }
 
-nav[aria-label=posts] ul li hr:after {
-  background: #666;
+nav[aria-label=posts] ul li hr:after,
+hr:after {
+  background: #1a1a41;
 }
 
 #pagination ul li a {
   background: transparent;
-  color: #f2f2f2;
+  color: #f7f7f7;
 }
 
 #pagination ul li a.current {
-  background: #f2f2f2;
-  color: #222;
+  background: #f7f7f7;
+  color: #31315d;
 }
 
 #main.post {
-  color: #f2f2f2;
+  color: #f7f7f7;
 }
 
-code, pre {
-  background: #19191a;
+code,
+pre {
+  background: #1a1a41;
 }
 
 .dialog {
-  background: #222;
+  background: #1a1a41;
 }
 
 .dialog .close-dialog svg {
-  fill: #f2f2f2;
+  fill: #f7f7f7;
+}
+
+.dialog .lighthouse .item > p {
+  color: #f7f7f7;
 }
 
 hr.stop {
-  border-top: 2px dashed #777;
+  border-top: 2px dashed #1a1a41;
 }
 
 .darkmode span.inverted nav[aria-label=site] ul li a {
-  color: #f2f2f2;
+  color: #f7f7f7;
 }
 @media (max-width: 600px) {
   .darkmode span.inverted nav[aria-label=site] button:after {
-    color: #f2f2f2;
+    color: #f7f7f7;
   }
 }
 .darkmode span.inverted nav[aria-label=site] button span svg path {
-  stroke: #f2f2f2;
+  stroke: #f7f7f7;
 }
 .darkmode span.inverted nav[aria-label=site] button span svg circle {
-  stroke: #f2f2f2;
+  stroke: #f7f7f7;
 }
 
 .post svg {
