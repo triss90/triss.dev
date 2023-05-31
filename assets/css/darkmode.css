@@ -24,14 +24,14 @@ section#work {
 
 section#work .work-items .work-item {
   background: #1a1a41;
-  box-shadow: 5px 5px #000;
-  border: 2px solid #19191a;
+  box-shadow: 5px 5px #13132f;
+  border: 2px solid #13132f;
 }
 
 section#work .work-items .work-item .button {
   background: #31315d;
-  box-shadow: 5px 5px #000;
-  border: 2px solid #19191a;
+  box-shadow: 5px 5px #13132f;
+  border: 2px solid #13132f;
   color: #f7f7f7;
 }
 

@@ -519,11 +519,12 @@ section#work .work-items:before, section#work .work-items:after {
 }
 section#work .work-items .work-item {
   background: #f7f7f7;
-  border: 2px solid #31315d;
-  box-shadow: 5px 5px #31315d;
+  border: 2px solid #7272b5;
+  box-shadow: 5px 5px #7272b5;
   padding: 24px;
   margin: 0.75rem;
   display: flex;
+  border-radius: 0.5rem;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -700,23 +701,24 @@ section#work .instructions p {
   background: #f7f7f7;
   color: #31315d;
   text-decoration: none;
-  border: 2px solid #31315d;
+  border: 2px solid #7272b5;
   padding: 0.7rem 1rem;
   margin: 0.5rem 0;
   display: inline-block;
   text-align: center;
-  box-shadow: 5px 5px #31315d;
+  box-shadow: 5px 5px #7272b5;
   transform: translate(0);
+  border-radius: 0.5rem;
 }
 .button:hover,
 .settings-button:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 6px 6px #31315d;
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px #7272b5;
 }
 .button:hover:active,
 .settings-button:hover:active {
-  transform: translate(2px, 2px);
-  box-shadow: 3px 3px #31315d;
+  transform: translate(6px, 6px);
+  box-shadow: 0px 0px #7272b5;
 }
 .button.block,
 .settings-button.block {

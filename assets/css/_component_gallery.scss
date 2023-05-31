@@ -52,11 +52,12 @@ section#work {
 		}
 		.work-item {
 			background: $color-2;
-			border: 2px solid $color-3;
-			box-shadow: 5px 5px $color-3;
+			border: 2px solid lighten($color-3, 30%);
+			box-shadow: 5px 5px lighten($color-3, 30%);
 			padding: 24px;
 			margin: calc(1.5rem / 2);
 			display: flex;
+			border-radius: 0.5rem;
 			justify-content: space-between;
 			flex-direction: column;
 			// &:hover,
