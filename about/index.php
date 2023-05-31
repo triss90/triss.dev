@@ -8,7 +8,7 @@
         <div class="central center">
             <h1>About Tristan</h1>
         </div>
-        <img src="../assets/img/me/57324d3e7f350b919d736f4083ec4066-sticker.webp" width="210px" height="auto" alt="Memoji sticker of Tristan White">
+        <img src="../assets/img/me/3633b0cca38f8760995c056bab14ecfe-sticker.png" width="210px" height="auto" alt="Memoji sticker of Tristan White">
     </header>
 
     <main id="main">
