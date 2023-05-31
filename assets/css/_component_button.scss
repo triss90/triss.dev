@@ -10,6 +10,7 @@
 	text-align: center;
 	box-shadow: 5px 5px lighten($color-3, 30%);
 	transform: translate(0);
+	transition: all 100ms ease-in-out;
 	border-radius: 0.5rem;
 	&:hover {
 		transform: translate(3px, 3px);
