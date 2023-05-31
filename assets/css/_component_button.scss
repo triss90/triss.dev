@@ -13,10 +13,10 @@
 	transition: all 100ms ease-in-out;
 	border-radius: 0.5rem;
 	&:hover {
-		transform: translate(3px, 3px);
+		transform: translate(2px, 2px);
 		box-shadow: 3px 3px lighten($color-3, 30%);
 		&:active {
-			transform: translate(6px, 6px);
+			transform: translate(3px, 3px);
 			box-shadow: 0px 0px lighten($color-3, 30%);
 		}
 	}

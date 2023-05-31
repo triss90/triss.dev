@@ -34,6 +34,14 @@ section#work .work-items .work-item .button {
   border: 2px solid #13132f;
   color: #f7f7f7;
 }
+section#work .work-items .work-item .button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px #13132f;
+}
+section#work .work-items .work-item .button:hover:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px #13132f;
+}
 
 .sarcasticwhite path {
   stroke: #f7f7f7;

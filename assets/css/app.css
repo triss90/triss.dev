@@ -713,12 +713,12 @@ section#work .instructions p {
 }
 .button:hover,
 .settings-button:hover {
-  transform: translate(3px, 3px);
+  transform: translate(2px, 2px);
   box-shadow: 3px 3px #7272b5;
 }
 .button:hover:active,
 .settings-button:hover:active {
-  transform: translate(6px, 6px);
+  transform: translate(3px, 3px);
   box-shadow: 0px 0px #7272b5;
 }
 .button.block,

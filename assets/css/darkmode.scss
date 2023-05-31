@@ -24,7 +24,16 @@ section#work .work-items .work-item .button {
 	box-shadow: 5px 5px darken($color-5, 5%);
 	border: 2px solid darken($color-5, 5%);
 	color: $color-2;
+	&:hover {
+		transform: translate(2px, 2px);
+		box-shadow: 3px 3px darken($color-5, 5%);
+		&:active {
+			transform: translate(3px, 3px);
+			box-shadow: 0px 0px darken($color-5, 5%);
+		}
+	}
 }
+
 .sarcasticwhite path {
 	stroke: $color-2;
 }
