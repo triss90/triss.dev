@@ -46,11 +46,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
     <link rel="manifest" href="/assets/img/site.webmanifest">
-    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#222222">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#31315d">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
-    <meta name="msapplication-TileColor" content="#222222">
+    <meta name="msapplication-TileColor" content="#31315d">
     <meta name="msapplication-config" content="/assets/img/browserconfig.xml">
-    <meta name="theme-color" content="#222222">
+    <meta name="theme-color" content="#31315d">
     
     <style id="styles" media="screen"><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/css/app.css"); ?></style>
     <style id="inverter" media="none"><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/css/darkmode.css"); ?></style>
