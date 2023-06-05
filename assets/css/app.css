@@ -127,11 +127,11 @@ html {
 }
 
 ::-moz-selection {
-  background: #1099c3; /* WebKit/Blink Browsers */
+  background: #6161ac; /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #1099c3; /* WebKit/Blink Browsers */
+  background: #6161ac; /* WebKit/Blink Browsers */
 }
 
 [href="#main"] {
@@ -519,8 +519,8 @@ section#work .work-items:before, section#work .work-items:after {
 }
 section#work .work-items .work-item {
   background: #f7f7f7;
-  border: 2px solid #7272b5;
-  box-shadow: 5px 5px #7272b5;
+  border: 2px solid #43437e;
+  box-shadow: 5px 5px #43437e;
   padding: 24px;
   margin: 0.75rem;
   display: flex;
@@ -701,12 +701,12 @@ section#work .instructions p {
   background: #f7f7f7;
   color: #31315d;
   text-decoration: none;
-  border: 2px solid #7272b5;
+  border: 2px solid #43437e;
   padding: 0.7rem 1rem;
   margin: 0.5rem 0;
   display: inline-block;
   text-align: center;
-  box-shadow: 5px 5px #7272b5;
+  box-shadow: 5px 5px #43437e;
   transform: translate(0);
   transition: all 100ms ease-in-out;
   border-radius: 0.5rem;
@@ -714,12 +714,12 @@ section#work .instructions p {
 .button:hover,
 .settings-button:hover {
   transform: translate(2px, 2px);
-  box-shadow: 3px 3px #7272b5;
+  box-shadow: 3px 3px #43437e;
 }
 .button:hover:active,
 .settings-button:hover:active {
   transform: translate(3px, 3px);
-  box-shadow: 0px 0px #7272b5;
+  box-shadow: 0px 0px #43437e;
 }
 .button.block,
 .settings-button.block {

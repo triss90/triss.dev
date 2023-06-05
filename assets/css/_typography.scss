@@ -13,7 +13,7 @@ html {
 
 // Custom highlight color
 ::selection {
-	background: $color-1; /* WebKit/Blink Browsers */
+	background: lighten($color-3, 25%); /* WebKit/Blink Browsers */
 }
 
 // Skip to content link
