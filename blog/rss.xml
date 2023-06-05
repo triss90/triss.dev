@@ -9,9 +9,20 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Tue, 30 May 2023 17:02:04 +0000</lastBuildDate>
-<pubDate>Tue, 30 May 2023 17:02:04 +0000</pubDate>
+<lastBuildDate>Mon, 05 Jun 2023 07:22:34 +0000</lastBuildDate>
+<pubDate>Mon, 05 Jun 2023 07:22:34 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget -  HSLA editor</title>
+<link>https://triss.dev/blog/2023/06/05/weekly-widget-hsla-editor/</link>
+<pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>HSLA editor</h1>
+<p class='timestamp'><time datetime='05-06-2023'05-06-2023</time></p>
+<hr>
+<p>This week's widget is a simple HSLA color slider</p>
+<p>&lt;p class="codepen" data-height="566.2734375" data-default-tab="result" data-slug-hash="JjbqWKK" data-user="t...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>ColorDrop Release 2023</title>
 <link>https://triss.dev/blog/2023/05/30/colordrop-release-2023/</link>
@@ -294,25 +305,6 @@ section.demo div.test {
 <p class='timestamp'><time datetime='11-03-2020'>11-03-2020</time></p>
 <hr>
 <p>I was messing aro...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>CSS Target Trick</title>
-<link>https://triss.dev/blog/2019/10/02/css-target-trick/</link>
-<pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-<description><![CDATA[<script>
-document.getElementsByTagName("body")[0].id = "targetTrick";
-</script>
-<style>
-#targetTrick:target {
-    background: PapayaWhip;
-}
-.darkmode#targetTrick:target {
-    background: DarkSlateGrey;
-}
-</style>
-<h1>CSS :target Trick</h1>
-<p>&lt;p class='tim...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
