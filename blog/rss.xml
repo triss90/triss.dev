@@ -9,9 +9,19 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Mon, 05 Jun 2023 07:22:34 +0000</lastBuildDate>
-<pubDate>Mon, 05 Jun 2023 07:22:34 +0000</pubDate>
+<lastBuildDate>Mon, 12 Jun 2023 05:49:31 +0000</lastBuildDate>
+<pubDate>Mon, 12 Jun 2023 05:49:31 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
+<item>
+<title>Weekly Widget - Isometric Menu</title>
+<link>https://triss.dev/blog/2023/06/12/weekly-widget-isometric-menu/</link>
+<pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+<description><![CDATA[<h1>Isometric Menu</h1>
+<p class='timestamp'><time datetime='12-06-2023'12-06-2023</time></p>
+<hr>
+<p>The widget of the week is an isometric menu, designed using CSS transforms. While its applications might be limited, the visual impact it creates is undeni...</p>]]></description>
+<author>tristan@white.chat (Tristan White)</author>
+</item>
 <item>
 <title>Weekly Widget -  HSLA editor</title>
 <link>https://triss.dev/blog/2023/06/05/weekly-widget-hsla-editor/</link>
@@ -288,23 +298,6 @@ table {
 <p>Ever wondered if you could make a CSS-only carousel or image gallery, without the use of awkward hacks? 
 Well it's 2020 and you can!</p>
 <p>The new(ish) CSS `sc...</p>]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Fixing Whitespace Between Inline Elements</title>
-<link>https://triss.dev/blog/2020/03/11/fixing-whitespace-between-inline-elements/</link>
-<pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-section.demo div.test {
-  display: inline-block;
-  padding: 10px;
-  background: #ca3e47;
-}
-</style>
-<h1>Fixing Whitespace Between Inline Elements</h1>
-<p class='timestamp'><time datetime='11-03-2020'>11-03-2020</time></p>
-<hr>
-<p>I was messing aro...</p>]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
