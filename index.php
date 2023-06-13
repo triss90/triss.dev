@@ -88,7 +88,7 @@
         <div class="work-items" id="scroll-highlighted" role="region" aria-label="gallery" tabindex="0">
             
             <div class="work-item">
-                <h3 class="work-item-title">Sarcastic White<br><small>2023-<?php echo date("Y"); ?></small></h3>
+                <h3 class="work-item-title">Sarcastic White<br><small>2023</small></h3>
                 <svg class="work-item-image sarcasticwhite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
                     <defs>
                         <clipPath id="clip-Artboard_6">
@@ -122,11 +122,46 @@
 
             <div class="work-item">
                 <h3 class="work-item-title">ColorDrop<br><small>2015-<?php echo date("Y"); ?></small></h3>
-                <svg alt="" class="work-item-image colordrop" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 83 99">
-                    <g fill="none">
-                        <path fill="#666" d="M49.0164969,38.4232565 C49.6568131,40.6075989 50,42.9166158 50,45.304811 C50,58.9435873 38.8071187,70 25,70 C11.1928813,70 0,58.9435873 0,45.304811 C0,40.7895384 1.22675835,36.5572972 3.36899999,32.9155672 C3.67075751,32.3227716 3.99854523,31.728926 4.35413218,31.1431765 C9.74431131,22.264069 23.6122265,0 25.7038975,0 C27.7955685,0 40.9787699,22.1012804 46.167141,31.1431765 C47.5732834,33.5936939 48.4676354,36.2903528 49.0164969,38.4232565 Z"/>
-                        <path fill="#444" d="M58.0164969,67.4232565 C58.6568131,69.6075989 59,71.9166158 59,74.304811 C59,87.9435873 47.8071187,99 34,99 C20.1928813,99 9,87.9435873 9,74.304811 C9,69.7895384 10.2267583,65.5572972 12.369,61.9155672 C12.6707575,61.3227716 12.9985452,60.728926 13.3541322,60.1431765 C18.7443113,51.264069 32.6122265,29 34.7038975,29 C36.7955685,29 49.9787699,51.1012804 55.167141,60.1431765 C56.5732834,62.5936939 57.4676354,65.2903528 58.0164969,67.4232565 Z"/>
-                        <path fill="#222" d="M82.0164969,47.4232565 C82.6568131,49.6075989 83,51.9166158 83,54.304811 C83,67.9435873 71.8071187,79 58,79 C44.1928813,79 33,67.9435873 33,54.304811 C33,49.7895384 34.2267583,45.5572972 36.369,41.9155672 C36.6707575,41.3227716 36.9985452,40.728926 37.3541322,40.1431765 C42.7443113,31.264069 56.6122265,9 58.7038975,9 C60.7955685,9 73.9787699,31.1012804 79.167141,40.1431765 C80.5732834,42.5936939 81.4676354,45.2903528 82.0164969,47.4232565 Z"/>
+                <svg class="work-item-image colordrop" width="75" height="75" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>logo</title>
+                    <defs>
+                        <path d="M0.462931995,212.324646 C0.462931995,212.324646 7.91325414,330.560949 118.063665,331 C228.214077,331.434274 235.433399,212.324646 235.433399,212.324646 C235.433399,212.324646 251.069368,115.151885 118.063665,0 C34.4259336,76.767923 -4.77431088,147.542805 0.462931995,212.324646 Z" id="path-1"></path>
+                        <filter x="-4.2%" y="-3.0%" width="108.5%" height="106.0%" filterUnits="objectBoundingBox" id="filter-2">
+                            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+                            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                        </filter>
+                        <path d="M296.311891,341.046514 C296.311891,341.046514 301.331387,420.704204 375.542893,421 C449.754399,421.292577 454.618264,341.046514 454.618264,341.046514 C454.618264,341.046514 465.152668,275.579668 375.542893,198 C319.193743,249.719779 292.783409,297.40195 296.311891,341.046514 Z" id="path-3"></path>
+                        <filter x="-6.3%" y="-4.5%" width="112.6%" height="109.0%" filterUnits="objectBoundingBox" id="filter-4">
+                            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+                            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                        </filter>
+                        <path d="M172.219697,455.709877 C172.219697,455.709877 175.755443,511.791749 228.030214,512 C280.304986,512.205985 283.731105,455.709877 283.731105,455.709877 C283.731105,455.709877 291.151565,409.61887 228.030214,355 C188.337731,391.41258 169.734225,424.982539 172.219697,455.709877 Z" id="path-5"></path>
+                        <filter x="-8.9%" y="-6.4%" width="117.9%" height="112.7%" filterUnits="objectBoundingBox" id="filter-6">
+                            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+                            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                        </filter>
+                    </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="logo">
+                            <rect id="bg" x="0" y="0" width="512" height="512"></rect>
+                            <g id="drops" transform="translate(29.000000, 0.000000)">
+                                <g id="drop3">
+                                    <use fill="#F782A9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                </g>
+                                <g id="drop2">
+                                    <use fill="#B48BD9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                </g>
+                                <g id="drop1">
+                                    <use fill="#4ED9AB" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                </g>
+                            </g>
+                        </g>
                     </g>
                 </svg>
                 <p class="work-item-description">Thousands of curated colors & palettes as well as numerous color tools.</p>
@@ -174,18 +209,16 @@
 
             <div class="work-item">
                 <h3 class="work-item-title">Gridder<br><small>2017-2023</small></h3>
-                <svg alt="" class="work-item-image gridder" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 200 201">
-                    <g fill="none">
-                        <polyline stroke="#666" stroke-width="15" points="175 25 25 25 25 176 175 176 175 100 100 100"/>
-                        <circle cx="25" cy="25" r="25" fill="#222"/>
-                        <circle cx="175" cy="25" r="25" fill="#222"/>
-                        <circle cx="100" cy="100" r="25" fill="#222"/>
-                        <circle cx="175" cy="175" r="25" fill="#222"/>
-                        <circle cx="26" cy="175" r="25" fill="#222"/>
-                        <circle cx="100" cy="25" r="25" fill="#444"/>
-                        <circle cx="25" cy="100" r="25" fill="#444"/>
-                        <circle cx="175" cy="100" r="25" fill="#444"/>
-                        <circle cx="100" cy="176" r="25" fill="#444"/>
+                <svg class="work-item-image gridder" xmlns="http://www.w3.org/2000/svg" width="341.333" height="341.333" viewBox="0 0 341.333 341.333">
+                    <g id="gridder_logo" transform="translate(-85.333 -85.333)">
+                        <g id="Path_2" data-name="Path 2" transform="translate(81.333 81.333)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4,4,4,46.667A42.667,42.667,0,0,1,46.667,4h256a42.667,42.667,0,0,1,42.667,42.667v256a42.667,42.667,0,0,1-42.667,42.667h-256A42.667,42.667,0,0,1,4,302.667Z" stroke="none"/>
+                        <path d="M 46.66665649414062 23.99996948242188 C 34.16824340820312 23.99996948242188 23.99996948242188 34.16824340820312 23.99996948242188 46.66665649414062 L 23.99996948242188 302.6666870117188 C 23.99996948242188 315.1651000976562 34.16824340820312 325.3333740234375 46.66665649414062 325.3333740234375 L 302.6666870117188 325.3333740234375 C 315.1651000976562 325.3333740234375 325.3333740234375 315.1651000976562 325.3333740234375 302.6666870117188 L 325.3333740234375 46.66665649414062 C 325.3333740234375 34.16824340820312 315.1651000976562 23.99996948242188 302.6666870117188 23.99996948242188 L 46.66665649414062 23.99996948242188 M 46.66665649414062 3.999969482421875 L 302.6666870117188 3.999969482421875 C 326.2308044433594 3.999969482421875 345.3333740234375 23.10247802734375 345.3333740234375 46.66665649414062 L 345.3333740234375 302.6666870117188 C 345.3333740234375 326.2308044433594 326.2308044433594 345.3333740234375 302.6666870117188 345.3333740234375 L 46.66665649414062 345.3333740234375 C 23.10247802734375 345.3333740234375 3.999969482421875 326.2308044433594 3.999969482421875 302.6666870117188 L 3.999969482421875 46.66665649414062 C 3.999969482421875 23.10247802734375 23.10247802734375 3.999969482421875 46.66665649414062 3.999969482421875 Z" stroke="none" fill="#000"/>
+                        </g>
+                        <path id="Path_3" data-name="Path 3" d="M4,12H151.208" transform="translate(93.063 244)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_4" data-name="Path 4" d="M12,15H155.966" transform="translate(257.35 305)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_5" data-name="Path 5" d="M12,9H155.966" transform="translate(257.35 183)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
+                        <path id="Path_6" data-name="Path 6" d="M12,4V318.656" transform="translate(244 94.672)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
                     </g>
                 </svg>
                 <p class="work-item-description">The simple grid system based on Flexbox.</p>
