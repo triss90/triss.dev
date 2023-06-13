@@ -125,7 +125,7 @@ p {
 }
 </code></pre>
 
-                <h2>Styles (CSS)</h2>
+                <h2>Functionality (JS)</h2>
 <pre><code class="language-JS">
 const checkboxes = document.querySelectorAll('.checkbox');
 let label, input;
