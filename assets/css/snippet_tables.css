@@ -1,0 +1,74 @@
+/********* TABLE RESET *********/
+table {
+  border-collapse: default;
+  border: none;
+}
+table thead {
+  text-align: default;
+}
+table thead tr th {
+  border: none;
+  padding: 0;
+}
+table tbody tr td {
+  border: none;
+  padding: 0;
+}
+
+/********* TABLE SNIPPET *********/
+table {
+  --color-1: hsl(240 31% 28%);
+  --color-1-50: hsl(240 31% 28% / 0.5);
+  --color-1-90: hsl(240 31% 28% / 0.1);
+  --color-2: hsl(0 0% 95%);
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--color-1);
+  font-size: 1rem;
+}
+
+table caption,
+table thead tr th,
+table tbody tr td,
+table tfoot tr th {
+  padding: 0.5rem;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+caption {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th {
+  background-color: var(--color-1-50);
+}
+
+tr:nth-of-type(2n) {
+  background-color: var(--color-1-90);
+}
+
+@media (max-width: 768px) {
+  th {
+    display: none;
+  }
+  td {
+    display: block;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 15ch auto;
+    padding: 0.5rem 1rem;
+  }
+  td::before {
+    content: attr(data-cell) ": ";
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+}/*# sourceMappingURL=snippet_tables.css.map */

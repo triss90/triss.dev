@@ -1,21 +1,21 @@
 table {
-  border-collapse: collapse;
-  border: 2px solid $color-3;
-  thead {
-    text-align: left;
-    tr {
-      th {
-        border: 2px solid $color-3;
-        padding: 0.2rem 0.5rem;
-      }
-    }
-  }
-  tbody{
-    tr {
-      td {
-        border: 2px solid $color-3;
-        padding: 0.2rem 0.5rem;
-      }
-    }
-  }
+	border-collapse: collapse;
+	border: 2px solid $color-3;
+	thead {
+		text-align: left;
+		tr {
+			th {
+				border: 2px solid $color-3;
+				padding: 0.2rem 0.5rem;
+			}
+		}
+	}
+	tbody {
+		tr {
+			td {
+				border: 2px solid $color-3;
+				padding: 0.2rem 0.5rem;
+			}
+		}
+	}
 }

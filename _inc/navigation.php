@@ -3,6 +3,7 @@
         <li><a href="/">Tristan White <span class="vh">Home</span></a></li>
         <li><a href="/#work">Projects</a></li>
         <li><a href="/blog">Articles</a></li>
+        <li><a href="/snippets">Snippets</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
     </ul>

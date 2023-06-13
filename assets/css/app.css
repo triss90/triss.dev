@@ -24,94 +24,131 @@ body {
   margin: 0;
 }
 
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  color: white;
+/* Sarcastic White Theme
+ *
+ * https://sarcastic-white.com
+ *
+ * Copyright 2023-present, All rights reserved
+ *
+ * Code licensed under the MIT license
+ *
+ * @author Tristan White <tristan@white.chat>
+ *
+ */
+.hljs::-moz-selection, .hljs ::-moz-selection {
+  background-color: #94b7e1;
+  color: #383e4b;
+}
+.hljs::selection,
+.hljs ::selection {
+  background-color: #94b7e1;
+  color: #383e4b;
 }
 
+/* purposely do not highlight these things */
+/* Comments, Invisibles, Line Highlighting */
+.hljs-comment {
+  color: #4c566a;
+}
+
+/* Dark Foreground (Used for status bars) */
+.hljs-tag {
+  color: #eff3f8;
+}
+
+/* Default Foreground, Caret, Delimiters, Operators */
+.hljs-subst,
+.hljs-punctuation,
+.hljs-operator {
+  color: #4c566a;
+}
+
+.hljs-operator {
+  opacity: 0.7;
+}
+
+/* Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted */
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-tag,
 .hljs-name,
+.hljs-deletion {
+  color: #d9534f;
+}
+
+/* Integers, Boolean, Constants, XML Attributes, Markup Link Url */
+.hljs-symbol,
+.hljs-number,
+.hljs-link,
+.hljs-attr,
+.hljs-variable.constant_,
+.hljs-literal {
+  color: #ffad60;
+}
+
+/* Classes, Markup Bold, Search Text Background */
+.hljs-title,
+.hljs-class .hljs-title,
+.hljs-title.class_,
+.hljs-selector-class {
+  color: #ffad60;
+}
+
 .hljs-strong {
   font-weight: bold;
+  color: #ffad60;
 }
 
+/* Strings, Inherited Class, Markup Code, Diff Inserted */
 .hljs-code,
+.hljs-addition,
+.hljs-title.class_.inherited__,
+.hljs-string {
+  color: #96ceb4;
+}
+
+/* base0C - Support, Regular Expressions, Escape Characters, Markup Quotes */
+.hljs-built_in,
+.hljs-doctag,
+.hljs-quote,
+.hljs-keyword.hljs-atrule,
+.hljs-regexp {
+  color: #eff3f8;
+}
+
+/* base0D - Functions, Methods, Attribute IDs, Headings */
+.hljs-function .hljs-title,
+.hljs-attribute,
+.ruby .hljs-property,
+.hljs-title.function_,
+.hljs-section {
+  color: #94b7e1;
+}
+
+/* Keywords, Storage, Selector, Markup Italic, Diff Changed */
+.hljs-type,
+.hljs-template-tag,
+.diff .hljs-meta,
+.hljs-keyword {
+  color: #a696c8;
+}
+
 .hljs-emphasis {
+  color: #a696c8;
   font-style: italic;
 }
 
-.hljs-tag {
-  color: #62c8f3;
+/* Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?> */
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-meta .hljs-string {
+  color: #4c566a;
 }
 
-.hljs-variable,
-.hljs-template-variable,
-.hljs-selector-id,
-.hljs-selector-class {
-  color: #ade5fc;
-}
-
-.hljs-string,
-.hljs-bullet {
-  color: #a2fca2;
-}
-
-.hljs-type,
-.hljs-title,
-.hljs-section,
-.hljs-attribute,
-.hljs-quote,
-.hljs-built_in,
-.hljs-builtin-name {
-  color: #ffa;
-}
-
-.hljs-number,
-.hljs-symbol,
-.hljs-bullet {
-  color: #d36363;
-}
-
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-literal {
-  color: #fcc28c;
-}
-
-.hljs-comment,
-.hljs-deletion,
-.hljs-code {
-  color: #888;
-}
-
-.hljs-regexp,
-.hljs-link {
-  color: #c6b4f0;
-}
-
-.hljs-meta {
-  color: #fc9b9b;
-}
-
-.hljs-deletion {
-  background-color: #fc9b9b;
-  color: #333;
-}
-
-.hljs-addition {
-  background-color: #a2fca2;
-  color: #333;
-}
-
-.hljs a {
-  color: inherit;
-}
-
-.hljs a:focus,
-.hljs a:hover {
-  color: inherit;
-  text-decoration: underline;
+.hljs-meta .hljs-keyword,
+.hljs-meta-keyword {
+  font-weight: bold;
 }
 
 html {
@@ -128,10 +165,12 @@ html {
 
 ::-moz-selection {
   background: #6161ac; /* WebKit/Blink Browsers */
+  color: #f7f7f7;
 }
 
 ::selection {
   background: #6161ac; /* WebKit/Blink Browsers */
+  color: #f7f7f7;
 }
 
 [href="#main"] {
@@ -419,7 +458,7 @@ header p {
   display: inline-block;
   margin: 0.35rem 0 12rem 0;
 }
-header.blog, header.about {
+header.blog, header.about, header.snippets {
   background-image: none;
   padding-bottom: 2rem;
   background-image: url(/assets/img/bg.svg);
@@ -428,12 +467,12 @@ header.blog, header.about {
   background-position: bottom;
 }
 @media (max-width: 600px) {
-  header.blog, header.about {
+  header.blog, header.about, header.snippets {
     text-align: auto;
     min-height: auto;
   }
 }
-header.blog h1, header.about h1 {
+header.blog h1, header.about h1, header.snippets h1 {
   display: inline-block;
 }
 header.about {
@@ -1125,4 +1164,130 @@ table thead tr th {
 table tbody tr td {
   border: 2px solid #31315d;
   padding: 0.2rem 0.5rem;
+}
+
+.card {
+  background: #f7f7f7;
+  border: 2px solid #43437e;
+  box-shadow: 5px 5px #43437e;
+  padding: 24px;
+  display: flex;
+  border-radius: 0.5rem;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: all 100ms ease-in-out;
+  margin-bottom: 1rem;
+  min-height: 100%;
+}
+.card:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px #43437e;
+}
+.card:hover:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px #43437e;
+}
+.card .card-header {
+  display: block;
+  font-size: 1rem;
+  border-bottom: 2px solid #31315d;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0 0 0.75rem 0;
+  margin: 0 0 1.5rem 0;
+  position: relative;
+}
+.card .card-header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+}
+.card .card-header:before {
+  content: "";
+  position: absolute;
+  right: -2px;
+  bottom: -6px;
+  width: 10px;
+  height: 10px;
+  background: #31315d;
+  border-radius: 50%;
+}
+.card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/********* TABLE RESET *********/
+table {
+  border-collapse: default;
+  border: none;
+}
+table thead {
+  text-align: default;
+}
+table thead tr th {
+  border: none;
+  padding: 0;
+}
+table tbody tr td {
+  border: none;
+  padding: 0;
+}
+
+/********* TABLE SNIPPET *********/
+table {
+  --color-1: hsl(240 31% 28%);
+  --color-1-50: hsl(240 31% 28% / 0.5);
+  --color-1-90: hsl(240 31% 28% / 0.1);
+  --color-2: hsl(0 0% 95%);
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--color-1);
+  font-size: 1rem;
+}
+
+table caption,
+table thead tr th,
+table tbody tr td,
+table tfoot tr th {
+  padding: 0.5rem;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+caption {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th {
+  background-color: var(--color-1-50);
+}
+
+tr:nth-of-type(2n) {
+  background-color: var(--color-1-90);
+}
+
+@media (max-width: 768px) {
+  th {
+    display: none;
+  }
+  td {
+    display: block;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 15ch auto;
+    padding: 0.5rem 1rem;
+  }
+  td::before {
+    content: attr(data-cell) ": ";
+    font-weight: bold;
+    text-transform: capitalize;
+  }
 }/*# sourceMappingURL=app.css.map */
