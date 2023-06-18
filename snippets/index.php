@@ -18,7 +18,7 @@
     <main class="container" style="font-size:16px">
         <div class="row">
             <div class="tiny-12 small-6 medium-4">
-                <a class="card" href="tables">
+                <a class="card" href="/snippets/tables">
                     <div class="card-header">
                         <h2>Responsive Tables</h2>
                     </div>
@@ -60,7 +60,7 @@
             </div>
 
             <div class="tiny-12 small-6 medium-4">
-                <a class="card" href="checkboxes">
+                <a class="card" href="/snippets/checkboxes">
                     <div class="card-header">
                         <h2>Checkbox Toggle</h2>
                     </div>

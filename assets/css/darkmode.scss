@@ -172,3 +172,10 @@ table {
 		}
 	}
 }
+
+nav.pagination ul li a[aria-current="page"] {
+	background: #f7f7f7;
+	color: #31315d;
+	border-radius: 3px;
+	box-shadow: 3px 3px darken($color-5, 5%);
+}

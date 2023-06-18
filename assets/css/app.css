@@ -892,11 +892,13 @@ nav[aria-label=posts] ul li h3 a {
 nav[aria-label=posts] ul li .categories {
   text-transform: uppercase;
   opacity: 0.4;
+  margin-top: 0.5rem;
   font-size: 60%;
   float: right;
 }
 
-#main.post img, #main.post svg {
+#main.post img,
+#main.post svg {
   margin: 1.5rem auto;
   display: block;
 }
@@ -1112,28 +1114,30 @@ nav[aria-label=posts] ul li .categories {
   border-color: #31315d;
 }
 
-#pagination {
+nav.pagination {
   text-align: center;
+  margin-top: 3rem;
 }
-#pagination ul {
+nav.pagination ul {
   padding-left: 0;
   list-style-type: none;
 }
-#pagination ul li {
+nav.pagination ul li {
   display: inline-block;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
-#pagination ul li a {
+nav.pagination ul li a {
   text-decoration: none;
   border: 0;
-  background: #f7f7f7;
   padding: 0.45rem 0.8rem;
 }
 @media (max-width: 650px) {
-  #pagination ul li a {
+  nav.pagination ul li a {
     padding: 0.25rem 0.6rem;
   }
 }
-#pagination ul li a.current {
+nav.pagination ul li a[aria-current=page] {
   background: #31315d;
   color: #f7f7f7;
 }

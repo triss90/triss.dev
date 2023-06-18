@@ -1,3 +1,1 @@
-<?php
-header("Location: /blog/page/1/");
-die();
+<?php header("Location: /../blog/1/"); die(); ?>

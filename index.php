@@ -503,7 +503,7 @@
 
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-        xobj.open('GET', '/blog/post_feed.json?v=<?php echo time(); ?>', true);
+        xobj.open('GET', '/sitemap.json?v=<?php echo time(); ?>', true);
         xobj.onreadystatechange = function () {
             if (xobj.readyState == 4 && xobj.status == "200") {
                 callback(xobj.responseText);
@@ -519,21 +519,20 @@
         loadJSON(function(response) {
 
             var post = JSON.parse(response);
-            post = post.reverse();
 
             for (var i = 0; i <= 3; i++) {
-                var postTitle = post[i][0];
-                var postSlug = post[i][1];
-                var postDate = post[i][2];
-                var postCategories = post[i][3];
-                var postPath = post[i][4];
+                console.log(post[i]['uri']);
+                var postTitle = post[i]['title'];
+                var postSlug = post[i]['url'];
+                var postDate = post[i]['date'];
+                var postCategories = post[i]['category'];
                 // var elSplitter = document.createElement("hr");
                 var elTime = document.createElement("time");
                 elTime.setAttribute("class", "post-date");
                 elTime.setAttribute("datetime", postDate);
                 elTime.innerText = postDate;
                 var elLink = document.createElement("a");
-                elLink.setAttribute('href', '/blog/'+postPath);
+                elLink.setAttribute('href', 'blog/'+postSlug);
                 elLink.innerText = postTitle;
                 var elHeader = document.createElement("h3");
                 elHeader.appendChild(elLink);

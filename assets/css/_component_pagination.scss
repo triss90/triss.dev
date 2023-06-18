@@ -1,23 +1,26 @@
-#pagination {
-  text-align: center;
-  ul {
-    padding-left: 0;
-    list-style-type: none;
-    li {
-      display: inline-block;
-      a {
-        text-decoration: none;
-        border: 0;
-        background: $color-2;
-        padding: 0.45rem 0.8rem;
-        @media(max-width: 650px) {
-          padding: 0.25rem 0.6rem;
-        }
-        &.current {
-          background: $color-3;
-          color: $color-2;
-        }
-      }
-    }
-  }
+nav.pagination {
+	text-align: center;
+	margin-top: 3rem;
+	ul {
+		padding-left: 0;
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin: 0;
+			margin-bottom: 0.5rem;
+			a {
+				text-decoration: none;
+				border: 0;
+				//background: $color-2;
+				padding: 0.45rem 0.8rem;
+				@media (max-width: 650px) {
+					padding: 0.25rem 0.6rem;
+				}
+				&[aria-current="page"] {
+					background: $color-3;
+					color: $color-2;
+				}
+			}
+		}
+	}
 }

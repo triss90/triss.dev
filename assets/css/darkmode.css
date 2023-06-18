@@ -191,4 +191,11 @@ table thead tr th {
 }
 table tbody tr td {
   border: 2px solid #f4f4f4;
+}
+
+nav.pagination ul li a[aria-current=page] {
+  background: #f7f7f7;
+  color: #31315d;
+  border-radius: 3px;
+  box-shadow: 3px 3px #13132f;
 }/*# sourceMappingURL=darkmode.css.map */

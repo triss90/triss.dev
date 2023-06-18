@@ -9,295 +9,147 @@
 <url>https://triss.dev/assets/img/me/tw_720.jpg</url>
 </image>
 <language>en-US</language>
-<lastBuildDate>Tue, 13 Jun 2023 11:17:16 +0000</lastBuildDate>
-<pubDate>Tue, 13 Jun 2023 11:17:16 +0000</pubDate>
+<lastBuildDate>Fri, 16 Jun 2023 15:01:41 +0000</lastBuildDate>
+<pubDate>Fri, 16 Jun 2023 15:01:41 +0000</pubDate>
 <atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
 <item>
 <title>Weekly Widget - Isometric Menu</title>
-<link>https://triss.dev/blog/2023/06/12/weekly-widget-isometric-menu/</link>
+<link>https://triss.dev/blog/weekly-widget-isometric-menu</link>
 <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Isometric Menu</h1>
-<p class='timestamp'><time datetime='12-06-2023'12-06-2023</time></p>
-<hr>
-<p>The widget of the week is an isometric menu, designed using CSS transforms. While its applications might be limited, the visual impact it creates is undeni...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
-<title>Weekly Widget -  HSLA editor</title>
-<link>https://triss.dev/blog/2023/06/05/weekly-widget-hsla-editor/</link>
+<title>Weekly Widget - HSLA editor</title>
+<link>https://triss.dev/blog/weekly-widget-hsla-editor</link>
 <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>HSLA editor</h1>
-<p class='timestamp'><time datetime='05-06-2023'05-06-2023</time></p>
-<hr>
-<p>This week's widget is a simple HSLA color slider</p>
-<p>&lt;p class="codepen" data-height="566.2734375" data-default-tab="result" data-slug-hash="JjbqWKK" data-user="t...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>ColorDrop Release 2023</title>
-<link>https://triss.dev/blog/2023/05/30/colordrop-release-2023/</link>
+<link>https://triss.dev/blog/colordrop-release-2023</link>
 <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>ColorDrop Release 2023</h1>
-<p class='timestamp'><time datetime='30-05-2023'>30-05-2023</time></p>
-<hr>
-<p>I am are thrilled to announce the launch of the all-new, redesigned <a href="https://colordop.io">ColorDrop.io</a>!</p>
-<p>Over the past few months, I've been work...</p>]]></description>
+<description><![CDATA[ColorDrop Release 2023]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Weekly Widget - Datacenter Map</title>
-<link>https://triss.dev/blog/2023/05/29/weekly-widget-datacenter-map/</link>
+<link>https://triss.dev/blog/weekly-widget-datacenter-map</link>
 <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Datacenter Map</h1>
-<p class='timestamp'><time datetime='29-05-2023'>29-05-2023</time></p>
-<hr>
-<p>The widget of the week is an animated datacenter map, designed using SVG, with a dotted pattern:</p>
-<p>&lt;p class="codepen" data-height="684.7109375" data-defaul...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Weekly Widget - Animated Background</title>
-<link>https://triss.dev/blog/2023/05/22/weekly-widget-animated-background/</link>
+<link>https://triss.dev/blog/weekly-widget-animated-background</link>
 <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Animated Background</h1>
-<p class='timestamp'><time datetime='22-05-2023'>22-05-2023</time></p>
-<hr>
-<p>This week's widget is a animated background with CSS. Note how the background color gradually shifts from a pure blue to a purple gradiant:</p>
-<p>&lt;p class...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Color systems with CSS color-mix</title>
-<link>https://triss.dev/blog/2023/05/17/color-systems-with-css-color-mix/</link>
+<link>https://triss.dev/blog/color-systems-with-css-color-mix</link>
 <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-:root {
-  --primary: #e62739;
-  --primary-a90: color-mix(in srgb, var(--primary), transparent 10%);
-  --primary-a80: color-mix(in srgb, var(--primary), transparent 20%);
-  --primary-a50: color-mix(in srgb, var(--primary), transparent 50%);
- ...]]></description>
+<description><![CDATA[Setting up a color system with CSS color-mix]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Weekly Widget - &quot;Toss&quot; Add to Cart Animation</title>
-<link>https://triss.dev/blog/2023/05/10/weekly-widget-toss-cart-animation/</link>
+<link>https://triss.dev/blog/weekly-widget-toss-cart-animation</link>
 <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>"Toss" Add to Cart Animation</h1>
-<p class='timestamp'><time datetime='10-05-2023'>10-05-2023</time></p>
-<hr>
-<p>This week's widget is a fancy add to cart animation, made with CSS and a bit of JS to make it interactable, enjoy:</p>
-<p>&lt;p class="codepen" data-...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Weekly Widget - CSS Skewed Graphic</title>
-<link>https://triss.dev/blog/2023/04/03/weekly-widget-css-skewed-graphic/</link>
+<link>https://triss.dev/blog/weekly-widget-css-skewed-graphic</link>
 <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Weekly Widget - CSS Skewed Graphic</h1>
-<p class='timestamp'><time datetime='03-04-2023'>03-04-2023</time></p>
-<hr>
-<p>This week's widget is a simple skewed graphic, made with pure CSS, enjoy:</p>
-<p>&lt;p class="codepen" data-height="807.54296875" data-default-...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Aspect Ratio Revisited</title>
-<link>https://triss.dev/blog/2023/03/28/aspect-ratio-revisited/</link>
+<link>https://triss.dev/blog/aspect-ratio-revisited</link>
 <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-  .result {
-    text-decoration-line: underline;
-    text-decoration-style: double;
-  }
-  .example {
-    width: 100%;
-    background-image: url('https://webbox.dev/placeholder/image.php?width=533&height=300&text=placeholder&textColor=162,252...]]></description>
+<description><![CDATA[Learn how aspect ratios work and how we can use this on the web]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Weekly Widget - CSS Coupon</title>
-<link>https://triss.dev/blog/2023/03/27/weekly-widget-css-coupon/</link>
+<link>https://triss.dev/blog/weekly-widget-css-coupon</link>
 <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Weekly Widget - CSS Coupon</h1>
-<p class='timestamp'><time datetime='27-03-2023'>27-03-2023</time></p>
-<hr>
-<p>I was looking some old work and stumbled upon a few widgets I found interesting. 
-So I'm officially introducing a new segment: **Weekly Widget...</p>]]></description>
+<description><![CDATA[Weekly widget]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Units on the Web</title>
-<link>https://triss.dev/blog/2023/03/10/units-on-the-web/</link>
+<link>https://triss.dev/blog/units-on-the-web</link>
 <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-.box {
-    border: 2px solid black;
-    background: white;
-    color: black;
-    display: inline-block;
-    margin-bottom: 5px;
-    padding: 5px;
-    text-align: center;
-}
-.darkmode .box,
-.darkmode .grid .item {
-    border: 2px solid white;
-}
-.grid {
-    display: grid...]]></description>
+<description><![CDATA[An introduction to units on the web]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Animating the Web</title>
-<link>https://triss.dev/blog/2023/02/23/animating-the-web/</link>
+<link>https://triss.dev/blog/animating-the-web</link>
 <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-  .darkmode hr {
-    background: white;
-  }
-  .darkmode hr:after {
-    backgroudn: white;
-  }
-  input[type="text"] {
-    display: inline-block;
-    width: 100%;
-    background: none;
-    border: 2px solid black;
-    background: white;
-    fo...]]></description>
+<description><![CDATA[Learn the basics of animaitons on the web]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Smooth scroll-to-top</title>
-<link>https://triss.dev/blog/2023/02/21/smooth-scroll-to-top/</link>
+<link>https://triss.dev/blog/smooth-scroll-to-top</link>
 <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>Smooth scroll-to-top</h1>
-<p class='timestamp'><time datetime='21-02-2023'>21-02-2023</time></p>
-<hr>
-<p>Back in the day, circa 2010, when we needed to scroll to top we would use the jQuery library to accomplish this. </p>
-<p>I dug out the following snippet f...</p>]]></description>
+<description><![CDATA[Learn how to add a smooth scroll-to-top feature to your projects]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>CSS color-scheme</title>
-<link>https://triss.dev/blog/2023/02/01/css-color-scheme/</link>
+<link>https://triss.dev/blog/css-color-scheme</link>
 <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-:root {
-  color-scheme: light;
-}
-#color-scheme-button {
-  font-size: 1.25rem;
-  line-height: 1.35;
-  display: inline-block;
-  margin: 0 auto;
-}
-.dark {
-  color-scheme: dark;
-}
-</style>
-<h1>CSS color-scheme</h1>
-<p class='timestamp'><time datetime...]]></description>
+<description><![CDATA[Learn how to create a color-scheme with CSS]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>CSS selectmenu</title>
-<link>https://triss.dev/blog/2022/01/28/selectmenu/</link>
+<link>https://triss.dev/blog/selectmenu</link>
 <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-selectmenu.logos::part(button) {
-  width: 200px;
-  max-width: 100%;
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.3;
-  padding: .6em 1.4em .5em .8em;
-  box-sizing: border-box;
-  margin: 0;
-  border: 1px solid #aaa;
-  box-shadow: 0 1px 0...]]></description>
+<description><![CDATA[Learn how HTML element selectmenu works]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Specificity on the Web</title>
-<link>https://triss.dev/blog/2021/05/06/specificity-on-the-web/</link>
+<link>https://triss.dev/blog/specificity-on-the-web</link>
 <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-table {
-  //font-size: 1rem;
-  width: 100%;
-  max-width: 100% !important;
-  overflow: hidden;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.special-highlight-1 {
-  color: #ec5f67
-}
-.special-highlight-2...]]></description>
+<description><![CDATA[Learn css specificity]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>HSL Simplified</title>
-<link>https://triss.dev/blog/2021/03/22/hsl-simplified/</link>
+<link>https://triss.dev/blog/hsl-simplified</link>
 <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-.hsl-container {
-  width: 100%;
-  padding: 1.5rem;
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 0.5rem;
-  color: white;
-  margin: 0 auto;
-}
-.hsl-container .hsl-slider {
-  width: 100%;
-  height: 25px;
-  background: black;
-  outline: non...]]></description>
+<description><![CDATA[HSL for dummies]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>AVIF Image</title>
-<link>https://triss.dev/blog/2020/09/15/avif-image/</link>
+<link>https://triss.dev/blog/avif-image</link>
 <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-</style>
-<h1>AVIF Image Format</h1>
-<p class='timestamp'><time datetime='20-05-2020'>20-05-2020</time></p>
-<hr>
-<p>Google Chrome just added support for the new AVIF image format.</p>
-<p>The AVIF Image format is a modern image format based on the AV1 vi...</p>]]></description>
+<description><![CDATA[An introduction to AVIF images]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>Fluid Typography</title>
-<link>https://triss.dev/blog/2020/05/20/fluid-typography/</link>
+<link>https://triss.dev/blog/fluid-typography</link>
 <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[<style>
-.fluid-text, .fluid-text pre code, .fluid-text code {
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
-}
-</style>
-<div class="fluid-text">
-<h1>Fluid Typography</h1>
-<p class='timestamp'><time datetime='20-05-2020'>20-05-2020</time></p>
-<hr>
-<p>Fluid ty...</p>]]></description>
+<description><![CDATA[Learn how to set up and use fluid typography]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 <item>
 <title>CSS Scroll Snap</title>
-<link>https://triss.dev/blog/2020/04/14/css-scroll-snap/</link>
+<link>https://triss.dev/blog/css-scroll-snap</link>
 <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[<h1>CSS Scroll Snap</h1>
-<p class='timestamp'><time datetime='14-04-2020'>14-04-2020</time></p>
-<hr>
-<p>Ever wondered if you could make a CSS-only carousel or image gallery, without the use of awkward hacks? 
-Well it's 2020 and you can!</p>
-<p>The new(ish) CSS `sc...</p>]]></description>
+<description><![CDATA[Add scroll snap to your web projects]]></description>
 <author>tristan@white.chat (Tristan White)</author>
 </item>
 </channel>
