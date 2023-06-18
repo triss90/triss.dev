@@ -22,10 +22,12 @@ section#work {
   color: #f7f7f7;
 }
 
-section#work .work-items .work-item {
+section#work .work-items .work-item,
+.card {
   background: #1a1a41;
   box-shadow: 5px 5px #13132f;
   border: 2px solid #13132f;
+  color: #f7f7f7;
 }
 
 section#work .work-items .work-item .button {
@@ -182,15 +184,15 @@ hr.stop {
 }
 
 .post svg {
-  background: #f4f4f4;
-  stroke: #19191a;
+  background: #f7f7f7;
+  stroke: #1a1a41;
 }
 
 table thead tr th {
-  border: 2px solid #f4f4f4;
+  border: 2px solid #f7f7f7;
 }
 table tbody tr td {
-  border: 2px solid #f4f4f4;
+  border: 2px solid #f7f7f7;
 }
 
 nav.pagination ul li a[aria-current=page] {
@@ -198,4 +200,55 @@ nav.pagination ul li a[aria-current=page] {
   color: #31315d;
   border-radius: 3px;
   box-shadow: 3px 3px #13132f;
+}
+
+.card .card-header {
+  border-color: #f7f7f7;
+}
+
+.card .card-header:before {
+  background-color: #f7f7f7;
+}
+
+.card .card-body #table g {
+  stroke: #f7f7f7 !important;
+}
+
+/* Table snippet */
+table {
+  color: #f7f7f7 !important;
+}
+
+table caption {
+  background: #1c1c35;
+  color: #f7f7f7;
+}
+
+table thead,
+table tfoot {
+  background: #17172b !important;
+  color: #f7f7f7;
+}
+
+table tr:nth-of-type(2n) {
+  background-color: #2a2a50;
+}
+
+/* Checkbox Snippet */
+.checkbox .checkbox-label {
+  background: #eaeaea !important;
+}
+
+.checkbox .checkbox-label:after {
+  background: #919191 !important;
+  border: 2px solid #eaeaea;
+}
+
+.checkbox .checkbox-input:checked ~ label:after {
+  background: #1a1a41 !important;
+  border: 2px solid #eaeaea;
+}
+
+.checkbox .checkbox-input:disabled ~ label:after {
+  border-color: transparent;
 }/*# sourceMappingURL=darkmode.css.map */

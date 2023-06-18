@@ -1,0 +1,11 @@
+.row {
+	@media (max-width: 768px) {
+		gap: 2rem;
+	}
+	@media (max-width: 458px) {
+		gap: 2rem;
+	}
+	@media (max-width: 315px) {
+		gap: 1rem;
+	}
+}

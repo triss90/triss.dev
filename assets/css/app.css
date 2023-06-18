@@ -1170,6 +1170,22 @@ table tbody tr td {
   padding: 0.2rem 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .row {
+    gap: 2rem;
+  }
+}
+@media (max-width: 458px) {
+  .row {
+    gap: 2rem;
+  }
+}
+@media (max-width: 315px) {
+  .row {
+    gap: 1rem;
+  }
+}
+
 .card {
   background: #f7f7f7;
   border: 2px solid #43437e;
@@ -1180,16 +1196,31 @@ table tbody tr td {
   justify-content: space-between;
   flex-direction: column;
   transition: all 100ms ease-in-out;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   min-height: 100%;
+}
+@media (max-width: 768px) {
+  .card {
+    margin: 0 4rem 4rem 4rem;
+  }
+}
+@media (max-width: 458px) {
+  .card {
+    margin: 0 2rem 2rem 2rem;
+  }
+}
+@media (max-width: 315px) {
+  .card {
+    margin: 0 1rem 1rem 1rem;
+  }
 }
 .card:hover {
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px #43437e;
+  box-shadow: 3px 3px #13132f;
 }
 .card:hover:active {
   transform: translate(3px, 3px);
-  box-shadow: 0px 0px #43437e;
+  box-shadow: 0px 0px #13132f;
 }
 .card .card-header {
   display: block;
@@ -1220,78 +1251,4 @@ table tbody tr td {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-/********* TABLE RESET *********/
-table {
-  border-collapse: default;
-  border: none;
-}
-table thead {
-  text-align: default;
-}
-table thead tr th {
-  border: none;
-  padding: 0;
-}
-table tbody tr td {
-  border: none;
-  padding: 0;
-}
-
-/********* TABLE SNIPPET *********/
-table {
-  --color-1: hsl(240 31% 28%);
-  --color-1-50: hsl(240 31% 28% / 0.5);
-  --color-1-90: hsl(240 31% 28% / 0.1);
-  --color-2: hsl(0 0% 95%);
-  width: 100%;
-  border-collapse: collapse;
-  color: var(--color-1);
-  font-size: 1rem;
-}
-
-table caption,
-table thead tr th,
-table tbody tr td,
-table tfoot tr th {
-  padding: 0.5rem;
-}
-
-caption,
-th {
-  text-align: left;
-}
-
-caption {
-  background-color: var(--color-1);
-  color: var(--color-2);
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-th {
-  background-color: var(--color-1-50);
-}
-
-tr:nth-of-type(2n) {
-  background-color: var(--color-1-90);
-}
-
-@media (max-width: 768px) {
-  th {
-    display: none;
-  }
-  td {
-    display: block;
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: 15ch auto;
-    padding: 0.5rem 1rem;
-  }
-  td::before {
-    content: attr(data-cell) ": ";
-    font-weight: bold;
-    text-transform: capitalize;
-  }
 }/*# sourceMappingURL=app.css.map */

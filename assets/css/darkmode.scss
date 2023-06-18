@@ -14,10 +14,12 @@ section#work {
 	background: $color-3;
 	color: $color-2;
 }
-section#work .work-items .work-item {
+section#work .work-items .work-item,
+.card {
 	background: $color-5;
 	box-shadow: 5px 5px darken($color-5, 5%);
 	border: 2px solid darken($color-5, 5%);
+	color: $color-2;
 }
 section#work .work-items .work-item .button {
 	background: $color-3;
@@ -153,29 +155,75 @@ hr.stop {
 	}
 }
 .post svg {
-	background: #f4f4f4;
-	stroke: #19191a;
+	background: $color-2;
+	stroke: $color-5;
 }
 table {
 	thead {
 		tr {
 			th {
-				border: 2px solid #f4f4f4;
+				border: 2px solid $color-2;
 			}
 		}
 	}
 	tbody {
 		tr {
 			td {
-				border: 2px solid #f4f4f4;
+				border: 2px solid $color-2;
 			}
 		}
 	}
 }
 
 nav.pagination ul li a[aria-current="page"] {
-	background: #f7f7f7;
+	background: $color-2;
 	color: #31315d;
 	border-radius: 3px;
 	box-shadow: 3px 3px darken($color-5, 5%);
+}
+
+.card .card-header {
+	border-color: $color-2;
+}
+.card .card-header:before {
+	background-color: $color-2;
+}
+.card .card-body #table g {
+	stroke: $color-2 !important;
+}
+
+/* Table snippet */
+table {
+	color: $color-2 !important;
+}
+table caption {
+	background: darken($color-3, 12%);
+	color: $color-2;
+}
+
+table thead,
+table tfoot {
+	background: darken($color-3, 15%) !important;
+	color: $color-2;
+}
+table tr:nth-of-type(2n) {
+	background-color: darken($color-3, 4%);
+}
+
+/* Checkbox Snippet */
+.checkbox .checkbox-label {
+	background: darken($color-2, 5%) !important;
+}
+.checkbox .checkbox-label:after {
+	background: darken($color-2, 40%) !important;
+	border: 2px solid darken($color-2, 5%);
+}
+
+.checkbox .checkbox-input:checked ~ label:after {
+	background: $color-5 !important;
+	border: 2px solid darken($color-2, 5%);
+}
+
+.checkbox .checkbox-input:disabled ~ label:after {
+	border-color: transparent;
 }

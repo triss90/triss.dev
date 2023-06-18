@@ -8,14 +8,23 @@
 	justify-content: space-between;
 	flex-direction: column;
 	transition: all 100ms ease-in-out;
-	margin-bottom: 1rem;
+	margin-bottom: 4rem;
+	@media (max-width: 768px) {
+		margin: 0 4rem 4rem 4rem;
+	}
+	@media (max-width: 458px) {
+		margin: 0 2rem 2rem 2rem;
+	}
+	@media (max-width: 315px) {
+		margin: 0 1rem 1rem 1rem;
+	}
 	min-height: 100%;
 	&:hover {
 		transform: translate(2px, 2px);
-		box-shadow: 2px 2px lighten($color-3, 10%);
+		box-shadow: 3px 3px darken($color-5, 5%);
 		&:active {
 			transform: translate(3px, 3px);
-			box-shadow: 0px 0px lighten($color-3, 10%);
+			box-shadow: 0px 0px darken($color-5, 5%);
 		}
 	}
 	.card-header {
