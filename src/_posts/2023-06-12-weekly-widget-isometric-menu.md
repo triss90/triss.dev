@@ -14,8 +14,7 @@ tags:
 
 # Isometric Menu
 
-<p class='timestamp'><time datetime='12-06-2023'12-06-2023</time></p>
-<hr>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p><hr>
 
 The widget of the week is an isometric menu, designed using CSS transforms. While its applications might be limited, the visual impact it creates is undeniably impressive.
 

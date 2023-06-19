@@ -15,8 +15,7 @@ tags:
 
 # HSLA editor
 
-<p class='timestamp'><time datetime='05-06-2023'05-06-2023</time></p>
-<hr>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p><hr>
 
 This week's widget is a simple HSLA color slider
 

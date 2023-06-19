@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/css-variables'>CSS Variables</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/svg-header-waves'>SVG Header Waves</a></h3>
+<time class='post-date' datetime='2018-04-20'>2018-04-20</time>
+<span class='categories'>svg, php</span>
+<hr>
+</li><li><h3><a href='/../blog/css-variables'>CSS Variables</a></h3>
 <time class='post-date' datetime='2017-01-03'>2017-01-03</time>
 <span class='categories'>css</span>
 <hr>

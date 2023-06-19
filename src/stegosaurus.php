@@ -11,6 +11,34 @@
 require('_stegoinit.php');
 require('_stegoconfig.php');
 
+// Print status
+$art ="\e[32m
+                         .       .
+                        / `.   .' \ 
+                .---.  <    > <    >  .---.
+                |    \  \ - ~ ~ - /  /    |
+                 ~-..-~             ~-..-~
+             \~~~\.'                    `./~~~/
+   .-~~^-.    \__/                        \__/
+ .'  O    \     /               /       \  \
+(_____,    `._.'               |         }  \/~~~/
+ `----.          /       }     |        /    \__/
+       `-.      |       /      |       /      `. ,~~|
+           ~-.__|      /_ - ~ ^|      /- _      `..-'   f: f:
+                |     /        |     /     ~-.     `-. _||_||_
+                |_____|        |_____|         ~ - . _ _ _ _ _>
+\e[92m                
+ _____ _____ _____ _____ _____ _____  ___  _   _______ _   _ _____ 
+/  ___|_   _|  ___|  __ \  _  /  ___|/ _ \| | | | ___ \ | | /  ___|
+\ `--.  | | | |__ | |  \/ | | \ `--./ /_\ \ | | | |_/ / | | \ `--. 
+ `--. \ | | |  __|| | __| | | |`--. \  _  | | | |    /| | | |`--. \
+/\__/ / | | | |___| |_\ \ \_/ /\__/ / | | | |_| | |\ \| |_| /\__/ /
+\____/  \_/ \____/ \____/\___/\____/\_| |_/\___/\_| \_|\___/\____/ 
+\e[32m
+ -------------------------------------------------------------                                                        
+";
+echo $art;
+
 // Load and list all blogposts in array
 $dir = new DirectoryIterator(__DIR__.'/'.$postsFolder);
 $dirSorted = array();
@@ -42,12 +70,14 @@ $blogfolderExec = __DIR__."/".$blogFolder."/*";
 $blogfolderExec = str_replace("src/../", "", $blogfolderExec);
 $blogfolderExec = addslashes($blogfolderExec);
 exec('rm -rf '.$blogfolderExec);
+echo "\e[92m - Purged old files from \e[32m".$blogName."\n";
 
 // Json for RSS and Sitemap:
 $siteIndex = array();
 $draftIndex = array();
 $draftIndex = array();
 // $tagIndex = array();
+$pageCount = 0;
 $tags = "";
 
 
@@ -66,7 +96,8 @@ foreach($dirSorted as $p) {
         'title' => $blogFrontMatter['title'],
         'description' => $blogFrontMatter['description'],
         'content' => $blogContent,
-        'year' => date("Y")
+        'year' => date("Y"),
+        'date' => date("Y-m-d", $blogFrontMatter['date'])
     );
 
     // no layout defined, fallback to "post":
@@ -112,9 +143,7 @@ foreach($dirSorted as $p) {
             'url' => strtolower($blogFrontMatter['slug']),
             'uri' => $domainDev.$blogName."/".strtolower($blogFrontMatter['slug']).'/',
         );
-
     } else {
-
         // Create individual blog post files
         file_put_contents($dirPublish."index.php", $blogContentParsed);
 
@@ -128,6 +157,11 @@ foreach($dirSorted as $p) {
             'uri' => $domain.strtolower($blogFrontMatter['slug']).'/',
         );
     }
+}
+echo "\e[92m - Generated \e[32m".count($siteIndex)." \e[92mPosts\n";
+echo "\e[92m - Generated \e[32m".count($draftIndex)." \e[92mDrafts\n";
+foreach ($draftIndex as $draft) {
+    echo "\e[92m   -\e[94m ".$draft['uri']." \n";
 }
 
 
@@ -216,68 +250,25 @@ for($i = 0; $i < $totalPages; $i++) {
     }
     mkdir($dirPublish . ($i+1), 0777, true);
     file_put_contents($dirPublish. ($i+1) . "/" . $pageName . ".php", $blogContentParsed);
-    
+    $pageCount++;
 }
+echo "\e[92m - Generated \e[32m".$pageCount."\e[92m Article pages:\e[94m".$domainDev.$blogName."/1\n";
+
 
 // Create search page
 include('_stegosearch.php');
+echo "\e[92m - Generated search page: \e[94m".$domainDev."search/ \n";
 
 
 // Create XML Sitemap
 include('_stegositemap.php');
+echo "\e[92m - Generated sitemap: \e[94m".$domainDev."sitemap.xml \n";
+echo "\e[92m   - Submit sitemap to Google: \e[91mphp stegosubmit.php \n";
+echo "\e[92m - Generated JSON Feed: \e[94m".$domainDev."/sitemap.json \n";
 
 
 // Create RSS Feed
 include('_stegorss.php');
-
-
-
-// Print status
-$art ="\e[32m
-                         .       .
-                        / `.   .' \ 
-                .---.  <    > <    >  .---.
-                |    \  \ - ~ ~ - /  /    |
-                 ~-..-~             ~-..-~
-             \~~~\.'                    `./~~~/
-   .-~~^-.    \__/                        \__/
- .'  O    \     /               /       \  \
-(_____,    `._.'               |         }  \/~~~/
- `----.          /       }     |        /    \__/
-       `-.      |       /      |       /      `. ,~~|
-           ~-.__|      /_ - ~ ^|      /- _      `..-'   f: f:
-                |     /        |     /     ~-.     `-. _||_||_
-                |_____|        |_____|         ~ - . _ _ _ _ _>
-\e[92m                
- _____ _____ _____ _____ _____ _____  ___  _   _______ _   _ _____ 
-/  ___|_   _|  ___|  __ \  _  /  ___|/ _ \| | | | ___ \ | | /  ___|
-\ `--.  | | | |__ | |  \/ | | \ `--./ /_\ \ | | | |_/ / | | \ `--. 
- `--. \ | | |  __|| | __| | | |`--. \  _  | | | |    /| | | |`--. \
-/\__/ / | | | |___| |_\ \ \_/ /\__/ / | | | |_| | |\ \| |_| /\__/ /
-\____/  \_/ \____/ \____/\___/\____/\_| |_/\___/\_| \_|\___/\____/ 
-\e[32m
- -------------------------------------------------------------                                                        
-";
-
-echo $art;
-echo "\e[92m - Purged old files from \e[32m'".$blogName."'\n";
-
-echo "\e[92m - Generated \e[32m".count($siteIndex)." \e[92mPosts\n";
-
-echo "\e[92m - Generated \e[32m".count($draftIndex)." \e[92mDrafts\n";
-foreach ($draftIndex as $draft) {
-    echo "\e[92m   -\e[94m ".$draft['uri']." \n";
-}
-//echo "\n";
-
-echo "\e[92m - Generated search page: \e[94m".$domainDev."search/ \n";
-
-echo "\e[92m - Generated sitemap: \e[94m".$domainDev."sitemap.xml \n";
-echo "\e[92m   - Submit sitemap to Google: \e[91mphp stegosubmit.php \n";
-
-echo "\e[92m - Generated JSON Feed: \e[94m".$domainDev."/sitemap.json \n";
-
 echo "\e[92m - Generated RSS Feed: \e[94m".$domainDev."/".$blogName."/rss.xml \n";
-
 echo "\n";
 

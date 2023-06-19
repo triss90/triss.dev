@@ -13,8 +13,7 @@ tags:
 
 # Animated Background
 
-<p class='timestamp'><time datetime='22-05-2023'>22-05-2023</time></p>
-<hr>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p><hr>
 
 This week's widget is a animated background with CSS. Note how the background color gradually shifts from a pure blue to a purple gradiant:
 

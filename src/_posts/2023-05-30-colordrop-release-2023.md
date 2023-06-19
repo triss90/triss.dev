@@ -10,8 +10,7 @@ category: Releases
 
 # ColorDrop Release 2023
 
-<p class='timestamp'><time datetime='30-05-2023'>30-05-2023</time></p>
-<hr>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p><hr>
 
 I am are thrilled to announce the launch of the all-new, redesigned [ColorDrop.io](https://colordop.io)!
 

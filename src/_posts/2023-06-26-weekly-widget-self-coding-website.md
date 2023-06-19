@@ -14,7 +14,7 @@ tags:
 
 # Self-codeing Website
 
-<p class='timestamp'><time datetime='26-06-2023'26-06-2023</time></p>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p>
 <hr>
 
 The widget of the day is a self-coding website. While its practical applications may be limited, it could potentially be used as a tool for displaying examples:

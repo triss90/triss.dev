@@ -14,8 +14,7 @@ tags:
 
 # Datacenter Map
 
-<p class='timestamp'><time datetime='29-05-2023'>29-05-2023</time></p>
-<hr>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p><hr>
 
 The widget of the week is an animated datacenter map, designed using SVG, with a dotted pattern:
 

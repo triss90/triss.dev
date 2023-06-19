@@ -8,7 +8,7 @@
 <main id='main' class='central space post'>
 
     <h1>Self-codeing Website</h1>
-<p class='timestamp'><time datetime='26-06-2023'26-06-2023</time></p>
+<p class='timestamp'><time datetime='2023-06-26'>2023-06-26</time></p>
 <hr>
 <p>The widget of the day is a self-coding website. While its practical applications may be limited, it could potentially be used as a tool for displaying examples:</p>
 <p class="codepen" data-height="794.81640625" data-default-tab="result" data-slug-hash="QBaEbq" data-user="triss90" style="height: 794.81640625px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

@@ -14,7 +14,7 @@ tags:
 
 # Simply CSS Checkbox
 
-<p class='timestamp'><time datetime='03-07-2023'03-07-2023</time></p>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p>
 <hr>
 
 Today's featured widget is a simple CSS checkbox, which happens to be my most viewed and highly rated pen on codepen.io. It perfectly demonstrates the "checkbox-hack", achieving a pure CSS toggle effect:

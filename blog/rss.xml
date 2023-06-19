@@ -1,156 +1,127 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0'>
 <channel>
-<title>Tristan White&#039;s Blog</title>
-<link>https://triss.dev/</link>
-<description><![CDATA[Tristan works for small companies and startups, creating responsive web applications, and online experiences.]]></description>
-<image><title>Tristan White</title>
-<link>https://triss.dev/</link>
-<url>https://triss.dev/assets/img/me/tw_720.jpg</url>
-</image>
-<language>en-US</language>
-<lastBuildDate>Fri, 16 Jun 2023 15:01:41 +0000</lastBuildDate>
-<pubDate>Fri, 16 Jun 2023 15:01:41 +0000</pubDate>
-<atom:link href="https://triss.dev/feed" rel="self" type="application/rss+xml"></atom:link>
-<item>
-<title>Weekly Widget - Isometric Menu</title>
-<link>https://triss.dev/blog/weekly-widget-isometric-menu</link>
-<pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Weekly Widget - HSLA editor</title>
-<link>https://triss.dev/blog/weekly-widget-hsla-editor</link>
-<pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>ColorDrop Release 2023</title>
-<link>https://triss.dev/blog/colordrop-release-2023</link>
-<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[ColorDrop Release 2023]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Weekly Widget - Datacenter Map</title>
-<link>https://triss.dev/blog/weekly-widget-datacenter-map</link>
-<pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Weekly Widget - Animated Background</title>
-<link>https://triss.dev/blog/weekly-widget-animated-background</link>
-<pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Color systems with CSS color-mix</title>
-<link>https://triss.dev/blog/color-systems-with-css-color-mix</link>
-<pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Setting up a color system with CSS color-mix]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Weekly Widget - &quot;Toss&quot; Add to Cart Animation</title>
-<link>https://triss.dev/blog/weekly-widget-toss-cart-animation</link>
-<pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Weekly Widget - CSS Skewed Graphic</title>
-<link>https://triss.dev/blog/weekly-widget-css-skewed-graphic</link>
-<pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Aspect Ratio Revisited</title>
-<link>https://triss.dev/blog/aspect-ratio-revisited</link>
-<pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn how aspect ratios work and how we can use this on the web]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Weekly Widget - CSS Coupon</title>
-<link>https://triss.dev/blog/weekly-widget-css-coupon</link>
-<pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Weekly widget]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Units on the Web</title>
-<link>https://triss.dev/blog/units-on-the-web</link>
-<pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[An introduction to units on the web]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Animating the Web</title>
-<link>https://triss.dev/blog/animating-the-web</link>
-<pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn the basics of animaitons on the web]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Smooth scroll-to-top</title>
-<link>https://triss.dev/blog/smooth-scroll-to-top</link>
-<pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn how to add a smooth scroll-to-top feature to your projects]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>CSS color-scheme</title>
-<link>https://triss.dev/blog/css-color-scheme</link>
-<pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn how to create a color-scheme with CSS]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>CSS selectmenu</title>
-<link>https://triss.dev/blog/selectmenu</link>
-<pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn how HTML element selectmenu works]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Specificity on the Web</title>
-<link>https://triss.dev/blog/specificity-on-the-web</link>
-<pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn css specificity]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>HSL Simplified</title>
-<link>https://triss.dev/blog/hsl-simplified</link>
-<pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
-<description><![CDATA[HSL for dummies]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>AVIF Image</title>
-<link>https://triss.dev/blog/avif-image</link>
-<pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[An introduction to AVIF images]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>Fluid Typography</title>
-<link>https://triss.dev/blog/fluid-typography</link>
-<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[Learn how to set up and use fluid typography]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-<item>
-<title>CSS Scroll Snap</title>
-<link>https://triss.dev/blog/css-scroll-snap</link>
-<pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-<description><![CDATA[Add scroll snap to your web projects]]></description>
-<author>tristan@white.chat (Tristan White)</author>
-</item>
-</channel>
-</rss>
+<title>w3schools.in | RSS</title>
+<link>https://www.w3schools.in/</link>
+<description>Cloud RSS</description>
+<language>en-us</language><item>
+    <title>Weekly Widget - Pure CSS Star Rating</title>
+    <link>https://triss.dev/blog/weekly-widget-css-star-rating</link>
+    <pubDate>2023-06-19</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - Isometric Menu</title>
+    <link>https://triss.dev/blog/weekly-widget-isometric-menu</link>
+    <pubDate>2023-06-12</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - HSLA editor</title>
+    <link>https://triss.dev/blog/weekly-widget-hsla-editor</link>
+    <pubDate>2023-06-05</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>ColorDrop Release 2023</title>
+    <link>https://triss.dev/blog/colordrop-release-2023</link>
+    <pubDate>2023-05-30</pubDate>
+    <description>ColorDrop Release 2023</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - Datacenter Map</title>
+    <link>https://triss.dev/blog/weekly-widget-datacenter-map</link>
+    <pubDate>2023-05-29</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - Animated Background</title>
+    <link>https://triss.dev/blog/weekly-widget-animated-background</link>
+    <pubDate>2023-05-22</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Color systems with CSS color-mix</title>
+    <link>https://triss.dev/blog/color-systems-with-css-color-mix</link>
+    <pubDate>2023-05-17</pubDate>
+    <description>Setting up a color system with CSS color-mix</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - "Toss" Add to Cart Animation</title>
+    <link>https://triss.dev/blog/weekly-widget-toss-cart-animation</link>
+    <pubDate>2023-05-10</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - CSS Skewed Graphic</title>
+    <link>https://triss.dev/blog/weekly-widget-css-skewed-graphic</link>
+    <pubDate>2023-04-03</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Aspect Ratio Revisited</title>
+    <link>https://triss.dev/blog/aspect-ratio-revisited</link>
+    <pubDate>2023-03-28</pubDate>
+    <description>Learn how aspect ratios work and how we can use this on the web</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Weekly Widget - CSS Coupon</title>
+    <link>https://triss.dev/blog/weekly-widget-css-coupon</link>
+    <pubDate>2023-03-27</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Units on the Web</title>
+    <link>https://triss.dev/blog/units-on-the-web</link>
+    <pubDate>2023-03-10</pubDate>
+    <description>An introduction to units on the web</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Animating the Web</title>
+    <link>https://triss.dev/blog/animating-the-web</link>
+    <pubDate>2023-02-23</pubDate>
+    <description>Learn the basics of animaitons on the web</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Smooth scroll-to-top</title>
+    <link>https://triss.dev/blog/smooth-scroll-to-top</link>
+    <pubDate>2023-02-21</pubDate>
+    <description>Learn how to add a smooth scroll-to-top feature to your projects</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>CSS color-scheme</title>
+    <link>https://triss.dev/blog/css-color-scheme</link>
+    <pubDate>2023-02-01</pubDate>
+    <description>Learn how to create a color-scheme with CSS</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>CSS selectmenu</title>
+    <link>https://triss.dev/blog/selectmenu</link>
+    <pubDate>2022-01-28</pubDate>
+    <description>Learn how HTML element selectmenu works</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Specificity on the Web</title>
+    <link>https://triss.dev/blog/specificity-on-the-web</link>
+    <pubDate>2021-05-06</pubDate>
+    <description>Learn css specificity</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>HSL Simplified</title>
+    <link>https://triss.dev/blog/hsl-simplified</link>
+    <pubDate>2021-03-22</pubDate>
+    <description>HSL for dummies</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>AVIF Image</title>
+    <link>https://triss.dev/blog/avif-image</link>
+    <pubDate>2020-09-15</pubDate>
+    <description>An introduction to AVIF images</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
+    <title>Fluid Typography</title>
+    <link>https://triss.dev/blog/fluid-typography</link>
+    <pubDate>2020-05-20</pubDate>
+    <description>Learn how to set up and use fluid typography</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item></channel></rss>

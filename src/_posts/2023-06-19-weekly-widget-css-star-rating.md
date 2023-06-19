@@ -3,7 +3,7 @@ layout: post
 title: Weekly Widget - Pure CSS Star Rating
 slug: weekly-widget-css-star-rating
 date: 2023-06-19
-draft: true
+draft: false
 description: Weekly widget
 category: web development
 tags:
@@ -14,7 +14,7 @@ tags:
 
 # Pure CSS Star Rating
 
-<p class='timestamp'><time datetime='19-06-2023'19-06-2023</time></p>
+<p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p>
 <hr>
 
 The widget featured this week is a star rating system, crafted entirely with CSS. It cleverly utilizes radio buttons to manage the selection of the rating.

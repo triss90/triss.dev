@@ -8,8 +8,7 @@
 <main id='main' class='central space post'>
 
     <h1>ColorDrop Release 2023</h1>
-<p class='timestamp'><time datetime='30-05-2023'>30-05-2023</time></p>
-<hr>
+<p class='timestamp'><time datetime='2023-05-30'>2023-05-30</time></p><hr>
 <p>I am are thrilled to announce the launch of the all-new, redesigned <a href="https://colordop.io">ColorDrop.io</a>!</p>
 <p>Over the past few months, I've been working tirelessly to enhance the ColorDrop experience, and I am now excited to present to you a stunningly refreshed interface, improved image scanning, an upgraded palette customization feature, and a vast library of new color palettes.</p>
 <h2>Introducing the New Interface</h2>
