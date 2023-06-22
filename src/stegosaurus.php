@@ -264,11 +264,11 @@ echo "\e[92m - Generated search page: \e[94m".$domainDev."search/ \n";
 include('_stegositemap.php');
 echo "\e[92m - Generated sitemap: \e[94m".$domainDev."sitemap.xml \n";
 echo "\e[92m   - Submit sitemap to Google: \e[91mphp stegosubmit.php \n";
-echo "\e[92m - Generated JSON Feed: \e[94m".$domainDev."/sitemap.json \n";
+echo "\e[92m - Generated JSON Feed: \e[94m".$domainDev."sitemap.json \n";
 
 
 // Create RSS Feed
 include('_stegorss.php');
-echo "\e[92m - Generated RSS Feed: \e[94m".$domainDev."/".$blogName."/rss.xml \n";
+echo "\e[92m - Generated RSS Feed: \e[94m".$domainDev.$blogName."/rss.xml \n";
 echo "\n";
 
