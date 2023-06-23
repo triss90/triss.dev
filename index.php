@@ -228,7 +228,7 @@
         </div>
 
         <div class="instructions">
-            <p id="hover"><span aria-hidden="true">&#x2190;</span> Scroll for more <span aria-hidden="true">&#x2192;</span></p>
+            <p id="hover"><span aria-hidden="true">&#x2190;</span> Scroll or drag for more <span aria-hidden="true">&#x2192;</span></p>
             <p id="focus"><span aria-hidden="true">&#x2190;</span> Use your arrow keys for more <span aria-hidden="true">&#x2192;</span></p>
         </div>
 
@@ -473,7 +473,7 @@
         </div>
 
         <div class="instructions">
-            <p id="hover"><span aria-hidden="true">&#x2190;</span> Scroll for more <span aria-hidden="true">&#x2192;</span></p>
+            <p id="hover"><span aria-hidden="true">&#x2190;</span> Scroll or drag for more <span aria-hidden="true">&#x2192;</span></p>
             <p id="focus"><span aria-hidden="true">&#x2190;</span> Use your arrow keys for more <span aria-hidden="true">&#x2192;</span></p>
         </div>
 

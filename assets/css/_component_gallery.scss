@@ -26,7 +26,7 @@ section#work {
 		scroll-snap-type: x proximity;
 		-webkit-overflow-scrolling: touch;
 		touch-action: auto;
-		padding: 0 0 calc(0.75 * 1.5rem) 0;
+		padding-bottom: 2rem;
 		margin: 75px 0 calc(-0.25 * 1.5rem) 0;
 		overflow-x: scroll;
 		position: relative;
@@ -60,9 +60,19 @@ section#work {
 			border-radius: 0.5rem;
 			justify-content: space-between;
 			flex-direction: column;
-			// &:hover,
-			// &:focus-within {
 			.work-item-image {
+				height: 75px;
+				width: 75px;
+				margin: 0 auto;
+				&.muds {
+					width: 150px;
+				}
+				path,
+				rect,
+				circle,
+				polyline {
+					transition: all ease-in-out 100ms;
+				}
 				&.cloudnet {
 					#Path {
 						fill: #be8ceb;
@@ -178,7 +188,6 @@ section#work {
 					}
 				}
 			}
-			// }
 			.work-item-title {
 				display: block;
 				font-size: 1rem;
@@ -201,20 +210,6 @@ section#work {
 				small {
 					opacity: 0.5;
 					font-size: 0.75rem;
-				}
-			}
-			.work-item-image {
-				height: 75px;
-				width: 75px;
-				margin: 0 auto;
-				&.muds {
-					width: 150px;
-				}
-				path,
-				rect,
-				circle,
-				polyline {
-					transition: all ease-in-out 100ms;
 				}
 			}
 			.work-item-description {
