@@ -1,22 +1,33 @@
+.card-list {
+	display: flex;
+	//gap: 1rem;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 1rem;
+	flex-wrap: wrap;
+	// justify-content: space-around;
+}
+
 .card {
 	background: $color-2;
 	border: 2px solid lighten($color-3, 10%);
 	box-shadow: 5px 5px lighten($color-3, 10%);
-	padding: 24px;
-	display: flex;
+	padding: 1.5rem 1.5rem 2rem 1.5rem;
 	border-radius: 0.5rem;
-	justify-content: space-between;
-	flex-direction: column;
-	transition: all 100ms ease-in-out;
-	margin-bottom: 4rem;
-	@media (max-width: 768px) {
-		margin: 0 4rem 4rem 4rem;
+	display: block;
+	transition: transform 100ms ease-in-out;
+	min-height: 500px;
+	flex-basis: 3;
+	margin: 0.5rem;
+	width: calc(25% - 1rem);
+	@media (max-width: 1219px) {
+		width: calc(33% - 0.85rem);
 	}
-	@media (max-width: 458px) {
-		margin: 0 2rem 2rem 2rem;
+	@media (max-width: 983px) {
+		width: calc(50% - 1rem);
 	}
-	@media (max-width: 315px) {
-		margin: 0 1rem 1rem 1rem;
+	@media (max-width: 685px) {
+		width: calc(100% - 0rem);
 	}
 	min-height: 100%;
 	&:hover {
@@ -39,8 +50,8 @@
 		text-align: left;
 		text-transform: uppercase;
 		padding: 0 0 0.75rem 0;
-		margin: 0 0 1.5rem 0;
 		position: relative;
+		margin-bottom: 1rem;
 		&:before {
 			content: "";
 			position: absolute;
@@ -54,9 +65,24 @@
 	}
 
 	.card-body {
+		height: calc(100% - 2rem);
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		svg {
+			max-width: 75%;
+			height: auto !important;
+			&#table-demo {
+			}
+			&#checkbox-demo {
+				width: 20%;
+			}
+			&#modal-demo {
+			}
+			&#radio-demo {
+				width: 50%;
+			}
+		}
 	}
 
 	.card-footer {
