@@ -3,7 +3,7 @@ layout: post
 title: Weekly Widget - Self-codeing Website
 slug: weekly-widget-self-coding-website
 date: 2023-06-26
-draft: true
+draft: false
 description: Weekly widget
 category: web development
 tags:

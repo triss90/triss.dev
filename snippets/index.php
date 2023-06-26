@@ -71,12 +71,12 @@
             <div class="card-footer"></div>
         </a>
 
-        <a class="card" href="/snippets/modals">
+        <a class="card" href="/snippets/dialogs">
             <div class="card-header">
-                <h2>Modals</h2>
+                <h2>Dialogs</h2>
             </div>
             <div class="card-body">
-                <svg id="modal-demo" width="273" height="330" viewBox="0 0 273 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="dialog-demo" width="273" height="330" viewBox="0 0 273 330" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="1.5" y="13.5" width="258" height="315" rx="10.5" fill="#F5F5F5" stroke="#31315D" stroke-width="3"/>
                     <path d="M3 24C3 19.0294 7.02944 15 12 15H249C253.971 15 258 19.0294 258 24V160H3V24Z" fill="#D7D7DE"/>
                     <path d="M270.634 2.00018L261.121 11.5133" stroke="#31315D" stroke-width="3" stroke-linecap="round"/>

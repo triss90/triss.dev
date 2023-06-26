@@ -5,6 +5,12 @@
 <link>https://www.w3schools.in/</link>
 <description>Cloud RSS</description>
 <language>en-us</language><item>
+    <title>Weekly Widget - Self-codeing Website</title>
+    <link>https://triss.dev/blog/weekly-widget-self-coding-website</link>
+    <pubDate>2023-06-26</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
     <title>Weekly Widget - Pure CSS Star Rating</title>
     <link>https://triss.dev/blog/weekly-widget-css-star-rating</link>
     <pubDate>2023-06-19</pubDate>
@@ -117,11 +123,5 @@
     <link>https://triss.dev/blog/avif-image</link>
     <pubDate>2020-09-15</pubDate>
     <description>An introduction to AVIF images</description>
-    <author>tristan@white.chat (Tristan White)</author>
-    </item><item>
-    <title>Fluid Typography</title>
-    <link>https://triss.dev/blog/fluid-typography</link>
-    <pubDate>2020-05-20</pubDate>
-    <description>Learn how to set up and use fluid typography</description>
     <author>tristan@white.chat (Tristan White)</author>
     </item></channel></rss>
