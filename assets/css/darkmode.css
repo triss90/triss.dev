@@ -215,6 +215,10 @@ nav.pagination ul li a[aria-current=page] {
 }
 
 /* Table snippet */
+svg#table-demo g {
+  stroke: #f7f7f7;
+}
+
 table {
   color: #f7f7f7 !important;
 }
@@ -251,4 +255,16 @@ table tr:nth-of-type(2n) {
 
 .checkbox .checkbox-input:disabled ~ label:after {
   border-color: transparent;
+}
+
+/* Dialog Snippet */
+svg#dialog-demo rect:first-child {
+  fill: #1a1a41;
+}
+svg#dialog-demo path {
+  stroke: #f7f7f7;
+}
+svg#dialog-demo path:nth-child(2) {
+  fill: #31315d;
+  stroke: #31315d;
 }/*# sourceMappingURL=darkmode.css.map */

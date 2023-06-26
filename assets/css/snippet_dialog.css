@@ -1,0 +1,44 @@
+.open-dialog-example,
+.close-dialog-example {
+  border: 2px solid #31315d;
+  border-radius: 0.5rem;
+  background-color: #f7f7f7;
+  color: #31315d;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.dialog-example {
+  z-index: 3;
+  background: #f7f7f7;
+  padding: 0rem 2rem 2rem 2rem;
+  border: 2px solid #31315d;
+  border-radius: 0.75rem;
+  width: 90%;
+  max-width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dialog-overlay-example {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.dialog-overlay-example[aria-hidden=true],
+.dialog-example[aria-hidden=true] {
+  display: none;
+}
+
+.dialog-overlay-example:not([aria-hidden=true]),
+.dialog-example:not([aria-hidden=true]) {
+  display: block;
+}/*# sourceMappingURL=snippet_dialog.css.map */

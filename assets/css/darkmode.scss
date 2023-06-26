@@ -193,6 +193,11 @@ nav.pagination ul li a[aria-current="page"] {
 }
 
 /* Table snippet */
+svg#table-demo {
+	g {
+		stroke: $color-2;
+	}
+}
 table {
 	color: $color-2 !important;
 }
@@ -226,4 +231,18 @@ table tr:nth-of-type(2n) {
 
 .checkbox .checkbox-input:disabled ~ label:after {
 	border-color: transparent;
+}
+
+/* Dialog Snippet */
+svg#dialog-demo {
+	rect:first-child {
+		fill: $color-5;
+	}
+	path {
+		stroke: $color-2;
+		&:nth-child(2) {
+			fill: $color-3;
+			stroke: #31315d;
+		}
+	}
 }

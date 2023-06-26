@@ -255,6 +255,7 @@ pre {
 }
 pre code {
   font-size: 0.75rem;
+  padding: 0;
 }
 pre:hover {
   left: -15%;

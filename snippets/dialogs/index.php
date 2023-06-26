@@ -21,33 +21,34 @@ p {
     <header role="banner" class="snippets">
         <?php include('../../_inc/navigation.php'); ?>
         <div class="central center">
-            <h1>Checkbox Toggle</h1>
+            <h1>Dialogs</h1>
             <br><br>
         </div>
     </header>
 
     <br><br>
 
-    <main class="container" id="main" style="font-size:16px;">   
+    <main class="container" id="main" style="font-size:16px;">     
+
         <div class="row">
-            <div class="tiny">
-                <p>adadadad</p>
+            <div class="tiny-12">
+                <p>A web dialog box is a small, temporary, interactive interface overlaid on a webpage. It requests user input or provides information, often used for confirming actions, alerting users, or entering data without navigating away from the current page.</p>
             </div>
-        </div>   
+        </div>
+
         <div class="row tiny-center">
             <div class="tiny-12 huge-10 huge-offset-1">            
-                
-              <p>Demo goes here...</p>
+                <br>
+                <button class="open-dialog-example" aria-haspopup="true" aria-expanded="false" aria-label="dialog Example">Open Dialog</button>
+                <br>
 
-              <button class="open-dialog-example" aria-haspopup="true" aria-expanded="false" aria-label="dialog Example">Open Dialog</button>
+                <div class="dialog-example" role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description" aria-hidden="true">
+                    <h1 id="dialog-title">Dialog</h1>
+                    <p>This is a dialog window</p>
+                    <button type="button" aria-label="Close Navigation" class="close-dialog-example">Close Dialog</button>
+                </div>
 
-              <div class="dialog-example" role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description" aria-hidden="true">
-                <h1 id="dialog-title">Dialog</h1>
-                <p>This is a dialog window</p>
-                <button type="button" aria-label="Close Navigation" class="close-dialog-example">Close Dialog</button>
-              </div>
-
-              <div class="dialog-overlay-example" tabindex="-1" aria-hidden="true"></div>
+                <div class="dialog-overlay-example" tabindex="-1" aria-hidden="true"></div>
                     
             </div>
         </div>
@@ -67,8 +68,50 @@ p {
 </code></pre>
 
                 <h2>Styles (CSS)</h2>
-<pre><code class="language-CSS">
-</code></pre>
+<pre><code class="language-CSS">.open-dialog-example,
+.close-dialog-example {
+  border: 2px solid #31315d;
+  border-radius: 0.5rem;
+  background-color: #f7f7f7;
+  color: #31315d;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.dialog-example {
+  z-index: 3;
+  background: #f7f7f7;
+  padding: 0rem 2rem 2rem 2rem;
+  border: 2px solid #31315d;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dialog-overlay-example {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.dialog-overlay-example[aria-hidden="true"],
+.dialog-example[aria-hidden="true"] {
+  display: none;
+}
+
+.dialog-overlay-example:not([aria-hidden="true"]),
+.dialog-example:not([aria-hidden="true"]) {
+  display: block;
+}</code></pre>
 
                 <h2>Functionality (JS)</h2>
 <pre><code class="language-JS">// Dialog
