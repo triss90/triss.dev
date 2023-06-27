@@ -95,7 +95,7 @@
             <div class="card-footer"></div>
         </a>
 
-        <a class="card" href="snippets/radio-buttons">
+        <a class="card" href="/snippets/radio-buttons">
             <div class="card-header">
                 <h2>Radio Buttons</h2>
             </div>
