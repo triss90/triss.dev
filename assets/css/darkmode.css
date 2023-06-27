@@ -267,4 +267,9 @@ svg#dialog-demo path {
 svg#dialog-demo path:nth-child(2) {
   fill: #31315d;
   stroke: #31315d;
+}
+
+.dialog-example h1#dialog-title,
+.dialog-example p {
+  color: #31315d !important;
 }/*# sourceMappingURL=darkmode.css.map */

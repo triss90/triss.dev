@@ -1,0 +1,77 @@
+fieldset {
+  border: 0 none;
+}
+
+legend {
+  color: #31315d;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+.radio-row {
+  margin-bottom: 0.5rem;
+}
+
+.radio-row label {
+  font-size: 1rem;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+
+.radio-wrapper {
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+  vertical-align: middle;
+}
+
+.radio-wrapper > [type=radio] {
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.radio-wrapper > [type=radio] + span {
+  border: 0.2rem solid #31315d;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 transparent;
+  box-sizing: border-box;
+  display: block;
+  height: 1.1rem;
+  position: relative;
+  transition: box-shadow 200ms ease-in-out;
+  width: 1.1rem;
+  z-index: 0;
+}
+
+.radio-wrapper > [type=radio] + span::after {
+  content: "";
+  height: 0.5rem;
+  width: 0.5rem;
+  background: #31315d;
+  border-radius: 50%;
+  display: block;
+  opacity: 0;
+  position: relative;
+  top: 0.11rem;
+  left: 0.11rem;
+  transform: scale(0);
+  transition: all 200ms ease-in-out;
+}
+
+.radio-wrapper > [type=radio]:checked + span::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.radio-wrapper > [type=radio]:focus + span {
+  outline: 4px solid #1099c3;
+  outline-offset: 2px;
+}/*# sourceMappingURL=snippet_radio-button.css.map */
