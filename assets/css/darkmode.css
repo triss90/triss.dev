@@ -272,4 +272,13 @@ svg#dialog-demo path:nth-child(2) {
 .dialog-example h1#dialog-title,
 .dialog-example p {
   color: #31315d !important;
+}
+
+/* Radio button Snippet */
+.radio-wrapper > [type=radio] + span {
+  border: 0.2rem solid #f7f7f7 !important;
+}
+
+.radio-wrapper > [type=radio] + span::after {
+  background: #f7f7f7 !important;
 }/*# sourceMappingURL=darkmode.css.map */

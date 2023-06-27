@@ -252,3 +252,11 @@ svg#dialog-demo {
 		color: #31315d !important;
 	}
 }
+
+/* Radio button Snippet */
+.radio-wrapper > [type="radio"] + span {
+	border: 0.2rem solid $color-2 !important;
+}
+.radio-wrapper > [type="radio"] + span::after {
+	background: $color-2 !important;
+}
