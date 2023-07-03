@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Weekly Widget - Simply CSS Checkbox
+title: Weekly Widget - Simple CSS Checkbox
 slug: weekly-widget-simply-css-checkbox
 date: 2023-07-03
 draft: false
@@ -12,7 +12,7 @@ tags:
   - html
 ---
 
-# Simply CSS Checkbox
+# Weekly Widget - Simple CSS Checkbox
 
 <p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p>
 <hr>

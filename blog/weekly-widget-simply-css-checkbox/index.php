@@ -7,7 +7,7 @@
 
 <main id='main' class='central space post'>
 
-    <h1>Simply CSS Checkbox</h1>
+    <h1>Weekly Widget - Simple CSS Checkbox</h1>
 <p class='timestamp'><time datetime='2023-07-03'>2023-07-03</time></p>
 <hr>
 <p>Today's featured widget is a simple CSS checkbox, which happens to be my most viewed and highly rated pen on codepen.io. It perfectly demonstrates the &quot;checkbox-hack&quot;, achieving a pure CSS toggle effect:</p>

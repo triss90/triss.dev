@@ -15,7 +15,7 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simply CSS Checkbox</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h3>
 <time class='post-date' datetime='2023-07-03'>2023-07-03</time>
 <span class='categories'>weekly widget, css, html</span>
 <hr>
