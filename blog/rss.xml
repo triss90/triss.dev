@@ -5,6 +5,12 @@
 <link>https://www.w3schools.in/</link>
 <description>Cloud RSS</description>
 <language>en-us</language><item>
+    <title>Weekly Widget - Simply CSS Checkbox</title>
+    <link>https://triss.dev/blog/weekly-widget-simply-css-checkbox</link>
+    <pubDate>2023-07-03</pubDate>
+    <description>Weekly widget</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
     <title>Weekly Widget - Self-codeing Website</title>
     <link>https://triss.dev/blog/weekly-widget-self-coding-website</link>
     <pubDate>2023-06-26</pubDate>
@@ -117,11 +123,5 @@
     <link>https://triss.dev/blog/hsl-simplified</link>
     <pubDate>2021-03-22</pubDate>
     <description>HSL for dummies</description>
-    <author>tristan@white.chat (Tristan White)</author>
-    </item><item>
-    <title>AVIF Image</title>
-    <link>https://triss.dev/blog/avif-image</link>
-    <pubDate>2020-09-15</pubDate>
-    <description>An introduction to AVIF images</description>
     <author>tristan@white.chat (Tristan White)</author>
     </item></channel></rss>

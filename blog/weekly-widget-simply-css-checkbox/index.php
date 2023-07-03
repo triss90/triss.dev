@@ -16,6 +16,7 @@
   Simple CSS Checkbox</a> by Tristan  White (<a href="https://codepen.io/triss90">@triss90</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<p>I've since expanded on this concept, largly focusing on accessibility and progressive enhancement. You can see the snippet <a href="https://triss.dev/snippets/checkboxes/">here</a>.</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 

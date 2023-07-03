@@ -3,7 +3,7 @@ layout: post
 title: Weekly Widget - Simply CSS Checkbox
 slug: weekly-widget-simply-css-checkbox
 date: 2023-07-03
-draft: true
+draft: false
 description: Weekly widget
 category: web development
 tags:
@@ -24,4 +24,6 @@ Today's featured widget is a simple CSS checkbox, which happens to be my most vi
   Simple CSS Checkbox</a> by Tristan  White (<a href="https://codepen.io/triss90">@triss90</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+I've since expanded on this concept, largly focusing on accessibility and progressive enhancement. You can see the snippet [here](https://triss.dev/snippets/checkboxes/).
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

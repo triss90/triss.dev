@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/html-progress-tag'>HTML Progress Tag</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/html-output-tag'>HTML Output Tag</a></h3>
+<time class='post-date' datetime='2019-09-26'>2019-09-26</time>
+<span class='categories'>html</span>
+<hr>
+</li><li><h3><a href='/../blog/html-progress-tag'>HTML Progress Tag</a></h3>
 <time class='post-date' datetime='2019-09-19'>2019-09-19</time>
 <span class='categories'>html</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h3>
 <time class='post-date' datetime='2019-08-27'>2019-08-27</time>
 <span class='categories'>security</span>
-<hr>
-</li><li><h3><a href='/../blog/css-darkmode'>CSS Darkmode</a></h3>
-<time class='post-date' datetime='2019-08-24'>2019-08-24</time>
-<span class='categories'>css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-codeing Website</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simply CSS Checkbox</a></h3>
+<time class='post-date' datetime='2023-07-03'>2023-07-03</time>
+<span class='categories'>weekly widget, css, html</span>
+<hr>
+</li><li><h3><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-codeing Website</a></h3>
 <time class='post-date' datetime='2023-06-26'>2023-06-26</time>
 <span class='categories'>weekly widget, css, html</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h3>
 <time class='post-date' datetime='2023-06-05'>2023-06-05</time>
 <span class='categories'>weekly widget, css, html, javascript</span>
-<hr>
-</li><li><h3><a href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h3>
-<time class='post-date' datetime='2023-05-30'>2023-05-30</time>
-<span class='categories'></span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

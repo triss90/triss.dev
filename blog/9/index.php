@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/a-guide-to-hex'>A Guide to Hex</a></h3>
+<time class='post-date' datetime='2019-06-12'>2019-06-12</time>
+<span class='categories'>css, javascript</span>
+<hr>
+</li><li><h3><a href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h3>
 <time class='post-date' datetime='2019-06-07'>2019-06-07</time>
 <span class='categories'>css</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/html-details-summary'>HTML Details/Summary</a></h3>
 <time class='post-date' datetime='2019-05-02'>2019-05-02</time>
 <span class='categories'>html, css</span>
-<hr>
-</li><li><h3><a href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h3>
-<time class='post-date' datetime='2019-04-24'>2019-04-24</time>
-<span class='categories'>svg, css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>
