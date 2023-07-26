@@ -693,7 +693,7 @@ section#work .work-items .work-item .work-item-title:before {
   border-radius: 50%;
 }
 section#work .work-items .work-item .work-item-title small {
-  opacity: 0.5;
+  opacity: 0.85;
   font-size: 0.75rem;
 }
 section#work .work-items .work-item .work-item-description {
