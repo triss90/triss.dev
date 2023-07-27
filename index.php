@@ -1,9 +1,9 @@
-<?php include('_inc/header.php'); ?>
-<?php include('_inc/icons.php'); ?>
+<?php include '_inc/header.php';?>
+<?php include '_inc/icons.php';?>
 
 <header role="banner" id="header">
     <span id="menu-themer">
-        <?php include('_inc/navigation.php'); ?>
+        <?php include '_inc/navigation.php';?>
     </span>
     <div class="central center">
         <h1 class="site-name">
@@ -69,8 +69,8 @@
             </svg><br> -->
             Tristan White
         </h1>
-        <p>A Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark. See small bits of his experimental work on 
-            <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>, projects on 
+        <p>A Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark. See small bits of his experimental work on
+            <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a>, projects on
             <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>, thoughts on his
             <a href="/blog">Blog</a> and some of his work <a href="#work">below</a>.
     </div>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="work-items" id="scroll-highlighted" role="region" aria-label="gallery" tabindex="0">
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Sarcastic White<br><small>2023</small></h3>
                 <svg class="work-item-image sarcasticwhite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
@@ -167,7 +167,7 @@
                 <p class="work-item-description">Thousands of curated colors & palettes as well as numerous color tools.</p>
                 <a href="https://colordrop.io" target="_blank" rel="noopener" class="button block">colordrop.io</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Cloudnet<br><small>2019-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image cloudnet" xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 210 139">
@@ -180,7 +180,7 @@
                 <p class="work-item-description">Probably Denmark's best and cheapest LiteSpeed cPanel webhotel with daily backup</p>
                 <a href="https://cloudnet.dk" target="_blank" rel="noopener" class="button block">cloudnet.dk</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Webbox<br><small>2020-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image webbox" width="100" viewBox="0 0 239 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -193,7 +193,7 @@
                 <p class="work-item-description">A collection of useful tools covering topics like web, network, design, security and many more.</p>
                 <a href="https://webbox.dev" target="_blank" rel="noopener" class="button block">webbox.dev</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Cloudservers<br><small>2021-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image cloudservers" xmlns="http://www.w3.org/2000/svg" width="100px"viewBox="0 0 210 139">
@@ -238,7 +238,29 @@
         </div>
 
         <div class="work-items" id="scroll-other" role="region" aria-label="gallery" tabindex="0">
-            
+
+            <div class="work-item">
+                <h3 class="work-item-title">Darky.js<br><small>2023</small></h3>
+                <svg class="work-item-image" version="1.0" xmlns="http://www.w3.org/2000/svg" width="75px" height="75px" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#f40076" stroke="none">
+                        <path d="M2488 4695 c-2 -1 -43 -5 -93 -9 -120 -8 -189 -19 -330 -50 -297 -65
+                        -664 -251 -893 -455 -113 -100 -215 -207 -287 -301 -28 -36 -52 -67 -55 -70
+                        -24 -22 -134 -209 -185 -315 -106 -218 -168 -421 -199 -655 -14 -103 -17 -160
+                        -17 -291 0 -897 577 -1704 1431 -2001 83 -29 229 -69 300 -82 19 -3 45 -8 57
+                        -10 140 -28 628 -28 673 -1 3 2 28 6 57 10 29 3 92 17 140 31 48 13 95 26 104
+                        28 103 26 344 133 454 201 198 123 270 180 431 340 143 142 274 315 345 455
+                        12 25 31 57 41 72 11 16 16 28 12 28 -3 0 -1 6 5 13 21 26 67 152 66 182 -3
+                        71 -7 84 -35 126 -62 94 -166 118 -296 67 -38 -15 -81 -29 -95 -32 -13 -3 -51
+                        -12 -84 -21 -89 -22 -156 -29 -295 -29 -118 0 -254 9 -270 19 -4 2 -22 7 -41
+                        10 -79 14 -288 93 -364 138 -218 129 -351 250 -477 436 -109 160 -190 356
+                        -219 531 -18 107 -20 131 -21 225 -3 373 129 711 380 975 110 116 127 147 126
+                        225 -1 89 -47 156 -128 190 -31 13 -227 30 -238 20z"/>
+                    </g>
+                </svg>
+                <p class="work-item-description">Add a dark mode to your website in seconds. No hassle, no reworking your entire codebase!</p>
+                <a href="https://darky.app" target="_blank" rel="noopener" class="button block">darky.app</a>
+            </div>
+
             <div class="work-item">
                 <h3 class="work-item-title">sortable.js<br><small>2023</small></h3>
                 <p class="work-item-description">sortable.js is a powerful, lightweight JS framework used for adding simple sorting controls to HTML tables.</p>
@@ -247,7 +269,7 @@
 
             <div class="work-item">
                 <h3 class="work-item-title">Open List<br><small>2020</small></h3>
-                <svg class="work-item-image openlist"width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="work-item-image openlist" width="75" height="75" viewBox="0 0 210 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="logo" fill="#444">
                             <rect id="Rectangle" x="0" y="0" width="70" height="370" rx="35"></rect>
@@ -299,7 +321,7 @@
                 <p class="work-item-description">Notifications, share dialogs, subscription forms and popups.</p>
                 <a href="https://plaask.com" target="_blank" rel="noopener" class="button block">plaask.com</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">CloudPortal<br><small>2020-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image cloudportal" xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 210 139">
@@ -312,7 +334,7 @@
                 <p class="work-item-description">The future of cloud services in cooporation with Microsoft, Google, Amazon and Dropbox, with more than 50 datacenters worldwide.</p>
                 <a href="https://cloudportal.dk" target="_blank" rel="noopener" class="button block">cloudportal.dk</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Yirra<br><small>2022</small></h3>
                 <svg class="work-item-image yirra" width="75px"  viewBox="0 0 296 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -345,13 +367,13 @@
                 <p class="work-item-description">Free custom URL Shortener with analytics! Shortened URLs will never expire.</p>
                 <a href="https://yirra.net" target="_blank" rel="noopener" class="button block">yirra.net</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Scutum<br><small>2021-2023</small></h3>
                 <p class="work-item-description"></p>scutum.pw allows you to encrypt and transfer passwords and other sensitive data via a one-time link
                 <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button">scutum.pw</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">html.digital<br><small>2021</small></h3>
                 <svg class="work-item-image html_digital" width="75" height="75"  viewBox="0 0 156 193" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -379,7 +401,7 @@
                 <p class="work-item-description">A blog about overcoming obstacles and living an alternative life, marked by chronic pain.</p>
                 <a href="https://dittesdilemma.dk" target="_blank" rel="noopener" class="button block">dittesdilemma.dk</a>
             </div>
-            
+
             <div class="work-item">
                 <h3 class="work-item-title">Cut And Move<br><small>2021</small></h3>
                 <p class="work-item-description">Jeg kører ud til virksomheder med min mobile frisørsalon. Medarbejderen booker via mit system og afregner direkte hos mig.</p>
@@ -555,7 +577,7 @@
     }
 
     ready();
-    
+
     // Scroll highlighted
     document.addEventListener('DOMContentLoaded', function () {
         const ele = document.getElementById('scroll-highlighted');
@@ -593,7 +615,7 @@
         // Attach the handler
         ele.addEventListener('mousedown', mouseDownHandler);
     });
-    
+
     // Scroll other
     document.addEventListener('DOMContentLoaded', function () {
         const ele = document.getElementById('scroll-other');
@@ -634,4 +656,4 @@
 
 </script>
 
-<?php include('_inc/footer.php'); ?>
+<?php include '_inc/footer.php';?>
