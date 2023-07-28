@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h3>
+<time class='post-date' datetime='2023-06-05'>2023-06-05</time>
+<span class='categories'>weekly widget, css, html, javascript</span>
+<hr>
+</li><li><h3><a href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h3>
 <time class='post-date' datetime='2023-05-30'>2023-05-30</time>
 <span class='categories'></span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/color-systems-with-css-color-mix'>Color systems with CSS color-mix</a></h3>
 <time class='post-date' datetime='2023-05-17'>2023-05-17</time>
 <span class='categories'>css</span>
-<hr>
-</li><li><h3><a href='/../blog/weekly-widget-toss-cart-animation'>Weekly Widget - "Toss" Add to Cart Animation</a></h3>
-<time class='post-date' datetime='2023-05-10'>2023-05-10</time>
-<span class='categories'>weekly widget, css, html, javascript</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/css-darkmode'>CSS Darkmode</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h3>
+<time class='post-date' datetime='2019-08-27'>2019-08-27</time>
+<span class='categories'>security</span>
+<hr>
+</li><li><h3><a href='/../blog/css-darkmode'>CSS Darkmode</a></h3>
 <time class='post-date' datetime='2019-08-24'>2019-08-24</time>
 <span class='categories'>css</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/writing-svg-path'>Writing SVG Paths</a></h3>
 <time class='post-date' datetime='2019-08-08'>2019-08-08</time>
 <span class='categories'>svg</span>
-<hr>
-</li><li><h3><a href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h3>
-<time class='post-date' datetime='2019-08-07'>2019-08-07</time>
-<span class='categories'>css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

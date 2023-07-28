@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/a-guide-to-hex'>A Guide to Hex</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/breaking-max-width'>Breaking Max Width</a></h3>
+<time class='post-date' datetime='2019-06-23'>2019-06-23</time>
+<span class='categories'>css</span>
+<hr>
+</li><li><h3><a href='/../blog/a-guide-to-hex'>A Guide to Hex</a></h3>
 <time class='post-date' datetime='2019-06-12'>2019-06-12</time>
 <span class='categories'>css, javascript</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/creating-a-js-library'>Creating a JS Library</a></h3>
 <time class='post-date' datetime='2019-05-15'>2019-05-15</time>
 <span class='categories'>javascript</span>
-<hr>
-</li><li><h3><a href='/../blog/html-details-summary'>HTML Details/Summary</a></h3>
-<time class='post-date' datetime='2019-05-02'>2019-05-02</time>
-<span class='categories'>html, css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

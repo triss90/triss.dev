@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/html-details-summary'>HTML Details/Summary</a></h3>
+<time class='post-date' datetime='2019-05-02'>2019-05-02</time>
+<span class='categories'>html, css</span>
+<hr>
+</li><li><h3><a href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h3>
 <time class='post-date' datetime='2019-04-24'>2019-04-24</time>
 <span class='categories'>svg, css</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/css-variables'>CSS Variables</a></h3>
 <time class='post-date' datetime='2017-01-03'>2017-01-03</time>
 <span class='categories'>css</span>
-<hr>
-</li><li><h3><a href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h3>
-<time class='post-date' datetime='2016-07-15'>2016-07-15</time>
-<span class='categories'>css, html</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

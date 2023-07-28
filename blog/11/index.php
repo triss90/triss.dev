@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/responsive-videos-in-html'>Responsive Videos in HTML</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h3>
+<time class='post-date' datetime='2016-07-15'>2016-07-15</time>
+<span class='categories'>css, html</span>
+<hr>
+</li><li><h3><a href='/../blog/responsive-videos-in-html'>Responsive Videos in HTML</a></h3>
 <time class='post-date' datetime='2015-12-01'>2015-12-01</time>
 <span class='categories'>css, html</span>
 <hr>

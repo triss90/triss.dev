@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/html-datalist-element'>HTML Datalist Element</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h3>
+<time class='post-date' datetime='2019-08-07'>2019-08-07</time>
+<span class='categories'>css</span>
+<hr>
+</li><li><h3><a href='/../blog/html-datalist-element'>HTML Datalist Element</a></h3>
 <time class='post-date' datetime='2019-08-03'>2019-08-03</time>
 <span class='categories'>html</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/converting-color-codes'>Converting Color Codes</a></h3>
 <time class='post-date' datetime='2019-07-02'>2019-07-02</time>
 <span class='categories'>php</span>
-<hr>
-</li><li><h3><a href='/../blog/breaking-max-width'>Breaking Max Width</a></h3>
-<time class='post-date' datetime='2019-06-23'>2019-06-23</time>
-<span class='categories'>css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/avif-image'>AVIF Image</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/hsl-simplified'>HSL Simplified</a></h3>
+<time class='post-date' datetime='2021-03-22'>2021-03-22</time>
+<span class='categories'>html, css</span>
+<hr>
+</li><li><h3><a href='/../blog/avif-image'>AVIF Image</a></h3>
 <time class='post-date' datetime='2020-09-15'>2020-09-15</time>
 <span class='categories'>html</span>
 <hr>
@@ -29,10 +33,6 @@
 <hr>
 </li><li><h3><a href='/../blog/fixing-whitespace-between-inline-elements'>Fixing Whitespace Between Inline Elements</a></h3>
 <time class='post-date' datetime='2020-03-11'>2020-03-11</time>
-<span class='categories'>html, css</span>
-<hr>
-</li><li><h3><a href='/../blog/css-target-trick'>CSS Target Trick</a></h3>
-<time class='post-date' datetime='2019-10-02'>2019-10-02</time>
 <span class='categories'>html, css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
