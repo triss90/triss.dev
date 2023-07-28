@@ -15,6 +15,7 @@ img {
 <h1>Darky.js Release</h1>
 <p class='timestamp'><time datetime='2023-07-28'>2023-07-28</time></p><hr>
 <p>After a lot of hard work and dedication, I'm pleased to present <a href="https://darky.app">Darky.js</a>, a new JavaScript library that enables dark mode on any website without any hassle or need to rework the existing codebase.</p>
+<p>Visit <a href="https://darky.app">https://darky.app</a> 💪 🌓</p>
 <p><a href="https://darky.app">Darky.js</a> is a simple yet powerful tool that gives developers the capability to switch to a dark theme with just a few lines of code. It offers various customization options, making it adaptable to your design needs. <a href="https://darky.app">Darky.js</a> has been created with user experience in mind, making it a breeze to switch between light and dark themes.</p>
 <p><img src="https://triss.dev/examples/darky-js-example.gif" alt="darky.js example" /></p>
 <h2>Key features of Darky.js:</h2>
