@@ -21,9 +21,9 @@ img {
 
 After a lot of hard work and dedication, I'm pleased to present [Darky.js](https://darky.app), a new JavaScript library that enables dark mode on any website without any hassle or need to rework the existing codebase.
 
-Visit [https://darky.app](https://darky.app) 💪 🌓
-Github: [https://github.com/triss90/Darky](https://github.com/triss90/Darky)
-NPM: [https://www.npmjs.com/package/darkyjs](https://www.npmjs.com/package/darkyjs)
+* Web: [https://darky.app](https://darky.app)
+* Github: [https://github.com/triss90/Darky](https://github.com/triss90/Darky)
+* NPM: [https://www.npmjs.com/package/darkyjs](https://www.npmjs.com/package/darkyjs)
 
 [Darky.js](https://darky.app) is a simple yet powerful tool that gives developers the capability to switch to a dark theme with just a few lines of code. It offers various customization options, making it adaptable to your design needs. [Darky.js](https://darky.app) has been created with user experience in mind, making it a breeze to switch between light and dark themes.
 
