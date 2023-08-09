@@ -1,9 +1,9 @@
-<?php include('../_inc/header.php'); ?>
-<?php include('../_inc/icons.php'); ?>
+<?php include '../_inc/header.php';?>
+<?php include '../_inc/icons.php';?>
 <div class="">
 
     <header role="banner" class="snippets">
-        <?php include('../_inc/navigation.php'); ?>
+        <?php include '../_inc/navigation.php';?>
         <div class="central center">
             <h1>Snippets</h1>
             <br><br>
@@ -24,7 +24,7 @@
                         <path id="cell-0" d="M132.5,1.50002236 L132.5,50.5 L2.47143119,50.5 L1.69572794,10.1634313 C1.65059763,7.81665504 2.56095883,5.67375519 4.06929668,4.10626684 C5.57467006,2.54185921 7.67567189,1.55060348 10.0168911,1.50184838 L10.0168911,1.50184838 L132.5,1.50002236 Z" fill-opacity="0.15" fill="#31315D"></path>
                         <rect id="cell-1" fill-opacity="0.15" fill="#31315D" x="132.5" y="1.5" width="130" height="49"></rect>
                         <path id="cell-2" d="M384,1.5 C386.34721,1.5 388.47221,2.45139491 390.010408,3.98959236 C391.548605,5.52778981 392.5,7.65278981 392.5,10 L392.5,10 L392.5,50.5 L262.5,50.5 L262.5,1.5 Z" fill-opacity="0.15" fill="#31315D"></path>
-                        
+
                         <rect id="cell-5" x="2.5" y="50.5" width="130" height="49"></rect>
                         <rect id="cell-4" x="132.5" y="50.5" width="130" height="49"></rect>
                         <rect id="cell-3" x="262.5" y="50.5" width="130" height="49"></rect>
@@ -110,9 +110,25 @@
             </div>
             <div class="card-footer"></div>
         </a>
-      
+
+        <a class="card" href="/snippets/typography">
+            <div class="card-header">
+                <h2>Typography</h2>
+            </div>
+            <div class="card-body">
+                <svg id="radio-demo" width="70%" height="auto" viewBox="0 0 244 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23.5" fill="#D7D7DE" stroke="#31315D" stroke-width="3"/>
+                    <circle cx="122" cy="25" r="23.5" fill="#D7D7DE" stroke="#31315D" stroke-width="3"/>
+                    <circle cx="122" cy="25" r="13" fill="#31315D"/>
+                    <circle cx="219" cy="25" r="23.5" fill="#D7D7DE" stroke="#31315D" stroke-width="3"/>
+                    <circle cx="219" cy="25" r="13" fill="#AAAAAF"/>
+                </svg>
+            </div>
+            <div class="card-footer"></div>
+        </a>
+
     </main>
 
-    <?php include('../_inc/footer.php'); ?>
+    <?php include '../_inc/footer.php';?>
 
 </div>

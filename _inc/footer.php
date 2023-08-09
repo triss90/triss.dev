@@ -11,6 +11,15 @@
             <li><a href="https://www.youtube.com/channel/UCxnhnHu17q4Zk4m9-7BL5dw" target="_blank" rel="noopener"><svg alt="" class="icon icon-youtube" width="12px" height="12px"><use xlink:href="#icon-youtube"></use></svg> YouTube</a></li>
             <li><a class="rss-link" href="https://triss.dev/feed/" title="RSS Feed" target="_blank" rel="noopener"><svg alt="" class="icon icon-rss" width="12px" height="12px"><use xlink:href="#icon-rss"></use></svg> RSS Feed</a></li>
         </ul>
+        <!-- <div class="carbon-wrapper">
+            <div class="carbon-inner">
+                <div class="carbon-text">
+                    <span class="carbon-tag">0.01g of CO2/view</span>
+                    <a class="carbon-link" href="https://www.websitecarbon.com/website/triss-dev/" target="_blank">Website Carbon</a>
+                </div>
+                <p class="carbon-title">Cleaner than 99% of pages tested</p>
+            </div>
+        </div> -->
         <a href="#0" onclick="scrollToTop();return false;" class="totop" title="Go to top" aria-label="Go to top">&#8593; Top &#8593;</a>
     </div>
 </footer>
@@ -39,7 +48,7 @@
             </div>
             <p>Performance</p>
         </div>
-        
+
         <div class="item">
             <div class="circular-progress" id="accessibility">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
@@ -51,7 +60,7 @@
             </div>
             <p>Accessibility</p>
         </div>
-        
+
         <div class="item">
             <div class="circular-progress" id="best-practice">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
@@ -63,7 +72,7 @@
             </div>
             <p>Best Practice</p>
         </div>
-        
+
         <div class="item">
             <div class="circular-progress" id="seo">
                 <svg xmlns='http://www.w3.org/2000/svg' width="75px" viewBox='0 0 100 100' aria-labelledby='title' role='graphic'>
@@ -76,7 +85,7 @@
             <p>SEO</p>
         </div>
     </div>
-    
+
     <button type="button" aria-label="Close Navigation" class="close-dialog">
         <span aria-hidden="true">
             <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +97,7 @@
 </div>
 <div class="dialog-overlay" tabindex="-1" aria-hidden="true"></div>
 
-<script><?php include($_SERVER["DOCUMENT_ROOT"]."/assets/js/app.min.js"); ?></script>
+<script><?php include $_SERVER["DOCUMENT_ROOT"] . "/assets/js/app.min.js";?></script>
 
 </body>
 </html>

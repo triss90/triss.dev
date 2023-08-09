@@ -1,0 +1,33 @@
+.carbon-wrapper {
+	display: block;
+	.carbon-inner {
+		display: inline-block;
+		text-align: center;
+		.carbon-text {
+			font-family: inherit;
+			border: 1px solid $color-3;
+			line-height: 1;
+			display: flex;
+			font-size: 0.85rem;
+			.carbon-tag {
+				padding: 0.5rem;
+			}
+			.carbon-link {
+				padding: 0.5rem;
+				background-color: $color-3;
+				color: $color-2;
+				text-decoration: none;
+				margin: 0;
+				border: 0;
+				&:hover {
+					opacity: 0.8;
+				}
+			}
+		}
+		.carbon-title {
+			font-size: 0.85rem;
+			padding: 0;
+			margin: 0;
+		}
+	}
+}

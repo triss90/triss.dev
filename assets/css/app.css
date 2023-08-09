@@ -1274,4 +1274,37 @@ table tbody tr td {
 }
 .card .card-body svg#radio-demo {
   width: 50%;
+}
+.carbon-wrapper {
+  display: block;
+}
+.carbon-wrapper .carbon-inner {
+  display: inline-block;
+  text-align: center;
+}
+.carbon-wrapper .carbon-inner .carbon-text {
+  font-family: inherit;
+  border: 1px solid #31315d;
+  line-height: 1;
+  display: flex;
+  font-size: 0.85rem;
+}
+.carbon-wrapper .carbon-inner .carbon-text .carbon-tag {
+  padding: 0.5rem;
+}
+.carbon-wrapper .carbon-inner .carbon-text .carbon-link {
+  padding: 0.5rem;
+  background-color: #31315d;
+  color: #f7f7f7;
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+}
+.carbon-wrapper .carbon-inner .carbon-text .carbon-link:hover {
+  opacity: 0.8;
+}
+.carbon-wrapper .carbon-inner .carbon-title {
+  font-size: 0.85rem;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=app.css.map */

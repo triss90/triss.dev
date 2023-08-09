@@ -1,0 +1,155 @@
+body {
+  font-size: 18px;
+}
+
+#typography-template {
+  font-size: 18px;
+  /**************************/
+  /******** Headings ********/
+  /**************************/
+  /***********************/
+  /******** Links ********/
+  /***********************/
+  /**********************/
+  /******** body ********/
+  /**********************/
+  /*************************/
+  /******** Helpers ********/
+  /*************************/
+  /****************************/
+  /******** Responsive ********/
+  /****************************/
+}
+#typography-template h1 {
+  font-size: 3rem;
+  line-height: 1.35;
+  font-style: normal;
+  margin: 1.5em 0 0.8em;
+}
+#typography-template h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1em 0 0.8em;
+}
+#typography-template h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+  margin: 1.75em 0 0.8em;
+}
+#typography-template h4 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  margin: 1.5em 0 0.8em;
+}
+#typography-template h5 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 1.5em 0 0.8em;
+}
+#typography-template h6 {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  margin: 1.5em 0 0.8em;
+}
+#typography-template a {
+  outline: none !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+#typography-template a:link {
+  color: #c00;
+}
+#typography-template a:visited {
+  color: #606;
+}
+#typography-template a:hover {
+  color: #606;
+}
+#typography-template a:active {
+  color: #900;
+  outline: none;
+}
+#typography-template p {
+  text-align: left;
+  font-size: 100%;
+  margin: 1em 0 0;
+}
+#typography-template p.lead {
+  font-size: 150%;
+  margin: 1em 0;
+}
+#typography-template p + p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+#typography-template p + ul,
+#typography-template p + ol,
+#typography-template p + dl {
+  margin-bottom: 1.5em;
+}
+#typography-template p.lead + p {
+  text-indent: 0;
+}
+#typography-template blockquote {
+  border-left: 5px solid #eee;
+  padding-left: 1.5em;
+  margin: 1em 0;
+}
+#typography-template blockquote small {
+  display: block;
+  line-height: 1.7em;
+}
+#typography-template ul,
+#typography-template ol,
+#typography-template dl {
+  text-align: left;
+}
+#typography-template dt {
+  font-weight: bold;
+}
+#typography-template code {
+  font-family: courier, monospace;
+}
+#typography-template p > code {
+  padding: 0.25em;
+  background: #eee;
+}
+#typography-template pre {
+  text-align: left;
+  font-size: 100%;
+}
+#typography-template hr {
+  height: 0;
+  color: #eee;
+  border: 1px solid #eee;
+  margin: 2em 0 1em;
+}
+#typography-template .normal {
+  font-weight: normal;
+}
+#typography-template .quiet {
+  color: #999;
+}
+#typography-template .pull-left {
+  float: left;
+  margin: 0.5em 2em 1em 0;
+}
+#typography-template .pull-right {
+  float: right;
+  margin: 0.5em 0 1em 2em;
+}
+@media (max-width: 500px) {
+  #typography-template body {
+    font-size: 16px;
+  }
+  #typography-template img {
+    max-width: 100% !important;
+    height: auto !important;
+    float: none !important;
+  }
+}/*# sourceMappingURL=snippet_typography.css.map */
