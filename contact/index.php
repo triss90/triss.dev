@@ -1,11 +1,11 @@
-<?php $description = "Contact"; ?>
-<?php include('../_inc/header.php'); ?>
-<?php include('../_inc/icons.php'); ?>
+<?php $description = "Contact";?>
+<?php include '../_inc/header.php';?>
+<?php include '../_inc/icons.php';?>
 
 <div class="contact">
 
 <header role="banner" class="blog">
-    <?php include('../_inc/navigation.php'); ?>
+    <?php include '../_inc/navigation.php';?>
     <div class="central center">
         <h1>Contact Tristan</h1>
     </div>
@@ -14,16 +14,16 @@
 <main id="main">
     <div class="central space center">
 
-        <?php if (isset($_GET['m'])) { ?>
+        <?php if (isset($_GET['m'])) {?>
             <div role="status" aria-live="polite">
                 <div class="message award">
                     <p><?php echo $_GET['m']; ?></p>
                 </div>
             </div>
-        <?php } ?>
+        <?php }?>
 
         <form action="sendmail.php" method="POST">
-            
+
             <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
             <fieldset>
@@ -37,11 +37,11 @@
                 <label for="message">Message <span class="required">(required)</span></label>
                 <textarea name="message" rows="6" cols="25" id="message" aria-label="Message" aria-required="true" aria-invalid="false" required placeholder="Your message here"></textarea>
 
-                <div class="h-captcha" data-sitekey="582fd987-6bdc-408d-b80b-9f378d9496dc" data-callback="correctCaptcha"></div><br>
+                <!-- <div class="h-captcha" data-sitekey="582fd987-6bdc-408d-b80b-9f378d9496dc" data-callback="correctCaptcha"></div><br> -->
 
             </fieldset>
 
-            <input type="submit" id="contactSubmit" class="disabled" disabled value="Send message">
+            <input type="submit" id="contactSubmit" disabled value="Send message">
             <input type="reset" value="Clear contact form">
         </form>
         <br><br><br>
@@ -54,13 +54,13 @@
 </main>
 
 <script>
-function correctCaptcha() {
-    const contactSubmit = document.getElementById('contactSubmit');
-    contactSubmit.classList.remove('disabled');
-    contactSubmit.removeAttribute('disabled');
-}
+// function correctCaptcha() {
+//     const contactSubmit = document.getElementById('contactSubmit');
+//     contactSubmit.classList.remove('disabled');
+//     contactSubmit.removeAttribute('disabled');
+// }
 </script>
 
-<?php include('../_inc/footer.php'); ?>
+<?php include '../_inc/footer.php';?>
 
 </div>
