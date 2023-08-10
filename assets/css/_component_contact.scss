@@ -3,7 +3,7 @@
   text-align: left;
   div[role="status"] {
     background: none;
-    border: 2px dashed $color-3;
+    border: 1px dashed $color-3;
     color: $color-3;
     padding: 0.5rem 2rem;
     text-align: left;
@@ -25,7 +25,7 @@
     display: block;
     width: 100%;
     background: none;
-    border: 2px solid $color-3;
+    border: 1px solid $color-3;
     background: $color-2;
     font-size: inherit;
     padding: 0.5rem ;
@@ -37,7 +37,7 @@
   input[type="submit"], input[type="reset"] {
     display: inline-block;
     background: $color-3;
-    border: 2px solid $color-3;
+    border: 1px solid $color-3;
     color: $color-2;
     font-size: 1rem;
     padding: 0.5rem 1rem;

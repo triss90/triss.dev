@@ -1057,7 +1057,7 @@ nav[aria-label=posts] ul li .categories {
 }
 .contact div[role=status] {
   background: none;
-  border: 2px dashed #0d0f12;
+  border: 1px dashed #0d0f12;
   color: #0d0f12;
   padding: 0.5rem 2rem;
   text-align: left;
@@ -1077,7 +1077,7 @@ nav[aria-label=posts] ul li .categories {
   display: block;
   width: 100%;
   background: none;
-  border: 2px solid #0d0f12;
+  border: 1px solid #0d0f12;
   background: #f2f2f2;
   font-size: inherit;
   padding: 0.5rem;
@@ -1089,7 +1089,7 @@ nav[aria-label=posts] ul li .categories {
 .contact input[type=submit], .contact input[type=reset] {
   display: inline-block;
   background: #0d0f12;
-  border: 2px solid #0d0f12;
+  border: 1px solid #0d0f12;
   color: #f2f2f2;
   font-size: 1rem;
   padding: 0.5rem 1rem;
