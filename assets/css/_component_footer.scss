@@ -1,6 +1,12 @@
 footer {
   font-size: 1rem;
   padding: 3rem 0;
+  background-color: $color-5;
+	background-image: url("/assets/img/bg4.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
+	// box-shadow: inset 0px 120px 100px 0px rgba($color-2,1);
   .site-meta {
     text-align: center;
     ul {

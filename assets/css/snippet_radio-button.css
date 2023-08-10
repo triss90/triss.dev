@@ -3,7 +3,7 @@ fieldset {
 }
 
 legend {
-  color: #31315d;
+  color: hsl(0, 0%, 11%);
   font-size: 1rem;
   margin-bottom: 0rem;
   font-weight: bold;
@@ -39,7 +39,7 @@ legend {
 }
 
 .radio-wrapper > [type=radio] + span {
-  border: 0.2rem solid #31315d;
+  border: 0.2rem solid hsl(0, 0%, 11%);
   border-radius: 50%;
   box-shadow: 0 0 0 0 transparent;
   box-sizing: border-box;
@@ -55,7 +55,7 @@ legend {
   content: "";
   height: 0.5rem;
   width: 0.5rem;
-  background: #31315d;
+  background: hsl(0, 0%, 11%);
   border-radius: 50%;
   display: block;
   opacity: 0;

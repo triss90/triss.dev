@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Asap Regular"), local("Asap-Regular"), url(/assets/fonts/asap.ttf) format("truetype");
+}
 /********* TABLE RESET *********/
 table {
   border-collapse: default;
@@ -17,13 +23,9 @@ table tbody tr td {
 
 /********* TABLE SNIPPET *********/
 table {
-  --color-1: hsl(240 31% 28%);
-  --color-1-50: hsl(240 31% 28% / 0.5);
-  --color-1-90: hsl(240 31% 28% / 0.1);
-  --color-2: hsl(0 0% 95%);
   width: 100%;
   border-collapse: collapse;
-  color: var(--color-1);
+  color: #0d0f12;
   font-size: 1rem;
 }
 
@@ -40,19 +42,23 @@ th {
 }
 
 caption {
-  background-color: var(--color-1);
-  color: var(--color-2);
+  background-color: #0d0f12;
+  color: #f2f2f2;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 th {
-  background-color: var(--color-1-50);
+  background-color: rgb(210, 210, 210);
+}
+
+.darkmode th {
+  background-color: #0d0f12;
 }
 
 tr:nth-of-type(2n) {
-  background-color: var(--color-1-90);
+  background-color: rgb(210, 210, 210);
 }
 
 @media (max-width: 768px) {

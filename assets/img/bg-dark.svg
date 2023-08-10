@@ -1,0 +1,15 @@
+<svg width="1600" height="800" viewBox="0 0 1600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_12)">
+<path d="M1600 0H0V800H1600V0Z" fill="#0D0F12"/>
+<path d="M1600 160L0 460V350L1600 50V160Z" fill="#1D1D1E"/>
+<path d="M1600 260L0 560V450L1600 150V260Z" fill="#292929"/>
+<path d="M1600 360L0 660V550L1600 250V360Z" fill="#363637"/>
+<path d="M1600 460L0 760V650L1600 350V460Z" fill="#454545"/>
+<path d="M1600 800H0V750L1600 450V800Z" fill="#0D0F12"/>
+</g>
+<defs>
+<clipPath id="clip0_4_12">
+<rect width="1600" height="800" fill="white"/>
+</clipPath>
+</defs>
+</svg>

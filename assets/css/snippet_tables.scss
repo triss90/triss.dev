@@ -1,3 +1,4 @@
+@import "variables";
 /********* TABLE RESET *********/
 table {
 	border-collapse: default;
@@ -23,14 +24,9 @@ table {
 
 /********* TABLE SNIPPET *********/
 table {
-	--color-1: hsl(240 31% 28%);
-	--color-1-50: hsl(240 31% 28% / 0.5);
-	--color-1-90: hsl(240 31% 28% / 0.1);
-	--color-2: hsl(0 0% 95%);
-
 	width: 100%;
 	border-collapse: collapse;
-	color: var(--color-1);
+	color: $color-3;
 	font-size: 1rem;
 }
 
@@ -47,19 +43,22 @@ th {
 }
 
 caption {
-	background-color: var(--color-1);
-	color: var(--color-2);
+	background-color: $color-3;
+	color: $color-2;
 	font-size: 1rem;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 th {
-	background-color: var(--color-1-50);
+	background-color: $color-2-5;
+}
+.darkmode th {
+	background-color: $color-3;
 }
 
 tr:nth-of-type(2n) {
-	background-color: var(--color-1-90);
+	background-color: $color-2-5;
 }
 
 @media (max-width: 768px) {

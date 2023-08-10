@@ -1,4 +1,4 @@
-<footer class="central">
+<footer>
     <div class="site-meta">
         <p>
             Designed, built, and maintained by <i>Tristan White &copy; <?php echo date("Y"); ?></i><br>

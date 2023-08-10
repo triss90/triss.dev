@@ -1,16 +1,17 @@
 header {
-	background-color: $color-3;
-	background-image: url(/assets/img/bg.svg);
+	// box-shadow: inset 0px 80px 80px 0px rgba($color-2,1);
+	background-image: url("/assets/img/bg.svg");
+	background-color: $color-2;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	color: $color-2;
+	color: $color-3;
 	@media (max-width: $breakpoint-1) {
 		text-align: center;
 		min-height: 100vh;
 	}
 	.site-name {
-		font-size: 1.75rem;
+		font-size: 2.75rem;
 		margin: 7.5rem 0 0 0;
 		font-weight: bold;
 		line-height: 1;
@@ -48,8 +49,6 @@ header {
 }
 
 .subheader {
-	background-color: $color-3;
-	color: $color-2;
 	padding: 5rem 0;
 	@media (max-width: $breakpoint-1) {
 		text-align: center;

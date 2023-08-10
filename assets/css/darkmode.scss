@@ -4,12 +4,33 @@ body {
 	background: $color-3;
 	color: $color-2 !important;
 }
+nav[aria-label=site] ul li a {
+	color: $color-2;
+}
+nav[aria-label=site] button span {
+	svg {
+        path {
+          stroke: $color-2;
+        }
+        circle {
+          stroke: $color-2;
+        }
+	}
+}
 #main {
 	background: $color-3;
 }
 header {
+	background-image: url("/assets/img/bg-dark.svg");
 	background-color: $color-5;
+	color: $color-2;
+	&.blog,
+	&.about,
+	&.snippets {
+		background-image: url("/assets/img/bg-dark.svg");
+	}
 }
+
 section#work {
 	background: $color-3;
 	color: $color-2;
@@ -41,14 +62,26 @@ section#work .work-items .work-item .button {
 }
 section#about {
 	background: $color-5;
+	nav[aria-label=posts] ul.small li {
+		border-color: $color-2;
+	}
 }
 footer {
-	background: $color-3;
+	background-image: url("/assets/img/bg4-dark.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
 	color: $color-2;
 }
 footer .site-meta ul li a svg {
 	fill: $color-2;
 }
+header.blog ~ footer ,
+header.about ~ footer ,
+header.snippets ~ footer  {
+	background-color: $color-3;
+}
+
 .totop {
 	background: $color-5;
 }
@@ -56,9 +89,7 @@ footer .site-meta ul li a svg {
 	background: $color-5;
 	color: $color-2;
 }
-.about footer {
-	background: $color-5;
-}
+
 .contact {
 	color: $color-2;
 }

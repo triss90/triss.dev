@@ -9,8 +9,8 @@
     </ul>
     <button class="settings-button open-dialog" aria-haspopup="true" aria-expanded="false" aria-label="Settings Menu">
         <span aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 101 78">
-                <g fill="none" fill-rule="evenodd" stroke="#fefefe" stroke-width="4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 101 78">
+                <g fill="none" fill-rule="evenodd" stroke="#fefefe" stroke-width="5">
                     <g id="bar-top">
                         <circle cx="27.5" cy="8.5" r="6.5"/>
                         <path stroke-linecap="round" d="M.5 8.5L20 8.5M45.5 8.5L97 8.5"/>
