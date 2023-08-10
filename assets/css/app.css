@@ -772,7 +772,7 @@ section#work .instructions p {
   display: block;
   padding: 0.5rem 1.5rem;
   color: #f2f2f2;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   cursor: pointer;
   margin-bottom: 0.5rem;
 }
