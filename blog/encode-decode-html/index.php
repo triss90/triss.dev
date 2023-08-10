@@ -1,11 +1,11 @@
-<?php $description = 'Learn how to encode and decode HTML';  ?>
+<?php $description = 'Learn how to encode and decode HTML';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>Encode/Decode HTML</h1>
 <p class='timestamp'><time datetime='01-06-2019'>01-06-2019</time></p>
@@ -56,4 +56,4 @@
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

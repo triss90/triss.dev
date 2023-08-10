@@ -1,11 +1,11 @@
-<?php $description = 'Learn how to convert colors codes to and from different formats';  ?>
+<?php $description = 'Learn how to convert colors codes to and from different formats';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>Converting Color Codes</h1>
 <p class='timestamp'><time datetime='02-07-2019'>02-07-2019</time></p>
@@ -162,4 +162,4 @@ hexToRgb(f06d06);
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

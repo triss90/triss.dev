@@ -85,6 +85,7 @@ footer .site-meta ul li a svg {
 }
 
 header.blog ~ footer,
+main.blog ~ footer,
 header.about ~ footer,
 header.snippets ~ footer {
   background-color: #0d0f12;

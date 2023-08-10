@@ -1,11 +1,11 @@
-<?php $description = 'Weekly widget';  ?>
+<?php $description = 'Weekly widget';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>Whiter than White</h1>
 <p class='timestamp'><time datetime='2023-06-20'>2023-06-20</time></p>
@@ -43,4 +43,4 @@ src="data:video/mp4;base64,AAAAHGZ0eXBpc29tAAACAGlzb21pc28ybXA0MQAAAAhmcmVlAAAAv
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

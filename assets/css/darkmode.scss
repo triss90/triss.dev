@@ -76,9 +76,10 @@ footer {
 footer .site-meta ul li a svg {
 	fill: $color-2;
 }
-header.blog ~ footer ,
-header.about ~ footer ,
-header.snippets ~ footer  {
+header.blog ~ footer,
+main.blog ~ footer,
+header.about ~ footer,
+header.snippets ~ footer {
 	background-color: $color-3;
 }
 

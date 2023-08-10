@@ -1,11 +1,11 @@
-<?php $description = 'Learn how to use CSS canonical gradients';  ?>
+<?php $description = 'Learn how to use CSS canonical gradients';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>CSS Conical Gradients</h1>
 <p class='timestamp'><time datetime='07-08-2019'>07-08-2019</time></p>
@@ -78,4 +78,4 @@ where as the color of a conic gradient spreads around the circle</p>
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

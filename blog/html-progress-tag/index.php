@@ -1,11 +1,11 @@
-<?php $description = 'Learn how to use the HTML progress tag';  ?>
+<?php $description = 'Learn how to use the HTML progress tag';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>HTML &lt;progress&gt; Tag</h1>
 <p class='timestamp'><time datetime='19-09-2019'>19-09-2019</time></p>
@@ -75,4 +75,4 @@ every other browser offers full support.</p>
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

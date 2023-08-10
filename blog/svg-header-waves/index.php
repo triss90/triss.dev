@@ -1,11 +1,11 @@
-<?php $description = 'Using SVG backgrounds for your headers';  ?>
+<?php $description = 'Using SVG backgrounds for your headers';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>SVG Header Waves</h1>
 <p class='timestamp'><time datetime='20-04-2018'>20-04-2018</time></p>
@@ -49,4 +49,4 @@ $orientation = ($_GET['orientation'] ? intval($_GET['orientation']) : '0') . &qu
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

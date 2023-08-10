@@ -1,11 +1,11 @@
-<?php $description = 'Learn how to add darkmode to your website';  ?>
+<?php $description = 'Learn how to add darkmode to your website';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>CSS Darkmode</h1>
 <p class='timestamp'><time datetime='24-08-2019'>24-08-2019</time></p>
@@ -125,4 +125,4 @@ This, however, should not stop you from implementing a similar solution on your 
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>

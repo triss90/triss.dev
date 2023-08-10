@@ -1,11 +1,11 @@
-<?php $description = 'Learn how to write the perfect';  ?>
+<?php $description = 'Learn how to write the perfect';?>
 
-<?php include('../../_inc/header.php'); ?>
-<?php include('../../_inc/icons.php'); ?>
+<?php include '../../_inc/header.php';?>
+<?php include '../../_inc/icons.php';?>
 
-<span class='inverted'><?php include('../../_inc/navigation.php'); ?></span>
+<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
 
-<main id='main' class='central space post'>
+<main id='main' class='central space post blog'>
 
     <h1>The Perfect Alt-text</h1>
 <p class='timestamp'><time datetime='14-08-2019'>14-08-2019</time></p>
@@ -34,4 +34,4 @@ Daniel Göransson published a wonderful article on the subject back in October 2
 <script src='../../assets/js/highlight.pack.js'></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<?php include('../../_inc/footer.php'); ?>
+<?php include '../../_inc/footer.php';?>
