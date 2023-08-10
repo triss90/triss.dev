@@ -8,15 +8,18 @@
 		background: none;
 		border: 0;
 		background: $color-2;
+		border: 1px solid lighten($color-3, 10%);
 		font-size: inherit;
 		padding: 0.5rem;
 		color: $color-3;
 		border-radius: 0;
+		height: 2.3rem;
 	}
 	.search-button {
 		background: $color-2;
+		border: 1px solid lighten($color-3, 10%);
 		width: 2.3rem;
-		border: none;
+		height: 2.3rem;
 		padding: 0.36rem;
 		@media (max-width: 750px) {
 			padding: 0.35rem;
