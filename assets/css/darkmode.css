@@ -112,14 +112,14 @@ header.snippets ~ footer {
   border-color: #353537;
 }
 .contact input[type=text]::-moz-placeholder, .contact input[type=email]::-moz-placeholder, .contact textarea::-moz-placeholder {
-  color: #0d0f12;
-  opacity: 1;
+  color: #f2f2f2;
+  opacity: 0.5;
 }
 .contact input[type=text]::placeholder,
 .contact input[type=email]::placeholder,
 .contact textarea::placeholder {
-  color: #0d0f12;
-  opacity: 1;
+  color: #f2f2f2;
+  opacity: 0.5;
 }
 
 .contact input[type=submit],
