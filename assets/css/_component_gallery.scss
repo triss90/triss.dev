@@ -52,12 +52,17 @@ section#work {
 		}
 		.work-item {
 			background: $color-2;
-			border: 1px solid lighten($color-3, 10%);
-			box-shadow: 5px 0px 10px rgba(0,0,0,0.05);
+			// border: 1px solid lighten($color-3, 10%);
+			// box-shadow: 5px 0px 10px rgba(0,0,0,0.05);
+
+			border: 2px solid $color-3;
+			box-shadow: 17px 17px 0 0px lighten($color-1,30%);
+			outline: 10px solid $color-2;
+
 			padding: 24px;
-			margin: calc(1.5rem / 5);
+			margin: calc(3.5rem / 5);
 			display: flex;
-			border-radius: 0.15rem;
+			border-radius: 0.55rem;
 			justify-content: space-between;
 			flex-direction: column;
 			.work-item-image {

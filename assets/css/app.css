@@ -559,12 +559,13 @@ section#work .work-items:before, section#work .work-items:after {
 }
 section#work .work-items .work-item {
   background: #f2f2f2;
-  border: 1px solid #222830;
-  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.05);
+  border: 2px solid #0d0f12;
+  box-shadow: 17px 17px 0 0px #d7e1f6;
+  outline: 10px solid #f2f2f2;
   padding: 24px;
-  margin: 0.3rem;
+  margin: 0.7rem;
   display: flex;
-  border-radius: 0.15rem;
+  border-radius: 0.55rem;
   justify-content: space-between;
   flex-direction: column;
 }
