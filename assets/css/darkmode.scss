@@ -38,22 +38,18 @@ section#work {
 section#work .work-items .work-item,
 .card {
 	background: $color-5;
-	box-shadow: 5px 5px darken($color-5, 5%);
-	border: 2px solid darken($color-5, 5%);
+	box-shadow: 20px 21px 0 0px lighten($color-3,30%);
+	border: none;
+	outline: 10px solid $color-3;
 	color: $color-2;
 }
 section#work .work-items .work-item .button {
 	background: $color-3;
-	box-shadow: 5px 5px darken($color-5, 5%);
 	border: 2px solid darken($color-5, 5%);
+	box-shadow: 0;;
 	color: $color-2;
-	&:hover {
-		transform: translate(2px, 2px);
-		box-shadow: 3px 3px darken($color-5, 5%);
-		&:active {
-			transform: translate(3px, 3px);
-			box-shadow: 0px 0px darken($color-5, 5%);
-		}
+	&:after {
+		background: lighten($color-3, 5%);
 	}
 }
 
@@ -99,7 +95,12 @@ header.snippets ~ footer {
 .contact textarea {
 	background: $color-5 !important;
 	color: $color-2;
-	border-color: $color-5;
+	border: 2px solid $color-3;
+    box-shadow: 10px 11px 0 0px lighten($color-3,30%);
+    outline: 5px solid $color-3;
+	&:active {
+		outline: 2px solid $color-1;
+	}
 	&::placeholder {
 		color: $color-2;
 		opacity: 0.5;
@@ -291,4 +292,13 @@ svg#dialog-demo {
 }
 .radio-wrapper > [type="radio"] + span::after {
 	background: $color-2 !important;
+}
+
+header {
+	&.home {
+		position: relative;
+		&:before {
+			color: $color-2;
+		}
+	}
 }

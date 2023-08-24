@@ -46,7 +46,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">A cool and crisp color theme created around uncluttered design patterns to achieve optimal focus & readability.</p>
-                <a href="https://sarcasticwhite.style" target="_blank" rel="noopener" class="button block">sarcasticwhite.style</a>
+                <a href="https://sarcasticwhite.style" target="_blank" rel="noopener" class="button block"><span class="button-inner">sarcasticwhite.style</span></a>
             </div>
 
             <div class="work-item">
@@ -57,7 +57,7 @@
                     </text>
                 </svg>
                 <p class="work-item-description">Search across multiple data breaches to see if your password has been compromised.</p>
-                <a href="https://leakedpassword.com" target="_blank" rel="noopener" class="button block">leakedpassword.com</a>
+                <a href="https://leakedpassword.com" target="_blank" rel="noopener" class="button block"><span class="button-inner">leakedpassword.com</span></a>
             </div>
 
             <div class="work-item">
@@ -105,7 +105,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">Thousands of curated colors & palettes as well as numerous color tools.</p>
-                <a href="https://colordrop.io" target="_blank" rel="noopener" class="button block">colordrop.io</a>
+                <a href="https://colordrop.io" target="_blank" rel="noopener" class="button block"><span class="button-inner">colordrop.io</span></a>
             </div>
 
             <div class="work-item">
@@ -118,7 +118,7 @@
                   </g>
                 </svg>
                 <p class="work-item-description">Probably Denmark's best and cheapest LiteSpeed cPanel webhotel with daily backup</p>
-                <a href="https://cloudnet.dk" target="_blank" rel="noopener" class="button block">cloudnet.dk</a>
+                <a href="https://cloudnet.dk" target="_blank" rel="noopener" class="button block"><span class="button-inner">cloudnet.dk</span></a>
             </div>
 
             <div class="work-item">
@@ -131,7 +131,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">A collection of useful tools covering topics like web, network, design, security and many more.</p>
-                <a href="https://webbox.dev" target="_blank" rel="noopener" class="button block">webbox.dev</a>
+                <a href="https://webbox.dev" target="_blank" rel="noopener" class="button block"><span class="button-inner">webbox.dev</span></a>
             </div>
 
             <div class="work-item">
@@ -144,7 +144,7 @@
                   </g>
                 </svg>
                 <p class="work-item-description">Cloudservers A/S provides high performance cloudservers are perfect for everything from web-apps and development to large enterprise RDS environments.</p>
-                <a href="https://cloudservers.dk" target="_blank" rel="noopener" class="button block">cloudservers.dk</a>
+                <a href="https://cloudservers.dk" target="_blank" rel="noopener" class="button block"><span class="button-inner">cloudservers.dk</span></a>
             </div>
 
             <div class="work-item">
@@ -162,7 +162,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">The simple grid system based on Flexbox.</p>
-                <a href="https://gridder.io" target="_blank" rel="noopener" class="button block">gridder.io</a>
+                <a href="https://gridder.io" target="_blank" rel="noopener" class="button block"><span class="button-inner">gridder.io</span></a>
             </div>
 
         </div>
@@ -198,13 +198,13 @@
                     </g>
                 </svg>
                 <p class="work-item-description">Add a dark mode to your website in seconds. No hassle, no reworking your entire codebase!</p>
-                <a href="https://darky.app" target="_blank" rel="noopener" class="button block">darky.app</a>
+                <a href="https://darky.app" target="_blank" rel="noopener" class="button block"><span class="button-inner">darky.app</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">sortable.js<br><small>2023</small></h3>
                 <p class="work-item-description">sortable.js is a powerful, lightweight JS framework used for adding simple sorting controls to HTML tables.</p>
-                <a href="https://github.com/triss90/sortable.js" target="_blank" rel="noopener" class="button block">GitHub</a>
+                <a href="https://github.com/triss90/sortable.js" target="_blank" rel="noopener" class="button block"><span class="button-inner">GitHub</span></a>
             </div>
 
             <div class="work-item">
@@ -218,7 +218,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">The easy way to share lists width friends, family and co-workers.</p>
-                <a href="https://openl.ist" target="_blank" rel="noopener" class="button block">openl.ist</a>
+                <a href="https://openl.ist" target="_blank" rel="noopener" class="button block"><span class="button-inner">openl.ist</span></a>
             </div>
 
             <div class="work-item">
@@ -231,7 +231,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">The lightest WYSIWYG editor on the internet.</p>
-                <a href="https://muds.io" target="_blank" rel="noopener" class="button block">muds.io</a>
+                <a href="https://muds.io" target="_blank" rel="noopener" class="button block"><span class="button-inner">muds.io</span></a>
             </div>
 
             <div class="work-item">
@@ -259,7 +259,7 @@
                     </g>
                 </svg>
                 <p class="work-item-description">Notifications, share dialogs, subscription forms and popups.</p>
-                <a href="https://plaask.com" target="_blank" rel="noopener" class="button block">plaask.com</a>
+                <a href="https://plaask.com" target="_blank" rel="noopener" class="button block"><span class="button-inner">plaask.com</span></a>
             </div>
 
             <div class="work-item">
@@ -272,7 +272,7 @@
                   </g>
                 </svg>
                 <p class="work-item-description">The future of cloud services in cooporation with Microsoft, Google, Amazon and Dropbox, with more than 50 datacenters worldwide.</p>
-                <a href="https://cloudportal.dk" target="_blank" rel="noopener" class="button block">cloudportal.dk</a>
+                <a href="https://cloudportal.dk" target="_blank" rel="noopener" class="button block"><span class="button-inner">cloudportal.dk</span></a>
             </div>
 
             <div class="work-item">
@@ -305,13 +305,13 @@
                     </g>
                 </svg>
                 <p class="work-item-description">Free custom URL Shortener with analytics! Shortened URLs will never expire.</p>
-                <a href="https://yirra.net" target="_blank" rel="noopener" class="button block">yirra.net</a>
+                <a href="https://yirra.net" target="_blank" rel="noopener" class="button block"><span class="button-inner">yirra.net</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Scutum<br><small>2021-2023</small></h3>
                 <p class="work-item-description"></p>scutum.pw allows you to encrypt and transfer passwords and other sensitive data via a one-time link
-                <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button">scutum.pw</a>
+                <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button">scutum.pw</span></a>
             </div>
 
             <div class="work-item">
@@ -321,115 +321,115 @@
                     <path stroke="#222" d="M148.216 98.2875V8.00001H100.048V76.3842H8.00003V8.00001H53.7214V59.9398" stroke-width="15"/>
                 </svg>
                 <p class="work-item-description">A reintepretaion of the browser's stylesheet</p>
-                <a href="https://html.digital" target="_blank" rel="noopener" class="button block">html.digital</a>
+                <a href="https://html.digital" target="_blank" rel="noopener" class="button block"><span class="button-inner">html.digital</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">dotbot<br><small>2019</small></h3>
                 <p class="work-item-description">A simple library that let's you create a randomised, dotted background-pattern on any given element on your website.</p>
-                <a href="https://github.com/triss90/dotbot" target="_blank" rel="noopener" class="button">GitHub</a>
+                <a href="https://github.com/triss90/dotbot" target="_blank" rel="noopener" class="button">GitHub</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">CSS Radio Buttons<br><small>2019</small></h3>
                 <p class="work-item-description">Elegant, pure CSS radio buttons.</p>
-                <a href="https://codepen.io/triss90/pen/XNEdRe" target="_blank" rel="noopener" class="button block">CodePen</a>
+                <a href="https://codepen.io/triss90/pen/XNEdRe" target="_blank" rel="noopener" class="button block"><span class="button-inner">CodePen</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Ditte's Dilemma<br><small>2019</small></h3>
                 <p class="work-item-description">A blog about overcoming obstacles and living an alternative life, marked by chronic pain.</p>
-                <a href="https://dittesdilemma.dk" target="_blank" rel="noopener" class="button block">dittesdilemma.dk</a>
+                <a href="https://dittesdilemma.dk" target="_blank" rel="noopener" class="button block"><span class="button-inner">dittesdilemma.dk</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Cut And Move<br><small>2021</small></h3>
                 <p class="work-item-description">Jeg kører ud til virksomheder med min mobile frisørsalon. Medarbejderen booker via mit system og afregner direkte hos mig.</p>
-                <a href="https://cutandmove.dk/" target="_blank" rel="noopener" class="button block">cutandmove.dk</a>
+                <a href="https://cutandmove.dk/" target="_blank" rel="noopener" class="button block"><span class="button-inner">cutandmove.dk</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">WordBoss<br><small>2021</small></h3>
                 <p class="work-item-description">WordBoss is an owner-run company for professional translations and language services. In their role as translation specialists, they have been a reliable business partner for more than 20 years.</p>
-                <a href="https://wordboss.de" target="_blank" rel="noopener" class="button block">wordboss.de</a>
+                <a href="https://wordboss.de" target="_blank" rel="noopener" class="button block"><span class="button-inner">wordboss.de</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Terminal Portfolio<br><small>2019</small></h3>
                 <p class="work-item-description">A Javascript powered terminal portfolio. Navigate the portfolio using commands.</p>
-                <a href="https://codepen.io/triss90/pen/ZZmbVx" target="_blank" rel="noopener" class="button block">CodePen</a>
+                <a href="https://codepen.io/triss90/pen/ZZmbVx" target="_blank" rel="noopener" class="button block"><span class="button-inner">CodePen</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Compressionbear<br><small>2019</small></h3>
                 <p class="work-item-description">Make your images ready for the internet by compressing them by up to 90%, all without loosing quality.</p>
-                <a href="https://compressionbear.com" target="_blank" rel="noopener" class="button block">compressionbear.com</a>
+                <a href="https://compressionbear.com" target="_blank" rel="noopener" class="button block"><span class="button-inner">compressionbear.com</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Flat Icons<br><small>2015</small></h3>
                 <p class="work-item-description">Make your design process a breeze with these 68 carefully crafted icons.</p>
-                <a href="https://www.iconfinder.com/iconsets/flaticons-1" target="_blank" rel="noopener" class="button block">IconFinder</a>
+                <a href="https://www.iconfinder.com/iconsets/flaticons-1" target="_blank" rel="noopener" class="button block"><span class="button-inner">IconFinder</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">CSS Hover Effects<br><small>2015-2019</small></h3>
                 <p class="work-item-description">A compilation of css hover effects ranging from rotate effects to bounce effects and many more.</p>
-                <a href="https://github.com/triss90/hover-effects" target="_blank" rel="noopener" class="button block">GitHub</a>
+                <a href="https://github.com/triss90/hover-effects" target="_blank" rel="noopener" class="button block"><span class="button-inner">GitHub</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Mrkdwn<br><small>2019</small></h3>
                 <p class="work-item-description">Mrkdwn is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p>
-                <a href="https://mrkdwn.net" target="_blank" rel="noopener" class="button block">mrkdwn.net</a>
+                <a href="https://mrkdwn.net" target="_blank" rel="noopener" class="button block"><span class="button-inner">mrkdwn.net</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Sticky Navigation<br><small>2018</small></h3>
                 <p class="work-item-description">A navigation example that sticks when the user has scrolled to a certain point.</p>
-                <a href="https://codepen.io/triss90/pen/adb63fdc530050cd75f6b26b0f4cb573" target="_blank" rel="noopener" class="button block">CodePen</a>
+                <a href="https://codepen.io/triss90/pen/adb63fdc530050cd75f6b26b0f4cb573" target="_blank" rel="noopener" class="button block"><span class="button-inner">CodePen</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Masonry<br><small>2015-2019</small></h3>
                 <p class="work-item-description">A lightweight, responsive Masonry grid framework.</p>
-                <a href="https://github.com/triss90/masonry" target="_blank" rel="noopener" class="button block">GitHub</a>
+                <a href="https://github.com/triss90/masonry" target="_blank" rel="noopener" class="button block"><span class="button-inner">GitHub</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">sceletus.css<br><small>2015-2019</small></h3>
                 <p class="work-item-description">A simple, lightweight, responsive css-framework inspired by bootstrap, pure, skeleton and foundation.</p>
-                <a href="https://github.com/triss90/sceletus.css" target="_blank" rel="noopener" class="button block">GitHub</a>
+                <a href="https://github.com/triss90/sceletus.css" target="_blank" rel="noopener" class="button block"><span class="button-inner">GitHub</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Food Icons<br><small>2017</small></h3>
                 <p class="work-item-description">Designing a food app? Make your design process a breeze with these carefully crafted icons. The collection includes 12 uniquely designed food icons.</p>
-                <a href="https://gum.co/iewNgu" target="_blank" rel="noopener" class="button block">Gumroad</a>
+                <a href="https://gum.co/iewNgu" target="_blank" rel="noopener" class="button block"><span class="button-inner">Gumroad</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">PC123<br><small>2019-<?php echo date("Y"); ?></small></h3>
                 <p class="work-item-description">A Teamviewer remote control website, that lets users download and start a Teamviewer session quickly and smoothly.</p>
-                <a href="http://pc123.dk/" target="_blank" rel="noopener" class="button block">pc123.dk</a>
+                <a href="http://pc123.dk/" target="_blank" rel="noopener" class="button block"><span class="button-inner">pc123.dk</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">CSS line numbers<br><small>2019</small></h3>
                 <p class="work-item-description">Pure CSS line numbers, made with "counter-reset" and "counter-increment".</p>
-                <a href="https://codepen.io/triss90/pen/bZaQYJ" target="_blank" rel="noopener" class="button block">CodePen</a>
+                <a href="https://codepen.io/triss90/pen/bZaQYJ" target="_blank" rel="noopener" class="button block"><span class="button-inner">CodePen</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Simplistic Dialog<br><small>2019</small></h3>
                 <p class="work-item-description">A simple, yet powerful jQuery modal.</p>
-                <a href="https://codepen.io/triss90/pen/gMwRXQ" target="_blank" rel="noopener" class="button block">CodePen</a>
+                <a href="https://codepen.io/triss90/pen/gMwRXQ" target="_blank" rel="noopener" class="button block"><span class="button-inner">CodePen</span></a>
             </div>
 
             <div class="work-item">
                 <h3 class="work-item-title">Wireframe UI Kit<br><small>2017</small></h3>
                 <p class="work-item-description">Impress your clients with uniquely designed user-flows and wireframing UX elements. You'll receive 30 unique elements!</p>
-                <a href="https://gumroad.com/l/gfVN" target="_blank" rel="noopener" class="button block">Gumroad</a>
+                <a href="https://gumroad.com/l/gfVN" target="_blank" rel="noopener" class="button block"><span class="button-inner">Gumroad</span></a>
             </div>
 
         </div>
@@ -461,6 +461,7 @@
 </main>
 
 <script>
+    // Load posts
     function loadJSON(callback) {
 
         var xobj = new XMLHttpRequest();
@@ -474,6 +475,7 @@
         xobj.send(null);
     }
 
+    // Populate posts 
     function init() {
 
         var postsList = document.getElementById('postsList');
@@ -507,6 +509,7 @@
         });
     }
 
+    // 
     function ready(fn) {
         if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
             fn();
@@ -515,10 +518,9 @@
             init();
         }
     }
-
     ready();
 
-    // Scroll highlighted
+    // Scroll highlighted projects
     document.addEventListener('DOMContentLoaded', function () {
         const ele = document.getElementById('scroll-highlighted');
         ele.style.cursor = 'grab';
@@ -556,7 +558,7 @@
         ele.addEventListener('mousedown', mouseDownHandler);
     });
 
-    // Scroll other
+    // Scroll other projects
     document.addEventListener('DOMContentLoaded', function () {
         const ele = document.getElementById('scroll-other');
         ele.style.cursor = 'grab';

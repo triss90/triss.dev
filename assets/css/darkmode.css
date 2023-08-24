@@ -41,24 +41,20 @@ section#work {
 section#work .work-items .work-item,
 .card {
   background: #353537;
-  box-shadow: 5px 5px #28282a;
-  border: 2px solid #28282a;
+  box-shadow: 20px 21px 0 0px #4d596b;
+  border: none;
+  outline: 10px solid #0d0f12;
   color: #f2f2f2;
 }
 
 section#work .work-items .work-item .button {
   background: #0d0f12;
-  box-shadow: 5px 5px #28282a;
   border: 2px solid #28282a;
+  box-shadow: 0;
   color: #f2f2f2;
 }
-section#work .work-items .work-item .button:hover {
-  transform: translate(2px, 2px);
-  box-shadow: 3px 3px #28282a;
-}
-section#work .work-items .work-item .button:hover:active {
-  transform: translate(3px, 3px);
-  box-shadow: 0px 0px #28282a;
+section#work .work-items .work-item .button:after {
+  background: #181b21;
 }
 
 .sarcasticwhite path {
@@ -109,7 +105,14 @@ header.snippets ~ footer {
 .contact textarea {
   background: #353537 !important;
   color: #f2f2f2;
-  border-color: #353537;
+  border: 2px solid #0d0f12;
+  box-shadow: 10px 11px 0 0px #4d596b;
+  outline: 5px solid #0d0f12;
+}
+.contact input[type=text]:active,
+.contact input[type=email]:active,
+.contact textarea:active {
+  outline: 2px solid #5982db;
 }
 .contact input[type=text]::-moz-placeholder, .contact input[type=email]::-moz-placeholder, .contact textarea::-moz-placeholder {
   color: #f2f2f2;
@@ -306,4 +309,11 @@ svg#dialog-demo path:nth-child(2) {
 
 .radio-wrapper > [type=radio] + span::after {
   background: #f2f2f2 !important;
+}
+
+header.home {
+  position: relative;
+}
+header.home:before {
+  color: #f2f2f2;
 }/*# sourceMappingURL=darkmode.css.map */

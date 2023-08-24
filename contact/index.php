@@ -29,7 +29,7 @@
             <fieldset>
 
                 <label for="name">Name <span class="required">(required)</span></label>
-                <span><input type="text" name="your-name" value="" size="40" id="name" aria-label="Name" aria-required="true" aria-invalid="false" required placeholder="Your name here"></span>
+                <span><input type="text" name="your-name" value="" size="40" id="name" aria-label="Name" aria-required="true" aria-invalid="false" required placeholder="Your name here" ></span>
 
                 <label for="e-mail">Email address <span class="required">(required)</span></label>
                 <span><input type="email" name="your-email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="40" id="e-mail" aria-label="Email address" aria-required="true" aria-invalid="false" required placeholder="Your email here"></span>
@@ -41,7 +41,7 @@
 
             </fieldset>
 
-            <input type="submit" id="contactSubmit" disabled value="Send message">
+            <input type="submit" id="contactSubmit" value="Send message">
             <input type="reset" value="Clear contact form">
         </form>
         <br><br><br>

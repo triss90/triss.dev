@@ -766,35 +766,47 @@ section#work .instructions p {
 
 .button,
 .settings-button {
+  position: relative;
   background: #f2f2f2;
   color: #0d0f12;
   text-decoration: none;
-  border: 2px solid #0d0f12;
-  box-shadow: 10px 11px 0 0px #d7e1f6;
-  outline: 5px solid #f2f2f2;
-  padding: 0.7rem 1rem;
-  margin: 0.5rem 0;
   display: inline-block;
   text-align: center;
   transform: translate(0);
   transition: all 100ms ease-in-out;
-}
-.button:hover,
-.settings-button:hover {
-  transform: translate(5px, 5px);
-  box-shadow: 5px 6px 0 0px #d7e1f6;
-  outline: 0px solid #f2f2f2;
-}
-.button:hover:active,
-.settings-button:hover:active {
-  transform: translate(8px, 9px);
-  box-shadow: 2px 3px 0 0px #d7e1f6;
-  outline: 0px solid #f2f2f2;
+  z-index: 1;
 }
 .button.block,
 .settings-button.block {
   display: block;
-  padding: 0.7rem 0;
+}
+
+.button {
+  background: transparent;
+  border-bottom: 0;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #d7e1f6;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+  border-bottom: 0;
+  transition: all 0.3s cubic-bezier(0.26, 0.35, 0.14, 0.65);
+}
+.button:hover:after, .button:active:after, .button:focus:after {
+  top: 0px;
+  left: 0px;
+}
+.button .button-inner {
+  border: 2px solid #0d0f12;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.7rem 1rem;
 }
 
 .settings-button {
@@ -1122,6 +1134,9 @@ nav[aria-label=posts] ul li .categories {
   margin-bottom: 1.5rem;
   font-family: "Asap", sans-serif;
 }
+.contact input[type=text]:focus, .contact input[type=email]:focus, .contact textarea:focus {
+  outline: 4px solid #5982db;
+}
 .contact input[type=submit], .contact input[type=reset] {
   display: inline-block;
   background: #0d0f12;
@@ -1132,8 +1147,6 @@ nav[aria-label=posts] ul li .categories {
   margin: 0 1rem;
   cursor: pointer;
   border: 2px solid #0d0f12;
-  box-shadow: 10px 11px 0 0px #0d0f12;
-  outline: 5px solid #f2f2f2;
 }
 .contact input[type=submit]:hover, .contact input[type=reset]:hover {
   background: rgba(13, 15, 18, 0.85);
@@ -1153,8 +1166,6 @@ nav[aria-label=posts] ul li .categories {
   background: #f2f2f2;
   color: #0d0f12;
   border: 2px solid #0d0f12;
-  box-shadow: 10px 11px 0 0px #d7e1f6;
-  outline: 5px solid #f2f2f2;
 }
 .contact input[type=reset]:hover {
   background: rgba(13, 15, 18, 0.05);
