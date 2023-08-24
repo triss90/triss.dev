@@ -28,8 +28,8 @@ if(isset($_POST) && isset($_POST['your-name']) && isset($_POST['your-email']) &&
     $mail->Host = 'mail.smtp2go.com';
     $mail->Port = 2525;
     $mail->SMTPAuth = true;
-    $mail->Username = 'servicepoint';
-    $mail->Password = 'dmE3dDFzdmFtaDAw';
+    $mail->Username = 'triss';
+    $mail->Password = '32djxYME5zd7iY1F';
 
     // Generate mail
     $mail->setFrom($postEmail, $postName);
