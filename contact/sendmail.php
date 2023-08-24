@@ -15,7 +15,7 @@ function check_input($data) {
     return $data;
 }
 
-if(isset($_POST) && isset($_POST['h-captcha-response']) && isset($_POST['your-name']) && isset($_POST['your-email']) && isset($_POST['message'])) {
+if(isset($_POST) && isset($_POST['your-name']) && isset($_POST['your-email']) && isset($_POST['message'])) {
 
     // Clean input
     $postName = filter_var(check_input($_POST['your-name']),FILTER_SANITIZE_STRING);
