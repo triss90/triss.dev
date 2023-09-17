@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/css-target-trick'>CSS Target Trick</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/fixing-whitespace-between-inline-elements'>Fixing Whitespace Between Inline Elements</a></h3>
+<time class='post-date' datetime='2020-03-11'>2020-03-11</time>
+<span class='categories'>html, css</span>
+<hr>
+</li><li><h3><a href='/../blog/css-target-trick'>CSS Target Trick</a></h3>
 <time class='post-date' datetime='2019-10-02'>2019-10-02</time>
 <span class='categories'>html, css</span>
 <hr>
@@ -29,10 +33,6 @@
 <hr>
 </li><li><h3><a href='/../blog/html-meter-tag'>HTML Meter Tag</a></h3>
 <time class='post-date' datetime='2019-09-12'>2019-09-12</time>
-<span class='categories'>html</span>
-<hr>
-</li><li><h3><a href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h3>
-<time class='post-date' datetime='2019-09-05'>2019-09-05</time>
 <span class='categories'>html</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>

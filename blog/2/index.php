@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h3>
+<time class='post-date' datetime='2023-06-12'>2023-06-12</time>
+<span class='categories'>weekly widget, css, html</span>
+<hr>
+</li><li><h3><a href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h3>
 <time class='post-date' datetime='2023-06-05'>2023-06-05</time>
 <span class='categories'>weekly widget, css, html, javascript</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h3>
 <time class='post-date' datetime='2023-05-22'>2023-05-22</time>
 <span class='categories'>weekly widget, css</span>
-<hr>
-</li><li><h3><a href='/../blog/color-systems-with-css-color-mix'>Color systems with CSS color-mix</a></h3>
-<time class='post-date' datetime='2023-05-17'>2023-05-17</time>
-<span class='categories'>css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

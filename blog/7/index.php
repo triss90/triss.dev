@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h3>
+<time class='post-date' datetime='2019-09-05'>2019-09-05</time>
+<span class='categories'>html</span>
+<hr>
+</li><li><h3><a href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h3>
 <time class='post-date' datetime='2019-08-27'>2019-08-27</time>
 <span class='categories'>security</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h3>
 <time class='post-date' datetime='2019-08-14'>2019-08-14</time>
 <span class='categories'>html, accessibility</span>
-<hr>
-</li><li><h3><a href='/../blog/writing-svg-path'>Writing SVG Paths</a></h3>
-<time class='post-date' datetime='2019-08-08'>2019-08-08</time>
-<span class='categories'>svg</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>
