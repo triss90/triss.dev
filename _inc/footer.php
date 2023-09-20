@@ -23,7 +23,7 @@
         <script>
         const myBadge = new Badge({
             target: '#badge',
-            key: '425e5e5a59100505494518044548594f585c4f580559435e4f05155f5846175e58435959044e4f5c066b01061a041a1b4d0a696518055c434f5d0669464f4b444f580a5e424b440a13130f0a454c0a5a4b4d4f590a5e4f595e4f4e',
+            key: '425e5e5a59100505494518044548594f585c4f580559435e4f05155f5846175e58435959044e4f5c066b01061a041a1b4d0a696518055c434f5d067e4243590a5d4f4859435e4f0a43590a49464f4b444f580a5e424b440a13120f',
 
             // Design option defaults (you can exclude these, if you're happy with the defaults)
             backgroundColor: '#fff', 
