@@ -17,7 +17,7 @@
         <div id="badge"></div>
 
         <!-- Include the badge library -->
-        <script src="https://cdn.jsdelivr.net/npm/co2.observer@1.0.0/badge.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/co2.observer@1.2.0/badge.min.js"></script>
 
         <!-- Initialize your badge -->
         <script>
@@ -29,9 +29,9 @@
             backgroundColor: '#fff', 
             logoColor: '#0d0f12',
             textColor: '#0d0f12',
-            borderColor: 'black',
+            borderColor: '#0d0f12',
             borderSize: '2px',
-            borderRadius: '0px',
+            borderRadius: '50px',
             display: 'inline-block',
             fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif'
         });
