@@ -47,11 +47,11 @@
                     </defs>
                     <g id="Artboard_6" data-name="Artboard – 6" clip-path="url(#clip-Artboard_6)">
                         <g id="Group_1" data-name="Group 1" transform="translate(-43.91 -70.292)">
-                        <path id="Path_1" data-name="Path 1" d="M869.954,231.7H754.485L595.9,495.108H712.19Z" transform="translate(-483.795 -37.368)" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-                        <path id="Path_2" data-name="Path 2" d="M710.756,231.7H595.806L754.428,495.622H870.19Z" transform="translate(-483.821 -37.368)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
-                        <path id="Path_3" data-name="Path 3" d="M610.517,231.7H551.21L658.272,411.012,687.3,361.047l79.728,134.4h0Z" transform="translate(-496.469 -37.368)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
-                        <path id="Path_6" data-name="Path 6" d="M827.221,477.974h60.548L778.621,296.562,748.938,344.23Z" transform="translate(-442.67 -19.72)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
-                        <path id="Path_4" data-name="Path 4" d="M870.378,231.7H754.73L595.9,495.108H712.37Z" transform="translate(-325.299 -36.854)" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+                            <path id="Path_1" data-name="Path 1" d="M869.954,231.7H754.485L595.9,495.108H712.19Z" transform="translate(-483.795 -37.368)" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+                            <path id="Path_2" data-name="Path 2" d="M710.756,231.7H595.806L754.428,495.622H870.19Z" transform="translate(-483.821 -37.368)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
+                            <path id="Path_3" data-name="Path 3" d="M610.517,231.7H551.21L658.272,411.012,687.3,361.047l79.728,134.4h0Z" transform="translate(-496.469 -37.368)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
+                            <path id="Path_6" data-name="Path 6" d="M827.221,477.974h60.548L778.621,296.562,748.938,344.23Z" transform="translate(-442.67 -19.72)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20"/>
+                            <path id="Path_4" data-name="Path 4" d="M870.378,231.7H754.73L595.9,495.108H712.37Z" transform="translate(-325.299 -36.854)" fill="none" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
                         </g>
                     </g>
                 </svg>

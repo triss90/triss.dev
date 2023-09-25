@@ -640,6 +640,9 @@ section#work .work-items .work-item .work-item-image.cloudportal #Path-3 {
 section#work .work-items .work-item .work-item-image.leakedpassword text {
   fill: #ffcb36;
 }
+section#work .work-items .work-item .work-item-image.sarcasticwhite path {
+  fill: #f2f2f2 !important;
+}
 section#work .work-items .work-item .work-item-image.yirra #yirra #Path1 {
   stroke: url(#linearGradient-1);
 }
