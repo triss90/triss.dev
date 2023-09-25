@@ -28,7 +28,17 @@
         <div class="work-items" id="scroll-highlighted" role="region" aria-label="gallery" tabindex="0">
 
             <div class="work-item">
-                <h3 class="work-item-title">Sarcastic White<br><small>2023</small></h3>
+                <h3 class="work-item-title">CO2 Observer<br><small>2023-<?php echo date("Y"); ?></small></h3>
+                <svg class="work-item-image co2observer"  width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="36.5" cy="36.5" r="36.5" fill="#4E7D6A"/>
+                    <path d="M45.5335 50.4164C53.5278 38.3187 51.5 30.1806 57.5833 17.2795C39.5087 15.7733 22.9404 20.2919 16.9154 32.3417C11.8553 42.4617 18.4215 51.9226 18.4215 51.9226C21.434 42.8853 25.9527 32.3417 41.0149 26.3168C18.4217 44.3915 25.9527 57.9475 25.9527 57.9475C25.9527 57.9475 40.1868 58.5077 45.5335 50.4164Z" fill="#E5F4DF"/>
+                </svg>
+                <p class="work-item-description">co2.observer scans your site and provides an estimate of the CO2 produced per page view.</p>
+                <a href="https://co2.observer" target="_blank" rel="noopener" class="button block"><span class="button-inner">co2.observer</span></a>
+            </div>
+
+            <div class="work-item">
+                <h3 class="work-item-title">Sarcastic White<br><small>2023-<?php echo date("Y"); ?></small></h3>
                 <svg class="work-item-image sarcasticwhite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
                     <defs>
                         <clipPath id="clip-Artboard_6">
