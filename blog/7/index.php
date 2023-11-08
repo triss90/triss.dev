@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/html-meter-tag'>HTML Meter Tag</a></h3>
+<time class='post-date' datetime='2019-09-12'>2019-09-12</time>
+<span class='categories'>html</span>
+<hr>
+</li><li><h3><a href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h3>
 <time class='post-date' datetime='2019-09-05'>2019-09-05</time>
 <span class='categories'>html</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h3>
 <time class='post-date' datetime='2019-08-21'>2019-08-21</time>
 <span class='categories'>html, css</span>
-<hr>
-</li><li><h3><a href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h3>
-<time class='post-date' datetime='2019-08-14'>2019-08-14</time>
-<span class='categories'>html, accessibility</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

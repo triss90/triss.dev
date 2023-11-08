@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/converting-color-codes'>Converting Color Codes</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/html-input-patterns'>HTML Input Patterns</a></h3>
+<time class='post-date' datetime='2019-07-17'>2019-07-17</time>
+<span class='categories'>html</span>
+<hr>
+</li><li><h3><a href='/../blog/converting-color-codes'>Converting Color Codes</a></h3>
 <time class='post-date' datetime='2019-07-02'>2019-07-02</time>
 <span class='categories'>php</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h3>
 <time class='post-date' datetime='2019-06-07'>2019-06-07</time>
 <span class='categories'>css</span>
-<hr>
-</li><li><h3><a href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h3>
-<time class='post-date' datetime='2019-06-01'>2019-06-01</time>
-<span class='categories'>html, javascript</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>

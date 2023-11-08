@@ -5,6 +5,12 @@
 <link>https://www.w3schools.in/</link>
 <description>Cloud RSS</description>
 <language>en-us</language><item>
+    <title>Streamlining OpenAI Integration</title>
+    <link>https://triss.dev/blog/streamlining-openai-integration</link>
+    <pubDate>2023-11-08</pubDate>
+    <description>Streamlining OpenAI Integration in PHP Applications</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
     <title>CO2 Observer Release</title>
     <link>https://triss.dev/blog/co2-observer-release</link>
     <pubDate>2023-09-17</pubDate>
@@ -117,11 +123,5 @@
     <link>https://triss.dev/blog/css-color-scheme</link>
     <pubDate>2023-02-01</pubDate>
     <description>Learn how to create a color-scheme with CSS</description>
-    <author>tristan@white.chat (Tristan White)</author>
-    </item><item>
-    <title>CSS selectmenu</title>
-    <link>https://triss.dev/blog/selectmenu</link>
-    <pubDate>2022-01-28</pubDate>
-    <description>Learn how HTML element selectmenu works</description>
     <author>tristan@white.chat (Tristan White)</author>
     </item></channel></rss>

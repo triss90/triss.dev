@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h3>
+<time class='post-date' datetime='2023-06-19'>2023-06-19</time>
+<span class='categories'>weekly widget, css, html</span>
+<hr>
+</li><li><h3><a href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h3>
 <time class='post-date' datetime='2023-06-12'>2023-06-12</time>
 <span class='categories'>weekly widget, css, html</span>
 <hr>
@@ -30,10 +34,6 @@
 </li><li><h3><a href='/../blog/weekly-widget-datacenter-map'>Weekly Widget - Datacenter Map</a></h3>
 <time class='post-date' datetime='2023-05-29'>2023-05-29</time>
 <span class='categories'>weekly widget, css, svg</span>
-<hr>
-</li><li><h3><a href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h3>
-<time class='post-date' datetime='2023-05-22'>2023-05-22</time>
-<span class='categories'>weekly widget, css</span>
 <hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>
