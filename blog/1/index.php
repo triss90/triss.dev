@@ -31,7 +31,7 @@
 <time class='post-date' datetime='2023-07-03'>2023-07-03</time>
 <span class='categories'>weekly widget, css, html</span>
 <hr>
-</li><li><h3><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-codeing Website</a></h3>
+</li><li><h3><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h3>
 <time class='post-date' datetime='2023-06-26'>2023-06-26</time>
 <span class='categories'>weekly widget, css, html</span>
 <hr>

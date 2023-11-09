@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Weekly Widget - Self-codeing Website
+title: Weekly Widget - Self-coding Website
 slug: weekly-widget-self-coding-website
 date: 2023-06-26
 draft: false
@@ -12,7 +12,7 @@ tags:
   - html
 ---
 
-# Self-codeing Website
+# Self-coding Website
 
 <p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p>
 <hr>

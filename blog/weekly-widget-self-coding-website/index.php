@@ -7,7 +7,7 @@
 
 <main id='main' class='central space post blog'>
 
-    <h1>Self-codeing Website</h1>
+    <h1>Self-coding Website</h1>
 <p class='timestamp'><time datetime='2023-06-26'>2023-06-26</time></p>
 <hr>
 <p>The widget of the day is a self-coding website. While its practical applications may be limited, it could potentially be used as a tool for displaying examples:</p>
