@@ -321,7 +321,7 @@
             <div class="work-item">
                 <h3 class="work-item-title">Scutum<br><small>2021-2023</small></h3>
                 <p class="work-item-description"></p>scutum.pw allows you to encrypt and transfer passwords and other sensitive data via a one-time link
-                <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button">scutum.pw</span></a>
+                <a href="https://scutum.pw/" target="_blank" rel="noopener" class="button"><span class="button-inner">scutum.pw</span></a>
             </div>
 
             <div class="work-item">
@@ -337,7 +337,7 @@
             <div class="work-item">
                 <h3 class="work-item-title">dotbot<br><small>2019</small></h3>
                 <p class="work-item-description">A simple library that let's you create a randomised, dotted background-pattern on any given element on your website.</p>
-                <a href="https://github.com/triss90/dotbot" target="_blank" rel="noopener" class="button">GitHub</span></a>
+                <a href="https://github.com/triss90/dotbot" target="_blank" rel="noopener" class="button"><span class="button-inner">GitHub</span></a>
             </div>
 
             <div class="work-item">
