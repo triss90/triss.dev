@@ -15,7 +15,11 @@
     <div class="central space">
         <nav aria-label="posts">
             <ul id="postsList">
-                <!-- Page Content START --><li><h3><a href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h3>
+                <!-- Page Content START --><li><h3><a href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h3>
+<time class='post-date' datetime='2024-01-12'>2024-01-12</time>
+<span class='categories'></span>
+<hr>
+</li><li><h3><a href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h3>
 <time class='post-date' datetime='2023-11-08'>2023-11-08</time>
 <span class='categories'></span>
 <hr>
@@ -31,13 +35,9 @@
 <time class='post-date' datetime='2023-07-03'>2023-07-03</time>
 <span class='categories'>weekly widget, css, html</span>
 <hr>
-</li><li><h3><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h3>
-<time class='post-date' datetime='2023-06-26'>2023-06-26</time>
-<span class='categories'>weekly widget, css, html</span>
-<hr>
 </li><!-- Pagination START --><nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/1/' aria-label='Page 1' aria-current='page'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><span>...</span></li> <li><a href='/../blog/11/' aria-label='Page 11'>11</a></li> <li><a href='/../blog/2/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/1/' aria-label='Page 1' aria-current='page'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><span>...</span></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/2/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 </nav>
 
             </ul>

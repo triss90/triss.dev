@@ -5,6 +5,12 @@
 <link>https://www.w3schools.in/</link>
 <description>Cloud RSS</description>
 <language>en-us</language><item>
+    <title>Hex color notation have an alpha channel</title>
+    <link>https://triss.dev/blog/hex-color-alpha-channel</link>
+    <pubDate>2024-01-12</pubDate>
+    <description>The hexadecimal color system includes an option for an alpha channel!</description>
+    <author>tristan@white.chat (Tristan White)</author>
+    </item><item>
     <title>Streamlining OpenAI Integration</title>
     <link>https://triss.dev/blog/streamlining-openai-integration</link>
     <pubDate>2023-11-08</pubDate>
@@ -117,11 +123,5 @@
     <link>https://triss.dev/blog/smooth-scroll-to-top</link>
     <pubDate>2023-02-21</pubDate>
     <description>Learn how to add a smooth scroll-to-top feature to your projects</description>
-    <author>tristan@white.chat (Tristan White)</author>
-    </item><item>
-    <title>CSS color-scheme</title>
-    <link>https://triss.dev/blog/css-color-scheme</link>
-    <pubDate>2023-02-01</pubDate>
-    <description>Learn how to create a color-scheme with CSS</description>
     <author>tristan@white.chat (Tristan White)</author>
     </item></channel></rss>
