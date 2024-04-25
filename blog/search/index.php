@@ -62,10 +62,9 @@
 
     </main>
 
+    <?php include '../../inc/footer.php'; ?>
     <script src="/assets/js/vendor/fuse.min.js"></script>
     <script src="/assets/js/search.min.js"></script>
-
-    <?php include '../../inc/footer.php'; ?>
     <?php include '../../inc/scripts.php'; ?>
 </body>
 
