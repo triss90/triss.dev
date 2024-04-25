@@ -23,64 +23,62 @@ function search(query) {
 
 		const postListContainer = document.querySelector("#posts-list");
 
-		if (result.length <= 0) {
-			const postItemContainer = document.createElement("li");
-			const titleContainer = document.createElement("h3");
-			titleContainer.style.textAlign = "center";
-			titleContainer.innerHTML = "No results found";
-			
-			postItemContainer.appendChild(titleContainer);
-			postListContainer.innerHTML = '<span class="loader"></span>';
-			setTimeout(() => {
-				postListContainer.querySelector(".loader").remove();
-				postListContainer.appendChild(postItemContainer);
-			}, 1000);
-			
-		} else {
-			for (var i = 0, p = result.length; i < p; i++) {
-				var obj = result[i];
+		const loader = document.createElement("span");
+		loader.classList.add("loader");
+		postListContainer.appendChild(loader);
 
+		setTimeout(() => {
+			postListContainer.querySelector(".loader").remove();
+					
+			if (result.length <= 0) {
 				const postItemContainer = document.createElement("li");
-
-				// Create title
-				const titleContainer = document.createElement("h2");
-				const linkContainer = document.createElement("a");
-				const titleData = obj.item.title;
-				const urlData = obj.item.url;
-				linkContainer.innerHTML = titleData;
-				linkContainer.setAttribute("href", "/blog/" + urlData);
-				titleContainer.appendChild(linkContainer);
-
-				// Create date
-				const dateContainer = document.createElement("time");
-				const dateData = obj.item.date;
-				dateContainer.setAttribute("datetime", dateData);
-				dateContainer.classList.add("post-date");
-				dateContainer.innerHTML = dateData;
-
-				// Create tags
-				const tagsContainer = document.createElement("span");
-				const tagsData = obj.item.tags;
-				tagsContainer.classList.add("categories");
-				tagsContainer.innerHTML = tagsData;
-
-				const seperator = document.createElement("hr");
-
-				// Assemble post list item
+				const titleContainer = document.createElement("h3");
+				titleContainer.style.textAlign = "center";
+				titleContainer.innerHTML = "No results found";
+				
 				postItemContainer.appendChild(titleContainer);
-				postItemContainer.appendChild(dateContainer);
-				postItemContainer.appendChild(tagsContainer);
-				postItemContainer.appendChild(seperator);
+				
+			} else {
+				for (var i = 0, p = result.length; i < p; i++) {
+					var obj = result[i];
 
-				postListContainer.appendChild(postItemContainer);
+					const postItemContainer = document.createElement("li");
 
-				postListContainer.innerHTML = '<span class="loader"></span>';
-				setTimeout(() => {
-					postListContainer.querySelector(".loader").remove();
+					// Create title
+					const titleContainer = document.createElement("h2");
+					const linkContainer = document.createElement("a");
+					const titleData = obj.item.title;
+					const urlData = obj.item.url;
+					linkContainer.innerHTML = titleData;
+					linkContainer.setAttribute("href", "/blog/" + urlData);
+					titleContainer.appendChild(linkContainer);
+
+					// Create date
+					const dateContainer = document.createElement("time");
+					const dateData = obj.item.date;
+					dateContainer.setAttribute("datetime", dateData);
+					dateContainer.classList.add("post-date");
+					dateContainer.innerHTML = dateData;
+
+					// Create tags
+					const tagsContainer = document.createElement("span");
+					const tagsData = obj.item.tags;
+					tagsContainer.classList.add("categories");
+					tagsContainer.innerHTML = tagsData;
+
+					const seperator = document.createElement("hr");
+
+					// Assemble post list item
+					postItemContainer.appendChild(titleContainer);
+					postItemContainer.appendChild(dateContainer);
+					postItemContainer.appendChild(tagsContainer);
+					postItemContainer.appendChild(seperator);
+
 					postListContainer.appendChild(postItemContainer);
-				}, 1000);
+
+				}
 			}
-		}
+		}, 1000);
 	});
 }
 
