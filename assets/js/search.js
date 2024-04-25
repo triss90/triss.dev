@@ -21,7 +21,7 @@ function search(query) {
 		const fuse = new Fuse(feed, options);
 		const result = fuse.search(query);
 
-		const postListContainer = document.querySelector("#postsList");
+		const postListContainer = document.querySelector("#posts-list");
 
 		if (result.length <= 0) {
 			const postItemContainer = document.createElement("li");
@@ -38,7 +38,7 @@ function search(query) {
 				const postItemContainer = document.createElement("li");
 
 				// Create title
-				const titleContainer = document.createElement("h3");
+				const titleContainer = document.createElement("h2");
 				const linkContainer = document.createElement("a");
 				const titleData = obj.item.title;
 				const urlData = obj.item.url;

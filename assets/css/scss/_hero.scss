@@ -1,0 +1,30 @@
+.hero {
+    padding: 8rem 0;
+
+    &.small {
+        padding: 4rem 0
+    }
+
+    .pretitle {
+        font-size: 1.1875em;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+        color: var(--color-primary);
+    }
+
+    .title {
+        font-size: 2.5em;
+        line-height: 1;
+        margin-bottom: 0rem;
+
+        @media (min-width: 670px) {
+            font-size: 5.875em;
+        }
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+}

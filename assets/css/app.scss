@@ -1,23 +1,30 @@
-@import "variables";
-@import "reset";
-@import "library_highlightjs";
+/* Project Settings */
+@import "scss/reset";
+@import "scss/settings";
 
-@import "typography";
-@import "layout";
+/* Gridder */
+@import "vendor/gridder/variables";
+@import "vendor/gridder/row";
+@import "vendor/gridder/tiny";
+@import "vendor/gridder/small";
+@import "vendor/gridder/medium";
+@import "vendor/gridder/large";
+@import "vendor/gridder/huge";
 
-@import "component_navigation";
-@import "component_header";
+/* HighlightJS */
+@import "vendor/highlightjs/_hljs.sarcasticwhite.scss";
 
-@import "component_gallery";
-@import "component_button";
-@import "component_search";
-@import "component_post";
-@import "component_dialog";
-@import "component_contact";
-@import "component_about";
-@import "component_pagination";
-@import "component_footer";
-@import "component_tables";
-@import "component_snippets";
-@import "component_card";
-@import "component_carbon";
+/* Project Styles */
+@import "scss/typography";
+@import "scss/themes_switcher";
+@import "scss/layout";
+@import "scss/navigation";
+@import "scss/hero";
+@import "scss/card";
+@import "scss/projects";
+@import "scss/search";
+@import "scss/articles";
+@import "scss/pagination";
+@import "scss/tooltip";
+@import "scss/slider";
+@import "scss/footer";

@@ -1,0 +1,80 @@
+[data-tooltip] {
+    position: relative;
+
+    .tooltip {
+        position: absolute;
+        z-index: 999;
+        padding: 0.25rem 0.75rem;
+        background: var(--color-text);
+        color: var(--color-bg);
+        border: 1px solid var(--color-border);
+        border-radius: 0.25rem;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+        transition: all 250ms ease-in-out;
+
+        &::Before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            transform: translateX(-50%);
+        }
+
+        &.tooltip-top {
+            top: -4rem;
+            left: 50%;
+            transform: translateX(-50%);
+
+            &::before {
+                border-width: 0.5rem 0.5rem 0 0.5rem;
+                border-color: var(--color-text) transparent transparent transparent;
+                top: 100%;
+                left: 50%;
+            }
+        }
+
+        &.tooltip-bottom {
+            bottom: -3.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+
+            &::before {
+                border-width: 0 0.5rem 0.5rem 0.5rem;
+                border-color: transparent transparent var(--color-text) transparent;
+                bottom: 100%;
+                left: 50%;
+            }
+        }
+
+        &.tooltip-left {
+            top: 50%;
+            left: -3.5rem;
+            transform: translateY(-50%);
+
+            &::before {
+                border-width: 0.5rem 0 0.5rem 0.5rem;
+                border-color: transparent transparent transparent var(--color-text);
+                top: 50%;
+                left: 100%;
+            }
+        }
+
+        &.tooltip-right {
+            top: 50%;
+            right: -3.5rem;
+            transform: translateY(-50%);
+
+            &::before {
+                border-width: 0.5rem 0.5rem 0.5rem 0;
+                border-color: transparent var(--color-text) transparent transparent;
+                top: 50%;
+                right: 100%;
+            }
+
+
+        }
+
+
+    }
+}

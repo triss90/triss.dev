@@ -1,0 +1,17 @@
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+}
+
+.row {
+	box-sizing: border-box;
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	&.reverse {
+		flex-direction: row-reverse
+	}
+}

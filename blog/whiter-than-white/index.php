@@ -1,13 +1,26 @@
-<?php $description = 'Weekly widget';?>
+<?php
+    $activePage = "blog";
+    $description = 'Weekly widget';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <h1>Whiter than White</h1>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <h1>Whiter than White</h1>
 <p class='timestamp'><time datetime='2023-06-20'>2023-06-20</time></p>
 <hr>
 <p>What is the whitest white ?</p>
@@ -37,10 +50,18 @@ src="data:video/mp4;base64,AAAAHGZ0eXBpc29tAAACAGlzb21pc28ybXA0MQAAAAhmcmVlAAAAv
 </div>
 <div class="block">
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>

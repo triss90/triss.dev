@@ -172,22 +172,27 @@ for($i = 0; $i < $totalPages; $i++) {
     // Extract a portion of $siteIndex array
     $page_data = array_slice($siteIndex, $i*$pageSize, $pageSize);
 
-    // var_dump($page_data['title']);
+    // var_dump($page_data);
     
     $articles = "<!-- Page Content START -->";
     foreach($page_data as $item) {
         $articles .= "<li>";
-        $articles .= "<h3><a href='/".$blogFolder."/" . $item['url'] . "'>" . $item['title'] . "</a></h3>\n";
+        $articles .= "<h2><a href='/".$blogFolder."/" . $item['url'] . "'>" . $item['title'] . "</a></h2>\n";
         $articles .= "<time class='post-date' datetime='".$item['date']."'>" . $item['date'] . "</time>\n";
-        $articles .= "<span class='categories'>" . $item['tags'] . "</span>\n";
+        // $articles .= "<span class='categories'>" . $item['tags'] . "</span>\n";
+        $articles .= "<p class='excerpt'>" . $item['description'] . "</p>\n";
         $articles .= "<hr>\n";
         $articles .= "</li>";
     }
   
+    $articles .= "</ul>\n";
+    $articles .= "</nav>\n";
+
+
     // Generate pagination
-    $articles .= "<!-- Pagination START -->";
     $articles .= "<nav class='pagination' aria-label='Pagination'>\n";
     $articles .= "<ul>\n";
+    
 
     // Previous link
     if ($i > 0) {
@@ -230,7 +235,7 @@ for($i = 0; $i < $totalPages; $i++) {
     }
 
     $articles .= "</ul>\n";
-    $articles .= "</nav>\n";
+    
 
     $frontendVariables = array(
         'title' => "Alle indlæg - Side " . ($i+1),

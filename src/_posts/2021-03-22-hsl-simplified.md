@@ -64,6 +64,7 @@ tags:
   position: relative;
   right: 50%;
   width: 100vw;
+  text-align: center;
 }
 .sat-example,
 .light-example {

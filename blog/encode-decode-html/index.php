@@ -1,13 +1,26 @@
-<?php $description = 'Learn how to encode and decode HTML';?>
+<?php
+    $activePage = "blog";
+    $description = 'Learn how to encode and decode HTML';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <h1>Encode/Decode HTML</h1>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <h1>Encode/Decode HTML</h1>
 <p class='timestamp'><time datetime='01-06-2019'>01-06-2019</time></p>
 <hr>
 <p>If you want to display html code on a website, you can't just type a <code>&lt;</code> in you index.html and expect it to show up. You have to use an equivalent html entity instead.</p>
@@ -50,10 +63,18 @@
 ?&gt;
 </code></pre>
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>

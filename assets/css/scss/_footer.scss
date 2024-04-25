@@ -1,0 +1,20 @@
+footer.site_footer {
+    margin-top: 8rem;
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+
+        li {
+            margin: 0 1rem 2rem 0;
+            padding: 0;
+            display: inline-block;
+        }
+    }
+}

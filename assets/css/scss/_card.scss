@@ -1,0 +1,132 @@
+.card {
+    overflow: hidden;
+    border-radius: 2rem;
+    height: calc(100% - 1rem);
+    // min-height: 300px;
+    margin-bottom: 1rem;
+
+    &.leakedpasswords {
+        --color-primary: #ffcb36;
+    }
+
+    &.colordrop {
+        --color-primary: #F782A9;
+
+        .card-bg {
+            background-color: #cf245f;
+            background-image: linear-gradient(to bottom right, #FFD26B, #F782A9, #F782A9);
+        }
+    }
+
+    &.webbox {
+        --color-primary: #845ef7;
+
+        .card-bg {
+            background-image: linear-gradient(to right, #845ef7, #5c7cfa, #339af0);
+        }
+    }
+
+    &.flowsense {
+        --color-primary: #3b82f6;
+    }
+
+    &.cloudservers {
+        --color-primary: #4d74e6;
+
+        .card-bg {
+            background-color: #7d8dff !important;
+            background-image: -webkit-gradient(linear-gradient(to right, #2989ef, #a168f2, #14cdff)) !important;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#2989ef), color-stop(#a168f2), to(#14cdff)) !important;
+            background-image: linear-gradient(to right, #2989ef, #a168f2, #14cdff) !important;
+        }
+    }
+
+    &.sarcasticwhite {
+        --color-primary: #94B7E1;
+    }
+
+    &.cloudnet {
+        --color-primary: #be8ceb;
+
+        .card-bg {
+            background: linear-gradient(50deg, #6e00ff 0, #b0f 100%) !important;
+        }
+    }
+
+    &.cloudportal {
+        --color-primary: #34a980;
+    }
+
+    &.co2observer {
+        --color-primary: #4E7D6A;
+    }
+
+    .card-link {
+        display: block;
+        padding: 2rem;
+        background-color: var(--color-text);
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &:hover::after {
+            display: none;
+        }
+
+        &:hover,
+        &:hover .card-date,
+        &:hover p.card-description {
+            text-decoration: none;
+            color: var(--color-bg) !important;
+        }
+
+        &:hover .card-bg {
+            transform: scale(10);
+        }
+
+        .card-bg {
+            height: 128px;
+            width: 128px;
+            background-color: var(--color-primary);
+            z-index: 1;
+            position: absolute;
+            top: -75px;
+            right: -75px;
+            border-radius: 50%;
+            transition: all .5s ease;
+        }
+
+        .card-title {
+            color: var(--color-bg);
+            font-family: var(--font-family-display);
+            font-weight: bold;
+            font-size: 2rem;
+            font-size: 200%;
+            line-height: 1.25;
+            z-index: 2;
+            position: relative;
+        }
+
+        .card-description {
+            color: var(--color-bg);
+            z-index: 2;
+            margin: 1em 0;
+        }
+
+        .card-footer {
+            position: relative;
+            color: var(--color-bg);
+            z-index: 2;
+            margin-top: 1rem;
+
+            .card-date {
+                color: var(--color-primary);
+                font-weight: bold;
+                transition: color .5s ease
+            }
+        }
+    }
+}

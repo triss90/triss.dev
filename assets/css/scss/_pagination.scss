@@ -1,0 +1,36 @@
+nav.pagination {
+    text-align: center;
+    margin-top: 3rem;
+
+    ul {
+        padding-left: 0;
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            margin: 0;
+            margin-bottom: 0.5rem;
+
+            a {
+                text-decoration: none;
+                border: 0;
+                padding: 0.45rem 0.8rem;
+                font-size: 1.5em;
+                color: var(--color-text);
+
+                &:after {
+                    display: none;
+                }
+
+                @media (max-width: 650px) {
+                    padding: 0.25rem 0.6rem;
+                }
+
+                &[aria-current="page"] {
+                    background: var(--color-background-offset);
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+}

@@ -1,13 +1,26 @@
-<?php $description = 'Learn how to use the HTML output tag';?>
+<?php
+    $activePage = "blog";
+    $description = 'Learn how to use the HTML output tag';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <h1>HTML &lt;output&gt; Tag</h1>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <h1>HTML &lt;output&gt; Tag</h1>
 <p class='timestamp'><time datetime='26-09-2019'>26-09-2019</time></p>
 <hr>
 <p>In this final installment of &quot;what's that weird html tag?&quot;, we're taking a look at the <code>&lt;output&gt;</code> tag.</p>
@@ -134,10 +147,18 @@ form#calc select {
 <p>The <code>&lt;output&gt;</code> tag is widely supported, only lacking behind in Internet Explorer.</p>
 <p>See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output">https://developer.mozilla.org/</a> for more info.</p>
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>

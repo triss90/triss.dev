@@ -1,13 +1,26 @@
-<?php $description = 'Learn how to write SVG by hand';?>
+<?php
+    $activePage = "blog";
+    $description = 'Learn how to write SVG by hand';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <h1>Writing SVG Paths</h1>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <h1>Writing SVG Paths</h1>
 <p class='timestamp'><time datetime='08-08-2019'>08-08-2019</time></p>
 <hr class="stop">
 <p>The <code>&lt;path&gt;</code> in SVG is by far the most versatile drawing element. You can draw everything from lines and squares to triangles and circles.<wbr>
@@ -376,10 +389,18 @@ span {
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <p>If you're looking to hone your SVG skills, CSS-Tricks has <a href="https://css-tricks.com/svg-path-syntax-illustrated-guide/" target="_blank" rel="noopener">a great article</a>, which goes into detail on the subject.</p>
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>

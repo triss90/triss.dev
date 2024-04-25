@@ -1,13 +1,26 @@
-<?php $description = 'Learn how the infamous checkbox hack workds';?>
+<?php
+    $activePage = "blog";
+    $description = 'Learn how the infamous checkbox hack workds';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <h1>CSS Checkbox Hack</h1>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <h1>CSS Checkbox Hack</h1>
 <p class='timestamp'><time datetime='21-08-2019'>21-08-2019</time></p>
 <hr>
 <p>The &quot;Checkbox Hack&quot; is the method of using a connected checkbox and label
@@ -138,10 +151,18 @@ input[type=checkbox]:checked ~ #control2 {
     <li><a href="https://codepen.io/gubs/pen/kqEaz" target="_blank" rel="noopener">Checkbox hack - popup</a> by Michael Gubitosa</li>
 </ul>
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>

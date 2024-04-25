@@ -1,13 +1,26 @@
-<?php $description = 'ColorDrop Release 2023';?>
+<?php
+    $activePage = "blog";
+    $description = 'ColorDrop Release 2023';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <h1>ColorDrop Release 2023</h1>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <h1>ColorDrop Release 2023</h1>
 <p class='timestamp'><time datetime='2023-05-30'>2023-05-30</time></p><hr>
 <p>I am are thrilled to announce the launch of the all-new, redesigned <a href="https://colordop.io">ColorDrop.io</a>!</p>
 <p>Over the past few months, I've been working tirelessly to enhance the ColorDrop experience, and I am now excited to present to you a stunningly refreshed interface, improved image scanning, an upgraded palette customization feature, and a vast library of new color palettes.</p>
@@ -29,10 +42,18 @@
 <p>Thank you for your continued support and happy coloring!</p>
 <p>/Tristan White</p>
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>

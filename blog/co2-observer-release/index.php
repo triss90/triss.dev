@@ -1,13 +1,26 @@
-<?php $description = 'CO2 Observer Release';?>
+<?php
+    $activePage = "blog";
+    $description = 'CO2 Observer Release';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	What's up, Inspector Gadget? 🕵️‍♂️
+	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
+-->
+<head>
+    <?php include '../../inc/meta.php'; ?>
+</head>
 
-<?php include '../../_inc/header.php';?>
-<?php include '../../_inc/icons.php';?>
+<body>
+    <?php include '../../inc/themes.php'; ?>
+    <?php include '../../inc/navigation.php'; ?>
 
-<span class='inverted'><?php include '../../_inc/navigation.php';?></span>
-
-<main id='main' class='central space post blog'>
-
-    <style>
+    <main id='post'>
+        <div class='container'>
+            <div class='row'>
+                <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
+                    <style>
 img {
     max-width: 100%;
 }
@@ -35,10 +48,18 @@ img {
 <p><a href="https://co2.observer/" target="_blank">co2.observer</a> is a timely and essential tool for the modern web. As the world grapples with the challenges of climate change, every action counts. By understanding and reducing the carbon footprint of our digital activities, we can make a positive impact on the environment.</p>
 <p>So, the next time you're working on your website or browsing the web, think about the carbon footprint. And if you're proud of your site's eco-performance, showcase it with the <a href="https://co2.observer/" target="_blank">co2.observer</a> badge. Let's make the internet a greener place, one website at a time.</p>
 
+                </div>
+            </div>
+        </div>
+    </main>
 
-</main>
+    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
-<script src='../../assets/js/highlight.pack.js'></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <?php include '../../inc/footer.php'; ?>
+    <?php include '../../inc/scripts.php'; ?>
+</body>
 
-<?php include '../../_inc/footer.php';?>
+</html>
