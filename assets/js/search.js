@@ -28,9 +28,14 @@ function search(query) {
 			const titleContainer = document.createElement("h3");
 			titleContainer.style.textAlign = "center";
 			titleContainer.innerHTML = "No results found";
-
+			
 			postItemContainer.appendChild(titleContainer);
-			postListContainer.appendChild(postItemContainer);
+			postListContainer.innerHTML = '<span class="loader"></span>';
+			setTimeout(() => {
+				postListContainer.querySelector(".loader").remove();
+				postListContainer.appendChild(postItemContainer);
+			}, 1000);
+			
 		} else {
 			for (var i = 0, p = result.length; i < p; i++) {
 				var obj = result[i];
@@ -68,6 +73,12 @@ function search(query) {
 				postItemContainer.appendChild(seperator);
 
 				postListContainer.appendChild(postItemContainer);
+
+				postListContainer.innerHTML = '<span class="loader"></span>';
+				setTimeout(() => {
+					postListContainer.querySelector(".loader").remove();
+					postListContainer.appendChild(postItemContainer);
+				}, 1000);
 			}
 		}
 	});

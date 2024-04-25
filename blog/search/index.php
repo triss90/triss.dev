@@ -63,7 +63,7 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
-    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/search.min.js"></script>
 
     <?php include '../../inc/footer.php'; ?>
     <?php include '../../inc/scripts.php'; ?>
