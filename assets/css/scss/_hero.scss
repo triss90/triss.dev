@@ -1,8 +1,12 @@
 .hero {
     padding: 8rem 0;
 
+    @media (max-width: 768px) {
+        padding: 3rem 0;
+    }
+
     &.small {
-        padding: 4rem 0
+        padding: 4rem 0;
     }
 
     .pretitle {
@@ -15,7 +19,7 @@
     }
 
     .title {
-        font-size: 2.5em;
+        font-size: 3em;
         line-height: 1;
         margin-bottom: 0rem;
 
@@ -26,5 +30,10 @@
 
     .subtitle {
         font-size: 2em;
+
+        @media (max-width: 768px) {
+            margin-top: 0.75em;
+            font-size: 1.75em;
+        }
     }
 }

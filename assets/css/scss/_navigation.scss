@@ -51,6 +51,10 @@
             padding: 0;
             margin-left: 1rem;
 
+            @media (max-width: 768px) {
+                margin: 0.5em !important;
+            }
+
             &.active {
                 a:after {
                     background-color: var(--color-primary) !important;
@@ -87,6 +91,10 @@
     }
 
     .cta {
+        @media (max-width: 768px) {
+            display: block;
+        }
+
         .btn {
             margin-left: 1rem;
             padding: 0;

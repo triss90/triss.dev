@@ -28,7 +28,7 @@
 
             <header id="top" class="hero small">
                 <div class="row">
-                    <div class="tiny-12 small-10 medium-8 small-offset-1 medium-offset-2">
+                    <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <h1 class="title">Projects.</h1>
                         <p class="subtitle">I've worked on all kinds of projects, big and small. Dive in below and check some of them out!</p>
                     </div>
@@ -41,7 +41,7 @@
             <section id="projects_other">
 
                 <div class="row">
-                    <div class="tiny-12 small-10 medium-8 small-offset-1 medium-offset-2">
+                    <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
 
                         <div class="project">
                             <a href="https://co2.observer" target="_blank" rel="noopener">

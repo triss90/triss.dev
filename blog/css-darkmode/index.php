@@ -8,6 +8,7 @@
 	What's up, Inspector Gadget? 🕵️‍♂️
 	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
 -->
+
 <head>
     <?php include '../../inc/meta.php'; ?>
 </head>

@@ -28,10 +28,10 @@
 
             <header id="top" class="hero small">
                 <div class="row">
-                    <div class="tiny-12 small-10 medium-8 small-offset-1 medium-offset-2">
+                    <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <h1 class="title">Articles.</h1>
                         <p class="subtitle">
-                            <a class="icon" data-tooltip="RSS" data-tooltip-direction="top" data-tooltip-delay="0" href="/blog/rss.xml" title="RSS Feed" target="_blank" rel="noopener">
+                            <a class="icon rss" data-tooltip="RSS" data-tooltip-direction="top" data-tooltip-delay="0" href="/blog/rss.xml" title="RSS Feed" target="_blank" rel="noopener">
                                 <svg style="width:1em;height:1em;position:relative;top:0.125em;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-rss">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
@@ -49,7 +49,7 @@
 
             <section class="posts-container">
                 <div class="row">
-                    <div class="tiny-12 small-10 medium-8 small-offset-1 medium-offset-2">
+                    <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
