@@ -3,7 +3,10 @@
         <div class="row tiny-center">
             <div class="tiny-12 small-4 tiny-center">
                 <a href="/" class="logo">
-                    <img src="/assets/img/tw.png" alt="Image of Tristan White">
+                    <picture>
+                        <source type="image/avif" srcset="/assets/img/tw.avif" />
+                        <img src="/assets/img/tw.png" alt="Image of Tristan White">
+                    </picture>
                     <span>Tristan White</span>
                 </a>
             </div>

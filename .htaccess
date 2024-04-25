@@ -1,0 +1,82 @@
+# Blog
+RewriteEngine on
+RewriteRule ^blog/search/([a-zA-Z0-9_-]+)$ blog/search/index.php?q=$1
+RewriteRule ^blog/search/([a-zA-Z0-9_-]+)/$ blog/search/index.php?q=$1
+
+RewriteRule ^blog/page/([a-zA-Z0-9_-]+)$ blog/page/index.php?p=$1
+RewriteRule ^blog/page/([a-zA-Z0-9_-]+)/$ blog/page/index.php?p=$1
+
+RewriteRule ^blog/rss blog/rss.xml
+RewriteRule ^blog/rss/ blog/rss.xml
+RewriteRule ^blog/feed/ blog/rss.xml
+RewriteRule ^blog/feed blog/rss.xml
+RewriteRule ^rss blog/rss.xml
+RewriteRule ^rss/ blog/rss.xml
+RewriteRule ^feed/ blog/rss.xml
+RewriteRule ^feed blog/rss.xml
+
+
+# Error pages
+Options +FollowSymLinks
+RewriteEngine on
+ErrorDocument 401 /404/
+ErrorDocument 403 /404/
+ErrorDocument 404 /404/
+ErrorDocument 500 /404/
+
+
+# Gzip
+<ifModule mod_gzip.c>
+    mod_gzip_on Yes
+    mod_gzip_dechunk Yes
+    mod_gzip_item_include file .(html?|txt|css|js|php|pl|json|svg)$
+    mod_gzip_item_include handler ^cgi-script$
+    mod_gzip_item_include mime ^text/.*
+    mod_gzip_item_include mime ^application/x-javascript.*
+    mod_gzip_item_exclude mime ^image/.*
+    mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+
+
+# BEGIN Cache-Control Headers
+# MOD_DEFLATE COMPRESSION
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application$
+
+# DEFLATE NOT COMPATIBLE BROWERS
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+
+# NOT CHACHING IF ALREADY CACHED
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+
+# EXPIRE HEADERS
+<IfModule mod_expires.c>
+    ExpiresActive On
+    #Images
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/avif "access plus 1 year"
+    AddType image/x-icon .ico
+    ExpiresByType image/ico "access plus 1 year"
+    ExpiresByType image/icon "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    #Elements
+    ExpiresByType application/xhtml+xml "access plus 1 week"
+    ExpiresByType text/html "access plus 1 week"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType text/x-javascript "access plus 1 week"
+    #Fonts
+    ExpiresByType font/woff2 "access plus 1 year"
+    #Others
+    ExpiresDefault "access plus 1 month"
+</IfModule>
+
+<filesMatch ".(avif|ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|woff2)$">
+    Header set Cache-Control "max-age=31536000, public"
+</filesMatch>

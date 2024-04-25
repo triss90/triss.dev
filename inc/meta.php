@@ -1,7 +1,26 @@
 <?php
+    $language = "";
+    $timestamp = time();
+    
+    header('Cache-Control: max-age=31536000, public');
+
+    $tsstring = gmdate('D, d M Y H:i:s ', $timestamp) . 'GMT';
+    $etag = $language . $timestamp;
+
+    $if_modified_since = isset($_SERVER['HTTP_IF_MODIFIED_SINCE']) ? $_SERVER['HTTP_IF_MODIFIED_SINCE'] : false;
+    $if_none_match = isset($_SERVER['HTTP_IF_NONE_MATCH']) ? $_SERVER['HTTP_IF_NONE_MATCH'] : false;
+    if ((($if_none_match && $if_none_match == $etag) || (!$if_none_match)) && ($if_modified_since && $if_modified_since == $tsstring)) {
+        header('HTTP/1.1 304 Not Modified');
+        exit();
+    }
+    else {
+        header("Last-Modified: $tsstring");
+        header("ETag: \"{$etag}\"");
+    }
 if (!isset($description)) {
     $description = "A Systems Engineer with flair for Front-End UI/UX based in Aarhus Denmark";
 }
+$rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
 ?>
 
 <meta charset="UTF-8">
@@ -22,8 +41,14 @@ if (!isset($description)) {
 <meta property="og:image" content="https://triss.dev/assets/img/tw_750.jpg">
 <meta content="<?php echo $description; ?>" name="description">
 
-<link rel="stylesheet" href="/assets/css/themes.css">
-<link rel="stylesheet" href="/assets/css/app.css">
+<style id="themes-css">
+<?php require_once ($rootDir.'/assets/css/themes.min.css');
+?>
+</style>
+<style id="app-css">
+<?php require_once ($rootDir.'/assets/css/app.min.css');
+?>
+</style>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">

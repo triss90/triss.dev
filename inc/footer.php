@@ -4,7 +4,7 @@
             <div class="tiny-12 medium-4 tiny-center small-center medium-start">
                 <p>
                     Copyright &copy; <?php echo date("Y"); ?> Tristan White<br>
-                    <a style="font-size:0.85em" href="https://co2.observer/site/?url=triss.dev" target="_blank">(A+) Cleaner than 98% | 0.01g CO2/view</a>
+                    <a style="font-size:0.85em" href="https://co2.observer/site/?url=triss.dev" target="_blank">(A+) Cleaner than 97% | 0.01g CO2/view</a>
                 </p>
             </div>
             <div class="tiny-12 medium-4 tiny-center small-center">
