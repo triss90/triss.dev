@@ -62,7 +62,7 @@
 
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <script src="/assets/js/vendor/fuse.min.js"></script>
     <script src="/assets/js/search.min.js"></script>
 
     <?php include '../../inc/footer.php'; ?>

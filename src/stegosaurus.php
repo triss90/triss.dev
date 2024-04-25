@@ -10,6 +10,7 @@
 
 require('_stegoinit.php');
 require('_stegoconfig.php');
+system('clear');
 
 // Print status
 $art ="\e[32m
