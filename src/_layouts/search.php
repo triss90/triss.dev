@@ -9,7 +9,7 @@
 	Go on then! I've made it convenient for you, view the source here: https://github.com/triss90/triss.dev
 
     Lighthouse scores (24/04/2024):
-    Performance: 96
+    Performance: 99
     Accessibility: 100
     Best Practices: 100
     SEO: 100
