@@ -3,6 +3,10 @@ footer.site_footer {
 
     p {
         margin-bottom: 2rem;
+
+        @media (max-width: 768px) {
+            margin-bottom: 1rem;
+        }
     }
 
     ul {
