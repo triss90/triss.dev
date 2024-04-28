@@ -52,7 +52,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-progress-tag'>HTML Progress Tag</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-output-tag'>HTML Output Tag</a></h2>
+<time class='post-date' datetime='2019-09-26'>2019-09-26</time>
+<p class='excerpt'>Learn how to use the HTML output tag</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-progress-tag'>HTML Progress Tag</a></h2>
 <time class='post-date' datetime='2019-09-19'>2019-09-19</time>
 <p class='excerpt'>Learn how to use the HTML progress tag</p>
 <hr>
@@ -67,10 +71,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h2>
 <time class='post-date' datetime='2019-08-27'>2019-08-27</time>
 <p class='excerpt'>Learn how to set up http2 on Apache</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/css-darkmode'>CSS Darkmode</a></h2>
-<time class='post-date' datetime='2019-08-24'>2019-08-24</time>
-<p class='excerpt'>Learn how to add darkmode to your website</p>
 <hr>
 </li></ul>
 </nav>

@@ -5,6 +5,12 @@
         <link>https://triss.dev/</link>
         <description>Tristan White's RSS Feed</description>
         <language>en-us</language><item>
+            <title>Multipage View Transitions</title>
+            <link>https://triss.dev/blog/multipage-view-transitions</link>
+            <pubDate>2024-04-28</pubDate>
+            <description>Getting started with multipage view transitions</description>
+            <author>tristan@white.chat (Tristan White)</author>
+        </item><item>
             <title>Hex color notation have an alpha channel</title>
             <link>https://triss.dev/blog/hex-color-alpha-channel</link>
             <pubDate>2024-01-12</pubDate>
@@ -117,12 +123,6 @@
             <link>https://triss.dev/blog/animating-the-web</link>
             <pubDate>2023-02-23</pubDate>
             <description>Learn the basics of animaitons on the web</description>
-            <author>tristan@white.chat (Tristan White)</author>
-        </item><item>
-            <title>Smooth scroll-to-top</title>
-            <link>https://triss.dev/blog/smooth-scroll-to-top</link>
-            <pubDate>2023-02-21</pubDate>
-            <description>Learn how to add a smooth scroll-to-top feature to your projects</description>
             <author>tristan@white.chat (Tristan White)</author>
         </item>
     </channel>

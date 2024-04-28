@@ -52,7 +52,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-color-scheme'>CSS color-scheme</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/smooth-scroll-to-top'>Smooth scroll-to-top</a></h2>
+<time class='post-date' datetime='2023-02-21'>2023-02-21</time>
+<p class='excerpt'>Learn how to add a smooth scroll-to-top feature to your projects</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-color-scheme'>CSS color-scheme</a></h2>
 <time class='post-date' datetime='2023-02-01'>2023-02-01</time>
 <p class='excerpt'>Learn how to create a color-scheme with CSS</p>
 <hr>
@@ -67,10 +71,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/hsl-simplified'>HSL Simplified</a></h2>
 <time class='post-date' datetime='2021-03-22'>2021-03-22</time>
 <p class='excerpt'>HSL for dummies</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/avif-image'>AVIF Image</a></h2>
-<time class='post-date' datetime='2020-09-15'>2020-09-15</time>
-<p class='excerpt'>An introduction to AVIF images</p>
 <hr>
 </li></ul>
 </nav>
