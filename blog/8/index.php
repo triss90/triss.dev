@@ -52,23 +52,23 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h2>
 <time class='post-date' datetime='2019-08-21'>2019-08-21</time>
 <p class='excerpt'>Learn how the infamous checkbox hack workds</p>
 <hr>
-</li><li><h2><a href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h2>
 <time class='post-date' datetime='2019-08-14'>2019-08-14</time>
 <p class='excerpt'>Learn how to write the perfect</p>
 <hr>
-</li><li><h2><a href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
 <time class='post-date' datetime='2019-08-08'>2019-08-08</time>
 <p class='excerpt'>Learn how to write SVG by hand</p>
 <hr>
-</li><li><h2><a href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
 <time class='post-date' datetime='2019-08-07'>2019-08-07</time>
 <p class='excerpt'>Learn how to use CSS canonical gradients</p>
 <hr>
-</li><li><h2><a href='/../blog/html-datalist-element'>HTML Datalist Element</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-datalist-element'>HTML Datalist Element</a></h2>
 <time class='post-date' datetime='2019-08-03'>2019-08-03</time>
 <p class='excerpt'>Learn how to use the HTML datalist element</p>
 <hr>

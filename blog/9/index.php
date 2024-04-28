@@ -52,23 +52,23 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/hiding-text-in-images'>Hiding Text in Images</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/hiding-text-in-images'>Hiding Text in Images</a></h2>
 <time class='post-date' datetime='2019-07-30'>2019-07-30</time>
 <p class='excerpt'>Learn how to obscure information in images</p>
 <hr>
-</li><li><h2><a href='/../blog/html-input-patterns'>HTML Input Patterns</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-input-patterns'>HTML Input Patterns</a></h2>
 <time class='post-date' datetime='2019-07-17'>2019-07-17</time>
 <p class='excerpt'>A collection of useful HTML input patterns</p>
 <hr>
-</li><li><h2><a href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
 <time class='post-date' datetime='2019-07-02'>2019-07-02</time>
 <p class='excerpt'>Learn how to convert colors codes to and from different formats</p>
 <hr>
-</li><li><h2><a href='/../blog/breaking-max-width'>Breaking Max Width</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/breaking-max-width'>Breaking Max Width</a></h2>
 <time class='post-date' datetime='2019-06-23'>2019-06-23</time>
 <p class='excerpt'>Breaking max width the proper way with CSS</p>
 <hr>
-</li><li><h2><a href='/../blog/a-guide-to-hex'>A Guide to Hex</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/a-guide-to-hex'>A Guide to Hex</a></h2>
 <time class='post-date' datetime='2019-06-12'>2019-06-12</time>
 <p class='excerpt'>Learn how hexadecimal colors work</p>
 <hr>

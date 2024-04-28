@@ -35,8 +35,6 @@
                 </div>
             </header>
 
-
-
             <!-- Other Projects -->
             <section id="projects_other">
 

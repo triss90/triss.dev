@@ -52,23 +52,23 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h2>
 <time class='post-date' datetime='2019-06-07'>2019-06-07</time>
 <p class='excerpt'>Maintaining Aspect Ratio with CSS</p>
 <hr>
-</li><li><h2><a href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
 <time class='post-date' datetime='2019-06-01'>2019-06-01</time>
 <p class='excerpt'>Learn how to encode and decode HTML</p>
 <hr>
-</li><li><h2><a href='/../blog/creating-a-js-library'>Creating a JS Library</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/creating-a-js-library'>Creating a JS Library</a></h2>
 <time class='post-date' datetime='2019-05-15'>2019-05-15</time>
 <p class='excerpt'>Learn how to create a rudimentary javascript library</p>
 <hr>
-</li><li><h2><a href='/../blog/html-details-summary'>HTML Details/Summary</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-details-summary'>HTML Details/Summary</a></h2>
 <time class='post-date' datetime='2019-05-02'>2019-05-02</time>
 <p class='excerpt'>Learn how to use the details and summary elements</p>
 <hr>
-</li><li><h2><a href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h2>
 <time class='post-date' datetime='2019-04-24'>2019-04-24</time>
 <p class='excerpt'>Learn how to animate SVGs.</p>
 <hr>

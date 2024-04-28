@@ -2857,6 +2857,60 @@ nav.pagination ul li a[aria-current=page] {
     transform: rotate(360deg);
   }
 }
+.post-transition-start {
+  view-timeline-name: article-title;
+}
+
+.post-transition-end {
+  view-timeline-name: article-title;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes slide-to-left {
+  from {
+    transform: translateX(-4em);
+  }
+  to {
+    transform: translateX(0em);
+  }
+}
+@keyframes slide-to-right {
+  from {
+    transform: translateX(0em);
+  }
+  to {
+    transform: translateX(-4em);
+  }
+}
+::view-transition-old(article-title),
+::view-transition-old(article-title) {
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  animation: fade-out 350ms cubic-bezier(0, 0, 0.2, 1) slide-to-right 350ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+::view-transition-new(root) {
+  animation: fade-in 350ms cubic-bezier(0, 0, 0.2, 1) slide-to-left 350ms cubic-bezier(0, 0, 0.2, 1);
+  mix-blend-mode: normal;
+}
+
 footer.site_footer {
   margin-top: 8rem;
 }

@@ -8,7 +8,7 @@ description: The hexadecimal color system includes an option for an alpha channe
 category: PHP
 ---
 
-# Hex color notation have an alpha channel
+<h1 class="post-transition-end">Hex color notation have an alpha channel</h1>
 
 <p class='timestamp'><time datetime='%%date%%'>%%date%%</time></p><hr>
 

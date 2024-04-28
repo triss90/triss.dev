@@ -25,6 +25,7 @@ $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, user-scalable=1">
+<meta name="view-transition" content="same-origin" />
 <title>Tristan White | <?php echo $description; ?> </title>
 <meta name="google-site-verification" content="yIFeaDSsvI7qzx8DTtQ7CBx3ZaZwD7vX_7F0yhrs_IY">
 <meta name="language" content="en">
@@ -40,7 +41,15 @@ $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://triss.dev/assets/img/tw_750.jpg">
 <meta content="<?php echo $description; ?>" name="description">
-
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="var(--color-secondary)">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<meta name="msapplication-TileColor" content="var(--color-primary)">
+<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+<meta name="theme-color" content="var(--color-bg)">
 <style id="themes-css">
 <?php require_once ($rootDir.'/assets/css/themes.min.css');
 ?>
@@ -49,13 +58,3 @@ $rootDir = realpath($_SERVER["DOCUMENT_ROOT"]);
 <?php require_once ($rootDir.'/assets/css/app.min.css');
 ?>
 </style>
-
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-<link rel="manifest" href="/assets/img/site.webmanifest">
-<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/img/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">

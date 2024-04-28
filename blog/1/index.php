@@ -52,23 +52,23 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h2>
 <time class='post-date' datetime='2024-01-12'>2024-01-12</time>
 <p class='excerpt'>The hexadecimal color system includes an option for an alpha channel!</p>
 <hr>
-</li><li><h2><a href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
 <time class='post-date' datetime='2023-11-08'>2023-11-08</time>
 <p class='excerpt'>Streamlining OpenAI Integration in PHP Applications</p>
 <hr>
-</li><li><h2><a href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
 <time class='post-date' datetime='2023-09-17'>2023-09-17</time>
 <p class='excerpt'>CO2 Observer Release</p>
 <hr>
-</li><li><h2><a href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
 <time class='post-date' datetime='2023-07-28'>2023-07-28</time>
 <p class='excerpt'>Darky.js Release</p>
 <hr>
-</li><li><h2><a href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h2>
 <time class='post-date' datetime='2023-07-03'>2023-07-03</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>

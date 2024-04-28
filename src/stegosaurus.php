@@ -178,7 +178,7 @@ for($i = 0; $i < $totalPages; $i++) {
     $articles = "<!-- Page Content START -->";
     foreach($page_data as $item) {
         $articles .= "<li>";
-        $articles .= "<h2><a href='/".$blogFolder."/" . $item['url'] . "'>" . $item['title'] . "</a></h2>\n";
+        $articles .= "<h2><a class='post-transition-start' href='/".$blogFolder."/" . $item['url'] . "'>" . $item['title'] . "</a></h2>\n";
         $articles .= "<time class='post-date' datetime='".$item['date']."'>" . $item['date'] . "</time>\n";
         // $articles .= "<span class='categories'>" . $item['tags'] . "</span>\n";
         $articles .= "<p class='excerpt'>" . $item['description'] . "</p>\n";

@@ -52,23 +52,23 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
 <time class='post-date' datetime='2023-06-26'>2023-06-26</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
-</li><li><h2><a href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h2>
 <time class='post-date' datetime='2023-06-19'>2023-06-19</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
-</li><li><h2><a href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
 <time class='post-date' datetime='2023-06-12'>2023-06-12</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
-</li><li><h2><a href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h2>
 <time class='post-date' datetime='2023-06-05'>2023-06-05</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
-</li><li><h2><a href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
 <time class='post-date' datetime='2023-05-30'>2023-05-30</time>
 <p class='excerpt'>ColorDrop Release 2023</p>
 <hr>

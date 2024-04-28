@@ -28,7 +28,7 @@
 
             <header id="top" class="hero small">
                 <div class="row">
-                    <div class="tiny tiny-center small-start">
+                    <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <h1 class="title">About me.</h1>
                         <p class="subtitle">I'm a Systems Engineer with flair for Front-End UI/UX based in Aarhus, Denmark.</p>
                     </div>
@@ -37,7 +37,7 @@
 
             <section id="about">
                 <div class="row">
-                    <div class="tiny tiny-center small-start">
+                    <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <p>Today I co-own and work at ServicePoint A/S, primarily focusing on developing and mainting cloud infrastructure at <a href="https://cloudservers.dk" target="_blank">cloudservers.dk</a> and building management development at <a href="https://flowsense.dk" target="_blank">flowsense.dk</a>.</p>
                         <p>Building the right foundation to ongoing optimization and support. In short, I try to make the web a better place.</p>
                         <p>I have worked with corporations, institutions and startups in a wide range of industries, spanning a number of European countries.</p>

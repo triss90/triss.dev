@@ -52,23 +52,23 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/fluid-typography'>Fluid Typography</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/fluid-typography'>Fluid Typography</a></h2>
 <time class='post-date' datetime='2020-05-20'>2020-05-20</time>
 <p class='excerpt'>Learn how to set up and use fluid typography</p>
 <hr>
-</li><li><h2><a href='/../blog/css-scroll-snap'>CSS Scroll Snap</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-scroll-snap'>CSS Scroll Snap</a></h2>
 <time class='post-date' datetime='2020-04-14'>2020-04-14</time>
 <p class='excerpt'>Add scroll snap to your web projects</p>
 <hr>
-</li><li><h2><a href='/../blog/fixing-whitespace-between-inline-elements'>Fixing Whitespace Between Inline Elements</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/fixing-whitespace-between-inline-elements'>Fixing Whitespace Between Inline Elements</a></h2>
 <time class='post-date' datetime='2020-03-11'>2020-03-11</time>
 <p class='excerpt'>Learn how to fix whitespace between inline elements</p>
 <hr>
-</li><li><h2><a href='/../blog/css-target-trick'>CSS Target Trick</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-target-trick'>CSS Target Trick</a></h2>
 <time class='post-date' datetime='2019-10-02'>2019-10-02</time>
 <p class='excerpt'>Learn how the CSS :target trick works</p>
 <hr>
-</li><li><h2><a href='/../blog/html-output-tag'>HTML Output Tag</a></h2>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-output-tag'>HTML Output Tag</a></h2>
 <time class='post-date' datetime='2019-09-26'>2019-09-26</time>
 <p class='excerpt'>Learn how to use the HTML output tag</p>
 <hr>

@@ -52,7 +52,7 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a href='/../blog/sass-mixin-grid-system'>Sass Mixin Grid system</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/sass-mixin-grid-system'>Sass Mixin Grid system</a></h2>
 <time class='post-date' datetime='2015-11-15'>2015-11-15</time>
 <p class='excerpt'>A simple Sass mixin grid system example</p>
 <hr>
