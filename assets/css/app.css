@@ -2787,7 +2787,7 @@ nav.pagination ul li a[aria-current=page] {
 .fontsize-slider {
   position: relative;
   z-index: 2;
-  margin: 2.25em 0;
+  margin: 1.4em 0;
   padding: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
