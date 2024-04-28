@@ -15,6 +15,7 @@
 @import "vendor/highlightjs/_hljs.sarcasticwhite.scss";
 
 /* Project Styles */
+@import "scss/transitions";
 @import "scss/typography";
 @import "scss/themes_switcher";
 @import "scss/layout";
@@ -28,5 +29,4 @@
 @import "scss/tooltip";
 @import "scss/slider";
 @import "scss/loader";
-@import "scss/transitions";
 @import "scss/footer";

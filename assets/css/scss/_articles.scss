@@ -84,4 +84,36 @@
         background-color: var(--color-bg-offset);
         margin: 2em 0;
     }
+
+    @media not (prefers-reduced-motion: reduce) {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        b,
+        i,
+        strong,
+        em,
+        small,
+        ul,
+        ol,
+        li,
+        dl,
+        dt,
+        dd,
+        pre,
+        code,
+        blockquote,
+        del,
+        ins,
+        a {
+            animation: fade-in linear both;
+            animation-timeline: view();
+            animation-range: entry 20% cover 20%;
+        }
+    }
 }
