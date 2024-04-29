@@ -2567,6 +2567,22 @@ body {
   transition: color 0.5s ease;
 }
 
+.article-progress {
+  width: 100vw;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: none;
+  height: 0.15em;
+  z-index: 999;
+}
+.article-progress .article-progress-inner {
+  width: 0;
+  height: 100%;
+  background-color: var(--color-primary);
+}
+
 #projects_other .project {
   margin-bottom: 3.5em;
 }

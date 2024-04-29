@@ -15,6 +15,9 @@
 
 <body>
     <?php include '../../inc/themes.php'; ?>
+    <div class="article-progress">
+        <div class="article-progress-inner"></div>
+    </div>
     <?php include '../../inc/navigation.php'; ?>
 
     <main id='post'>
@@ -213,6 +216,7 @@ This is a fractional unit which means that <code>1fr</code> takes up 1 part of t
         </div>
     </main>
 
+    <script src='../../assets/js/article.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

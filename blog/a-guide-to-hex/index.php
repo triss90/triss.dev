@@ -15,6 +15,9 @@
 
 <body>
     <?php include '../../inc/themes.php'; ?>
+    <div class="article-progress">
+        <div class="article-progress-inner"></div>
+    </div>
     <?php include '../../inc/navigation.php'; ?>
 
     <main id='post'>
@@ -133,6 +136,7 @@ console.log(rgb[&quot;r&quot;], rgb[&quot;g&quot;], rgb[&quot;b&quot;]);
         </div>
     </main>
 
+    <script src='../../assets/js/article.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

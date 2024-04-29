@@ -15,6 +15,9 @@
 
 <body>
     <?php include '../../inc/themes.php'; ?>
+    <div class="article-progress">
+        <div class="article-progress-inner"></div>
+    </div>
     <?php include '../../inc/navigation.php'; ?>
 
     <main id='post'>
@@ -86,6 +89,7 @@ otherwise the aspect ratio will be overridden.</p>
         </div>
     </main>
 
+    <script src='../../assets/js/article.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

@@ -15,6 +15,9 @@
 
 <body>
     <?php include '../../inc/themes.php'; ?>
+    <div class="article-progress">
+        <div class="article-progress-inner"></div>
+    </div>
     <?php include '../../inc/navigation.php'; ?>
 
     <main id='post'>
@@ -607,6 +610,7 @@ By doing so, we can create engaging and effective websites that users will love.
         </div>
     </main>
 
+    <script src='../../assets/js/article.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

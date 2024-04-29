@@ -15,6 +15,9 @@
 
 <body>
     <?php include '../../inc/themes.php'; ?>
+    <div class="article-progress">
+        <div class="article-progress-inner"></div>
+    </div>
     <?php include '../../inc/navigation.php'; ?>
 
     <main id='post'>
@@ -117,6 +120,7 @@ meter.ex4::-webkit-meter-even-less-good-value {
         </div>
     </main>
 
+    <script src='../../assets/js/article.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();
