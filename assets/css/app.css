@@ -2574,13 +2574,13 @@ body {
   top: 0;
   left: 0;
   background: none;
-  height: 0.15em;
+  height: 0.2em;
   z-index: 999;
 }
 .article-progress .article-progress-inner {
   width: 0;
   height: 100%;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   transition: width 200ms ease-in-out;
 }
 
