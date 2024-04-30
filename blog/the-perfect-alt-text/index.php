@@ -50,7 +50,7 @@ Daniel Göransson published a wonderful article on the subject back in October 2
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

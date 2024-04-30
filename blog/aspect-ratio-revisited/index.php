@@ -89,7 +89,7 @@ otherwise the aspect ratio will be overridden.</p>
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

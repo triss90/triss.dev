@@ -84,7 +84,7 @@ So, we're probably stuck with the bloated method above, for the foreseeable futu
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

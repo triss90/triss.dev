@@ -56,7 +56,7 @@ Even if the normal line-breaking rules would not apply at that location.</p>
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

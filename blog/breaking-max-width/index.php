@@ -86,7 +86,7 @@ Here's an example by <a href="https://twitter.com/Una" target="_blank" rel="noop
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

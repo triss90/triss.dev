@@ -355,7 +355,7 @@ Not every class, pseudo-class and ID is equal, and the cascading nature of CSS d
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

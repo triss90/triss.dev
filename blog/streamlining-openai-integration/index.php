@@ -82,7 +82,7 @@ echo '&lt;audio controls&gt;&lt;source src=&quot;'.$path.'&quot; type=&quot;audi
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();

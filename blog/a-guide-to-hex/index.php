@@ -136,7 +136,7 @@ console.log(rgb[&quot;r&quot;], rgb[&quot;g&quot;], rgb[&quot;b&quot;]);
         </div>
     </main>
 
-    <script src='../../assets/js/article.js'></script>
+    <script src='../../assets/js/article.min.js'></script>
     <script src='../../assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();
