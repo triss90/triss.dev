@@ -71,6 +71,11 @@
         margin-top: 3em;
         font-size: 3em;
         color: var(--color-primary);
+
+        @media (max-width: 768px) {
+            margin-top: 1em;
+            font-size: 2.5em;
+        }
     }
 
     .timestamp {
