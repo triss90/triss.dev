@@ -7,7 +7,6 @@ function articleProgress() {
         const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrollPercentage = (scrollTop / totalHeight) * 100;
         const roundedScrollPercentage = scrollPercentage.toFixed(2);
-        console.log(roundedScrollPercentage);
         progressBar.style.width = `${roundedScrollPercentage}%`;
     });
 }
