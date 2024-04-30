@@ -97,4 +97,4 @@ every other browser offers full support.
 <p class="ciu_embed" data-feature="progress" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=progress">Method of indicating a progress state.</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

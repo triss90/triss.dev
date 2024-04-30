@@ -69,4 +69,4 @@ This awesome feature, does suffer from a lack of support in some key browsers th
   <a href="https://caniuse.com/#feat=details">The details element generates a simple no-JavaScript widget to show/hide element contents, optionally by clicking on its child summary element.</a>
 </p>
 
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

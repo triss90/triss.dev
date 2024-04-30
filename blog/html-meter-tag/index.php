@@ -113,7 +113,7 @@ meter.ex4::-webkit-meter-even-less-good-value {
 <p class="ciu_embed" data-feature="meter" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=meter">Method of indicating the current level of a gauge.</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
                 </div>
             </div>

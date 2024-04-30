@@ -72,7 +72,7 @@ One thing you can control though, is the dropdown-arrow. It can be selected like
 <p class="ciu_embed" data-feature="datalist" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=datalist">Method of setting a list of options for a user to select in a text field, while leaving the ability to enter a custom value.</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 <p>So if you want to use this in production, you may want to include a polyfill, like
 <a href="https://github.com/mfranzke/datalist-polyfill" target="_blank" rel="noopener" title="Datalist Polyfill">this one by Maximilian Franzke</a></p>
 

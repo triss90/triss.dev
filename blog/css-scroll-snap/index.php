@@ -51,7 +51,7 @@ iframe.example {
   <a href="https://caniuse.com/#feat=css-snappoints">CSS technique that allows customizable scrolling experiences like pagination of carousels by setting defined snap positions.</a>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 <p>To learn more about CSS Scroll Snap, please refer to the docs on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type</a></p>
 
                 </div>

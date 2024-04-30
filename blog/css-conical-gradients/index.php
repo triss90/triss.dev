@@ -87,7 +87,7 @@ where as the color of a conic gradient spreads around the circle</p>
 <p class="ciu_embed" data-feature="css-conic-gradients" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=css-conic-gradients">Method of defining a conical or repeating conical color gradient as a CSS image.</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
                 </div>
             </div>

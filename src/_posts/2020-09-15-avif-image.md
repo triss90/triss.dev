@@ -49,4 +49,4 @@ The AVIF image format is currently only supported by Chrome, but can easily be u
 </p>
 
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

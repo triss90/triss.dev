@@ -45,4 +45,4 @@ The `<wbr>` tag is widely supported, only lacking support on IE and IE Mobile:
 <p class="ciu_embed" data-feature="wbr-element" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
 <a href="http://caniuse.com/#feat=wbr-element">Can I Use wbr-element?</a> Data on support for the wbr-element feature across the major browsers from caniuse.com.
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

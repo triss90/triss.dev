@@ -129,4 +129,4 @@ This, however, should not stop you from implementing a similar solution on your 
 <p class="ciu_embed" data-feature="prefers-color-scheme" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=prefers-color-scheme">Media query to detect if the user has set their system to use a light or dark color theme.</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

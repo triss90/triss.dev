@@ -66,7 +66,7 @@ details[open] summary:after {
 <p class="ciu_embed" data-feature="details" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=details">The details element generates a simple no-JavaScript widget to show/hide element contents, optionally by clicking on its child summary element.</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
                 </div>
             </div>

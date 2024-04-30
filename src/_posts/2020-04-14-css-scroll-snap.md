@@ -49,6 +49,6 @@ CSS scroll snap has wide support, with the exception of Internet Explorer and a 
 </p>
 
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
 To learn more about CSS Scroll Snap, please refer to the docs on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type</a>

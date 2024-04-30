@@ -48,7 +48,7 @@
   <a href="https://caniuse.com/#feat=mdn-avif">A modern image format based on the AV1 video format. AVIF generally has better compression than WebP, JPEG, PNG and GIF and is designed to supersede them.</a>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
                 </div>
             </div>

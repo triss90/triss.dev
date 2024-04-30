@@ -71,4 +71,4 @@ The View Transition API is still in the experimental stage and is presently only
 <p class="ciu_embed" data-feature="view-transitions" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
   <a href="https://caniuse.com/#feat=view-transitions">Provides a mechanism for easily creating animated transitions between different DOM states,</a>
 </p>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

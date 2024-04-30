@@ -87,4 +87,4 @@ As of the writing of this article, conic gradients are only supported by Safari 
   <a href="https://caniuse.com/#feat=css-conic-gradients">Method of defining a conical or repeating conical color gradient as a CSS image.</a>
 </p>
 
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

@@ -59,4 +59,4 @@ Unfortunately this awesome feature is very poorly supported. Currently only Goog
 
 You can read more about this on the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
 
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>

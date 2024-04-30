@@ -85,6 +85,6 @@ So, we're probably stuck with the bloated method above, for the foreseeable futu
 </p>
 
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
 </div>

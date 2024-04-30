@@ -76,7 +76,7 @@ So, we're probably stuck with the bloated method above, for the foreseeable futu
   <a href="https://caniuse.com/#feat=mdn-css_types_clamp">he clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum.</a>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 </div>
 
                 </div>
