@@ -20,27 +20,7 @@
     <style id="toggle-css">
     <?php require_once ($rootDir.'/snippets/toggle/toggle.css');
 
-    ?>.btn-copy {
-        margin-bottom: .5em;
-        margin-top: 2em;
-        padding: 0.5em;
-        background: none;
-        border: 0;
-        color: var(--color-primary);
-        scale: 1;
-        cursor: pointer;
-        transition: all 200ms ease-in-out;
-
-        .tooltip {
-            top: -2.5rem !important;
-        }
-    }
-
-    .btn-copy:hover {
-        transform: scale(1.1);
-        scale: 1.1;
-        color: var(--color-secondary);
-    }
+    ?>
     </style>
 </head>
 
@@ -92,7 +72,7 @@
                         <h2>Markup (HTML)</h2>
                     </div>
                     <div class="tiny tiny-end">
-                        <button class="btn-copy" onclick="copyContent('html')" title="Copy HTML Content" data-tooltip="Copy&nbsp;HTML" data-tooltip-direction="top" data-tooltip-delay="0">
+                        <button class="btn-copy" onclick="copyContent('html')" title="Copy HTML Content" data-tooltip="Copy&nbsp;HTML" data-tooltip-direction="left" data-tooltip-delay="0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
@@ -125,7 +105,7 @@
                         <h2>Styles (CSS)</h2>
                     </div>
                     <div class="tiny tiny-end">
-                        <button class="btn-copy" onclick="copyContent('css')" title="Copy CSS Content" data-tooltip="Copy&nbsp;CSS" data-tooltip-direction="top" data-tooltip-delay="0">
+                        <button class="btn-copy" onclick="copyContent('css')" title="Copy CSS Content" data-tooltip="Copy&nbsp;CSS" data-tooltip-direction="left" data-tooltip-delay="0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
@@ -206,7 +186,7 @@
                         <h2>Functionality (JS)</h2>
                     </div>
                     <div class="tiny tiny-end">
-                        <button class="btn-copy" onclick="copyContent('js')" title="Copy Javascript Content" data-tooltip="Copy&nbsp;JS" data-tooltip-direction="top" data-tooltip-delay="0">
+                        <button class="btn-copy" onclick="copyContent('js')" title="Copy Javascript Content" data-tooltip="Copy&nbsp;JS" data-tooltip-direction="left" data-tooltip-delay="0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />

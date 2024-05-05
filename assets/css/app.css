@@ -2611,6 +2611,22 @@ body {
   transition: color 0.5s ease;
 }
 
+.btn-copy {
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+  padding: 0.5em;
+  line-height: 1;
+  background: none;
+  border: 0;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-copy:hover {
+  color: var(--color-secondary);
+}
+
 .snippet {
   border: 1px solid var(--color-border);
   border-radius: 1em;
@@ -2980,6 +2996,7 @@ nav.pagination ul li a[aria-current=page] {
   position: absolute;
   z-index: 999;
   padding: 0.25rem 0.75rem;
+  line-height: 1.5;
   background: var(--color-text);
   color: var(--color-bg);
   border: 1px solid var(--color-border);
@@ -3019,13 +3036,14 @@ nav.pagination ul li a[aria-current=page] {
 }
 [data-tooltip] .tooltip.tooltip-left {
   top: 50%;
-  left: -3.5rem;
-  transform: translateY(-50%);
+  left: -100%;
+  transform: translateY(-50%) translateX(calc(-50% - 1rem));
 }
 [data-tooltip] .tooltip.tooltip-left::before {
   border-width: 0.5rem 0 0.5rem 0.5rem;
   border-color: transparent transparent transparent var(--color-text);
   top: 50%;
+  transform: translateY(-50%);
   left: 100%;
 }
 [data-tooltip] .tooltip.tooltip-right {

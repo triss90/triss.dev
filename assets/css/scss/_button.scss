@@ -1,0 +1,15 @@
+.btn-copy {
+    margin-bottom: .5em;
+    margin-top: 2em;
+    padding: 0.5em;
+    line-height: 1;
+    background: none;
+    border: 0;
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-copy:hover {
+    color: var(--color-secondary);
+}
