@@ -12,10 +12,11 @@
             </div>
             <div class="tiny-12 small-8 tiny-center">
                 <ul class="menu">
-                    <li class="item <?php echo ($activePage == 'home') ? 'active' : ''; ?>"><a href="/"><strong>01</strong> home</a></li>
-                    <li class="item <?php echo ($activePage == 'projects') ? 'active' : ''; ?>"><a href="/projects"><strong>02</strong> projects</a></li>
-                    <li class="item <?php echo ($activePage == 'blog') ? 'active' : ''; ?>"><a href="/blog"><strong>03</strong> articles</a></li>
-                    <li class="item <?php echo ($activePage == 'about') ? 'active' : ''; ?>"><a href="/about"><strong>04</strong> about</a></li>
+                    <li class="item <?php echo ($activePage == 'home') ? 'active' : ''; ?>"><a href="/">Home</a></li>
+                    <li class="item <?php echo ($activePage == 'projects') ? 'active' : ''; ?>"><a href="/projects">Projects</a></li>
+                    <li class="item <?php echo ($activePage == 'blog') ? 'active' : ''; ?>"><a href="/blog">Articles</a></li>
+                    <li class="item <?php echo ($activePage == 'snippets') ? 'active' : ''; ?>"><a href="/snippets">Snippets</a></li>
+                    <li class="item <?php echo ($activePage == 'about') ? 'active' : ''; ?>"><a href="/about">About</a></li>
                     <li class="item cta">
                         <button aria-label="Toggle Theme Editor" name="Toggle Theme Editor" class="btn" id="theme-toggle" onclick="toggleThemeMenu()">
                             <svg xmlns="http://www.w3.org/2000/svg" style="width: 1em; height: 1em;" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-palette">
