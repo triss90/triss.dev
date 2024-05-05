@@ -187,7 +187,7 @@
                 <div class="tiny-12 small-4 medium-4 theme-item">
                     <h3 class="title">Font Size</h3>
                     <p class="fontsize-value">100%</p>
-                    <input type="range" min="50" step="25" max="200" value="100" class="fontsize-slider focus" id="fontSizeSlider">
+                    <input type="range" min="50" step="25" max="200" value="100" aria-labelledby="Font-size" title="Font-size" class="fontsize-slider focus" id="fontSizeSlider">
                 </div>
 
                 <div class="tiny-12 small-12 medium-3 theme-item">
@@ -195,7 +195,7 @@
                     <p class="fontsize-value">Enable motion and animations</p>
                     <div class="toggle center" id="motionPreferenceToggle">
                         <input type="checkbox" id="motionPreference" class="toggle-input" checked />
-                        <label for="motionPreference" role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="checked" class="toggle-label"></label>
+                        <label for="motionPreference" role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="Animations" title="Animations" class="toggle-label"></label>
                     </div>
                 </div>
             </div>
@@ -204,49 +204,49 @@
         <h3 class="title">Font</h3>
         <ul class="font-list">
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('system', this)" data-font="system">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - system" title="Select font - system" onclick="saveFont('system', this)" data-font="system">
                     <span class="name">System</span>
                     <span class="font-example system">aA</span>
                 </button>
             </li>
             <li class="font-list-item active">
-                <button tabindex="-1" class="font focus" onclick="saveFont('noe', this)" data-font="noe">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - noe" title="Select font - noe" onclick="saveFont('noe', this)" data-font="noe">
                     <span class="name">Noe Display</span>
                     <span class="font-example noe">aA</span>
                 </button>
             </li>
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('arial', this)" data-font="arial">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - arial" title="Select font - arial" onclick="saveFont('arial', this)" data-font="arial">
                     <span class="name">Arial</span>
                     <span class="font-example arial">aA</span>
                 </button>
             </li>
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('verdana', this)" data-font="verdana">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - verdana" title="Select font - verdana" onclick="saveFont('verdana', this)" data-font="verdana">
                     <span class="name">Verdana</span>
                     <span class="font-example verdana">aA</span>
                 </button>
             </li>
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('tahoma', this)" data-font="tahoma">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - tahoma" title="Select font - tahoma" onclick="saveFont('tahoma', this)" data-font="tahoma">
                     <span class="name">Tahoma</span>
                     <span class="font-example tahoma">aA</span>
                 </button>
             </li>
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('garamond', this)" data-font="garamond">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - garamond" title="Select font - garamond" onclick="saveFont('garamond', this)" data-font="garamond">
                     <span class="name">Garamond</span>
                     <span class="font-example garamond">aA</span>
                 </button>
             </li>
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('courier', this)" data-font="courier">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - courier" title="Select font - courier" onclick="saveFont('courier', this)" data-font="courier">
                     <span class="name">Courier New</span>
                     <span class="font-example courier">aA</span>
                 </button>
             </li>
             <li class="font-list-item">
-                <button tabindex="-1" class="font focus" onclick="saveFont('bush', this)" data-font="bush">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - bush" title="Select font - bush" onclick="saveFont('bush', this)" data-font="bush">
                     <span class="name">Brush Script MT</span>
                     <span class="font-example bush">aA</span>
                 </button>
