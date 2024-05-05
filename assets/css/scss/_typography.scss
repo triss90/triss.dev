@@ -223,15 +223,15 @@ pre {
         padding: 0;
     }
 
-    &:hover {
-        left: -5%;
-        width: 110%;
+    // &:hover {
+    //     left: -5%;
+    //     width: 110%;
 
-        @media (max-width: 768px) {
-            width: 100%;
-            left: 0%;
-        }
-    }
+    //     @media (max-width: 768px) {
+    //         width: 100%;
+    //         left: 0%;
+    //     }
+    // }
 }
 
 code {

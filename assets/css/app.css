@@ -1373,16 +1373,6 @@ pre code {
   font-size: 1em;
   padding: 0;
 }
-pre:hover {
-  left: -5%;
-  width: 110%;
-}
-@media (max-width: 768px) {
-  pre:hover {
-    width: 100%;
-    left: 0%;
-  }
-}
 
 code {
   background: #303053;
