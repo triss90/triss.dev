@@ -77,8 +77,9 @@ function loadMotionPreference() {
 	const motionToggle = document.querySelector("#motionPreferenceToggle");
 	const motionToggleLabel = motionToggle.querySelector("label");
 	const motionToggleInput = motionToggle.querySelector("input");
-
-	console.log(motionValue);
+	const viewTransitionTag = document.querySelector(
+		'meta[name="view-transition"][content="same-origin"]'
+	);
 
 	if (motionValue != "reduced") {
 		document.documentElement.setAttribute("data-motion", "enabled");
@@ -90,6 +91,10 @@ function loadMotionPreference() {
 		motionToggleLabel.setAttribute("aria-checked", "false");
 		motionToggleLabel.setAttribute("aria-labelledby", "unchecked");
 		motionToggleInput.checked = false;
+		if (viewTransitionTag) {
+			viewTransitionTag.parentNode.removeChild(viewTransitionTag);
+			console.log("Meta tag removed");
+		}
 	}
 }
 
@@ -163,11 +168,15 @@ function saveMotionPreference() {
 		) {
 			e.preventDefault();
 			if (input.checked == true) {
-				console.log("Checkbox is checked");
 				localStorage.setItem("motion", "reduced");
 				document.documentElement.setAttribute("data-motion", "reduced");
+				const viewTransitionTag = document.querySelector(
+					'meta[name="view-transition"][content="same-origin"]'
+				);
+				if (viewTransitionTag) {
+					viewTransitionTag.parentNode.removeChild(viewTransitionTag);
+				}
 			} else {
-				console.log("Checkbox is unchecked");
 				localStorage.setItem("motion", "enabled");
 				document.documentElement.setAttribute("data-motion", "enabled");
 			}
