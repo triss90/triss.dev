@@ -38,6 +38,20 @@
     }
 }
 
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-1em);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
 @media not (prefers-reduced-motion: reduce) {
 
     ::view-transition-old(root) {
@@ -62,6 +76,10 @@
 
     .post-transition-end {
         view-timeline-name: article-title;
+    }
+
+    #components-animation {
+        animation: float 6s ease-in-out infinite;
     }
 
 }

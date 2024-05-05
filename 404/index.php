@@ -15,10 +15,11 @@
 </head>
 
 <body>
+    <a id="top" href="#main">skip to content</a>
     <?php include '../inc/themes.php'; ?>
     <?php include '../inc/navigation.php'; ?>
 
-    <header class="hero container">
+    <header id="main" class="hero container">
         <div class="row">
             <div class="tiny tiny-center">
                 <h1>404: Page not found :(</h1>

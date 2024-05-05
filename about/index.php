@@ -20,10 +20,11 @@
 </head>
 
 <body>
+    <a id="top" href="#main">skip to content</a>
     <?php include '../inc/themes.php'; ?>
     <?php include '../inc/navigation.php'; ?>
 
-    <main>
+    <main id="main">
         <div class="container">
 
             <header id="top" class="hero small">

@@ -21,12 +21,13 @@
 </head>
 
 <body>
+    <a id="top" href="#main">skip to content</a>
     <?php include 'inc/themes.php'; ?>
     <?php include 'inc/navigation.php'; ?>
 
-    <main>
-        <div class="container">
-            <header id="top" class="hero">
+    <main id="main">
+        <div class=" container">
+            <header class="hero">
                 <div class="row">
                     <div class="tiny tiny-center small-start">
                         <p class="pretitle">Hi, my name is Tristan White</p>
