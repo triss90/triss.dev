@@ -252,7 +252,7 @@ function handler(e) {
 
     <?php include '../../inc/footer.php'; ?>
     <?php include '../../inc/scripts.php'; ?>
-    <script src="/snippets/toggle/toggle.js"></script>
+    <script src="/snippets/toggle/toggle.min.js"></script>
     <script src='/assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();
