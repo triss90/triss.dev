@@ -2,8 +2,9 @@
     overflow: hidden;
     border-radius: 2rem;
     height: calc(100% - 1rem);
-    // min-height: 300px;
     margin-bottom: 1rem;
+
+
 
     &.leakedpasswords {
         --color-primary: #ffcb36;
@@ -72,18 +73,23 @@
         flex-direction: column;
         justify-content: space-between;
 
-        &:hover::after {
+        &:hover::after,
+        &:focus::after {
             display: none;
         }
 
         &:hover,
         &:hover .card-date,
-        &:hover p.card-description {
+        &:hover p.card-description,
+        &:focus,
+        &:focus .card-date,
+        &:focus p.card-description {
             text-decoration: none;
             color: var(--color-bg) !important;
         }
 
-        &:hover .card-bg {
+        &:hover .card-bg,
+        &:focus .card-bg {
             transform: scale(10);
         }
 
