@@ -19,7 +19,28 @@
     <?php include '../../inc/meta.php'; ?>
     <style id="toggle-css">
     <?php require_once ($rootDir.'/snippets/toggle/toggle.css');
-    ?>
+
+    ?>.btn-copy {
+        margin-bottom: .5em;
+        margin-top: 2em;
+        padding: 0.5em;
+        background: none;
+        border: 0;
+        color: var(--color-primary);
+        scale: 1;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+
+        .tooltip {
+            top: -2.5rem !important;
+        }
+    }
+
+    .btn-copy:hover {
+        transform: scale(1.1);
+        scale: 1.1;
+        color: var(--color-secondary);
+    }
     </style>
 </head>
 
@@ -66,10 +87,23 @@
             </section>
 
             <section id="html">
-                <div class="row">
+                <div class="row tiny-space-between">
                     <div class="tiny">
                         <h2>Markup (HTML)</h2>
-                        <pre><code class="language-HTML">&lt;div class=&quot;toggle&quot;&gt;
+                    </div>
+                    <div class="tiny tiny-end">
+                        <button class="btn-copy" onclick="copyContent('html')" title="Copy HTML Content" data-tooltip="Copy&nbsp;HTML" data-tooltip-direction="top" data-tooltip-delay="0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                                <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tiny">
+                        <pre><code id="html" class="language-HTML">&lt;div class=&quot;toggle&quot;&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;checked&quot; class=&quot;toggle-input&quot; checked /&gt;
   &lt;label for=&quot;checked&quot; role=&quot;checkbox&quot; aria-checked=&quot;true&quot; tabindex=&quot;0&quot; aria-labelledby=&quot;checked&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
   &lt;span class=&quot;toggle-text&quot;&gt;Checked Toggle Buttons&lt;/span&gt;
@@ -84,9 +118,25 @@
   &lt;label for=&quot;unchecked_disabled&quot; role=&quot;checkbox&quot; aria-checked=&quot;false&quot; tabindex=&quot;0&quot; aria-labelledby=&quot;unchecked_disabled&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
   &lt;span class=&quot;toggle-text&quot;&gt;Disabled Toggle Buttons&lt;/span&gt;
 &lt;/div&gt;</code></pre>
-
+                    </div>
+                </div>
+                <div class="row tiny-space-between">
+                    <div class="tiny">
                         <h2>Styles (CSS)</h2>
-                        <pre><code class="language-CSS">.toggle {
+                    </div>
+                    <div class="tiny tiny-end">
+                        <button class="btn-copy" onclick="copyContent('css')" title="Copy CSS Content" data-tooltip="Copy&nbsp;CSS" data-tooltip-direction="top" data-tooltip-delay="0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                                <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tiny">
+                        <pre><code id="css" class="language-CSS">.toggle {
   --color-1: #eceeef;
   --color-2: #777f86;
   --color-3: #313436;
@@ -149,9 +199,25 @@
   background: var(--color-5);
   cursor: not-allowed;
 }</code></pre>
-
+                    </div>
+                </div>
+                <div class="row tiny-space-between">
+                    <div class="tiny">
                         <h2>Functionality (JS)</h2>
-                        <pre><code class="language-JS">const toggles = document.querySelectorAll('.toggle');
+                    </div>
+                    <div class="tiny tiny-end">
+                        <button class="btn-copy" onclick="copyContent('js')" title="Copy Javascript Content" data-tooltip="Copy&nbsp;JS" data-tooltip-direction="top" data-tooltip-delay="0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-copy">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+                                <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tiny">
+                        <pre><code id="js" class="language-JS">const toggles = document.querySelectorAll('.toggle');
 let label, input;
 
 toggles.forEach((toggle) => {
@@ -187,7 +253,7 @@ function handler(e) {
     <?php include '../../inc/footer.php'; ?>
     <?php include '../../inc/scripts.php'; ?>
     <script src="/snippets/toggle/toggle.js"></script>
-    <script src='../../assets/js/vendor/highlight.pack.js'></script>
+    <script src='/assets/js/vendor/highlight.pack.js'></script>
     <script>
     hljs.initHighlightingOnLoad();
     </script>

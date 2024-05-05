@@ -205,5 +205,18 @@ function scrollToTop() {
     });
 }
 
+// Copy Content
+function copyContent(elementId) {
+    const content = document.getElementById(elementId).innerText;
+    const textarea = document.createElement('textarea');
+    textarea.value = content;
+    document.body.appendChild(textarea);
+    textarea.select();
+    textarea.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    console.log(content);
+}
+
 // Initialize the app
 init();
