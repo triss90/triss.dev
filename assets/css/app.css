@@ -110,6 +110,25 @@ textarea {
   touch-action: manipulation;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+[data-motion=reduced] *,
+[data-motion=reduced] *::before,
+[data-motion=reduced] *::after {
+  animation-duration: 0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0ms !important;
+  scroll-behavior: auto !important;
+}
+
 :root {
   --font-family-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   --font-family-display: Noe Display, Georgia, Times, serif;
@@ -2654,6 +2673,67 @@ body {
   height: 100%;
   background-color: var(--color-secondary);
   transition: width 200ms ease-in-out;
+}
+
+.toggle {
+  margin-block: 20px;
+  display: flex;
+}
+.toggle.center .toggle-label {
+  margin: 0 auto;
+}
+.toggle .toggle-label {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 40px;
+  background: var(--color-border);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.toggle .toggle-label::after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background: var(--color-text-offset);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+  content: "";
+  transition: all 300ms ease;
+}
+.toggle .toggle-label:active:after {
+  transform: scale(1.15, 0.85);
+}
+.toggle .toggle-text {
+  margin-left: 10px;
+  font-size: 1rem;
+  line-height: 20px;
+  color: var(--color-text);
+}
+.toggle:has(.toggle-input:disabled) {
+  cursor: not-allowed !important;
+}
+.toggle .toggle-input {
+  display: none;
+}
+.toggle .toggle-input:checked ~ label {
+  background: var(--color-border);
+}
+.toggle .toggle-input:checked ~ label:after {
+  left: 20px;
+  background: var(--color-primary);
+}
+.toggle .toggle-input:disabled ~ label {
+  background: var(--color-border);
+  pointer-events: none;
+}
+.toggle .toggle-input:disabled ~ label:after {
+  background: var(--color-bg-offset);
+  cursor: not-allowed;
 }
 
 #projects_other .project {

@@ -152,7 +152,7 @@
 
         <div class="container" style="max-width:calc(75em - 2rem);">
             <div class="row">
-                <div class="tiny-12 small-8 medium-6 theme-item">
+                <div class="tiny-12 small-8 medium-5 theme-item">
                     <h3 class="title">Page Layout</h3>
                     <ul class="layout-list">
                         <li class="layout-list-item">
@@ -184,10 +184,19 @@
                     </ul>
                 </div>
 
-                <div class="tiny-12 small-4 medium-6 large-4 theme-item">
+                <div class="tiny-12 small-4 medium-4 theme-item">
                     <h3 class="title">Font Size</h3>
                     <p class="fontsize-value">100%</p>
                     <input type="range" min="50" step="25" max="200" value="100" class="fontsize-slider focus" id="fontSizeSlider">
+                </div>
+
+                <div class="tiny-12 small-12 medium-3 theme-item">
+                    <h3 class="title">Motion & animation </h3>
+                    <p class="fontsize-value">Enable motion and animations</p>
+                    <div class="toggle center" id="motionPreferenceToggle">
+                        <input type="checkbox" id="motionPreference" class="toggle-input" checked />
+                        <label for="motionPreference" role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="checked" class="toggle-label"></label>
+                    </div>
                 </div>
             </div>
         </div>
