@@ -27,7 +27,7 @@
     <main id="main">
         <div class="container">
 
-            <header id="top" class="hero small">
+            <header class="hero small">
                 <div class="row">
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <h1 class="title">Projects.</h1>

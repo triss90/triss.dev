@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <a id="top" href="#main">skip to content</a>
     <?php include '../../inc/themes.php'; ?>
     <div class="article-progress">
         <div class="article-progress-inner"></div>

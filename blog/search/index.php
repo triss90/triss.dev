@@ -20,13 +20,14 @@
 </head>
 
 <body>
+    <a id="top" href="#main">skip to content</a>
     <?php include '../../inc/themes.php'; ?>
     <?php include '../../inc/navigation.php'; ?>
 
     <main>
         <div class="container">
 
-            <header id="top" class="hero small">
+            <header class="hero small">
                 <div class="row">
                     <div class="tiny-12 small-10 medium-8 small-offset-1 medium-offset-2">
                         <h1 class="title">Articles.</h1>
