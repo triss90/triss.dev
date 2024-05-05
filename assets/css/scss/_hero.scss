@@ -23,8 +23,12 @@
         line-height: 1;
         margin-bottom: 0rem;
 
-        @media (min-width: 670px) {
+        @media (min-width: 1200px) {
             font-size: 5.875em;
+        }
+
+        @media (min-width: 670px) {
+            font-size: 4.875em;
         }
     }
 
