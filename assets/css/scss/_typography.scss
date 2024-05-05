@@ -6,6 +6,23 @@
     src: url(/assets/fonts/noe-display-medium.woff2) format('woff2');
 }
 
+#top {
+    position: absolute !important;
+    z-index: 3;
+    background-color: var(--color-bg);
+    top: 0.5em;
+    left: 0.5em;
+
+    &:not(:focus) {
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        clip: rect(1px, 1px, 1px, 1px) !important;
+        border: 0 !important;
+    }
+}
+
 html {
     font-size: 1rem;
     font-display: block;
