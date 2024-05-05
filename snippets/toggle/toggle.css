@@ -1,11 +1,11 @@
-.toggle-group {
+.toggle-w-group {
   display: inline-block;
 }
-.toggle-group .toggle {
+.toggle-w-group .toggle-w {
   margin-block: 20px;
   display: flex;
 }
-.toggle-group .toggle .toggle-label {
+.toggle-w-group .toggle-w .toggle-w-label {
   position: relative;
   display: block;
   height: 20px;
@@ -15,7 +15,7 @@
   cursor: pointer;
   transition: all 300ms ease;
 }
-.toggle-group .toggle .toggle-label::after {
+.toggle-w-group .toggle-w .toggle-w-label::after {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -28,33 +28,33 @@
   content: "";
   transition: all 300ms ease;
 }
-.toggle-group .toggle .toggle-label:active:after {
+.toggle-w-group .toggle-w .toggle-w-label:active:after {
   transform: scale(1.15, 0.85);
 }
-.toggle-group .toggle .toggle-text {
+.toggle-w-group .toggle-w .toggle-w-text {
   margin-left: 10px;
   font-size: 1rem;
   line-height: 20px;
   color: var(--color-text);
 }
-.toggle-group .toggle:has(.toggle-input:disabled) {
+.toggle-w-group .toggle-w:has(.toggle-w-input:disabled) {
   cursor: not-allowed !important;
 }
-.toggle-group .toggle .toggle-input {
+.toggle-w-group .toggle-w .toggle-w-input {
   display: none;
 }
-.toggle-group .toggle .toggle-input:checked ~ label {
+.toggle-w-group .toggle-w .toggle-w-input:checked ~ label {
   background: var(--color-border);
 }
-.toggle-group .toggle .toggle-input:checked ~ label:after {
+.toggle-w-group .toggle-w .toggle-w-input:checked ~ label:after {
   left: 20px;
   background: var(--color-primary);
 }
-.toggle-group .toggle .toggle-input:disabled ~ label {
+.toggle-w-group .toggle-w .toggle-w-input:disabled ~ label {
   background: var(--color-border);
   pointer-events: none;
 }
-.toggle-group .toggle .toggle-input:disabled ~ label:after {
+.toggle-w-group .toggle-w .toggle-w-input:disabled ~ label:after {
   background: var(--color-bg-offset);
   cursor: not-allowed;
 }/*# sourceMappingURL=toggle.css.map */

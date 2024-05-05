@@ -65,21 +65,21 @@
                 <div class="row">
                     <div class="tiny">
                         <h2>Example</h2>
-                        <div class="toggle-group">
-                            <div class="toggle">
-                                <input type="checkbox" id="checked" class="toggle-input" checked />
-                                <label for="checked" role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="checked" class="toggle-label"></label>
-                                <span class="toggle-text">Checked Toggle Buttons</span>
+                        <div class="toggle-w-group">
+                            <div class="toggle-w">
+                                <input type="checkbox" id="checked" class="toggle-w-input" checked />
+                                <label for="checked" role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="checked" class="toggle-w-label"></label>
+                                <span class="toggle-w-text">Checked Toggle Buttons</span>
                             </div>
-                            <div class="toggle">
-                                <input type="checkbox" id="unchecked" class="toggle-input" />
-                                <label for="unchecked" role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="unchecked" class="toggle-label"></label>
-                                <span class="toggle-text">Unchecked Toggle Buttons</span>
+                            <div class="toggle-w">
+                                <input type="checkbox" id="unchecked" class="toggle-w-input" />
+                                <label for="unchecked" role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="unchecked" class="toggle-w-label"></label>
+                                <span class="toggle-w-text">Unchecked Toggle Buttons</span>
                             </div>
-                            <div class="toggle">
-                                <input type="checkbox" id="unchecked_disabled" class="toggle-input" disabled />
-                                <label for="unchecked_disabled" role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="unchecked_disabled" class="toggle-label"></label>
-                                <span class="toggle-text">Disabled Toggle Buttons</span>
+                            <div class="toggle-w">
+                                <input type="checkbox" id="unchecked_disabled" class="toggle-w-input" disabled />
+                                <label for="unchecked_disabled" role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="unchecked_disabled" class="toggle-w-label"></label>
+                                <span class="toggle-w-text">Disabled Toggle Buttons</span>
                             </div>
                         </div>
                     </div>

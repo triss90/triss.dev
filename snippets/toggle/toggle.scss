@@ -1,11 +1,11 @@
-.toggle-group {
+.toggle-w-group {
     display: inline-block;
 
-    .toggle {
+    .toggle-w {
         margin-block: 20px;
         display: flex;
 
-        .toggle-label {
+        .toggle-w-label {
             position: relative;
             display: block;
             height: 20px;
@@ -34,18 +34,18 @@
             }
         }
 
-        .toggle-text {
+        .toggle-w-text {
             margin-left: 10px;
             font-size: 1rem;
             line-height: 20px;
             color: var(--color-text);
         }
 
-        &:has(.toggle-input:disabled) {
+        &:has(.toggle-w-input:disabled) {
             cursor: not-allowed !important;
         }
 
-        .toggle-input {
+        .toggle-w-input {
             display: none;
 
             &:checked~label {
