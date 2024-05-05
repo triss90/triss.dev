@@ -1451,7 +1451,7 @@ a.icon:after {
   visibility: hidden;
 }
 .themes.active {
-  max-height: 44rem;
+  max-height: 60rem;
   height: auto;
   visibility: visible;
 }
