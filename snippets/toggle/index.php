@@ -86,65 +86,77 @@
 &lt;/div&gt;</code></pre>
 
                         <h2>Styles (CSS)</h2>
-                        <pre><code class="language-CSS">.checkbox {
-  --color-1: hsl(240 31% 28%);
-  --color-1-90: hsl(240 31% 28% / 0.1);
-  --color-2: hsl(0 0% 75%);
-  --color-2-40: hsl(0 0% 65%);
-  margin: 20px 0;
+                        <pre><code class="language-CSS">.toggle {
+  --color-1: #eceeef;
+  --color-2: #777f86;
+  --color-3: #313436;
+  --color-4: #E2001A;
+  --color-5: #fff6f6;
+
+  margin-block: 20px;
+  display: flex;
 }
-.checkbox .checkbox-label {
+.toggle .toggle-label {
   position: relative;
   display: block;
   height: 20px;
-  width: 44px;
-  background: var(--color-1-90);
+  width: 40px;
+  background: var(--color-1);
   border-radius: 100px;
   cursor: pointer;
   transition: all 300ms ease;
 }
-.checkbox .checkbox-label:after {
+.toggle .toggle-label::after {
   position: absolute;
-  left: -2px;
-  top: -3px;
+  left: 0px;
+  top: 0px;
   display: block;
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
   border-radius: 100px;
   background: var(--color-2);
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
-  content: &#x22;&#x22;;
+  content: "";
   transition: all 300ms ease;
 }
-.checkbox .checkbox-label:active:after {
+.toggle .toggle-label:active:after {
   transform: scale(1.15, 0.85);
 }
-.checkbox .checkbox-input {
+.toggle .toggle-text {
+  margin-left: 10px;
+  font-size: 1rem;
+  line-height: 20px;
+  color: var(--color-3);
+}
+.toggle:has(.toggle-input:disabled) {
+  cursor: not-allowed !important;
+}
+.toggle .toggle-input {
   display: none;
 }
-.checkbox .checkbox-input:checked ~ label {
-  background: var(--color-1-90);
-}
-.checkbox .checkbox-input:checked ~ label:after {
-  left: 20px;
+.toggle .toggle-input:checked ~ label {
   background: var(--color-1);
 }
-.checkbox .checkbox-input:disabled ~ label {
-  background: var(--color-2);
+.toggle .toggle-input:checked ~ label:after {
+  left: 20px;
+  background: var(--color-4);
+}
+.toggle .toggle-input:disabled ~ label {
+  background: var(--color-1);
   pointer-events: none;
 }
-.checkbox .checkbox-input:disabled ~ label:after {
-  background: var(--color-2-40);
-}
-</code></pre>
+.toggle .toggle-input:disabled ~ label:after {
+  background: var(--color-5);
+  cursor: not-allowed;
+}</code></pre>
 
                         <h2>Functionality (JS)</h2>
-                        <pre><code class="language-JS">const checkboxes = document.querySelectorAll('.checkbox');
+                        <pre><code class="language-JS">const toggles = document.querySelectorAll('.toggle');
 let label, input;
 
-checkboxes.forEach((checkbox) => {
-  checkbox.addEventListener('keydown', handler, false);
-  checkbox.children[1].addEventListener('click', handler, false);
+toggles.forEach((toggle) => {
+  toggle.addEventListener('keydown', handler, false);
+  toggle.children[1].addEventListener('click', handler, false);
 });
 
 function handler(e) {
@@ -163,8 +175,7 @@ function handler(e) {
       input.checked = true;
     }
   }
-}
-</code></pre>
+}</code></pre>
                     </div>
                 </div>
             </section>
