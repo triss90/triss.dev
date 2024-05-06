@@ -251,6 +251,12 @@
                     <span class="font-example bush">aA</span>
                 </button>
             </li>
+            <li class="font-list-item">
+                <button tabindex="-1" class="font focus" aria-labelledby="Select font - bush" title="Select font - Comic Sans MS" onclick="saveFont('comic', this)" data-font="comic">
+                    <span class="name">Comic Sans MS</span>
+                    <span class="font-example comic">aA</span>
+                </button>
+            </li>
         </ul>
 
         <button tabindex="-1" onclick="toggleThemeMenu()" class="close">
