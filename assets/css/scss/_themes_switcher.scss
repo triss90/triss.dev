@@ -185,6 +185,10 @@
                     &.bush {
                         font-family: "Brush Script MT", cursive !important;
                     }
+
+                    &.comic {
+                        font-family: "Comic Sans MS", "Comic Sans", cursive;
+                    }
                 }
 
                 &[data-theme="system"] {

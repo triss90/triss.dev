@@ -1883,6 +1883,35 @@ a.icon:after {
 .themes .font-list .font-list-item .font .font-example.bush {
   font-family: "Brush Script MT", cursive !important;
 }
+.themes .theme-list .theme-list-item .theme .font-example.comic,
+.themes .theme-list .theme-list-item .layout .font-example.comic,
+.themes .theme-list .theme-list-item .font .font-example.comic,
+.themes .theme-list .layout-list-item .theme .font-example.comic,
+.themes .theme-list .layout-list-item .layout .font-example.comic,
+.themes .theme-list .layout-list-item .font .font-example.comic,
+.themes .theme-list .font-list-item .theme .font-example.comic,
+.themes .theme-list .font-list-item .layout .font-example.comic,
+.themes .theme-list .font-list-item .font .font-example.comic,
+.themes .layout-list .theme-list-item .theme .font-example.comic,
+.themes .layout-list .theme-list-item .layout .font-example.comic,
+.themes .layout-list .theme-list-item .font .font-example.comic,
+.themes .layout-list .layout-list-item .theme .font-example.comic,
+.themes .layout-list .layout-list-item .layout .font-example.comic,
+.themes .layout-list .layout-list-item .font .font-example.comic,
+.themes .layout-list .font-list-item .theme .font-example.comic,
+.themes .layout-list .font-list-item .layout .font-example.comic,
+.themes .layout-list .font-list-item .font .font-example.comic,
+.themes .font-list .theme-list-item .theme .font-example.comic,
+.themes .font-list .theme-list-item .layout .font-example.comic,
+.themes .font-list .theme-list-item .font .font-example.comic,
+.themes .font-list .layout-list-item .theme .font-example.comic,
+.themes .font-list .layout-list-item .layout .font-example.comic,
+.themes .font-list .layout-list-item .font .font-example.comic,
+.themes .font-list .font-list-item .theme .font-example.comic,
+.themes .font-list .font-list-item .layout .font-example.comic,
+.themes .font-list .font-list-item .font .font-example.comic {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
 .themes .theme-list .theme-list-item .theme[data-theme=system] .palette .palette-item,
 .themes .theme-list .theme-list-item .layout[data-theme=system] .palette .palette-item,
 .themes .theme-list .theme-list-item .font[data-theme=system] .palette .palette-item,
