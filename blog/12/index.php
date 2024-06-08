@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/responsive-videos-in-html'>Responsive Videos in HTML</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h2>
+<time class='post-date' datetime='2016-07-15'>2016-07-15</time>
+<p class='excerpt'>How to add pure CSS line numbers</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/responsive-videos-in-html'>Responsive Videos in HTML</a></h2>
 <time class='post-date' datetime='2015-12-01'>2015-12-01</time>
 <p class='excerpt'>How to handle responsive videos in HTML</p>
 <hr>

@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/multipage-view-transitions'>Multipage View Transitions</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-only-scroll-into-view-effect'>CSS Only Scroll Into View Effect</a></h2>
+<time class='post-date' datetime='2024-06-08'>2024-06-08</time>
+<p class='excerpt'>Scroll elements into view with only 3 lines of css!</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/multipage-view-transitions'>Multipage View Transitions</a></h2>
 <time class='post-date' datetime='2024-04-28'>2024-04-28</time>
 <p class='excerpt'>Getting started with multipage view transitions</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
 <time class='post-date' datetime='2023-09-17'>2023-09-17</time>
 <p class='excerpt'>CO2 Observer Release</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
-<time class='post-date' datetime='2023-07-28'>2023-07-28</time>
-<p class='excerpt'>Darky.js Release</p>
 <hr>
 </li></ul>
 </nav>

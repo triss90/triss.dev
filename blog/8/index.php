@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-darkmode'>CSS Darkmode</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h2>
+<time class='post-date' datetime='2019-08-27'>2019-08-27</time>
+<p class='excerpt'>Learn how to set up http2 on Apache</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-darkmode'>CSS Darkmode</a></h2>
 <time class='post-date' datetime='2019-08-24'>2019-08-24</time>
 <p class='excerpt'>Learn how to add darkmode to your website</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
 <time class='post-date' datetime='2019-08-08'>2019-08-08</time>
 <p class='excerpt'>Learn how to write SVG by hand</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
-<time class='post-date' datetime='2019-08-07'>2019-08-07</time>
-<p class='excerpt'>Learn how to use CSS canonical gradients</p>
 <hr>
 </li></ul>
 </nav>

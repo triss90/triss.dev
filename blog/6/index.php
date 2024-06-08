@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/avif-image'>AVIF Image</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/hsl-simplified'>HSL Simplified</a></h2>
+<time class='post-date' datetime='2021-03-22'>2021-03-22</time>
+<p class='excerpt'>HSL for dummies</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/avif-image'>AVIF Image</a></h2>
 <time class='post-date' datetime='2020-09-15'>2020-09-15</time>
 <p class='excerpt'>An introduction to AVIF images</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/fixing-whitespace-between-inline-elements'>Fixing Whitespace Between Inline Elements</a></h2>
 <time class='post-date' datetime='2020-03-11'>2020-03-11</time>
 <p class='excerpt'>Learn how to fix whitespace between inline elements</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/css-target-trick'>CSS Target Trick</a></h2>
-<time class='post-date' datetime='2019-10-02'>2019-10-02</time>
-<p class='excerpt'>Learn how the CSS :target trick works</p>
 <hr>
 </li></ul>
 </nav>

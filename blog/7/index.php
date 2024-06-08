@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-output-tag'>HTML Output Tag</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-target-trick'>CSS Target Trick</a></h2>
+<time class='post-date' datetime='2019-10-02'>2019-10-02</time>
+<p class='excerpt'>Learn how the CSS :target trick works</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-output-tag'>HTML Output Tag</a></h2>
 <time class='post-date' datetime='2019-09-26'>2019-09-26</time>
 <p class='excerpt'>Learn how to use the HTML output tag</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h2>
 <time class='post-date' datetime='2019-09-05'>2019-09-05</time>
 <p class='excerpt'>Learn how to properly use the wbr HTML tag</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h2>
-<time class='post-date' datetime='2019-08-27'>2019-08-27</time>
-<p class='excerpt'>Learn how to set up http2 on Apache</p>
 <hr>
 </li></ul>
 </nav>

@@ -5,6 +5,12 @@
         <link>https://triss.dev/</link>
         <description>Tristan White's RSS Feed</description>
         <language>en-us</language><item>
+            <title>CSS Only Scroll Into View Effect</title>
+            <link>https://triss.dev/blog/css-only-scroll-into-view-effect</link>
+            <pubDate>2024-06-08</pubDate>
+            <description>Scroll elements into view with only 3 lines of css!</description>
+            <author>tristan@white.chat (Tristan White)</author>
+        </item><item>
             <title>Multipage View Transitions</title>
             <link>https://triss.dev/blog/multipage-view-transitions</link>
             <pubDate>2024-04-28</pubDate>
@@ -117,12 +123,6 @@
             <link>https://triss.dev/blog/units-on-the-web</link>
             <pubDate>2023-03-10</pubDate>
             <description>An introduction to units on the web</description>
-            <author>tristan@white.chat (Tristan White)</author>
-        </item><item>
-            <title>Animating the Web</title>
-            <link>https://triss.dev/blog/animating-the-web</link>
-            <pubDate>2023-02-23</pubDate>
-            <description>Learn the basics of animaitons on the web</description>
             <author>tristan@white.chat (Tristan White)</author>
         </item>
     </channel>

@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/smooth-scroll-to-top'>Smooth scroll-to-top</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/animating-the-web'>Animating the Web</a></h2>
+<time class='post-date' datetime='2023-02-23'>2023-02-23</time>
+<p class='excerpt'>Learn the basics of animaitons on the web</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/smooth-scroll-to-top'>Smooth scroll-to-top</a></h2>
 <time class='post-date' datetime='2023-02-21'>2023-02-21</time>
 <p class='excerpt'>Learn how to add a smooth scroll-to-top feature to your projects</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/specificity-on-the-web'>Specificity on the Web</a></h2>
 <time class='post-date' datetime='2021-05-06'>2021-05-06</time>
 <p class='excerpt'>Learn css specificity</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/hsl-simplified'>HSL Simplified</a></h2>
-<time class='post-date' datetime='2021-03-22'>2021-03-22</time>
-<p class='excerpt'>HSL for dummies</p>
 <hr>
 </li></ul>
 </nav>

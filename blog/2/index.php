@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
+<time class='post-date' datetime='2023-07-28'>2023-07-28</time>
+<p class='excerpt'>Darky.js Release</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h2>
 <time class='post-date' datetime='2023-07-03'>2023-07-03</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
@@ -67,10 +71,6 @@
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
 <time class='post-date' datetime='2023-06-12'>2023-06-12</time>
-<p class='excerpt'>Weekly widget</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h2>
-<time class='post-date' datetime='2023-06-05'>2023-06-05</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>

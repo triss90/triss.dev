@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-skewed-graphic'>Weekly Widget - CSS Skewed Graphic</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-toss-cart-animation'>Weekly Widget - "Toss" Add to Cart Animation</a></h2>
+<time class='post-date' datetime='2023-05-10'>2023-05-10</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-skewed-graphic'>Weekly Widget - CSS Skewed Graphic</a></h2>
 <time class='post-date' datetime='2023-04-03'>2023-04-03</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/units-on-the-web'>Units on the Web</a></h2>
 <time class='post-date' datetime='2023-03-10'>2023-03-10</time>
 <p class='excerpt'>An introduction to units on the web</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/animating-the-web'>Animating the Web</a></h2>
-<time class='post-date' datetime='2023-02-23'>2023-02-23</time>
-<p class='excerpt'>Learn the basics of animaitons on the web</p>
 <hr>
 </li></ul>
 </nav>

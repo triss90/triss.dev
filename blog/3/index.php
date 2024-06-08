@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h2>
+<time class='post-date' datetime='2023-06-05'>2023-06-05</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
 <time class='post-date' datetime='2023-05-30'>2023-05-30</time>
 <p class='excerpt'>ColorDrop Release 2023</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/color-systems-with-css-color-mix'>Color systems with CSS color-mix</a></h2>
 <time class='post-date' datetime='2023-05-17'>2023-05-17</time>
 <p class='excerpt'>Setting up a color system with CSS color-mix</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-toss-cart-animation'>Weekly Widget - "Toss" Add to Cart Animation</a></h2>
-<time class='post-date' datetime='2023-05-10'>2023-05-10</time>
-<p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>
 </nav>
