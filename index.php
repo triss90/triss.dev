@@ -63,7 +63,7 @@
                 <div class="row">
                     <!-- Leaked Password -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card leakedpasswords">
+                        <div class="card animate leakedpasswords">
                             <a class="card-link" href="https://leakedpassword.com" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">Leaked Passwords</div>
@@ -75,7 +75,7 @@
 
                     <!-- ColorDrop -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card colordrop">
+                        <div class="card animate colordrop">
                             <a class="card-link" href="https://colordrop.io" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">ColorDrop</div>
@@ -87,7 +87,7 @@
 
                     <!-- CloudServers -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card cloudservers">
+                        <div class="card animate cloudservers">
                             <a class="card-link" href="https://cloudservers.dk" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">CloudServers</div>
@@ -99,7 +99,7 @@
 
                     <!-- CO2 Observer -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card co2observer">
+                        <div class="card animate co2observer">
                             <a class="card-link" href="https://co2.observer" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">CO2 Observer</div>
@@ -111,7 +111,7 @@
 
                     <!-- Webbox -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card webbox">
+                        <div class="card animate webbox">
                             <a class="card-link" href="https://webbox.dev" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">Webbox</div>
@@ -123,7 +123,7 @@
 
                     <!-- CloudPortal -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card cloudportal">
+                        <div class="card animate cloudportal">
                             <a class="card-link" href="https://cloudportal.dk" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">CloudPortal</div>
@@ -135,7 +135,7 @@
 
                     <!-- FlowSense -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card flowsense">
+                        <div class="card animate flowsense">
                             <a class="card-link" href="https://flowsense.dk" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">FlowSense</div>
@@ -147,7 +147,7 @@
 
                     <!-- Cloudnet -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card cloudnet">
+                        <div class="card animate cloudnet">
                             <a class="card-link" href="https://cloudnet.dk" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">Cloudnet</div>
@@ -159,7 +159,7 @@
 
                     <!-- Sarcastic White -->
                     <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card sarcasticwhite">
+                        <div class="card animate sarcasticwhite">
                             <a class="card-link" href="https://sarcasticwhite.style" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">Sarcastic White</div>

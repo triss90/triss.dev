@@ -42,7 +42,7 @@
                 <div class="row">
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://co2.observer" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -52,14 +52,13 @@
                                         <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
                                     </svg>
                                     CO2 Observer
-
                                 </h2>
                             </a>
                             <br><small class="date">2023-<?php echo date("Y"); ?> · co2.observer</small>
                             <p class="description">Provides you with valuable insights into the performance and environmental impact of your website. By utilizing our scanner, you can test your websites to receive a comprehensive analysis, as well as a detailed assessment of the website's carbon footprint.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://flowsense.dk" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -75,7 +74,7 @@
                             <p class="description">At FlowSense, we offer a streamlined experience that centralizes management of various services from multiple providers in one convenient location.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://colordrop.io" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -91,7 +90,7 @@
                             <p class="description">Explore thousands of color palettes or create your own. Ideal for designers and artists seeking inspiration. Start your color journey now!</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://leakedpassword.com" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -107,7 +106,7 @@
                             <p class="description">Search across multiple data breaches to see if your pass has been compromised. Implement the API in your signup process to validate users' passwords.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://cloudservers.dk" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -123,7 +122,7 @@
                             <p class="description">Global cloud infrastructure to develop, deploy and manage applications.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://cloudportal.dk" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -139,7 +138,7 @@
                             <p class="description">The future of IT outsourcing in the cloud.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://webbox.dev" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -155,7 +154,7 @@
                             <p class="description">A collection of useful tools covering topics like web, network, design, security and many more.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://cloudnet.dk" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -172,7 +171,7 @@
                         </div>
 
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://sarcasticwhite.style" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -188,7 +187,7 @@
                             <p class="description">A cool and crisp color theme created around uncluttered design patterns to achieve optimal focus & readability.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://gridder.io" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -204,7 +203,7 @@
                             <p class="description">A cool and crisp color theme created around uncluttered design patterns to achieve optimal focus & readability.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://darky.app" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -220,7 +219,7 @@
                             <p class="description">Add a dark mode to your website in seconds. No hassle, no reworking your entire codebase!</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://github.com/triss90/sortable.js" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -236,7 +235,7 @@
                             <p class="description">sortable.js is a powerful, lightweight JS framework used for adding simple sorting controls to HTML tables.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://openl.ist" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -252,7 +251,7 @@
                             <p class="description">The easy way to share lists width friends, family and co-workers.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://muds.io" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -268,7 +267,7 @@
                             <p class="description">The lightest WYSIWYG editor on the internet.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://plaask.com" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -284,7 +283,7 @@
                             <p class="description">Notifications, share dialogs, subscription forms and popups.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://yirra.net" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -300,7 +299,7 @@
                             <p class="description">Free custom URL Shortener with analytics! Shortened URLs will never expire.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://scutum.pw" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -316,7 +315,7 @@
                             <p class="description">scutum.pw allows you to encrypt and transfer passwords and other sensitive data via a one-time link.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://html.digital" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -332,7 +331,7 @@
                             <p class="description">A reintepretaion of the browser's stylesheet.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://github.com/triss90/dotbot" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -348,7 +347,7 @@
                             <p class="description">A simple library that let's you create a randomised, dotted background-pattern on any given element on your website.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://codepen.io/triss90/pen/XNEdRe" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -364,7 +363,7 @@
                             <p class="description">Elegant, pure CSS radio buttons.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://dittesdilemma.dk" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -380,7 +379,7 @@
                             <p class="description">A blog about overcoming obstacles and living an alternative life, marked by chronic pain.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://cutandmove.dk/" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -396,7 +395,7 @@
                             <p class="description">Jeg kører ud til virksomheder med min mobile frisørsalon. Medarbejderen booker via mit system og afregner direkte hos mig.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://wordboss.de" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -412,7 +411,7 @@
                             <p class="description">WordBoss is an owner-run company for professional translations and language services. In their role as translation specialists, they have been a reliable business partner for more than 20 years.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://codepen.io/triss90/pen/ZZmbVx" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -428,7 +427,7 @@
                             <p class="description">A Javascript powered terminal portfolio. Navigate the portfolio using commands.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://compressionbear.com" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -444,7 +443,7 @@
                             <p class="description">Make your images ready for the internet by compressing them by up to 90%, all without loosing quality.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://www.iconfinder.com/iconsets/flaticons-1" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -460,7 +459,7 @@
                             <p class="description">Make your design process a breeze with these 68 carefully crafted icons.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://github.com/triss90/hover-effects" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -476,7 +475,7 @@
                             <p class="description">A compilation of css hover effects ranging from rotate effects to bounce effects and many more.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://mrkdwn.net" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -492,7 +491,7 @@
                             <p class="description">Mrkdwn is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://codepen.io/triss90/pen/adb63fdc530050cd75f6b26b0f4cb573" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -508,7 +507,7 @@
                             <p class="description">A navigation example that sticks when the user has scrolled to a certain point.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://github.com/triss90/masonry" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -524,7 +523,7 @@
                             <p class="description">A lightweight, responsive Masonry grid framework.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://github.com/triss90/sceletus.css" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -540,7 +539,7 @@
                             <p class="description">A simple, lightweight, responsive css-framework inspired by bootstrap, pure, skeleton and foundation.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://gum.co/iewNgu" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -556,7 +555,7 @@
                             <p class="description">Designing a food app? Make your design process a breeze with these carefully crafted icons. The collection includes 12 uniquely designed food icons.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="http://pc123.dk/" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -572,7 +571,7 @@
                             <p class="description">A Teamviewer remote control website, that lets users download and start a Teamviewer session quickly and smoothly.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://codepen.io/triss90/pen/bZaQYJ" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -588,7 +587,7 @@
                             <p class="description">Pure CSS line numbers, made with "counter-reset" and "counter-increment".</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://codepen.io/triss90/pen/gMwRXQ" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -604,7 +603,7 @@
                             <p class="description">A simple, yet powerful jQuery modal.</p>
                         </div>
 
-                        <div class="project">
+                        <div class="project animate">
                             <a href="https://gumroad.com/l/gfVN" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
