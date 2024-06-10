@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-target-trick'>CSS Target Trick</a></h2>
-<time class='post-date' datetime='2019-10-02'>2019-10-02</time>
+<time class='post-date' datetime='October 2, 2019'>October 2, 2019</time>
 <p class='excerpt'>Learn how the CSS :target trick works</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-output-tag'>HTML Output Tag</a></h2>
-<time class='post-date' datetime='2019-09-26'>2019-09-26</time>
+<time class='post-date' datetime='September 26, 2019'>September 26, 2019</time>
 <p class='excerpt'>Learn how to use the HTML output tag</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-progress-tag'>HTML Progress Tag</a></h2>
-<time class='post-date' datetime='2019-09-19'>2019-09-19</time>
+<time class='post-date' datetime='September 19, 2019'>September 19, 2019</time>
 <p class='excerpt'>Learn how to use the HTML progress tag</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-meter-tag'>HTML Meter Tag</a></h2>
-<time class='post-date' datetime='2019-09-12'>2019-09-12</time>
+<time class='post-date' datetime='September 12, 2019'>September 12, 2019</time>
 <p class='excerpt'>Learn how to use the HTML meter tag</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h2>
-<time class='post-date' datetime='2019-09-05'>2019-09-05</time>
+<time class='post-date' datetime='September 5, 2019'>September 5, 2019</time>
 <p class='excerpt'>Learn how to properly use the wbr HTML tag</p>
 <hr>
 </li></ul>

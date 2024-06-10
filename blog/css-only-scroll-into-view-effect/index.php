@@ -26,11 +26,11 @@
             <div class='row'>
                 <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
                     <h1 class="post-transition-end">CSS Only Scroll Into View Effect</h1>
-<p class='timestamp'><time datetime='2024-06-08'>2024-06-08</time></p><hr>
+<p class='timestamp'><time datetime='June 8, 2024'>June 8, 2024</time></p><hr>
 <p>You know how sometimes you stumble upon something so cool and simple, you just have to share it? That’s exactly what happened to me the other day with a CSS trick that feels like finding a hidden shortcut in your favorite video game. For years, I've have used a mix of CSS hacks and JavaScript libraries to create animations that only kick in when you actually see them on your screen. But with this one trick, it can be as easy as adding just three lines of CSS!</p>
 <p>Cue the Spotlight with <code>animation-timeline: view();</code>:</p>
 <pre><code class="language-CSS">.animate {
-    animation: slide-in linear;
+    animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
 }

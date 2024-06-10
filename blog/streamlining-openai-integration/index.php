@@ -40,7 +40,7 @@ img {
 }
 </style>
 <h1>Streamlining OpenAI Integration in PHP Applications</h1>
-<p class='timestamp'><time datetime='2023-11-08'>2023-11-08</time></p><hr>
+<p class='timestamp'><time datetime='November 8, 2023'>November 8, 2023</time></p><hr>
 <br>
 <div class="disclaimer">
 The following article was written using the OpenAI API

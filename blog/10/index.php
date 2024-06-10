@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/breaking-max-width'>Breaking Max Width</a></h2>
-<time class='post-date' datetime='2019-06-23'>2019-06-23</time>
+<time class='post-date' datetime='June 23, 2019'>June 23, 2019</time>
 <p class='excerpt'>Breaking max width the proper way with CSS</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/a-guide-to-hex'>A Guide to Hex</a></h2>
-<time class='post-date' datetime='2019-06-12'>2019-06-12</time>
+<time class='post-date' datetime='June 12, 2019'>June 12, 2019</time>
 <p class='excerpt'>Learn how hexadecimal colors work</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h2>
-<time class='post-date' datetime='2019-06-07'>2019-06-07</time>
+<time class='post-date' datetime='June 7, 2019'>June 7, 2019</time>
 <p class='excerpt'>Maintaining Aspect Ratio with CSS</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
-<time class='post-date' datetime='2019-06-01'>2019-06-01</time>
+<time class='post-date' datetime='June 1, 2019'>June 1, 2019</time>
 <p class='excerpt'>Learn how to encode and decode HTML</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/creating-a-js-library'>Creating a JS Library</a></h2>
-<time class='post-date' datetime='2019-05-15'>2019-05-15</time>
+<time class='post-date' datetime='May 15, 2019'>May 15, 2019</time>
 <p class='excerpt'>Learn how to create a rudimentary javascript library</p>
 <hr>
 </li></ul>

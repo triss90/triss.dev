@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h2>
-<time class='post-date' datetime='2023-06-05'>2023-06-05</time>
+<time class='post-date' datetime='June 5, 2023'>June 5, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
-<time class='post-date' datetime='2023-05-30'>2023-05-30</time>
+<time class='post-date' datetime='May 30, 2023'>May 30, 2023</time>
 <p class='excerpt'>ColorDrop Release 2023</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-datacenter-map'>Weekly Widget - Datacenter Map</a></h2>
-<time class='post-date' datetime='2023-05-29'>2023-05-29</time>
+<time class='post-date' datetime='May 29, 2023'>May 29, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h2>
-<time class='post-date' datetime='2023-05-22'>2023-05-22</time>
+<time class='post-date' datetime='May 22, 2023'>May 22, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/color-systems-with-css-color-mix'>Color systems with CSS color-mix</a></h2>
-<time class='post-date' datetime='2023-05-17'>2023-05-17</time>
+<time class='post-date' datetime='May 17, 2023'>May 17, 2023</time>
 <p class='excerpt'>Setting up a color system with CSS color-mix</p>
 <hr>
 </li></ul>

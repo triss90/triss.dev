@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-details-summary'>HTML Details/Summary</a></h2>
-<time class='post-date' datetime='2019-05-02'>2019-05-02</time>
+<time class='post-date' datetime='May 2, 2019'>May 2, 2019</time>
 <p class='excerpt'>Learn how to use the details and summary elements</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h2>
-<time class='post-date' datetime='2019-04-24'>2019-04-24</time>
+<time class='post-date' datetime='April 24, 2019'>April 24, 2019</time>
 <p class='excerpt'>Learn how to animate SVGs.</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-5-2-native-modal'>HTML 5.2 Native modal</a></h2>
-<time class='post-date' datetime='2018-04-23'>2018-04-23</time>
+<time class='post-date' datetime='April 23, 2018'>April 23, 2018</time>
 <p class='excerpt'>HTML 5.2 ships with native modals. Learn how to use them</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/svg-header-waves'>SVG Header Waves</a></h2>
-<time class='post-date' datetime='2018-04-20'>2018-04-20</time>
+<time class='post-date' datetime='April 20, 2018'>April 20, 2018</time>
 <p class='excerpt'>Using SVG backgrounds for your headers</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/css-variables'>CSS Variables</a></h2>
-<time class='post-date' datetime='2017-01-03'>2017-01-03</time>
+<time class='post-date' datetime='January 3, 2017'>January 3, 2017</time>
 <p class='excerpt'>How to create CSS variables(custom properties)</p>
 <hr>
 </li></ul>

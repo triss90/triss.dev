@@ -54,15 +54,15 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h2>
-<time class='post-date' datetime='2016-07-15'>2016-07-15</time>
+<time class='post-date' datetime='July 15, 2016'>July 15, 2016</time>
 <p class='excerpt'>How to add pure CSS line numbers</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/responsive-videos-in-html'>Responsive Videos in HTML</a></h2>
-<time class='post-date' datetime='2015-12-01'>2015-12-01</time>
+<time class='post-date' datetime='December 1, 2015'>December 1, 2015</time>
 <p class='excerpt'>How to handle responsive videos in HTML</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/sass-mixin-grid-system'>Sass Mixin Grid system</a></h2>
-<time class='post-date' datetime='2015-11-15'>2015-11-15</time>
+<time class='post-date' datetime='November 15, 2015'>November 15, 2015</time>
 <p class='excerpt'>A simple Sass mixin grid system example</p>
 <hr>
 </li></ul>

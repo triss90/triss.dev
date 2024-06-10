@@ -26,7 +26,7 @@
             <div class='row'>
                 <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
                     <h1 class="post-transition-end">Multipage View Transitions</h1>
-<p class='timestamp'><time datetime='2024-04-28'>2024-04-28</time></p><hr>
+<p class='timestamp'><time datetime='April 28, 2024'>April 28, 2024</time></p><hr>
 <h2>Enable support</h2>
 <p>As of April 2024, View Transitions, are still an experimental feature and thus need to be activated in Chrome like so: <a href="chrome://flags#view-transition-on-navigation">chrome://flags#view-transition-on-navigation</a></p>
 <p>⚠️ Once the flag has been enabled, make sure to restart your browser.</p>

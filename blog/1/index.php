@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-only-scroll-into-view-effect'>CSS Only Scroll Into View Effect</a></h2>
-<time class='post-date' datetime='2024-06-08'>2024-06-08</time>
+<time class='post-date' datetime='June 8, 2024'>June 8, 2024</time>
 <p class='excerpt'>Scroll elements into view with only 3 lines of css!</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/multipage-view-transitions'>Multipage View Transitions</a></h2>
-<time class='post-date' datetime='2024-04-28'>2024-04-28</time>
+<time class='post-date' datetime='April 28, 2024'>April 28, 2024</time>
 <p class='excerpt'>Getting started with multipage view transitions</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h2>
-<time class='post-date' datetime='2024-01-12'>2024-01-12</time>
+<time class='post-date' datetime='January 12, 2024'>January 12, 2024</time>
 <p class='excerpt'>The hexadecimal color system includes an option for an alpha channel!</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
-<time class='post-date' datetime='2023-11-08'>2023-11-08</time>
+<time class='post-date' datetime='November 8, 2023'>November 8, 2023</time>
 <p class='excerpt'>Streamlining OpenAI Integration in PHP Applications</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
-<time class='post-date' datetime='2023-09-17'>2023-09-17</time>
+<time class='post-date' datetime='September 17, 2023'>September 17, 2023</time>
 <p class='excerpt'>CO2 Observer Release</p>
 <hr>
 </li></ul>

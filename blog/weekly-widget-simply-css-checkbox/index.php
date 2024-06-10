@@ -26,7 +26,7 @@
             <div class='row'>
                 <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
                     <h1>Weekly Widget - Simple CSS Checkbox</h1>
-<p class='timestamp'><time datetime='2023-07-03'>2023-07-03</time></p>
+<p class='timestamp'><time datetime='July 3, 2023'>July 3, 2023</time></p>
 <hr>
 <p>Today's featured widget is a simple CSS checkbox, which happens to be my most viewed and highly rated pen on codepen.io. It perfectly demonstrates the &quot;checkbox-hack&quot;, achieving a pure CSS toggle effect:</p>
 <p class="codepen" data-height="435.21875" data-default-tab="result" data-slug-hash="PbKWxM" data-user="triss90" style="height: 435.21875px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

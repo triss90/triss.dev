@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/hsl-simplified'>HSL Simplified</a></h2>
-<time class='post-date' datetime='2021-03-22'>2021-03-22</time>
+<time class='post-date' datetime='March 22, 2021'>March 22, 2021</time>
 <p class='excerpt'>HSL for dummies</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/avif-image'>AVIF Image</a></h2>
-<time class='post-date' datetime='2020-09-15'>2020-09-15</time>
+<time class='post-date' datetime='September 15, 2020'>September 15, 2020</time>
 <p class='excerpt'>An introduction to AVIF images</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/fluid-typography'>Fluid Typography</a></h2>
-<time class='post-date' datetime='2020-05-20'>2020-05-20</time>
+<time class='post-date' datetime='May 20, 2020'>May 20, 2020</time>
 <p class='excerpt'>Learn how to set up and use fluid typography</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/css-scroll-snap'>CSS Scroll Snap</a></h2>
-<time class='post-date' datetime='2020-04-14'>2020-04-14</time>
+<time class='post-date' datetime='April 14, 2020'>April 14, 2020</time>
 <p class='excerpt'>Add scroll snap to your web projects</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/fixing-whitespace-between-inline-elements'>Fixing Whitespace Between Inline Elements</a></h2>
-<time class='post-date' datetime='2020-03-11'>2020-03-11</time>
+<time class='post-date' datetime='March 11, 2020'>March 11, 2020</time>
 <p class='excerpt'>Learn how to fix whitespace between inline elements</p>
 <hr>
 </li></ul>

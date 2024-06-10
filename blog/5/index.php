@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/animating-the-web'>Animating the Web</a></h2>
-<time class='post-date' datetime='2023-02-23'>2023-02-23</time>
+<time class='post-date' datetime='February 23, 2023'>February 23, 2023</time>
 <p class='excerpt'>Learn the basics of animaitons on the web</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/smooth-scroll-to-top'>Smooth scroll-to-top</a></h2>
-<time class='post-date' datetime='2023-02-21'>2023-02-21</time>
+<time class='post-date' datetime='February 21, 2023'>February 21, 2023</time>
 <p class='excerpt'>Learn how to add a smooth scroll-to-top feature to your projects</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/css-color-scheme'>CSS color-scheme</a></h2>
-<time class='post-date' datetime='2023-02-01'>2023-02-01</time>
+<time class='post-date' datetime='February 1, 2023'>February 1, 2023</time>
 <p class='excerpt'>Learn how to create a color-scheme with CSS</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/selectmenu'>CSS selectmenu</a></h2>
-<time class='post-date' datetime='2022-01-28'>2022-01-28</time>
+<time class='post-date' datetime='January 28, 2022'>January 28, 2022</time>
 <p class='excerpt'>Learn how HTML element selectmenu works</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/specificity-on-the-web'>Specificity on the Web</a></h2>
-<time class='post-date' datetime='2021-05-06'>2021-05-06</time>
+<time class='post-date' datetime='May 6, 2021'>May 6, 2021</time>
 <p class='excerpt'>Learn css specificity</p>
 <hr>
 </li></ul>

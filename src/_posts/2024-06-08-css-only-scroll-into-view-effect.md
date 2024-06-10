@@ -18,7 +18,7 @@ Cue the Spotlight with `animation-timeline: view();`:
 
 ```CSS
 .animate {
-    animation: slide-in linear;
+    animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
 }
@@ -39,7 +39,7 @@ Just include the CSS we mentioned above on any element you want to animate as it
         scale: 1;
     }
 }
-````
+```
 
 ## Example 1
 
@@ -56,4 +56,5 @@ Just include the CSS we mentioned above on any element you want to animate as it
   Scroll Into View (Example 2)</a> by Tristan  White (<a href="https://codepen.io/triss90">@triss90</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

@@ -26,7 +26,7 @@
             <div class='row'>
                 <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
                     <h1>Whiter than White</h1>
-<p class='timestamp'><time datetime='2023-06-20'>2023-06-20</time></p>
+<p class='timestamp'><time datetime='June 20, 2023'>June 20, 2023</time></p>
 <hr>
 <p>What is the whitest white ?</p>
 <p>https://twitter.com/dtinth/status/1670438696871501825</p>

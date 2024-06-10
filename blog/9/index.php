@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
-<time class='post-date' datetime='2019-08-07'>2019-08-07</time>
+<time class='post-date' datetime='August 7, 2019'>August 7, 2019</time>
 <p class='excerpt'>Learn how to use CSS canonical gradients</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-datalist-element'>HTML Datalist Element</a></h2>
-<time class='post-date' datetime='2019-08-03'>2019-08-03</time>
+<time class='post-date' datetime='August 3, 2019'>August 3, 2019</time>
 <p class='excerpt'>Learn how to use the HTML datalist element</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/hiding-text-in-images'>Hiding Text in Images</a></h2>
-<time class='post-date' datetime='2019-07-30'>2019-07-30</time>
+<time class='post-date' datetime='July 30, 2019'>July 30, 2019</time>
 <p class='excerpt'>Learn how to obscure information in images</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/html-input-patterns'>HTML Input Patterns</a></h2>
-<time class='post-date' datetime='2019-07-17'>2019-07-17</time>
+<time class='post-date' datetime='July 17, 2019'>July 17, 2019</time>
 <p class='excerpt'>A collection of useful HTML input patterns</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
-<time class='post-date' datetime='2019-07-02'>2019-07-02</time>
+<time class='post-date' datetime='July 2, 2019'>July 2, 2019</time>
 <p class='excerpt'>Learn how to convert colors codes to and from different formats</p>
 <hr>
 </li></ul>

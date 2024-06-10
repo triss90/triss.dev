@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h2>
-<time class='post-date' datetime='2019-08-27'>2019-08-27</time>
+<time class='post-date' datetime='August 27, 2019'>August 27, 2019</time>
 <p class='excerpt'>Learn how to set up http2 on Apache</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/css-darkmode'>CSS Darkmode</a></h2>
-<time class='post-date' datetime='2019-08-24'>2019-08-24</time>
+<time class='post-date' datetime='August 24, 2019'>August 24, 2019</time>
 <p class='excerpt'>Learn how to add darkmode to your website</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h2>
-<time class='post-date' datetime='2019-08-21'>2019-08-21</time>
+<time class='post-date' datetime='August 21, 2019'>August 21, 2019</time>
 <p class='excerpt'>Learn how the infamous checkbox hack workds</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h2>
-<time class='post-date' datetime='2019-08-14'>2019-08-14</time>
+<time class='post-date' datetime='August 14, 2019'>August 14, 2019</time>
 <p class='excerpt'>Learn how to write the perfect</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
-<time class='post-date' datetime='2019-08-08'>2019-08-08</time>
+<time class='post-date' datetime='August 8, 2019'>August 8, 2019</time>
 <p class='excerpt'>Learn how to write SVG by hand</p>
 <hr>
 </li></ul>

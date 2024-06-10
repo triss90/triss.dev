@@ -26,7 +26,7 @@
             <div class='row'>
                 <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
                     <h1 class="post-transition-end">Hex color notation have an alpha channel</h1>
-<p class='timestamp'><time datetime='2024-01-12'>2024-01-12</time></p><hr>
+<p class='timestamp'><time datetime='January 12, 2024'>January 12, 2024</time></p><hr>
 <p>The hexadecimal color system includes an option for an alpha channel. This alpha channel is used to specify transparency and can be added to the basic hex color codes. There are two formats for incorporating the alpha channel: either as <code>#RGB[A]</code> or as <code>#RRGGBB[AA]</code>.</p>
 <p>The alpha value in these formats is represented in hexadecimal, where <code>00</code> denotes complete transparency and `FF`` signifies full opacity.</p>
 <p>For the longer format, <code>#RRGGBB[AA]</code>, the alpha channel is a two-digit hexadecimal number. In contrast, the shorter <code>#RGB[A]</code> version uses a single hexadecimal digit for the alpha channel, ranging from <code>0</code> to <code>F</code>.</p>

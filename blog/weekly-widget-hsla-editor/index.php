@@ -26,7 +26,7 @@
             <div class='row'>
                 <div class='tiny-12 small-10 medium-8 small-offset-1 medium-offset-2'>
                     <h1>HSLA editor</h1>
-<p class='timestamp'><time datetime='2023-06-05'>2023-06-05</time></p><hr>
+<p class='timestamp'><time datetime='June 5, 2023'>June 5, 2023</time></p><hr>
 <p>This week's widget is a simple HSLA color slider</p>
 <p class="codepen" data-height="566.2734375" data-default-tab="result" data-slug-hash="JjbqWKK" data-user="triss90" style="height: 566.2734375px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/triss90/pen/JjbqWKK">

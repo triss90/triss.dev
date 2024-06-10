@@ -61,6 +61,24 @@ foreach ($dir as $fileinfo) {
     }
 }
 
+function convertDate($dateString, $lang = 'EN') {
+    $date = new DateTime($dateString);
+    $months_en = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    $months_da = ["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"];
+
+    $months = $lang === 'DA' ? $months_da : $months_en;
+
+    if ($lang === 'DA') {
+        return $date->format('j. ') . $months[$date->format('n') - 1] . $date->format(' Y');
+    } else {
+        return $months[$date->format('n') - 1] . ' ' . $date->format('j, Y');
+    }
+}
+
+
+echo  convertDate('2021-09-01', 'DA') . "\n";
+
+
 // Sort the array with posts by dateUnixTimestamp
 usort($dirSorted, function($a, $b) {
     return $b['dateUnixTimestamp'] <=> $a['dateUnixTimestamp'];
@@ -98,7 +116,7 @@ foreach($dirSorted as $p) {
         'description' => $blogFrontMatter['description'],
         'content' => $blogContent,
         'year' => date("Y"),
-        'date' => date("Y-m-d", $blogFrontMatter['date'])
+        'date' => convertDate(date("Y-m-d", $blogFrontMatter['date']))
     );
 
     // no layout defined, fallback to "post":
@@ -138,7 +156,7 @@ foreach($dirSorted as $p) {
         $draftIndex[] = array(
             'title' => $blogFrontMatter['title'],
             'description' => $blogFrontMatter['description'],
-            'date' => date("Y-m-d", $blogFrontMatter['date']),
+            'date' => convertDate(date("Y-m-d", $blogFrontMatter['date'])),
             'draft' => $blogFrontMatter['draft'],
             'tags' => $tags,
             'url' => strtolower($blogFrontMatter['slug']),
@@ -151,7 +169,7 @@ foreach($dirSorted as $p) {
         $siteIndex[] = array(
             'title' => $blogFrontMatter['title'],
             'description' => $blogFrontMatter['description'],
-            'date' => date("Y-m-d", $blogFrontMatter['date']),
+            'date' => convertDate(date("Y-m-d", $blogFrontMatter['date'])),
             'draft' => $blogFrontMatter['draft'],
             'tags' => $tags,
             'url' => strtolower($blogFrontMatter['slug']),

@@ -31,7 +31,7 @@ img {
 }
 </style>
 <h1>Introducing <a href="https://co2.observer/" target="_blank">co2.observer</a></h1>
-<p class='timestamp'><time datetime='2023-09-17'>2023-09-17</time></p><hr>
+<p class='timestamp'><time datetime='September 17, 2023'>September 17, 2023</time></p><hr>
 <h2>The Webapp That Measures Your Website's Carbon Footprint</h2>
 <p>In today's digital age, where almost everything is accessible with a click, we often forget about the environmental impact of our online activities. Every website you visit, every video you stream, and every image you load has a carbon footprint. But how can you measure the environmental impact of your website? Enter <a href="https://co2.observer/" target="_blank">co2.observer</a>, a groundbreaking webapp that not only estimates the CO2 emissions per page view of any website but also provides a badge to showcase your site's eco-friendliness.</p>
 <h2>What is <a href="https://co2.observer/" target="_blank">co2.observer</a>?</h2>

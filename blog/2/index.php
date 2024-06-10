@@ -54,23 +54,23 @@
                         <nav aria-label="posts">
                             <ul id="posts-list">
                                 <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
-<time class='post-date' datetime='2023-07-28'>2023-07-28</time>
+<time class='post-date' datetime='July 28, 2023'>July 28, 2023</time>
 <p class='excerpt'>Darky.js Release</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h2>
-<time class='post-date' datetime='2023-07-03'>2023-07-03</time>
+<time class='post-date' datetime='July 3, 2023'>July 3, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
-<time class='post-date' datetime='2023-06-26'>2023-06-26</time>
+<time class='post-date' datetime='June 26, 2023'>June 26, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h2>
-<time class='post-date' datetime='2023-06-19'>2023-06-19</time>
+<time class='post-date' datetime='June 19, 2023'>June 19, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
-<time class='post-date' datetime='2023-06-12'>2023-06-12</time>
+<time class='post-date' datetime='June 12, 2023'>June 12, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>

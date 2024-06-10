@@ -31,7 +31,7 @@ img {
 }
 </style>
 <h1>Darky.js Release</h1>
-<p class='timestamp'><time datetime='2023-07-28'>2023-07-28</time></p><hr>
+<p class='timestamp'><time datetime='July 28, 2023'>July 28, 2023</time></p><hr>
 <p>After a lot of hard work and dedication, I'm pleased to present <a href="https://darky.app">Darky.js</a>, a new JavaScript library that enables dark mode on any website without any hassle or need to rework the existing codebase.</p>
 <ul>
 <li>Web: <a href="https://darky.app">https://darky.app</a>
