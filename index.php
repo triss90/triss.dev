@@ -32,7 +32,7 @@
                     <div class="tiny tiny-center small-start">
                         <p class="pretitle">Hi, my name is Tristan White</p>
                         <h1 class="title">I build websites.</h1>
-                        <p class="subtitle">I'm a developer and co-founder of <a href="https://flowsense.dk" target="_blank">FlowSense</a>, a software company in Denmark. When I'm not <a href="/projects">building the web</a>, I occasionally write about it on my <a href="/blog">blog</a>.</p>
+                        <p class="subtitle">I'm a developer and co-founder of <a href="https://senbee.com/" target="_blank">Senbee</a>, a software company in Denmark. When I'm not <a href="/projects">building the web</a>, I occasionally write about it on my <a href="/blog">blog</a>.</p>
                     </div>
                 </div>
             </header>
@@ -61,6 +61,18 @@
                 </div>
 
                 <div class="row">
+                    <!-- Senbee -->
+                    <div class="tiny-12 small-6 medium-4 large-4">
+                        <div class="card animate senbee">
+                            <a class="card-link" href="https://senbee.com" target="_blank" rel="noopener">
+                                <div class="card-bg"></div>
+                                <div class="card-title">Senbee</div>
+                                <p class="card-description">Senbee provides a seamless experience by centralizing the management of services from multiple providers in one convenient location</p>
+                                <div class="card-footer"><span class="card-date">2024-<?php echo date("Y"); ?></span></div>
+                            </a>
+                        </div>
+                    </div>
+
                     <!-- Leaked Password -->
                     <div class="tiny-12 small-6 medium-4 large-4">
                         <div class="card animate leakedpasswords">
@@ -129,18 +141,6 @@
                                 <div class="card-title">CloudPortal</div>
                                 <p class="card-description">The future of IT outsourcing in the cloud.</p>
                                 <div class="card-footer"><span class="card-date">2020-<?php echo date("Y"); ?></span></div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- FlowSense -->
-                    <div class="tiny-12 small-6 medium-4 large-4">
-                        <div class="card animate flowsense">
-                            <a class="card-link" href="https://flowsense.dk" target="_blank" rel="noopener">
-                                <div class="card-bg"></div>
-                                <div class="card-title">FlowSense</div>
-                                <p class="card-description">AI-powered automation & building management.</p>
-                                <div class="card-footer"><span class="card-date">2023-<?php echo date("Y"); ?></span></div>
                             </a>
                         </div>
                     </div>

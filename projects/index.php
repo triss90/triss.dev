@@ -43,6 +43,22 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
 
                         <div class="project animate">
+                            <a href="https://senbee.com" target="_blank" rel="noopener">
+                                <h2 class="title">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 15l6 -6" />
+                                        <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                        <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                                    </svg>
+                                    Senbee
+                                </h2>
+                            </a>
+                            <br><small class="date">2024-<?php echo date("Y"); ?> · senbee.com</small>
+                            <p class="description">Senbee provides a seamless experience by centralizing the management of services from multiple providers in one convenient location.</p>
+                        </div>
+
+                        <div class="project animate">
                             <a href="https://co2.observer" target="_blank" rel="noopener">
                                 <h2 class="title">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -56,22 +72,6 @@
                             </a>
                             <br><small class="date">2023-<?php echo date("Y"); ?> · co2.observer</small>
                             <p class="description">Provides you with valuable insights into the performance and environmental impact of your website. By utilizing our scanner, you can test your websites to receive a comprehensive analysis, as well as a detailed assessment of the website's carbon footprint.</p>
-                        </div>
-
-                        <div class="project animate">
-                            <a href="https://flowsense.dk" target="_blank" rel="noopener">
-                                <h2 class="title">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M9 15l6 -6" />
-                                        <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
-                                        <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
-                                    </svg>
-                                    FlowSense
-                                </h2>
-                            </a>
-                            <br><small class="date">2023-<?php echo date("Y"); ?> · co2.observer</small>
-                            <p class="description">At FlowSense, we offer a streamlined experience that centralizes management of various services from multiple providers in one convenient location.</p>
                         </div>
 
                         <div class="project animate">
