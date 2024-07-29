@@ -2575,8 +2575,8 @@ body {
 .card.webbox .card-bg {
   background-image: linear-gradient(to right, #845ef7, #5c7cfa, #339af0);
 }
-.card.flowsense {
-  --color-primary: #3b82f6;
+.card.senbee {
+  --color-primary: ##;
 }
 .card.cloudservers {
   --color-primary: #4d74e6;
