@@ -2576,7 +2576,7 @@ body {
   background-image: linear-gradient(to right, #845ef7, #5c7cfa, #339af0);
 }
 .card.senbee {
-  --color-primary: ##;
+  --color-primary: #b2d7d2;
 }
 .card.cloudservers {
   --color-primary: #4d74e6;
