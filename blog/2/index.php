@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
+<time class='post-date' datetime='September 17, 2023'>September 17, 2023</time>
+<p class='excerpt'>CO2 Observer Release</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/darkyjs-release'>Darky.js Release</a></h2>
 <time class='post-date' datetime='July 28, 2023'>July 28, 2023</time>
 <p class='excerpt'>Darky.js Release</p>
 <hr>
@@ -67,10 +71,6 @@
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h2>
 <time class='post-date' datetime='June 19, 2023'>June 19, 2023</time>
-<p class='excerpt'>Weekly widget</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
-<time class='post-date' datetime='June 12, 2023'>June 12, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>

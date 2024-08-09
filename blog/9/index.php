@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
+<time class='post-date' datetime='August 8, 2019'>August 8, 2019</time>
+<p class='excerpt'>Learn how to write SVG by hand</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
 <time class='post-date' datetime='August 7, 2019'>August 7, 2019</time>
 <p class='excerpt'>Learn how to use CSS canonical gradients</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/html-input-patterns'>HTML Input Patterns</a></h2>
 <time class='post-date' datetime='July 17, 2019'>July 17, 2019</time>
 <p class='excerpt'>A collection of useful HTML input patterns</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
-<time class='post-date' datetime='July 2, 2019'>July 2, 2019</time>
-<p class='excerpt'>Learn how to convert colors codes to and from different formats</p>
 <hr>
 </li></ul>
 </nav>

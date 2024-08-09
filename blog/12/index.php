@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-variables'>CSS Variables</a></h2>
+<time class='post-date' datetime='January 3, 2017'>January 3, 2017</time>
+<p class='excerpt'>How to create CSS variables(custom properties)</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h2>
 <time class='post-date' datetime='July 15, 2016'>July 15, 2016</time>
 <p class='excerpt'>How to add pure CSS line numbers</p>
 <hr>

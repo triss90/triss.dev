@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/breaking-max-width'>Breaking Max Width</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
+<time class='post-date' datetime='July 2, 2019'>July 2, 2019</time>
+<p class='excerpt'>Learn how to convert colors codes to and from different formats</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/breaking-max-width'>Breaking Max Width</a></h2>
 <time class='post-date' datetime='June 23, 2019'>June 23, 2019</time>
 <p class='excerpt'>Breaking max width the proper way with CSS</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
 <time class='post-date' datetime='June 1, 2019'>June 1, 2019</time>
 <p class='excerpt'>Learn how to encode and decode HTML</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/creating-a-js-library'>Creating a JS Library</a></h2>
-<time class='post-date' datetime='May 15, 2019'>May 15, 2019</time>
-<p class='excerpt'>Learn how to create a rudimentary javascript library</p>
 <hr>
 </li></ul>
 </nav>

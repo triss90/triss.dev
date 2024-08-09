@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-only-scroll-into-view-effect'>CSS Only Scroll Into View Effect</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/announcing-senbee'>Announcing Senbee</a></h2>
+<time class='post-date' datetime='August 9, 2024'>August 9, 2024</time>
+<p class='excerpt'>Announcing my newest venture, Senbee</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-only-scroll-into-view-effect'>CSS Only Scroll Into View Effect</a></h2>
 <time class='post-date' datetime='June 8, 2024'>June 8, 2024</time>
 <p class='excerpt'>Scroll elements into view with only 3 lines of css!</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
 <time class='post-date' datetime='November 8, 2023'>November 8, 2023</time>
 <p class='excerpt'>Streamlining OpenAI Integration in PHP Applications</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
-<time class='post-date' datetime='September 17, 2023'>September 17, 2023</time>
-<p class='excerpt'>CO2 Observer Release</p>
 <hr>
 </li></ul>
 </nav>

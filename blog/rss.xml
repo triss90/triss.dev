@@ -5,6 +5,12 @@
         <link>https://triss.dev/</link>
         <description>Tristan White's RSS Feed</description>
         <language>en-us</language><item>
+            <title>Announcing Senbee</title>
+            <link>https://triss.dev/blog/announcing-senbee</link>
+            <pubDate>August 9, 2024</pubDate>
+            <description>Announcing my newest venture, Senbee</description>
+            <author>tristan@white.chat (Tristan White)</author>
+        </item><item>
             <title>CSS Only Scroll Into View Effect</title>
             <link>https://triss.dev/blog/css-only-scroll-into-view-effect</link>
             <pubDate>June 8, 2024</pubDate>
@@ -117,12 +123,6 @@
             <link>https://triss.dev/blog/weekly-widget-css-coupon</link>
             <pubDate>March 27, 2023</pubDate>
             <description>Weekly widget</description>
-            <author>tristan@white.chat (Tristan White)</author>
-        </item><item>
-            <title>Units on the Web</title>
-            <link>https://triss.dev/blog/units-on-the-web</link>
-            <pubDate>March 10, 2023</pubDate>
-            <description>An introduction to units on the web</description>
             <author>tristan@white.chat (Tristan White)</author>
         </item>
     </channel>

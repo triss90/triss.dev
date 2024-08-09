@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-details-summary'>HTML Details/Summary</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/creating-a-js-library'>Creating a JS Library</a></h2>
+<time class='post-date' datetime='May 15, 2019'>May 15, 2019</time>
+<p class='excerpt'>Learn how to create a rudimentary javascript library</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-details-summary'>HTML Details/Summary</a></h2>
 <time class='post-date' datetime='May 2, 2019'>May 2, 2019</time>
 <p class='excerpt'>Learn how to use the details and summary elements</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/svg-header-waves'>SVG Header Waves</a></h2>
 <time class='post-date' datetime='April 20, 2018'>April 20, 2018</time>
 <p class='excerpt'>Using SVG backgrounds for your headers</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/css-variables'>CSS Variables</a></h2>
-<time class='post-date' datetime='January 3, 2017'>January 3, 2017</time>
-<p class='excerpt'>How to create CSS variables(custom properties)</p>
 <hr>
 </li></ul>
 </nav>
