@@ -67,7 +67,7 @@
                             <a class="card-link" href="https://senbee.com" target="_blank" rel="noopener">
                                 <div class="card-bg"></div>
                                 <div class="card-title">Senbee</div>
-                                <p class="card-description">Senbee provides a seamless experience by centralizing the management of services from multiple providers in one convenient location</p>
+                                <p class="card-description">Senbee places people at the heart of building interaction, automating and optimizing every aspect of how they experience a space for a smarter, more intuitive environment.</p>
                                 <div class="card-footer"><span class="card-date">2024-<?php echo date("Y"); ?></span></div>
                             </a>
                         </div>
