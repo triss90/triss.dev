@@ -5,6 +5,12 @@
         <link>https://triss.dev/</link>
         <description>Tristan White's RSS Feed</description>
         <language>en-us</language><item>
+            <title>Launching Particle Firework</title>
+            <link>https://triss.dev/blog/launching-particle-firework</link>
+            <pubDate>September 2, 2024</pubDate>
+            <description>Launching my newest personal project, Particle Firework</description>
+            <author>tristan@white.chat (Tristan White)</author>
+        </item><item>
             <title>Announcing Senbee</title>
             <link>https://triss.dev/blog/announcing-senbee</link>
             <pubDate>August 9, 2024</pubDate>
@@ -117,12 +123,6 @@
             <link>https://triss.dev/blog/aspect-ratio-revisited</link>
             <pubDate>March 28, 2023</pubDate>
             <description>Learn how aspect ratios work and how we can use this on the web</description>
-            <author>tristan@white.chat (Tristan White)</author>
-        </item><item>
-            <title>Weekly Widget - CSS Coupon</title>
-            <link>https://triss.dev/blog/weekly-widget-css-coupon</link>
-            <pubDate>March 27, 2023</pubDate>
-            <description>Weekly widget</description>
             <author>tristan@white.chat (Tristan White)</author>
         </item>
     </channel>

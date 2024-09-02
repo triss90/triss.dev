@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-input-patterns'>HTML Input Patterns</a></h2>
+<time class='post-date' datetime='July 17, 2019'>July 17, 2019</time>
+<p class='excerpt'>A collection of useful HTML input patterns</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/converting-color-codes'>Converting Color Codes</a></h2>
 <time class='post-date' datetime='July 2, 2019'>July 2, 2019</time>
 <p class='excerpt'>Learn how to convert colors codes to and from different formats</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h2>
 <time class='post-date' datetime='June 7, 2019'>June 7, 2019</time>
 <p class='excerpt'>Maintaining Aspect Ratio with CSS</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
-<time class='post-date' datetime='June 1, 2019'>June 1, 2019</time>
-<p class='excerpt'>Learn how to encode and decode HTML</p>
 <hr>
 </li></ul>
 </nav>

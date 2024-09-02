@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/announcing-senbee'>Announcing Senbee</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/launching-particle-firework'>Launching Particle Firework</a></h2>
+<time class='post-date' datetime='September 2, 2024'>September 2, 2024</time>
+<p class='excerpt'>Launching my newest personal project, Particle Firework</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/announcing-senbee'>Announcing Senbee</a></h2>
 <time class='post-date' datetime='August 9, 2024'>August 9, 2024</time>
 <p class='excerpt'>Announcing my newest venture, Senbee</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h2>
 <time class='post-date' datetime='January 12, 2024'>January 12, 2024</time>
 <p class='excerpt'>The hexadecimal color system includes an option for an alpha channel!</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
-<time class='post-date' datetime='November 8, 2023'>November 8, 2023</time>
-<p class='excerpt'>Streamlining OpenAI Integration in PHP Applications</p>
 <hr>
 </li></ul>
 </nav>

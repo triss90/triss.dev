@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h2>
+<time class='post-date' datetime='June 19, 2023'>June 19, 2023</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-isometric-menu'>Weekly Widget - Isometric Menu</a></h2>
 <time class='post-date' datetime='June 12, 2023'>June 12, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
@@ -67,10 +71,6 @@
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-datacenter-map'>Weekly Widget - Datacenter Map</a></h2>
 <time class='post-date' datetime='May 29, 2023'>May 29, 2023</time>
-<p class='excerpt'>Weekly widget</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h2>
-<time class='post-date' datetime='May 22, 2023'>May 22, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>

@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
+<time class='post-date' datetime='November 8, 2023'>November 8, 2023</time>
+<p class='excerpt'>Streamlining OpenAI Integration in PHP Applications</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/co2-observer-release'>CO2 Observer Release</a></h2>
 <time class='post-date' datetime='September 17, 2023'>September 17, 2023</time>
 <p class='excerpt'>CO2 Observer Release</p>
 <hr>
@@ -67,10 +71,6 @@
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
 <time class='post-date' datetime='June 26, 2023'>June 26, 2023</time>
-<p class='excerpt'>Weekly widget</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-star-rating'>Weekly Widget - Pure CSS Star Rating</a></h2>
-<time class='post-date' datetime='June 19, 2023'>June 19, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>

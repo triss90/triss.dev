@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/color-systems-with-css-color-mix'>Color systems with CSS color-mix</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h2>
+<time class='post-date' datetime='May 22, 2023'>May 22, 2023</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/color-systems-with-css-color-mix'>Color systems with CSS color-mix</a></h2>
 <time class='post-date' datetime='May 17, 2023'>May 17, 2023</time>
 <p class='excerpt'>Setting up a color system with CSS color-mix</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/aspect-ratio-revisited'>Aspect Ratio Revisited</a></h2>
 <time class='post-date' datetime='March 28, 2023'>March 28, 2023</time>
 <p class='excerpt'>Learn how aspect ratios work and how we can use this on the web</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-coupon'>Weekly Widget - CSS Coupon</a></h2>
-<time class='post-date' datetime='March 27, 2023'>March 27, 2023</time>
-<p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>
 </nav>

@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h2>
+<time class='post-date' datetime='August 14, 2019'>August 14, 2019</time>
+<p class='excerpt'>Learn how to write the perfect</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/writing-svg-path'>Writing SVG Paths</a></h2>
 <time class='post-date' datetime='August 8, 2019'>August 8, 2019</time>
 <p class='excerpt'>Learn how to write SVG by hand</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/hiding-text-in-images'>Hiding Text in Images</a></h2>
 <time class='post-date' datetime='July 30, 2019'>July 30, 2019</time>
 <p class='excerpt'>Learn how to obscure information in images</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/html-input-patterns'>HTML Input Patterns</a></h2>
-<time class='post-date' datetime='July 17, 2019'>July 17, 2019</time>
-<p class='excerpt'>A collection of useful HTML input patterns</p>
 <hr>
 </li></ul>
 </nav>

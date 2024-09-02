@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/units-on-the-web'>Units on the Web</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-coupon'>Weekly Widget - CSS Coupon</a></h2>
+<time class='post-date' datetime='March 27, 2023'>March 27, 2023</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/units-on-the-web'>Units on the Web</a></h2>
 <time class='post-date' datetime='March 10, 2023'>March 10, 2023</time>
 <p class='excerpt'>An introduction to units on the web</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/css-color-scheme'>CSS color-scheme</a></h2>
 <time class='post-date' datetime='February 1, 2023'>February 1, 2023</time>
 <p class='excerpt'>Learn how to create a color-scheme with CSS</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/selectmenu'>CSS selectmenu</a></h2>
-<time class='post-date' datetime='January 28, 2022'>January 28, 2022</time>
-<p class='excerpt'>Learn how HTML element selectmenu works</p>
 <hr>
 </li></ul>
 </nav>
