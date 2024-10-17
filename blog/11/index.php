@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/maintaining-aspect-ration'>Maintaining Aspect Ratio</a></h2>
+<time class='post-date' datetime='June 7, 2019'>June 7, 2019</time>
+<p class='excerpt'>Maintaining Aspect Ratio with CSS</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/encode-decode-html'>Encode/Decode HTML</a></h2>
 <time class='post-date' datetime='June 1, 2019'>June 1, 2019</time>
 <p class='excerpt'>Learn how to encode and decode HTML</p>
 <hr>
@@ -69,15 +73,11 @@
 <time class='post-date' datetime='April 24, 2019'>April 24, 2019</time>
 <p class='excerpt'>Learn how to animate SVGs.</p>
 <hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/html-5-2-native-modal'>HTML 5.2 Native modal</a></h2>
-<time class='post-date' datetime='April 23, 2018'>April 23, 2018</time>
-<p class='excerpt'>HTML 5.2 ships with native modals. Learn how to use them</p>
-<hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/10/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/9/' aria-label='Page 9'>9</a></li> <li><a href='/../blog/10/' aria-label='Page 10'>10</a></li> <li><a href='/../blog/11/' aria-label='Page 11' aria-current='page'>11</a></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/12/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/10/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/9/' aria-label='Page 9'>9</a></li> <li><a href='/../blog/10/' aria-label='Page 10'>10</a></li> <li><a href='/../blog/11/' aria-label='Page 11' aria-current='page'>11</a></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/12/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 
                             </ul>
                         </nav>

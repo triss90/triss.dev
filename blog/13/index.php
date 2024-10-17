@@ -1,6 +1,6 @@
 <?php
     $activePage = "blog";
-    $description = "Articles - 8"; 
+    $description = "Articles - 13"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,31 +53,15 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-progress-tag'>HTML Progress Tag</a></h2>
-<time class='post-date' datetime='September 19, 2019'>September 19, 2019</time>
-<p class='excerpt'>Learn how to use the HTML progress tag</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/html-meter-tag'>HTML Meter Tag</a></h2>
-<time class='post-date' datetime='September 12, 2019'>September 12, 2019</time>
-<p class='excerpt'>Learn how to use the HTML meter tag</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/html-wbr-tag'>HTML Wbr Tag</a></h2>
-<time class='post-date' datetime='September 5, 2019'>September 5, 2019</time>
-<p class='excerpt'>Learn how to properly use the wbr HTML tag</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/http2-on-apache-linux'>HTTP2 on Apache - Linux</a></h2>
-<time class='post-date' datetime='August 27, 2019'>August 27, 2019</time>
-<p class='excerpt'>Learn how to set up http2 on Apache</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/css-darkmode'>CSS Darkmode</a></h2>
-<time class='post-date' datetime='August 24, 2019'>August 24, 2019</time>
-<p class='excerpt'>Learn how to add darkmode to your website</p>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/sass-mixin-grid-system'>Sass Mixin Grid system</a></h2>
+<time class='post-date' datetime='November 15, 2015'>November 15, 2015</time>
+<p class='excerpt'>A simple Sass mixin grid system example</p>
 <hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/7/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/6/' aria-label='Page 6'>6</a></li> <li><a href='/../blog/7/' aria-label='Page 7'>7</a></li> <li><a href='/../blog/8/' aria-label='Page 8' aria-current='page'>8</a></li> <li><a href='/../blog/9/' aria-label='Page 9'>9</a></li> <li><a href='/../blog/10/' aria-label='Page 10'>10</a></li> <li><span>...</span></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/9/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/12/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/11/' aria-label='Page 11'>11</a></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/13/' aria-label='Page 13' aria-current='page'>13</a></li> </ul>
 
                             </ul>
                         </nav>

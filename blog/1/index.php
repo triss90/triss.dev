@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/launching-particle-firework'>Launching Particle Firework</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/a-lesson-learned-the-hard-way'>A Lesson Learned the Hard Way</a></h2>
+<time class='post-date' datetime='October 17, 2024'>October 17, 2024</time>
+<p class='excerpt'>A Lesson Learned the Hard Way</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/launching-particle-firework'>Launching Particle Firework</a></h2>
 <time class='post-date' datetime='September 2, 2024'>September 2, 2024</time>
 <p class='excerpt'>Launching my newest personal project, Particle Firework</p>
 <hr>
@@ -69,15 +73,11 @@
 <time class='post-date' datetime='April 28, 2024'>April 28, 2024</time>
 <p class='excerpt'>Getting started with multipage view transitions</p>
 <hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h2>
-<time class='post-date' datetime='January 12, 2024'>January 12, 2024</time>
-<p class='excerpt'>The hexadecimal color system includes an option for an alpha channel!</p>
-<hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/1/' aria-label='Page 1' aria-current='page'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><span>...</span></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/2/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/1/' aria-label='Page 1' aria-current='page'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><span>...</span></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/2/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 
                             </ul>
                         </nav>

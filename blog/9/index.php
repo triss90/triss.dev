@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h2>
+<time class='post-date' datetime='August 21, 2019'>August 21, 2019</time>
+<p class='excerpt'>Learn how the infamous checkbox hack workds</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/the-perfect-alt-text'>The Perfect Alt-text</a></h2>
 <time class='post-date' datetime='August 14, 2019'>August 14, 2019</time>
 <p class='excerpt'>Learn how to write the perfect</p>
 <hr>
@@ -69,15 +73,11 @@
 <time class='post-date' datetime='August 3, 2019'>August 3, 2019</time>
 <p class='excerpt'>Learn how to use the HTML datalist element</p>
 <hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/hiding-text-in-images'>Hiding Text in Images</a></h2>
-<time class='post-date' datetime='July 30, 2019'>July 30, 2019</time>
-<p class='excerpt'>Learn how to obscure information in images</p>
-<hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/8/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/7/' aria-label='Page 7'>7</a></li> <li><a href='/../blog/8/' aria-label='Page 8'>8</a></li> <li><a href='/../blog/9/' aria-label='Page 9' aria-current='page'>9</a></li> <li><a href='/../blog/10/' aria-label='Page 10'>10</a></li> <li><a href='/../blog/11/' aria-label='Page 11'>11</a></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/10/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/8/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/7/' aria-label='Page 7'>7</a></li> <li><a href='/../blog/8/' aria-label='Page 8'>8</a></li> <li><a href='/../blog/9/' aria-label='Page 9' aria-current='page'>9</a></li> <li><a href='/../blog/10/' aria-label='Page 10'>10</a></li> <li><a href='/../blog/11/' aria-label='Page 11'>11</a></li> <li><span>...</span></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/10/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 
                             </ul>
                         </nav>

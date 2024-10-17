@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/selectmenu'>CSS selectmenu</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-color-scheme'>CSS color-scheme</a></h2>
+<time class='post-date' datetime='February 1, 2023'>February 1, 2023</time>
+<p class='excerpt'>Learn how to create a color-scheme with CSS</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/selectmenu'>CSS selectmenu</a></h2>
 <time class='post-date' datetime='January 28, 2022'>January 28, 2022</time>
 <p class='excerpt'>Learn how HTML element selectmenu works</p>
 <hr>
@@ -69,15 +73,11 @@
 <time class='post-date' datetime='September 15, 2020'>September 15, 2020</time>
 <p class='excerpt'>An introduction to AVIF images</p>
 <hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/fluid-typography'>Fluid Typography</a></h2>
-<time class='post-date' datetime='May 20, 2020'>May 20, 2020</time>
-<p class='excerpt'>Learn how to set up and use fluid typography</p>
-<hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/5/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/4/' aria-label='Page 4'>4</a></li> <li><a href='/../blog/5/' aria-label='Page 5'>5</a></li> <li><a href='/../blog/6/' aria-label='Page 6' aria-current='page'>6</a></li> <li><a href='/../blog/7/' aria-label='Page 7'>7</a></li> <li><a href='/../blog/8/' aria-label='Page 8'>8</a></li> <li><span>...</span></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/7/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/5/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><span>...</span></li> <li><a href='/../blog/4/' aria-label='Page 4'>4</a></li> <li><a href='/../blog/5/' aria-label='Page 5'>5</a></li> <li><a href='/../blog/6/' aria-label='Page 6' aria-current='page'>6</a></li> <li><a href='/../blog/7/' aria-label='Page 7'>7</a></li> <li><a href='/../blog/8/' aria-label='Page 8'>8</a></li> <li><span>...</span></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/7/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 
                             </ul>
                         </nav>

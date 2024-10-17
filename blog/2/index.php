@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/hex-color-alpha-channel'>Hex color notation have an alpha channel</a></h2>
+<time class='post-date' datetime='January 12, 2024'>January 12, 2024</time>
+<p class='excerpt'>The hexadecimal color system includes an option for an alpha channel!</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/streamlining-openai-integration'>Streamlining OpenAI Integration</a></h2>
 <time class='post-date' datetime='November 8, 2023'>November 8, 2023</time>
 <p class='excerpt'>Streamlining OpenAI Integration in PHP Applications</p>
 <hr>
@@ -69,15 +73,11 @@
 <time class='post-date' datetime='July 3, 2023'>July 3, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
-<time class='post-date' datetime='June 26, 2023'>June 26, 2023</time>
-<p class='excerpt'>Weekly widget</p>
-<hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/1/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2' aria-current='page'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><a href='/../blog/4/' aria-label='Page 4'>4</a></li> <li><span>...</span></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/3/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/1/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2' aria-current='page'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><a href='/../blog/4/' aria-label='Page 4'>4</a></li> <li><span>...</span></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/3/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 
                             </ul>
                         </nav>

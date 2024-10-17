@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-datacenter-map'>Weekly Widget - Datacenter Map</a></h2>
+<time class='post-date' datetime='May 29, 2023'>May 29, 2023</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-animated-background'>Weekly Widget - Animated Background</a></h2>
 <time class='post-date' datetime='May 22, 2023'>May 22, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
@@ -69,15 +73,11 @@
 <time class='post-date' datetime='April 3, 2023'>April 3, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/aspect-ratio-revisited'>Aspect Ratio Revisited</a></h2>
-<time class='post-date' datetime='March 28, 2023'>March 28, 2023</time>
-<p class='excerpt'>Learn how aspect ratios work and how we can use this on the web</p>
-<hr>
 </li></ul>
 </nav>
 <nav class='pagination' aria-label='Pagination'>
 <ul>
-<li><a href='/../blog/3/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><a href='/../blog/4/' aria-label='Page 4' aria-current='page'>4</a></li> <li><a href='/../blog/5/' aria-label='Page 5'>5</a></li> <li><a href='/../blog/6/' aria-label='Page 6'>6</a></li> <li><span>...</span></li> <li><a href='/../blog/12/' aria-label='Page 12'>12</a></li> <li><a href='/../blog/5/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
+<li><a href='/../blog/3/' aria-label='Prev Page' title='Previous page'>←</a></li> <li><a href='/../blog/1/' aria-label='Page 1'>1</a></li> <li><a href='/../blog/2/' aria-label='Page 2'>2</a></li> <li><a href='/../blog/3/' aria-label='Page 3'>3</a></li> <li><a href='/../blog/4/' aria-label='Page 4' aria-current='page'>4</a></li> <li><a href='/../blog/5/' aria-label='Page 5'>5</a></li> <li><a href='/../blog/6/' aria-label='Page 6'>6</a></li> <li><span>...</span></li> <li><a href='/../blog/13/' aria-label='Page 13'>13</a></li> <li><a href='/../blog/5/' aria-label='Next Page' title='Next page'>→</a></li> </ul>
 
                             </ul>
                         </nav>
