@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <h1 class="title">About me.</h1>
-                        <p class="subtitle">I'm an innovative technologist and co-owner at ServicePoint A/S, leading software and cloud development in Aarhus, Denmark.</p>
+                        <p class="subtitle">I'm an innovative technologist, CEO, and co-founder, dedicated to creating smarter digital solutions in Aarhus, Denmark.</p>
                     </div>
                 </div>
             </header>
@@ -39,10 +39,10 @@
             <section id="about">
                 <div class="row">
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
-                        <p>As co-owner of ServicePoint A/S, I dedicate my professional life to advancing cloud infrastructure and developing management solutions. I primarily focus on optimizing and enhancing our services at <a href="https://cloudservers.dk" target="_blank">cloudservers.dk</a> and <a href="https://senbee.com/" target="_blank">senbee.com</a>.</p>
-                        <p>My role involves laying robust foundations and providing ongoing optimization and support to ensure that our solutions not only meet but exceed the evolving needs of our clients. In essence, I'm committed to making the web a better, more efficient place.</p>
-                        <p>My career has allowed me to collaborate with a diverse range of industries across Europe, working with everything from startups to large corporations and institutions. This experience has equipped me with a unique perspective and an adaptable skill set in the tech space.</p>
-                        <p>Interested in a different side of my technical pursuits? Dive into my experimental projects on <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a> or explore my open-source contributions on <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>. I also share personal insights and updates on my <a href="/blog">Blog</a>, and feature some of my unique projects <a href="/projects">here</a>.</p>
+                        <p>I'm Tristan White, CEO and co-founder of Senbee A/S, as well as CEO and partner at ServicePoint A/S. My work revolves around revolutionizing how people interact with buildings and how buildings connect with our environment. At Senbee, we create smarter, more intuitive spaces through technology, enhancing efficiency and user experience.</p>
+                        <p>At ServicePoint A/S, I focus on delivering high-quality infrastructure and management solutions to help businesses thrive in the digital age. I'm committed to making both digital and physical environments smarter and more responsive to human needs.</p>
+                        <p>Throughout my career, I've collaborated with a wide range of industries across Europe, from startups to large corporations and institutions. These experiences have given me a unique perspective and an adaptable skill set in the tech space.</p>
+                        <p>Interested in exploring a different side of my technical pursuits? Dive into my experimental projects on <a href="https://codepen.io/triss90/" target="_blank" rel="noopener">Codepen</a> or explore my open-source contributions on <a href="https://github.com/triss90" target="_blank" rel="noopener">GitHub</a>. I also share personal insights and updates on my <a href="/blog">Blog</a>, and feature some of my unique projects <a href="/projects">here</a>.</p>
                         <p>If you wish to get in touch, feel free to email me at <a href="mailto:tristan@white.chat">tristan@white.chat</a>, or connect with me on LinkedIn at <a href="https://www.linkedin.com/in/tristanoliverwhite/" target="_blank" rel="noopener">@tristanoliverwhite</a>.</p>
                     </div>
                 </div>

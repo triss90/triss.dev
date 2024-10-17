@@ -31,8 +31,8 @@
                 <div class="row">
                     <div class="tiny tiny-center small-start">
                         <p class="pretitle">Hi, my name is Tristan White</p>
-                        <h1 class="title">I build websites.</h1>
-                        <p class="subtitle">I'm a developer and co-founder of <a href="https://senbee.com/" target="_blank">Senbee</a>, a software company in Denmark. When I'm not <a href="/projects">building the web</a>, I occasionally write about it on my <a href="/blog">blog</a>.</p>
+                        <h1 class="title">I create digital experiences.</h1>
+                        <p class="subtitle">I'm the CEO of <a href="https://senbee.com/" target="_blank">Senbee A/S</a>, a software company in Denmark, where we revolutionize how people interact with buildings. When I'm not <a href="/projects">shaping the digital world</a>, I occasionally write about it on my <a href="/blog">blog</a>.</p>
                     </div>
                 </div>
             </header>

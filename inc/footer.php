@@ -12,7 +12,7 @@
                     <li><a href="/projects">Projects</a></li>
                     <li><a href="/blog">Articles</a></li>
                     <li><a href="/about">About</a></li>
-                    <li><a href="https://flowsense.dk/tristan_white.html" target="_blank">Work</a></li>
+                    <li><a href="https://senbee.com/team/tristan_white/" target="_blank">Work</a></li>
                 </ul>
             </div>
             <div class="tiny-12 medium-4 tiny-center small-center medium-end">
