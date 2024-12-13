@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/html-5-2-native-modal'>HTML 5.2 Native modal</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/animating-my-first-svg'>Animating My First SVG</a></h2>
+<time class='post-date' datetime='April 24, 2019'>April 24, 2019</time>
+<p class='excerpt'>Learn how to animate SVGs.</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/html-5-2-native-modal'>HTML 5.2 Native modal</a></h2>
 <time class='post-date' datetime='April 23, 2018'>April 23, 2018</time>
 <p class='excerpt'>HTML 5.2 ships with native modals. Learn how to use them</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/pure-css-line-numbers'>Pure CSS Line Numbers</a></h2>
 <time class='post-date' datetime='July 15, 2016'>July 15, 2016</time>
 <p class='excerpt'>How to add pure CSS line numbers</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/responsive-videos-in-html'>Responsive Videos in HTML</a></h2>
-<time class='post-date' datetime='December 1, 2015'>December 1, 2015</time>
-<p class='excerpt'>How to handle responsive videos in HTML</p>
 <hr>
 </li></ul>
 </nav>

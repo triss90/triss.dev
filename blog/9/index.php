@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/css-darkmode'>CSS Darkmode</a></h2>
+<time class='post-date' datetime='August 24, 2019'>August 24, 2019</time>
+<p class='excerpt'>Learn how to add darkmode to your website</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/css-checkbox-hack'>CSS Checkbox Hack</a></h2>
 <time class='post-date' datetime='August 21, 2019'>August 21, 2019</time>
 <p class='excerpt'>Learn how the infamous checkbox hack workds</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/css-conical-gradients'>CSS Conical Gradients</a></h2>
 <time class='post-date' datetime='August 7, 2019'>August 7, 2019</time>
 <p class='excerpt'>Learn how to use CSS canonical gradients</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/html-datalist-element'>HTML Datalist Element</a></h2>
-<time class='post-date' datetime='August 3, 2019'>August 3, 2019</time>
-<p class='excerpt'>Learn how to use the HTML datalist element</p>
 <hr>
 </li></ul>
 </nav>

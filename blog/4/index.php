@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-datacenter-map'>Weekly Widget - Datacenter Map</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
+<time class='post-date' datetime='May 30, 2023'>May 30, 2023</time>
+<p class='excerpt'>ColorDrop Release 2023</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-datacenter-map'>Weekly Widget - Datacenter Map</a></h2>
 <time class='post-date' datetime='May 29, 2023'>May 29, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
@@ -67,10 +71,6 @@
 <hr>
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-toss-cart-animation'>Weekly Widget - "Toss" Add to Cart Animation</a></h2>
 <time class='post-date' datetime='May 10, 2023'>May 10, 2023</time>
-<p class='excerpt'>Weekly widget</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-skewed-graphic'>Weekly Widget - CSS Skewed Graphic</a></h2>
-<time class='post-date' datetime='April 3, 2023'>April 3, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
 </li></ul>

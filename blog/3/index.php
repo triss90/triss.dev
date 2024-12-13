@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-simply-css-checkbox'>Weekly Widget - Simple CSS Checkbox</a></h2>
+<time class='post-date' datetime='July 3, 2023'>July 3, 2023</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-self-coding-website'>Weekly Widget - Self-coding Website</a></h2>
 <time class='post-date' datetime='June 26, 2023'>June 26, 2023</time>
 <p class='excerpt'>Weekly widget</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-hsla-editor'>Weekly Widget - HSLA editor</a></h2>
 <time class='post-date' datetime='June 5, 2023'>June 5, 2023</time>
 <p class='excerpt'>Weekly widget</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/colordrop-release-2023'>ColorDrop Release 2023</a></h2>
-<time class='post-date' datetime='May 30, 2023'>May 30, 2023</time>
-<p class='excerpt'>ColorDrop Release 2023</p>
 <hr>
 </li></ul>
 </nav>

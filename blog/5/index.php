@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/aspect-ratio-revisited'>Aspect Ratio Revisited</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/weekly-widget-css-skewed-graphic'>Weekly Widget - CSS Skewed Graphic</a></h2>
+<time class='post-date' datetime='April 3, 2023'>April 3, 2023</time>
+<p class='excerpt'>Weekly widget</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/aspect-ratio-revisited'>Aspect Ratio Revisited</a></h2>
 <time class='post-date' datetime='March 28, 2023'>March 28, 2023</time>
 <p class='excerpt'>Learn how aspect ratios work and how we can use this on the web</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/animating-the-web'>Animating the Web</a></h2>
 <time class='post-date' datetime='February 23, 2023'>February 23, 2023</time>
 <p class='excerpt'>Learn the basics of animaitons on the web</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/smooth-scroll-to-top'>Smooth scroll-to-top</a></h2>
-<time class='post-date' datetime='February 21, 2023'>February 21, 2023</time>
-<p class='excerpt'>Learn how to add a smooth scroll-to-top feature to your projects</p>
 <hr>
 </li></ul>
 </nav>

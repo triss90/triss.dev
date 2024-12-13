@@ -5,6 +5,12 @@
         <link>https://triss.dev/</link>
         <description>Tristan White's RSS Feed</description>
         <language>en-us</language><item>
+            <title>The Best Books I Have Read in 2024</title>
+            <link>https://triss.dev/blog/the-best-books-i-have-read-in-2024</link>
+            <pubDate>December 13, 2024</pubDate>
+            <description>The Best Books I Have Read in 2024</description>
+            <author>tristan@white.chat (Tristan White)</author>
+        </item><item>
             <title>A Lesson Learned the Hard Way</title>
             <link>https://triss.dev/blog/a-lesson-learned-the-hard-way</link>
             <pubDate>October 17, 2024</pubDate>
@@ -116,12 +122,6 @@
             <title>Weekly Widget - "Toss" Add to Cart Animation</title>
             <link>https://triss.dev/blog/weekly-widget-toss-cart-animation</link>
             <pubDate>May 10, 2023</pubDate>
-            <description>Weekly widget</description>
-            <author>tristan@white.chat (Tristan White)</author>
-        </item><item>
-            <title>Weekly Widget - CSS Skewed Graphic</title>
-            <link>https://triss.dev/blog/weekly-widget-css-skewed-graphic</link>
-            <pubDate>April 3, 2023</pubDate>
             <description>Weekly widget</description>
             <author>tristan@white.chat (Tristan White)</author>
         </item>

@@ -53,7 +53,11 @@
                     <div class="tiny-12 small-10 medium-8 tiny-center small-start small-offset-1 medium-offset-2">
                         <nav aria-label="posts">
                             <ul id="posts-list">
-                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/a-lesson-learned-the-hard-way'>A Lesson Learned the Hard Way</a></h2>
+                                <!-- Page Content START --><li><h2><a class='post-transition-start' href='/../blog/the-best-books-i-have-read-in-2024'>The Best Books I Have Read in 2024</a></h2>
+<time class='post-date' datetime='December 13, 2024'>December 13, 2024</time>
+<p class='excerpt'>The Best Books I Have Read in 2024</p>
+<hr>
+</li><li><h2><a class='post-transition-start' href='/../blog/a-lesson-learned-the-hard-way'>A Lesson Learned the Hard Way</a></h2>
 <time class='post-date' datetime='October 17, 2024'>October 17, 2024</time>
 <p class='excerpt'>A Lesson Learned the Hard Way</p>
 <hr>
@@ -68,10 +72,6 @@
 </li><li><h2><a class='post-transition-start' href='/../blog/css-only-scroll-into-view-effect'>CSS Only Scroll Into View Effect</a></h2>
 <time class='post-date' datetime='June 8, 2024'>June 8, 2024</time>
 <p class='excerpt'>Scroll elements into view with only 3 lines of css!</p>
-<hr>
-</li><li><h2><a class='post-transition-start' href='/../blog/multipage-view-transitions'>Multipage View Transitions</a></h2>
-<time class='post-date' datetime='April 28, 2024'>April 28, 2024</time>
-<p class='excerpt'>Getting started with multipage view transitions</p>
 <hr>
 </li></ul>
 </nav>
